@@ -1,0 +1,1 @@
+{"seq": "2383", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 5.9, "via": "gemini-api", "usage": {"in": 8324, "out": 122, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本申報表經補正（日期：111年9月15日），補正內容主要為修正第九項珠寶、古董、字畫及其他具有相當價值之財產總價額（自空白更正為新臺幣450,000元），並重新裝訂部分保險欄位頁面。"}}

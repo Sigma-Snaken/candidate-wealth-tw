@@ -1,0 +1,1 @@
+{"seq": "1758", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 5.2, "via": "gemini-api", "usage": {"in": 7792, "out": 84, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本次共有2份文件，第二份為補正文件，補正了第11頁（事業投資）的內容，最終申報內容已採納補正後資料。"}}

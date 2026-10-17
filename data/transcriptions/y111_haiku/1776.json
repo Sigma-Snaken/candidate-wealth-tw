@@ -1,0 +1,73 @@
+{"seq": "1776", "model": "claude-haiku", "data": {
+"declarant": "林芳如",
+"declare_date": "民國111年8月31日",
+"spouse": "林俊宏",
+"minor_children_count": 2,
+"total_pages": 9,
+"land": [
+{"location": "台東縣台東市台東段", "area_m2": 87, "share": "全部", "owner": "林俊宏", "acquired": "99.08.03", "reason": "買賣", "price": "1740000"},
+{"location": "台東縣達仁鄉土坂段", "area_m2": 7081, "share": "全部", "owner": "林俊宏", "acquired": "99.04.29", "reason": "登記", "price": "424860"},
+{"location": "台東縣達仁鄉土坂段", "area_m2": 15000, "share": "全部", "owner": "林俊宏", "acquired": "110.01.25", "reason": "贈與", "price": "855000"}
+],
+"land_count": 3,
+"buildings": [
+{"location": "台東縣台東市民生里", "area_m2": 125.3, "share": "全部", "owner": "林俊宏", "acquired": "99.08.03", "reason": "買賣", "price": "66600"}
+],
+"building_count": 1,
+"ships": [],
+"vehicles": [
+{"desc": "納智捷 URX", "owner": "林俊宏", "acquired": null, "price": null},
+{"desc": "日產 NISSAN LIVINA", "owner": "林俊宏", "acquired": "102.08", "price": "超過5年"}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 20000,
+"deposits": [],
+"deposit_count": 0,
+"deposit_total_twd": 458809,
+"securities_total_twd": 838834,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 761328,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 77506,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "中國人壽 好福氣殘廢照護終身保險", "owner": "林芳如", "amount_twd": 87095, "note": "保險金額20000；契約106/11/29至126/11/29"},
+{"desc": "富邦人壽 珍夠利利率變動型增額終身壽險", "owner": "林芳如", "amount_twd": 51330, "note": "保險金額100000；契約108/01/23至184/01/22"},
+{"desc": "富邦人壽 二十年繳費圓滿終身壽險甲型", "owner": "林芳如", "amount_twd": 375340, "note": "保險金額1000000；契約088/12/03至178/12/03"},
+{"desc": "富邦人壽 真有利變額年金保險", "owner": "林芳如", "amount_twd": 60000, "note": "保險金額500000；契約106/10/02至184/10/01"},
+{"desc": "富邦人壽 安泰人壽靈活理財變額保險甲型", "owner": "林芳如", "amount_twd": 360000, "note": "保險金額3656291；契約093/09/07至179/09/07"},
+{"desc": "富邦人壽 安富久久失能照護終身壽險", "owner": "林芳如", "amount_twd": 19300, "note": "保險金額10000；契約106/10/01至205/09/30；第7頁另有同名列（契約終日198/09/30），表內重複列示"},
+{"desc": "富邦人壽 安富久久失能照護終身壽險", "owner": "林芳如", "amount_twd": 19300, "note": "保險金額10000；契約106/10/01至198/09/30；與第6頁同名列並存，依表載筆數17保留"},
+{"desc": "富邦人壽 美利富貴外幣利率變動型終身壽險", "owner": "林芳如", "amount_twd": 500000, "note": "保險金額57000；契約107/05/02至216/05/01"},
+{"desc": "新光人壽 新聯鑫多多變額壽險", "owner": "林俊宏", "amount_twd": 151560, "note": "保險金額3000000；契約105/09/13至157/09/13"},
+{"desc": "新光人壽 長扶雙享B型殘廢照護終身健康保險", "owner": "林俊宏", "amount_twd": 111972, "note": "保險金額30000；契約105/11/09至157/11/09"},
+{"desc": "新光人壽 得意理財變額壽險", "owner": "林俊宏", "amount_twd": 120000, "note": "保險金額2000000；契約95/10/27至157/10/27"},
+{"desc": "新光人壽 新長安終身壽險", "owner": "林俊宏", "amount_twd": 153040, "note": "保險金額300000；契約90/10/15至157/10/15"},
+{"desc": "新光人壽 長福終身壽險", "owner": "林俊宏", "amount_twd": 105520, "note": "保險金額300000；契約90/10/15至157/10/15"},
+{"desc": "新光人壽 防癌健康終身壽險", "owner": "林俊宏", "amount_twd": 33750, "note": "保險金額500000；契約90/10/15至157/10/15"},
+{"desc": "富邦人壽 真心關懷重大疾病暨特定傷病終身壽險", "owner": "林俊宏", "amount_twd": 149100, "note": "保險金額100000；契約105/07/03至157/07/03"},
+{"desc": "三商人壽 祥安兒童終身壽險", "owner": "未成年子女", "amount_twd": 268037, "note": "保險金額300000；契約100/07/04至198/07/04"},
+{"desc": "三商人壽 祥安兒童終身壽險", "owner": "林俊宏", "amount_twd": 190032, "note": "保險金額300000；契約105/05/28至198/05/28"}
+],
+"insurance_count": 17,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "房屋貸款／花蓮第一信用合作社台東分社", "owner": "林俊宏", "amount_twd": 1271384, "note": "取得104.09.03；購置房屋"},
+{"desc": "消費性貸款／台灣土地銀行台東分行", "owner": "林芳如", "amount_twd": 600000, "note": "取得109.08.24；購置汽車"}
+],
+"debts_count": 2,
+"debts_total_twd": 1871384,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "原表(十)債權誤列上述兩筆貸款（合計1,871,384元），依補1更正：債權0筆、0元，改列(十一)債務2筆、1,871,384元。存款(七)表載總金額458,809元但無列項；股票(1)表載總價額761,328元但總申報筆數0；現金表載20,000元但無列項，依表上數字如實填寫。保險(2)第6頁與第7頁各有一筆安富久久失能照護終身壽險（契約終日205/09/30與198/09/30不同），表內兩列皆保留以符合總申報筆數17。未成年子女2人，不列姓名。"
+}}

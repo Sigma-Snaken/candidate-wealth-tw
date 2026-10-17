@@ -1,0 +1,76 @@
+{"seq": "1926", "model": "claude-haiku", "data": {
+ "declarant": "林惠萍",
+ "declare_date": "民國111年8月30日",
+ "spouse": "吳健清",
+ "minor_children_count": 0,
+ "total_pages": 10,
+ "land": [
+  {"location": "連江縣南竿鄉馬祖村", "area_m2": 382.39, "share": "2分之1", "owner": "林惠萍", "acquired": "104.11.24", "reason": "買賣", "price": "1000000"}
+ ],
+ "land_count": 1,
+ "buildings": [
+  {"location": "新北市中和區健康段", "area_m2": 128.8, "share": "全部", "owner": "林惠萍", "acquired": "109.12.15", "reason": "買賣", "price": "30300000"},
+  {"location": "停車位", "area_m2": 13633.97, "share": "100000分之221", "owner": "林惠萍", "acquired": "109.12.15", "reason": "買賣", "price": "與建物一併購買"}
+ ],
+ "building_count": 2,
+ "ships": [],
+ "vehicles": [],
+ "vehicle_count": 0,
+ "aircraft": [],
+ "cash": [
+  {"currency": "新台幣", "owner": "林惠萍", "foreign_amount": null, "twd": 52900},
+  {"currency": "新台幣", "owner": "吳健清", "foreign_amount": null, "twd": 35600}
+ ],
+ "cash_total_twd": 88500,
+ "deposits": [
+  {"bank": "台灣銀行 馬祖分行", "kind": "活期存款", "currency": "新台幣", "owner": "林惠萍", "foreign_amount": null, "twd": 323064},
+  {"bank": "台灣銀行 馬祖分行", "kind": "外匯綜合存款", "currency": "美金", "owner": "林惠萍", "foreign_amount": 1000, "twd": 30419},
+  {"bank": "台灣銀行 馬祖分行", "kind": "外匯綜合存款", "currency": "日圓", "owner": "林惠萍", "foreign_amount": 849542, "twd": 185200},
+  {"bank": "台灣銀行 馬祖分行", "kind": "定期存款", "currency": "美金", "owner": "林惠萍", "foreign_amount": 1000, "twd": 30405},
+  {"bank": "日盛銀行 北桃園分行", "kind": "證券活期存款", "currency": "新台幣", "owner": "林惠萍", "foreign_amount": null, "twd": 1501053},
+  {"bank": "日盛銀行 北桃園分行", "kind": "綜合存款", "currency": "新台幣", "owner": "林惠萍", "foreign_amount": null, "twd": 36356},
+  {"bank": "中華郵政", "kind": "活期存款", "currency": "新台幣", "owner": "林惠萍", "foreign_amount": null, "twd": 1331070},
+  {"bank": "國泰世華", "kind": "活期存款", "currency": "新台幣", "owner": "林惠萍", "foreign_amount": null, "twd": 55336},
+  {"bank": "中華郵政", "kind": "活期存款", "currency": "新台幣", "owner": "吳健清", "foreign_amount": null, "twd": 90957}
+ ],
+ "deposit_count": 9,
+ "deposit_total_twd": 3583860,
+ "securities_total_twd": 1310270,
+ "stocks": [
+  {"code": null, "name": "美德醫療-DR", "owner": "林惠萍", "shares": 40000, "par": 7.35, "currency": null, "twd": 294400}
+ ],
+ "stock_count": 1,
+ "stock_total_twd": 294400,
+ "bonds": [],
+ "bond_total_twd": 0,
+ "funds": [
+  {"name": "元大台灣50", "code": null, "owner": "林惠萍", "units": 6000, "par": 116.75, "currency": null, "twd": 700500},
+  {"name": "元大高股息", "code": null, "owner": "林惠萍", "units": 11000, "par": 28.59, "currency": null, "twd": 315370}
+ ],
+ "fund_total_twd": 1015870,
+ "other_securities": [],
+ "other_securities_total_twd": 0,
+ "other_assets": [],
+ "other_assets_total_twd": 0,
+ "insurance": [],
+ "insurance_count": 0,
+ "debt_claims": [],
+ "debt_claims_total_twd": 0,
+ "debts": [
+  {"desc": "房屋貸款/國泰世華銀行", "owner": "林惠萍", "amount_twd": 24240000, "note": "取得(發生)時間 109.11.15；原因 購置房屋"}
+ ],
+ "debts_count": 1,
+ "debts_total_twd": 24240000,
+ "business_investments": [
+  {"desc": "臧愛實業股份有限公司", "owner": "林惠萍", "amount_twd": 19600000, "note": "101.04.17 個人投資"},
+  {"desc": "卡爾旅行社有限公司", "owner": "林惠萍", "amount_twd": 16000000, "note": "107.04.20 個人投資"},
+  {"desc": "卡爾遊覽車股份有限公司", "owner": "林惠萍", "amount_twd": 9600000, "note": "107.04.20 個人投資"},
+  {"desc": "臧愛實業股份有限公司", "owner": "吳健清", "amount_twd": 2800000, "note": "101.04.17 個人投資"},
+  {"desc": "卡爾旅行社有限公司", "owner": "吳健清", "amount_twd": 4000000, "note": "107.04.20 個人投資"},
+  {"desc": "卡爾遊覽車股份有限公司", "owner": "吳健清", "amount_twd": 2400000, "note": "107.04.20 個人投資"},
+  {"desc": "卡爾牛角民宿", "owner": "吳健清", "amount_twd": 500000, "note": "110.05.27 個人投資"}
+ ],
+ "business_investments_total_twd": 54900000,
+ "trust_items": [],
+ "notes": "頁面為橫式掃描（旋轉90度）判讀。建物第2列「建物標示」原文僅為「停車位」，未見縣市鄉鎮區段。股票第1列票面價額欄為7.35，外幣幣別未見填寫（currency 留 null）。基金（元大高股息）單位淨值 28.59 乘單位數 11,000 與總額 315,370 略有出入，依原文填寫。存款第5列種類字跡模糊，判讀為證券活期存款。有價證券總額 1,310,270 = 股票 294,400 + 基金 1,015,870。"
+}}

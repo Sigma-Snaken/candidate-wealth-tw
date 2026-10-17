@@ -1,0 +1,1487 @@
+{
+ "seq": "2582",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "藍凱元",
+  "declare_date": "民國111年08月26日",
+  "spouse": "王貞媜",
+  "minor_children_count": 2,
+  "total_pages": 29,
+  "land": [
+   {
+    "location": "澎湖縣馬公市東衛段",
+    "area_m2": 79.05,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "100.02.08",
+    "reason": "分割繼承",
+    "price": "(土地公告現值每平方公尺2000元)"
+   },
+   {
+    "location": "澎湖縣馬公市東衛段",
+    "area_m2": 1250.19,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "100.02.08",
+    "reason": "分割繼承",
+    "price": "土地公告現值每平方公尺2000元"
+   },
+   {
+    "location": "澎湖縣馬公市安宅段",
+    "area_m2": 123,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "110.04.06",
+    "reason": "贈與",
+    "price": "750300(土地公告現值每平方公尺6100元)"
+   },
+   {
+    "location": "澎湖縣馬公市安宅段",
+    "area_m2": 308.9,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "110.04.06",
+    "reason": "贈與",
+    "price": "617800(土地公告現值每平方公尺2000元)"
+   },
+   {
+    "location": "澎湖縣馬公市安宅段",
+    "area_m2": 230.65,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "108.05.03",
+    "reason": "買賣",
+    "price": "1395400"
+   },
+   {
+    "location": "澎湖縣馬公市五福段",
+    "area_m2": 1432.8,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "110.03.30",
+    "reason": "贈與",
+    "price": "6017760(土地公告現值每平方公尺4200元)"
+   },
+   {
+    "location": "澎湖縣湖西鄉紅羅段",
+    "area_m2": 841.5,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "111.01.21",
+    "reason": "買賣",
+    "price": "2000000"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 216,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "111.05.31",
+    "reason": "贈與",
+    "price": "7776000(土地公告現值每平方公尺36000元)"
+   },
+   {
+    "location": "高雄市鼓山區龍華段三小段",
+    "area_m2": 2286,
+    "share": "1400/100000",
+    "owner": "藍凱元",
+    "acquired": "104.08.31",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺101100元)"
+   },
+   {
+    "location": "高雄市楠梓區清豐段",
+    "area_m2": 713.35,
+    "share": "228/100000",
+    "owner": "王貞媜",
+    "acquired": "97.02.22",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺42000元)"
+   },
+   {
+    "location": "高雄市楠梓區清豐段",
+    "area_m2": 713.35,
+    "share": "228/100000",
+    "owner": "王貞媜",
+    "acquired": "97.02.22",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺42000元)"
+   }
+  ],
+  "land_count": 11,
+  "buildings": [
+   {
+    "location": "高雄市鼓山區龍華段三小段",
+    "area_m2": 315.8,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "104.08.31",
+    "reason": "買賣",
+    "price": "29000000"
+   },
+   {
+    "location": "澎湖縣馬公市",
+    "area_m2": 26,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "111.05.31",
+    "reason": "贈與",
+    "price": "5500"
+   },
+   {
+    "location": "澎湖縣馬公市",
+    "area_m2": 96.5,
+    "share": "全部",
+    "owner": "藍凱元",
+    "acquired": "110.04.06",
+    "reason": "贈與",
+    "price": "34700"
+   },
+   {
+    "location": "澎湖縣馬公市",
+    "area_m2": 95.4,
+    "share": "66666/100000",
+    "owner": "藍凱元",
+    "acquired": "110.04.06",
+    "reason": "贈與",
+    "price": "6466"
+   },
+   {
+    "location": "高雄市楠梓區清豐段",
+    "area_m2": 8.6,
+    "share": "全部",
+    "owner": "王貞媜",
+    "acquired": "97.02.22",
+    "reason": "買賣",
+    "price": "650000"
+   },
+   {
+    "location": "高雄市楠梓區清豐段",
+    "area_m2": 728.87,
+    "share": "107/100000",
+    "owner": "王貞媜",
+    "acquired": "97.02.22",
+    "reason": "買賣",
+    "price": "(共同使用)"
+   },
+   {
+    "location": "高雄市楠梓區清豐段",
+    "area_m2": 1765.62,
+    "share": "241/100000",
+    "owner": "王貞媜",
+    "acquired": "97.02.22",
+    "reason": "買賣",
+    "price": "(共同使用)"
+   },
+   {
+    "location": "高雄市楠梓區清豐段",
+    "area_m2": 8.6,
+    "share": "全部",
+    "owner": "王貞媜",
+    "acquired": "97.02.22",
+    "reason": "買賣",
+    "price": "650000"
+   },
+   {
+    "location": "高雄市楠梓區清豐段",
+    "area_m2": 728.87,
+    "share": "107/100000",
+    "owner": "王貞媜",
+    "acquired": "97.02.22",
+    "reason": "買賣",
+    "price": "(共同使用)"
+   },
+   {
+    "location": "高雄市楠梓區清豐段",
+    "area_m2": 1765.62,
+    "share": "241/100000",
+    "owner": "王貞媜",
+    "acquired": "97.02.22",
+    "reason": "買賣",
+    "price": "(共同使用)"
+   }
+  ],
+  "building_count": 10,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "本田(汽車)",
+    "owner": "藍凱元",
+    "acquired": "110.06.21",
+    "price": "500000"
+   },
+   {
+    "desc": "BMW(汽車)",
+    "owner": "王貞媜",
+    "acquired": "108.02.19",
+    "price": "1350000"
+   }
+  ],
+  "vehicle_count": 2,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+   {
+    "bank": "第一銀行/澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 2508
+   },
+   {
+    "bank": "第一銀行/澎湖分行",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 86805
+   },
+   {
+    "bank": "第一銀行/澎湖分行",
+    "kind": "綜合存款",
+    "currency": "美元",
+    "owner": "藍凱元",
+    "foreign_amount": 20001.97,
+    "twd": 613060
+   },
+   {
+    "bank": "第一銀行/澎湖分行",
+    "kind": "外匯活期存款",
+    "currency": "英鎊",
+    "owner": "藍凱元",
+    "foreign_amount": 2005.03,
+    "twd": 72902
+   },
+   {
+    "bank": "第一銀行/澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 150
+   },
+   {
+    "bank": "第一銀行/澎湖分行",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "長子",
+    "foreign_amount": null,
+    "twd": 5858
+   },
+   {
+    "bank": "土地銀行/澎湖分行",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 83545
+   },
+   {
+    "bank": "華南銀行/仁愛分行",
+    "kind": "活期儲蓄存款",
+    "currency": "日圓",
+    "owner": "藍凱元",
+    "foreign_amount": 102,
+    "twd": 23
+   },
+   {
+    "bank": "華南銀行/仁愛分行",
+    "kind": "活期儲蓄存款",
+    "currency": "美元",
+    "owner": "藍凱元",
+    "foreign_amount": 1,
+    "twd": 30
+   },
+   {
+    "bank": "華南銀行/仁愛分行",
+    "kind": "活期儲蓄存款",
+    "currency": "歐元",
+    "owner": "藍凱元",
+    "foreign_amount": 1.38,
+    "twd": 42
+   },
+   {
+    "bank": "華南銀行/信維分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 28
+   },
+   {
+    "bank": "第一銀行/松山分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 484
+   },
+   {
+    "bank": "合作金庫/國外部匯兌科",
+    "kind": "外匯綜合存款",
+    "currency": "美元",
+    "owner": "藍凱元",
+    "foreign_amount": 1138.57,
+    "twd": 34897
+   },
+   {
+    "bank": "合作金庫/國外部匯兌科",
+    "kind": "外匯綜合存款",
+    "currency": "澳幣",
+    "owner": "藍凱元",
+    "foreign_amount": 3.47,
+    "twd": 74
+   },
+   {
+    "bank": "合作金庫/澎湖分行",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 54515
+   },
+   {
+    "bank": "合作金庫/信維分行",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 916
+   },
+   {
+    "bank": "合作金庫/信維分行",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 2206
+   },
+   {
+    "bank": "台灣銀行/澎湖分行",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 54
+   },
+   {
+    "bank": "台灣銀行/澎湖分行",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 237375
+   },
+   {
+    "bank": "國泰世華銀行/古亭分行",
+    "kind": "外匯綜合存款",
+    "currency": "歐元",
+    "owner": "王貞媜",
+    "foreign_amount": 5358,
+    "twd": 164758
+   },
+   {
+    "bank": "國泰世華銀行/古亭分行",
+    "kind": "外匯綜合存款",
+    "currency": "美元",
+    "owner": "王貞媜",
+    "foreign_amount": 2271.88,
+    "twd": 69633
+   },
+   {
+    "bank": "國泰世華銀行/古亭分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 3595874
+   },
+   {
+    "bank": "國泰世華銀行/古亭分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 64612
+   },
+   {
+    "bank": "兆豐國際銀行/台北復興分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 599204
+   },
+   {
+    "bank": "台灣新光銀行/大安分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 176
+   },
+   {
+    "bank": "台灣新光銀行/屏東分行",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 28886
+   },
+   {
+    "bank": "台灣新光銀行/屏東分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 377450
+   },
+   {
+    "bank": "台灣新光銀行/屏東分行",
+    "kind": "外匯綜合存款",
+    "currency": "澳幣",
+    "owner": "藍凱元",
+    "foreign_amount": 938.26,
+    "twd": 19919
+   },
+   {
+    "bank": "台灣新光銀行/屏東分行",
+    "kind": "外匯綜合存款",
+    "currency": "美元",
+    "owner": "藍凱元",
+    "foreign_amount": 430.34,
+    "twd": 13189
+   },
+   {
+    "bank": "澎湖第一信用合作社/營業部",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 229470
+   },
+   {
+    "bank": "澎湖第一信用合作社/營業部",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 1257
+   },
+   {
+    "bank": "澎湖第一信用合作社/營業部",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "次子",
+    "foreign_amount": null,
+    "twd": 57023
+   },
+   {
+    "bank": "澎湖第一信用合作社/港都分社",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 2552
+   },
+   {
+    "bank": "澎湖第一信用合作社/港都分社",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "長子",
+    "foreign_amount": null,
+    "twd": 59121
+   },
+   {
+    "bank": "澎湖第一信用合作社/朝陽分社",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 305470
+   },
+   {
+    "bank": "郵局/高雄建工郵局",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 45064
+   },
+   {
+    "bank": "郵局/台北成功郵局",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 105911
+   },
+   {
+    "bank": "遠東商銀/台北忠孝分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 489
+   },
+   {
+    "bank": "遠東商銀/台北忠孝分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 8609
+   },
+   {
+    "bank": "台新銀行/北師分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 79
+   },
+   {
+    "bank": "中國信託/敦南分行",
+    "kind": "活儲存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 5253
+   },
+   {
+    "bank": "玉山銀行/澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 4946
+   },
+   {
+    "bank": "玉山銀行/澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "藍凱元",
+    "foreign_amount": null,
+    "twd": 49562
+   },
+   {
+    "bank": "玉山銀行/大安分行",
+    "kind": "外匯綜合存款",
+    "currency": "澳幣",
+    "owner": "藍凱元",
+    "foreign_amount": 36.84,
+    "twd": 782.11
+   },
+   {
+    "bank": "玉山銀行/大安分行",
+    "kind": "外匯綜合存款",
+    "currency": "美元",
+    "owner": "藍凱元",
+    "foreign_amount": 26424.82,
+    "twd": 809920
+   },
+   {
+    "bank": "玉山銀行/大安分行",
+    "kind": "外匯綜合存款",
+    "currency": "日圓",
+    "owner": "藍凱元",
+    "foreign_amount": 33,
+    "twd": 7
+   },
+   {
+    "bank": "玉山銀行/國外部",
+    "kind": "外匯綜合存款",
+    "currency": "澳幣",
+    "owner": "王貞媜",
+    "foreign_amount": 2.33,
+    "twd": 49
+   },
+   {
+    "bank": "玉山銀行/國外部",
+    "kind": "外匯綜合存款",
+    "currency": "美元",
+    "owner": "王貞媜",
+    "foreign_amount": 7676,
+    "twd": 235369
+   },
+   {
+    "bank": "玉山銀行/澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "王貞媜",
+    "foreign_amount": null,
+    "twd": 1782738
+   },
+   {
+    "bank": "玉山銀行/澎湖分行",
+    "kind": "外匯綜合存款",
+    "currency": "美元",
+    "owner": "長子",
+    "foreign_amount": 2630.77,
+    "twd": 80633
+   },
+   {
+    "bank": "玉山銀行/澎湖分行",
+    "kind": "外匯綜合存款",
+    "currency": "美元",
+    "owner": "次子",
+    "foreign_amount": 2509.72,
+    "twd": 76922
+   },
+   {
+    "bank": "玉山銀行/澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "次子",
+    "foreign_amount": null,
+    "twd": 19039
+   },
+   {
+    "bank": "玉山銀行/澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "長子",
+    "foreign_amount": null,
+    "twd": 24878
+   }
+  ],
+  "deposit_count": 53,
+  "deposit_total_twd": 10034316.11,
+  "securities_total_twd": 15009304,
+  "stocks": [
+   {
+    "code": null,
+    "name": "堤維西",
+    "owner": "藍凱元",
+    "shares": 2000,
+    "par": 10,
+    "currency": null,
+    "twd": 20000
+   },
+   {
+    "code": null,
+    "name": "聯電",
+    "owner": "藍凱元",
+    "shares": 2000,
+    "par": 10,
+    "currency": null,
+    "twd": 20000
+   },
+   {
+    "code": null,
+    "name": "鴻海",
+    "owner": "藍凱元",
+    "shares": 2000,
+    "par": 10,
+    "currency": null,
+    "twd": 20000
+   },
+   {
+    "code": null,
+    "name": "慧洋-KY",
+    "owner": "藍凱元",
+    "shares": 213007,
+    "par": 10,
+    "currency": null,
+    "twd": 2130070
+   },
+   {
+    "code": null,
+    "name": "晶豪科",
+    "owner": "藍凱元",
+    "shares": 2000,
+    "par": 10,
+    "currency": null,
+    "twd": 20000
+   },
+   {
+    "code": null,
+    "name": "台積電",
+    "owner": "藍凱元",
+    "shares": 1000,
+    "par": 10,
+    "currency": null,
+    "twd": 10000
+   },
+   {
+    "code": null,
+    "name": "大同",
+    "owner": "藍凱元",
+    "shares": 90,
+    "par": 10,
+    "currency": null,
+    "twd": 900
+   },
+   {
+    "code": null,
+    "name": "東洋",
+    "owner": "藍凱元",
+    "shares": 3000,
+    "par": 10,
+    "currency": null,
+    "twd": 30000
+   },
+   {
+    "code": null,
+    "name": "聯德控股-KY",
+    "owner": "藍凱元",
+    "shares": 2000,
+    "par": 10,
+    "currency": null,
+    "twd": 20000
+   },
+   {
+    "code": null,
+    "name": "龍巖",
+    "owner": "藍凱元",
+    "shares": 2000,
+    "par": 10,
+    "currency": null,
+    "twd": 20000
+   },
+   {
+    "code": null,
+    "name": "高端疫苗",
+    "owner": "藍凱元",
+    "shares": 1000,
+    "par": 10,
+    "currency": null,
+    "twd": 10000
+   },
+   {
+    "code": null,
+    "name": "中華商銀",
+    "owner": "藍凱元",
+    "shares": 10000,
+    "par": 10,
+    "currency": null,
+    "twd": 100000
+   },
+   {
+    "code": null,
+    "name": "美國移動通訊公司",
+    "owner": "藍凱元",
+    "shares": 9960,
+    "par": 22.02,
+    "currency": "美金",
+    "twd": 6722133
+   },
+   {
+    "code": null,
+    "name": "力積電",
+    "owner": "王貞媜",
+    "shares": 1398,
+    "par": 10,
+    "currency": null,
+    "twd": 13980
+   },
+   {
+    "code": null,
+    "name": "四維航",
+    "owner": "王貞媜",
+    "shares": 382,
+    "par": 10,
+    "currency": null,
+    "twd": 3820
+   },
+   {
+    "code": null,
+    "name": "力晶",
+    "owner": "王貞媜",
+    "shares": 990,
+    "par": 10,
+    "currency": null,
+    "twd": 9900
+   },
+   {
+    "code": null,
+    "name": "中信金",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "慧洋-KY",
+    "owner": "王貞媜",
+    "shares": 524701,
+    "par": 10,
+    "currency": null,
+    "twd": 5247010
+   },
+   {
+    "code": null,
+    "name": "希華",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "華映",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "建通",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "飛宏",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "鼎元",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "友達",
+    "owner": "王貞媜",
+    "shares": 1658,
+    "par": 10,
+    "currency": null,
+    "twd": 16850
+   },
+   {
+    "code": null,
+    "name": "勝華",
+    "owner": "王貞媜",
+    "shares": 10000,
+    "par": 10,
+    "currency": null,
+    "twd": 100000
+   },
+   {
+    "code": null,
+    "name": "大同",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "昆盈",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "矽統",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "宏碁",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "友訊",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "台燿",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "中鴻",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "中鋼",
+    "owner": "王貞媜",
+    "shares": 10457,
+    "par": 10,
+    "currency": null,
+    "twd": 104570
+   },
+   {
+    "code": null,
+    "name": "正隆",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "士紙",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "冠軍",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "光洋科",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "臺鹽",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "大亞",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "華新",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "川飛",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "中興電",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "中石化",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   },
+   {
+    "code": null,
+    "name": "台萊",
+    "owner": "王貞媜",
+    "shares": 1,
+    "par": 10,
+    "currency": null,
+    "twd": 10
+   }
+  ],
+  "stock_count": 44,
+  "stock_total_twd": 14619473,
+  "bonds": [
+   {
+    "name": "高特力集團2016/2/4到期美元計價公司債",
+    "code": null,
+    "owner": "藍凱元",
+    "units": 10000,
+    "par": 102.46,
+    "currency": "美元",
+    "twd": 314039
+   }
+  ],
+  "bond_total_twd": 314039,
+  "funds": [
+   {
+    "name": "法吧新興市場精選債券基金",
+    "code": null,
+    "owner": "王貞媜",
+    "units": 21.87,
+    "par": 15.93,
+    "currency": "美元",
+    "twd": 10678
+   },
+   {
+    "name": "聯博全球高收益債券",
+    "code": null,
+    "owner": "藍凱元",
+    "units": 158.27,
+    "par": 12.48,
+    "currency": "澳幣",
+    "twd": 41933
+   },
+   {
+    "name": "元大台灣50",
+    "code": null,
+    "owner": "王貞媜",
+    "units": 170,
+    "par": 136.36,
+    "currency": "新台幣",
+    "twd": 23181.2
+   }
+  ],
+  "fund_total_twd": 75792,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [
+   {
+    "desc": "十五年期美元計價利率連結可買回組合式商品",
+    "owner": "藍凱元",
+    "amount_twd": 417750,
+    "note": "原始交易金額 USD 15000 匯率 27.85；項件數 1"
+   },
+   {
+    "desc": "黃金存摺",
+    "owner": "藍凱元",
+    "amount_twd": 66528,
+    "note": "單位數 42；收盤價 1584；項件數 1"
+   }
+  ],
+  "other_assets_total_twd": 283353278,
+  "insurance": [
+   {
+    "desc": "新光人壽 美好傳富終身壽險",
+    "owner": "藍凱元",
+    "amount_twd": 1105179,
+    "note": "保險金額 10000 美元；累積外幣 39640.59"
+   },
+   {
+    "desc": "新光人壽 美利好鑽終身還本保險",
+    "owner": "藍凱元",
+    "amount_twd": 330638,
+    "note": "保險金額 13000 美元；累積外幣 11859.35"
+   },
+   {
+    "desc": "新光人壽 美利金鑽終身還本保險",
+    "owner": "藍凱元",
+    "amount_twd": 564364,
+    "note": "保險金額 12000 美元；累積外幣 20242.62"
+   },
+   {
+    "desc": "新光人壽 美富利終身壽險",
+    "owner": "藍凱元",
+    "amount_twd": 993664,
+    "note": "保險金額 32564 美元；累積外幣 35640.76"
+   },
+   {
+    "desc": "新光人壽 澳富添喜終身壽險",
+    "owner": "藍凱元",
+    "amount_twd": 946821,
+    "note": "保險金額 22000 澳幣；累積外幣 46390.06"
+   },
+   {
+    "desc": "新光人壽 鑫利多喜終身還本保險",
+    "owner": "藍凱元",
+    "amount_twd": 619152,
+    "note": "保險金額 190000 新台幣"
+   },
+   {
+    "desc": "新光人壽 美好傳家外幣終身壽險",
+    "owner": "藍凱元",
+    "amount_twd": 85341,
+    "note": "保險金額 40000 美元"
+   },
+   {
+    "desc": "富邦人壽 加值保本保險",
+    "owner": "藍凱元",
+    "amount_twd": 444626,
+    "note": "保險金額 1000000 新台幣"
+   },
+   {
+    "desc": "國泰人壽 吉富312終身險",
+    "owner": "藍凱元",
+    "amount_twd": 4410119,
+    "note": "保險金額 2500000 新台幣"
+   },
+   {
+    "desc": "南山人壽 雙享5利率還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 4397764,
+    "note": "保險金額 1190000 新台幣"
+   },
+   {
+    "desc": "南山人壽 雙享5利率還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 4434720,
+    "note": "保險金額 1200000 新台幣"
+   },
+   {
+    "desc": "南山人壽 雙享5利率還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 9608560,
+    "note": "保險金額 2080000 新台幣"
+   },
+   {
+    "desc": "南山人壽 雙享5利率還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 23873576,
+    "note": "保險金額 6460000 新台幣"
+   },
+   {
+    "desc": "南山人壽 美利旺變動型年金保險",
+    "owner": "藍凱元",
+    "amount_twd": 1806025,
+    "note": "年金型；累積外幣 65000 美元"
+   },
+   {
+    "desc": "南山人壽 美利旺變動型年金保險",
+    "owner": "藍凱元",
+    "amount_twd": 11114000,
+    "note": "年金型；累積外幣 40000 美元"
+   },
+   {
+    "desc": "南山人壽 美利雙享3美元還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 4169528,
+    "note": "保險金額 83000 美元；累積外幣 150064 美元"
+   },
+   {
+    "desc": "南山人壽 美滿人生終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 207000,
+    "note": "保險金額 10000 新台幣"
+   },
+   {
+    "desc": "南山人壽 美滿人生終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 263650,
+    "note": "保險金額 10000 新台幣"
+   },
+   {
+    "desc": "南山人壽 健康醫療終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 249600,
+    "note": "保險金額 1000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 圓滿康祥終身健康保險",
+    "owner": "藍凱元",
+    "amount_twd": 1445000,
+    "note": "保險金額 5000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意帆風順保本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 2160000,
+    "note": "保險金額 2000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 新康順終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 411250,
+    "note": "保險金額 3500000 新台幣"
+   },
+   {
+    "desc": "南山人壽 樂活智選還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 4980432,
+    "note": "保險金額 2580000 新台幣"
+   },
+   {
+    "desc": "南山人壽 新福氣康祥終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 39960,
+    "note": "保險金額 300000 新台幣"
+   },
+   {
+    "desc": "南山人壽 新福氣康祥終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 42300,
+    "note": "保險金額 300000 新台幣"
+   },
+   {
+    "desc": "南山人壽 樂活智選還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 31928816,
+    "note": "保險金額 16540000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意帆風順保本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 900000,
+    "note": "保險金額 1000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意帆風順保本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 1800000,
+    "note": "保險金額 2000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 美利雙享3美元還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 6706743,
+    "note": "保險金額 135000 美元；累積外幣 241380 美元"
+   },
+   {
+    "desc": "南山人壽 美利雙享3美元還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 9935916,
+    "note": "保險金額 200000 美元；累積外幣 357600 美元"
+   },
+   {
+    "desc": "南山人壽 美利雙享3美元還本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 37259685,
+    "note": "保險金額 750000 美元；累積外幣 1341000 美元"
+   },
+   {
+    "desc": "新光人壽 鑫利多喜終身還本保險",
+    "owner": "藍凱元",
+    "amount_twd": 1523295,
+    "note": "保險金額 460000 新台幣"
+   },
+   {
+    "desc": "新光人壽 鑫旺富利終身壽險",
+    "owner": "藍凱元",
+    "amount_twd": 1026906,
+    "note": "保險金額 1019748 新台幣"
+   },
+   {
+    "desc": "南山人壽 享美福終身壽險",
+    "owner": "王貞媜",
+    "amount_twd": 11553003,
+    "note": "保險金額 2000000 美元；累積外幣 415800 美元"
+   },
+   {
+    "desc": "南山人壽 美利雙享3美元還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 8287654,
+    "note": "保險金額 227000 美元；累積外幣 298278 美元"
+   },
+   {
+    "desc": "南山人壽 美利雙享3美元還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 8306575,
+    "note": "保險金額 227000 美元；累積外幣 298959 美元"
+   },
+   {
+    "desc": "南山人壽 美利雙享3美元還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 8569727,
+    "note": "保險金額 230000 美元；累積外幣 308430 美元"
+   },
+   {
+    "desc": "國泰人壽 鍾情終身壽險",
+    "owner": "王貞媜",
+    "amount_twd": 659124,
+    "note": "保險金額 100000 新台幣"
+   },
+   {
+    "desc": "國泰人壽 鍾意終身壽險",
+    "owner": "王貞媜",
+    "amount_twd": 319787,
+    "note": "保險金額 500000 新台幣"
+   },
+   {
+    "desc": "南山人壽 富貴年年3醫療終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 809880,
+    "note": "保險金額 3000 新台幣"
+   },
+   {
+    "desc": "南山人壽 富貴年年3醫療終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 1266480,
+    "note": "保險金額 8000 新台幣"
+   },
+   {
+    "desc": "南山人壽 富貴年年3醫療終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 1691520,
+    "note": "保險金額 8000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意帆風順保本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 270000,
+    "note": "保險金額 500000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意帆風順保本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 540000,
+    "note": "保險金額 1000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意帆風順保本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 1080000,
+    "note": "保險金額 1500000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意帆風順保本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 1620000,
+    "note": "保險金額 3000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 樂活智選還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 796200,
+    "note": "保險金額 2000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 樂活智選還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 1194300,
+    "note": "保險金額 3000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 樂活智選還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 4215000,
+    "note": "保險金額 7500000 新台幣"
+   },
+   {
+    "desc": "南山人壽 樂活智選還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 10626750,
+    "note": "保險金額 7500000 新台幣"
+   },
+   {
+    "desc": "南山人壽 樂活智選還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 10626750,
+    "note": "保險金額 7500000 新台幣"
+   },
+   {
+    "desc": "南山人壽 樂活智選還本終身保險",
+    "owner": "王貞媜",
+    "amount_twd": 28338000,
+    "note": "保險金額 15000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 鑫吉優利增額終身壽險",
+    "owner": "王貞媜",
+    "amount_twd": 8235520,
+    "note": "保險金額 3200000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意帆風順保本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 1800000,
+    "note": "保險金額 2000000 新台幣"
+   },
+   {
+    "desc": "南山人壽 富貴年年3醫療終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 770100,
+    "note": "保險金額 2000 新台幣"
+   },
+   {
+    "desc": "南山人壽 意生守護保本終身保險",
+    "owner": "藍凱元",
+    "amount_twd": 1008000,
+    "note": "保險金額 1120000 新台幣"
+   },
+   {
+    "desc": "南山人壽 厚利旺利年金保險",
+    "owner": "藍凱元",
+    "amount_twd": 500000,
+    "note": "年金型"
+   }
+  ],
+  "insurance_count": 57,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "授信／債權人：澎湖縣第一信用合作社營業部",
+    "owner": "藍凱元",
+    "amount_twd": 14000000,
+    "note": "取得時間 105/01/27；原因 週轉金"
+   },
+   {
+    "desc": "授信／債權人：台灣新光銀行屏東分行",
+    "owner": "藍凱元",
+    "amount_twd": 19622550,
+    "note": "取得時間 109/11/20；原因 週轉金"
+   }
+  ],
+  "debts_count": 2,
+  "debts_total_twd": 33622550,
+  "business_investments": [
+   {
+    "desc": "澎湖縣第一信用合作社",
+    "owner": "藍凱元",
+    "amount_twd": 2310000,
+    "note": "取得時間 110/11/01；原因 股金"
+   }
+  ],
+  "business_investments_total_twd": 2310000,
+  "trust_items": [],
+  "notes": "1) 存款共53筆，逐筆加總與表上總金額10,034,316.11元相符。2) (九)珠寶等其他財產表上總價額印為283,353,278元，與其子項合計484,278元不符；283,353,278 = 保險合計282,869,000 + 484,278，疑為合併計算，依表上數字填寫。3) 建物第2至4列原為稅籍號碼，已略去號碼，地點僅保留縣市鄉鎮。4) 未成年子女以「長子」「次子」代稱，未填姓名（依規則）。配偶、申報人身分證號、出生日期、住址、電話、帳號均未輸出。5) 股票第29列名稱被印章遮蓋，判讀為宏碁。6) 保險列未列保單號碼；保險金額與累積外幣金額以note註記。7) 表格上方第一頁申報日為民國111年08月26日，末頁交件日為111年9月2日。"
+ }
+}

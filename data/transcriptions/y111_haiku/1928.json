@@ -1,0 +1,345 @@
+{
+  "seq": "1928",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "陳玉發",
+    "declare_date": "民國111年8月3日",
+    "spouse": "陳賽珠",
+    "minor_children_count": 0,
+    "total_pages": null,
+    "land": [
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 26017.28,
+        "share": "55/10000",
+        "owner": "陳賽珠",
+        "acquired": "095/04/10",
+        "reason": "買賣",
+        "price": "（土地公告現值每平方公尺22400元）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 41178.22,
+        "share": "11/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/04/13",
+        "reason": "買賣",
+        "price": "（土地公告現值每平方公尺22400元）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 1507.49,
+        "share": "164/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/04/14",
+        "reason": "買賣",
+        "price": "（土地公告現值每平方公尺22400元）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 3192.16,
+        "share": "164/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/04/17",
+        "reason": "買賣",
+        "price": "（土地公告現值每平方公尺22400元）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 333.18,
+        "share": "164/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/04/14",
+        "reason": "買賣",
+        "price": "（土地公告現值每平方公尺22400元）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 802.29,
+        "share": "164/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/04/17",
+        "reason": "買賣",
+        "price": "（土地公告現值每平方公尺22400元）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 1337.97,
+        "share": "164/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/04/14",
+        "reason": "買賣",
+        "price": "（土地公告現值每平方公尺22400元）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 1198.14,
+        "share": "164/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/04/14",
+        "reason": "買賣",
+        "price": "（土地公告現值每平方公尺22400元）"
+      }
+    ],
+    "land_count": 8,
+    "buildings": [
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 149.83,
+        "share": "1/1",
+        "owner": "陳賽珠",
+        "acquired": "095/06/28",
+        "reason": "買賣",
+        "price": "（含陽台13.89平方公尺）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 524.85,
+        "share": "55/10000",
+        "owner": "陳賽珠",
+        "acquired": "095/06/28",
+        "reason": "買賣",
+        "price": "（共同使用部分）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 8791.81,
+        "share": "1/251",
+        "owner": "陳賽珠",
+        "acquired": "095/06/28",
+        "reason": "買賣",
+        "price": null
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 9935.23,
+        "share": "99867/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/06/28",
+        "reason": "買賣",
+        "price": "（共同使用部分）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 1949.95,
+        "share": "3694/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/06/28",
+        "reason": "買賣",
+        "price": "（共同使用部分）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 1949.95,
+        "share": "3694/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/06/28",
+        "reason": "買賣",
+        "price": "（共同使用部分）"
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 6.78,
+        "share": "164/99867",
+        "owner": "陳賽珠",
+        "acquired": "095/06/28",
+        "reason": "買賣",
+        "price": null
+      },
+      {
+        "location": "新北市新店區香坡段",
+        "area_m2": 471.29,
+        "share": "164/100000",
+        "owner": "陳賽珠",
+        "acquired": "095/06/28",
+        "reason": "買賣",
+        "price": "（共同使用部分）"
+      },
+      {
+        "location": "新北市新店區香坡里安祥路",
+        "area_m2": 10000.8,
+        "share": "164/99867",
+        "owner": "陳賽珠",
+        "acquired": "095/04/18",
+        "reason": "買賣",
+        "price": "13765700"
+      },
+      {
+        "location": "新北市新店區香坡里安祥路",
+        "area_m2": 8863.8,
+        "share": "1/251",
+        "owner": "陳賽珠",
+        "acquired": "095/04/18",
+        "reason": "買賣",
+        "price": "12204400"
+      },
+      {
+        "location": "新北市新店區香坡里安祥路",
+        "area_m2": 139.6,
+        "share": "1000000/1000000",
+        "owner": "陳賽珠",
+        "acquired": "095/05/11",
+        "reason": "地址變更",
+        "price": "302700"
+      }
+    ],
+    "building_count": 11,
+    "ships": [],
+    "vehicles": [],
+    "vehicle_count": 0,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {
+        "bank": "臺灣銀行馬祖分行",
+        "kind": "綜合存款",
+        "currency": "新臺幣",
+        "owner": "陳玉發",
+        "foreign_amount": null,
+        "twd": 15894
+      },
+      {
+        "bank": "連江縣農會信用部",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "陳玉發",
+        "foreign_amount": null,
+        "twd": 4084
+      },
+      {
+        "bank": "郵政儲金匯業局",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "陳玉發",
+        "foreign_amount": null,
+        "twd": 1212216
+      },
+      {
+        "bank": "安泰銀行松山分行",
+        "kind": "綜合存款",
+        "currency": "新臺幣",
+        "owner": "陳玉發",
+        "foreign_amount": null,
+        "twd": 9861
+      },
+      {
+        "bank": "中信銀行中山分行",
+        "kind": "活儲證券戶",
+        "currency": "新臺幣",
+        "owner": "陳玉發",
+        "foreign_amount": null,
+        "twd": 1206
+      },
+      {
+        "bank": "臺灣銀行馬祖分行",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "陳賽珠",
+        "foreign_amount": null,
+        "twd": 70085
+      },
+      {
+        "bank": "臺灣銀行馬祖分行",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "陳賽珠",
+        "foreign_amount": null,
+        "twd": 1192
+      },
+      {
+        "bank": "土地銀行新店分行",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "陳賽珠",
+        "foreign_amount": null,
+        "twd": 4573
+      },
+      {
+        "bank": "合作金庫",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "陳賽珠",
+        "foreign_amount": null,
+        "twd": 596
+      },
+      {
+        "bank": "連江縣農會信用部",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "陳賽珠",
+        "foreign_amount": null,
+        "twd": 73
+      },
+      {
+        "bank": "郵政儲金匯業局",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "陳賽珠",
+        "foreign_amount": null,
+        "twd": 40000
+      }
+    ],
+    "deposit_count": 11,
+    "deposit_total_twd": 1359780,
+    "securities_total_twd": 228860,
+    "stocks": [
+      {
+        "code": "2412",
+        "name": "中華電",
+        "owner": "陳玉發",
+        "shares": 22886,
+        "par": 10,
+        "currency": null,
+        "twd": 228860
+      }
+    ],
+    "stock_count": null,
+    "stock_total_twd": 228860,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {
+        "desc": "臺銀人壽保險公司／萬福還本終身保險（儲蓄型）",
+        "owner": "陳賽珠",
+        "amount_twd": 599300,
+        "note": "保險金額500000；契約始日081/11/28，契約終日終身；保單號碼與帳號未記錄"
+      }
+    ],
+    "insurance_count": 1,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {
+        "desc": "授信／連江縣農會信用部",
+        "owner": "陳玉發",
+        "amount_twd": 1200000,
+        "note": "取得時間107/09/03；取得原因：其他；債權人地址未記錄"
+      },
+      {
+        "desc": "現金卡／凱基銀行",
+        "owner": "陳玉發",
+        "amount_twd": 337377,
+        "note": "取得時間090/11/13；取得原因：週轉金"
+      },
+      {
+        "desc": "授信／土地銀行新店分行",
+        "owner": "陳賽珠",
+        "amount_twd": 923539,
+        "note": "取得時間095/06/30；取得原因：購買住宅貸款；債權人地址未記錄"
+      }
+    ],
+    "debts_count": 3,
+    "debts_total_twd": 2460916,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 原件單份（1928_0），無補正檔。2) 申報日手寫判讀為民國111年8月3?日，個位數存疑，鄰近同批申報日為8/29、8/30，可能為8月31日，需複核；交件日為111年9月1日。3) 股票(1)總申報筆數欄為空白，stock_count 填 null。4) (九)段表頭手寫總額599,300元（與保險合計相同，非珠寶），珠寶子項目為0筆，other_assets_total_twd依珠寶子項目填0。5) 建物第9、10、11筆坐落僅保留街路名稱，未記錄門牌號碼。6) 存款第1、2、5、6筆：表上總額1359780元與11筆加總相符。7) 保險僅1筆，保單號碼與要保人地址未記錄。8) 配偶陳賽珠；未成年子女欄空白，未成年子女0人。9) 身分證字號、帳號、地址、電話未記錄。10) 第12頁為空白頁。"
+  }
+}

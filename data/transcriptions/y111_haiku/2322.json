@@ -1,0 +1,109 @@
+{"seq": "2322", "model": "claude-haiku", "data": {
+ "declarant": "李應文",
+ "declare_date": "民國111年8月30日",
+ "spouse": "洪依綸",
+ "minor_children_count": 2,
+ "total_pages": 13,
+ "land": [
+  {"location": "新北市中和區捷運段", "area_m2": 7.64, "share": "1/2", "owner": "李應文", "acquired": "086/10/01", "reason": "繼承", "price": "土地公告現值每平方公尺225582元"},
+  {"location": "新北市中和區捷運段", "area_m2": 66.66, "share": "1/2", "owner": "李應文", "acquired": "086/10/01", "reason": "繼承", "price": "土地公告現值每平方公尺143272元"},
+  {"location": "金門縣金湖鎮料羅劃測段", "area_m2": 67.25, "share": "16800/167999", "owner": "洪依綸", "acquired": "105/08/08", "reason": "買賣", "price": "土地公告現值每平方公尺9500元"},
+  {"location": "金門縣金湖鎮料羅劃測段", "area_m2": 87.63, "share": "全部", "owner": "洪依綸", "acquired": "105/08/08", "reason": "買賣", "price": "土地公告現值每平方公尺9500元"},
+  {"location": "金門縣金湖鎮料羅劃測段", "area_m2": 736.44, "share": "16800/167999", "owner": "洪依綸", "acquired": "105/08/08", "reason": "買賣", "price": "土地公告現值每平方公尺9500元"},
+  {"location": "金門縣金沙鎮官嶼劃段", "area_m2": 1000, "share": "1/12", "owner": "李應文", "acquired": "103/05/06", "reason": "分割繼承", "price": "土地公告現值每平方公尺2400元"},
+  {"location": "金門縣金沙鎮官澳段", "area_m2": 356, "share": "1/12", "owner": "李應文", "acquired": "103/05/06", "reason": "分割繼承", "price": "土地公告現值每平方公尺7000元"},
+  {"location": "金門縣金沙鎮官澳段", "area_m2": 250, "share": "1/2", "owner": "李應文", "acquired": "086/09/03", "reason": "繼承", "price": "土地公告現值每平方公尺7400元"},
+  {"location": "金門縣金沙鎮官澳段", "area_m2": 235, "share": "1/12", "owner": "李應文", "acquired": "103/05/06", "reason": "分割繼承", "price": "土地公告現值每平方公尺7000元"},
+  {"location": "金門縣金沙鎮官澳段", "area_m2": 154.34, "share": "1/12", "owner": "李應文", "acquired": "103/05/06", "reason": "分割繼承", "price": "土地公告現值每平方公尺7000元"}
+ ],
+ "land_count": 10,
+ "buildings": [
+  {"location": "新北市中和區壽南里", "area_m2": 79.4, "share": "1/2", "owner": "李應文", "acquired": "086/10/01", "reason": "繼承", "price": "60400"},
+  {"location": "金門縣金湖鎮料羅里", "area_m2": 208.78, "share": "全部", "owner": "洪依綸", "acquired": "105/12/26", "reason": "買賣", "price": "357000"},
+  {"location": "金門縣金沙鎮官嶼里", "area_m2": 403.00, "share": "全部", "owner": "李應文", "acquired": "086/07/01", "reason": "41", "price": "310300"}
+ ],
+ "building_count": 3,
+ "ships": [],
+ "vehicles": [
+  {"desc": "日產(汽車)", "owner": "洪依綸", "acquired": "107/09/11", "price": "500000"},
+  {"desc": "納智捷(汽車)", "owner": "李應文", "acquired": "099/03/29", "price": null}
+ ],
+ "vehicle_count": 2,
+ "aircraft": [],
+ "cash": [
+  {"currency": "新臺幣", "owner": "李應文", "foreign_amount": null, "twd": 3000},
+  {"currency": "新臺幣", "owner": "洪依綸", "foreign_amount": null, "twd": 3200}
+ ],
+ "cash_total_twd": 6200,
+ "deposits": [
+  {"bank": "中信銀行南屯分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李應文", "foreign_amount": null, "twd": 34},
+  {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "洪依綸", "foreign_amount": null, "twd": 122819},
+  {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李君", "foreign_amount": null, "twd": 19631},
+  {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李容", "foreign_amount": null, "twd": 39564},
+  {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李應文", "foreign_amount": null, "twd": 824},
+  {"bank": "金門縣信用合作社金湖分社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "洪依綸", "foreign_amount": null, "twd": 121364},
+  {"bank": "臺灣企銀花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李應文", "foreign_amount": null, "twd": 39},
+  {"bank": "兆豐國際商業銀行金門分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "洪依綸", "foreign_amount": null, "twd": 10291},
+  {"bank": "兆豐國際商業銀行金門分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李應文", "foreign_amount": null, "twd": 821},
+  {"bank": "兆豐國際商業銀行金門分行", "kind": "活期存款", "currency": "歐元", "owner": "李應文", "foreign_amount": 417.95, "twd": 12709.8595},
+  {"bank": "兆豐國際商業銀行金門分行", "kind": "活期存款", "currency": "港幣", "owner": "李應文", "foreign_amount": 0.56, "twd": 2.1672},
+  {"bank": "兆豐國際商業銀行金門分行", "kind": "活期存款", "currency": "美元", "owner": "洪依綸", "foreign_amount": 86.12, "twd": 2617.1868},
+  {"bank": "土地銀行金城分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "李應文", "foreign_amount": null, "twd": 546},
+  {"bank": "土地銀行金城分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "洪依綸", "foreign_amount": null, "twd": 100},
+  {"bank": "土地銀行金門分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "李容", "foreign_amount": null, "twd": 25910},
+  {"bank": "土地銀行金門分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "洪依綸", "foreign_amount": null, "twd": 29912},
+  {"bank": "土地銀行金門分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "李君", "foreign_amount": null, "twd": 46077},
+  {"bank": "土地銀行金門分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "李應文", "foreign_amount": null, "twd": 77},
+  {"bank": "台灣銀行金門分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "洪依綸", "foreign_amount": null, "twd": 741}
+ ],
+ "deposit_count": 19,
+ "deposit_total_twd": 4340792.2135,
+ "securities_total_twd": 21310,
+ "stocks": [
+  {"code": "5810", "name": "寶華", "owner": "李應文", "shares": 2131, "par": 10, "currency": null, "twd": 21310}
+ ],
+ "stock_count": 1,
+ "stock_total_twd": 21310,
+ "bonds": [],
+ "bond_total_twd": 0,
+ "funds": [],
+ "fund_total_twd": 0,
+ "other_securities": [],
+ "other_securities_total_twd": 0,
+ "other_assets": [
+  {"desc": "黃金存摺（金融機構：土地銀行）", "owner": "洪依綸", "amount_twd": 48952, "note": "單位數29；收盤價1688；匯率1；原始交易金額0"}
+ ],
+ "other_assets_total_twd": 4154187,
+ "insurance": [
+  {"desc": "富邦人壽保險公司 富邦人壽五夠讚利率變動型增額終身壽險", "owner": "李君", "amount_twd": 171468, "note": "儲蓄型壽險；保險金額400000元；契約始日1090528、契約終日2180527"},
+  {"desc": "富邦人壽保險公司 富邦人壽金安馨保本保險", "owner": "李應文", "amount_twd": 398778, "note": "儲蓄型壽險；保險金額1000000元；契約始日0990701、契約終日1790630"},
+  {"desc": "富邦人壽保險公司 富邦人壽金安馨保本保險", "owner": "李應文", "amount_twd": 443178, "note": "儲蓄型壽險；保險金額1000000元；契約始日0980326、契約終日1790325"},
+  {"desc": "富邦人壽保險公司 富邦人壽保安康保本保險", "owner": "李應文", "amount_twd": 400496, "note": "儲蓄型壽險；保險金額1000000元；契約始日1000512、契約終日179/0512（原表印字）"},
+  {"desc": "富邦人壽保險公司 富邦人壽吉有利利率變動型增額終身壽險", "owner": "洪依綸", "amount_twd": 233800, "note": "儲蓄型壽險；保險金額150000元；契約始日1070611、契約終日2180610"},
+  {"desc": "富邦人壽保險公司 富邦人壽安護久久終身醫療保險", "owner": "洪依綸", "amount_twd": 344489, "note": "儲蓄型壽險；保險金額1500元；契約始日1000310、契約終日1840310"},
+  {"desc": "富邦人壽保險公司 富邦人壽享讚年年還本終身保險", "owner": "洪依綸", "amount_twd": 29542, "note": "儲蓄型壽險；保險金額200000元；契約始日1090919、契約終日2200918"},
+  {"desc": "富邦人壽保險公司 富邦人壽享讚年年還本終身保險", "owner": "洪依綸", "amount_twd": 59084, "note": "儲蓄型壽險；保險金額400000元；契約始日1090919、契約終日2200918"},
+  {"desc": "富邦人壽保險公司 富邦人壽新平安福保本保險", "owner": "洪依綸", "amount_twd": 133616, "note": "儲蓄型壽險；保險金額1000000元；契約始日1070611、契約終日2180610"},
+  {"desc": "富邦人壽保險公司 富邦人壽鑫平安福保本終身保險", "owner": "洪依綸", "amount_twd": 47931, "note": "儲蓄型壽險；保險金額1000000元；契約始日1090919、契約終日2200918"},
+  {"desc": "元大人壽保險公司 永安終身壽險", "owner": "洪依綸", "amount_twd": 316758, "note": "儲蓄型壽險；保險金額500000元；契約始日0970623、契約終日終身"},
+  {"desc": "元大人壽保險公司 永安終身壽險", "owner": "李應文", "amount_twd": 575536, "note": "儲蓄型壽險；保險金額1000000元；契約始日0980611、契約終日終身"},
+  {"desc": "元大人壽保險公司 永安終身壽險", "owner": "李應文", "amount_twd": 592498, "note": "儲蓄型壽險；保險金額900000元；契約始日0960523、契約終日終身"},
+  {"desc": "元大人壽保險公司 紐約人壽安心保本防癌保險", "owner": "洪依綸", "amount_twd": 358061, "note": "儲蓄型壽險；保險金額1100000元；契約始日0981104、契約終日1231104"}
+ ],
+ "insurance_count": 14,
+ "debt_claims": [],
+ "debt_claims_total_twd": 0,
+ "debts": [
+  {"desc": "授信／金門縣信用合作社金湖分社", "owner": "洪依綸", "amount_twd": 5161403, "note": "取得時間107/07/03，原因購置不動產"},
+  {"desc": "授信／土地銀行金城分行", "owner": "李應文", "amount_twd": 1867299, "note": "取得時間099/03/23，原因房屋修繕貸款"},
+  {"desc": "授信／土地銀行金門分行", "owner": "李應文", "amount_twd": 410022, "note": "取得時間108/05/16，原因其他個人金融貸款"}
+ ],
+ "debts_count": 3,
+ "debts_total_twd": 7438724,
+ "business_investments": [
+  {"desc": "金門縣私立小博識文理語文短期補習班", "owner": "洪依綸", "amount_twd": 2500000, "note": "取得時間102/01/01，原因承購"}
+ ],
+ "business_investments_total_twd": 2500000,
+ "trust_items": [],
+ "notes": "（七）存款：表上總金額印4340792.2135元，但19筆列出金額加總為434079.2135元（小數部分相符），依表上印字填寫。（九）珠寶等：表上section總價額印4154187元，明細僅1筆黃金存摺48952元，明細依表列填寫，總額依表上印字。備註欄空白。土地、建物之取得價額依表上文字。建物第3筆登記原因欄印「41」，照錄。保險單號碼、帳號、門牌均未填。"
+}}

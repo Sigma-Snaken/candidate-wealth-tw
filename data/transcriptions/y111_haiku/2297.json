@@ -1,0 +1,73 @@
+{
+  "seq": "2297",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "楊霈璿",
+    "declare_date": "民國111年8月3?日",
+    "spouse": "吳季霏",
+    "minor_children_count": 0,
+    "total_pages": 16,
+    "land": [],
+    "land_count": 0,
+    "buildings": [],
+    "building_count": 0,
+    "ships": [],
+    "vehicles": [],
+    "vehicle_count": 0,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": 0,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {
+        "desc": "安聯人壽 變額萬能壽險（險名判讀不確定）",
+        "owner": "楊霈璿",
+        "amount_twd": 159300,
+        "note": "投資型；保險金額 2000000；契約始日 106.2.24，契約終日 終身；保單號碼省略；累積已繳保險費折合新臺幣 159300"
+      },
+      {
+        "desc": "台灣人壽 新鑫終身壽險丙型（險名判讀不確定）",
+        "owner": "楊霈藝（要保人姓名判讀不確定）",
+        "amount_twd": 171047,
+        "note": "儲蓄型；保險金額 100000；契約始日 87.3.13，契約終日 終身；保單號碼省略；累積已繳保險費折合新臺幣 171047"
+      },
+      {
+        "desc": "台灣人壽 新鴻運終身壽險（險名判讀不確定）",
+        "owner": "楊霈藝（要保人姓名判讀不確定）",
+        "amount_twd": 53200,
+        "note": "儲蓄型；保險金額 800000；契約始日 87.3.13，契約終日 終身；保單號碼省略；累積已繳保險費折合新臺幣 53200"
+      }
+    ],
+    "insurance_count": 3,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {
+        "desc": "房屋貸款 / 星展銀行中興分行",
+        "owner": "楊霈璿",
+        "amount_twd": 3123238,
+        "note": "取得(發生)時間 110.08.10；取得(發生)原因 房屋修繕；餘額 3123238"
+      }
+    ],
+    "debts_count": null,
+    "debts_total_twd": 3123238,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 申報日日期被印章遮蓋，僅能判讀為民國111年8月3?日。2) 配偶姓名「吳季霏」為手寫，字跡判讀可能有誤。3) 保險名稱與要保人（楊霈藝）為手寫、字跡不清，判讀為最可能結果。4) 保險表已累積已繳保險費折合新臺幣總金額為 383547（手寫）。5) 債務表未印列總申報筆數，故 debts_count 填 null；債務總金額 3123238 為手寫。6) 其餘各分項（土地、建物、船舶、汽車、航空器、現金、存款、股票、債券、基金、其他有價證券、珠寶等）皆為空白，總申報筆數均為 0。7) 申報人身分證字號、出生日期、戶籍與通訊地址、電話與債權人地址均依規則省略。"
+  }
+}

@@ -1,0 +1,1 @@
+{"seq": "3027", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 6.8, "via": "gemini-api", "usage": {"in": 5598, "out": 112, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "申報人另有投保兩個保險，皆屬傳統型的健康保險:1. 新安順手術醫療終身 2. 新安心保住院醫療終身。上述非「儲蓄型壽險」、「投資型壽險」及「年金型保險」之保險契約類型。"}}

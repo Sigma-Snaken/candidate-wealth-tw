@@ -1,0 +1,290 @@
+{
+ "seq": "2963",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "何春美",
+  "declare_date": "民國111年8月31日",
+  "spouse": null,
+  "minor_children_count": 0,
+  "total_pages": 10,
+  "land": [
+   {
+    "location": "屏東縣內埔鄉八壽段",
+    "area_m2": 2513.35,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "105/07/06",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺1400元)"
+   },
+   {
+    "location": "屏東縣內埔鄉八壽段",
+    "area_m2": 460.76,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "105/07/06",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺1400元)"
+   },
+   {
+    "location": "屏東縣屏東市溝美段一小段",
+    "area_m2": 77,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "099/12/21",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺19600元)"
+   },
+   {
+    "location": "屏東縣屏東市溝美段一小段",
+    "area_m2": 156,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "096/07/27",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺19600元)"
+   },
+   {
+    "location": "屏東縣高樹鄉新豐段",
+    "area_m2": 2510.57,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "107/02/14",
+    "reason": "買賣",
+    "price": "16,318,705(土地公告現值每平方公尺650元)"
+   },
+   {
+    "location": "高雄市三民區有光段",
+    "area_m2": 1501.93,
+    "share": "88/10000",
+    "owner": "何春美",
+    "acquired": "085/08/02",
+    "reason": "買賣",
+    "price": "173,926,498(土地公告現值每平方公尺115802元)"
+   },
+   {
+    "location": "屏東市水源段二小段",
+    "area_m2": 106.0,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "111/05/09",
+    "reason": "買賣",
+    "price": "1,685,400(土地公告現值每平方公尺15900元)"
+   },
+   {
+    "location": "屏東市公園段一小段",
+    "area_m2": 45.0,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "111/5/27",
+    "reason": "買賣",
+    "price": "1,658,475(土地公告現值每平方公尺36855元)"
+   }
+  ],
+  "land_count": 8,
+  "buildings": [
+   {
+    "location": "屏東縣屏東市公園段一小段",
+    "area_m2": 199.8,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "111/05/27",
+    "reason": "買賣",
+    "price": "1245萬"
+   },
+   {
+    "location": "高雄市三民區有光段",
+    "area_m2": 98.36,
+    "share": "1/1",
+    "owner": "何春美",
+    "acquired": "085/08/02",
+    "reason": "買賣",
+    "price": "(含陽台10.93平方公尺、平台4.34平方公尺)"
+   },
+   {
+    "location": "高雄市三民區有光段",
+    "area_m2": 4081.26,
+    "share": "110/10000",
+    "owner": "何春美",
+    "acquired": "085/08/02",
+    "reason": "買賣",
+    "price": "(共同使用部)"
+   },
+   {
+    "location": "高雄市三民區有光段",
+    "area_m2": 1014.93,
+    "share": "0/124",
+    "owner": "何春美",
+    "acquired": "085/08/02",
+    "reason": "買賣",
+    "price": "(共同使用部)"
+   }
+  ],
+  "building_count": 4,
+  "ships": [],
+  "vehicles": [],
+  "vehicle_count": 0,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+   {
+    "bank": "臺灣銀行中屏分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "何春美",
+    "foreign_amount": null,
+    "twd": 862103
+   },
+   {
+    "bank": "臺灣銀行中屏分行",
+    "kind": "綜合存款",
+    "currency": "美元",
+    "owner": "何春美",
+    "foreign_amount": 102622.67,
+    "twd": 3119216
+   },
+   {
+    "bank": "土地銀行高樹分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "何春美",
+    "foreign_amount": null,
+    "twd": 164607
+   }
+  ],
+  "deposit_count": 3,
+  "deposit_total_twd": 4145926,
+  "securities_total_twd": null,
+  "stocks": [
+   {
+    "code": "2002",
+    "name": "中鋼",
+    "owner": "何春美",
+    "shares": 10456,
+    "par": 10,
+    "currency": null,
+    "twd": 104560
+   },
+   {
+    "code": "2330",
+    "name": "台積電",
+    "owner": "何春美",
+    "shares": 6000,
+    "par": 10,
+    "currency": null,
+    "twd": 60000
+   },
+   {
+    "code": "2409",
+    "name": "友達",
+    "owner": "何春美",
+    "shares": 10000,
+    "par": 10,
+    "currency": null,
+    "twd": 100000
+   },
+   {
+    "code": "2882",
+    "name": "國泰金",
+    "owner": "何春美",
+    "shares": 34285,
+    "par": 10,
+    "currency": null,
+    "twd": 342850
+   }
+  ],
+  "stock_count": 4,
+  "stock_total_twd": 607410,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [
+   {
+    "name": "天利新興市場債美配",
+    "code": "1632",
+    "owner": "何春美",
+    "units": 16023.929,
+    "par": 9.0703,
+    "currency": "美元",
+    "twd": 4411124
+   },
+   {
+    "name": "天利公司債券歐避配",
+    "code": "1656",
+    "owner": "何春美",
+    "units": 834.473,
+    "par": 10.5693,
+    "currency": "歐元",
+    "twd": 265122
+   }
+  ],
+  "fund_total_twd": 4676246,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [
+   {
+    "desc": "黃金存摺（臺灣銀行中屏分行）",
+    "owner": "何春美",
+    "amount_twd": 4255464,
+    "note": "單位數2524.89；收盤價1686；匯率1；原始交易金額3827647(TWD)"
+   }
+  ],
+  "other_assets_total_twd": 4255464,
+  "insurance": [
+   {
+    "desc": "新光人壽保險公司 新光人壽五動鑫富利率變動",
+    "owner": "何春美",
+    "amount_twd": 107918,
+    "note": "保險金額100000；契約期間105/01/29~153/01/29；儲蓄型"
+   },
+   {
+    "desc": "新光人壽保險公司 新光人壽百年長青100%",
+    "owner": "何春美",
+    "amount_twd": 1178400,
+    "note": "保險金額1000000；契約始日086/12/20，終身；儲蓄型"
+   },
+   {
+    "desc": "國泰人壽保險公司 微馨安小額終身壽險",
+    "owner": "何春美",
+    "amount_twd": 31480,
+    "note": "保險金額100000；契約期間109/04/28~148/04/27；儲蓄型"
+   },
+   {
+    "desc": "國泰人壽保險公司 新添采終身壽險",
+    "owner": "何春美",
+    "amount_twd": 855360,
+    "note": "保險金額1000000；契約期間101/11/07~147/11/06；儲蓄型"
+   },
+   {
+    "desc": "國泰人壽保險公司 萬代福211",
+    "owner": "何春美",
+    "amount_twd": 1104000,
+    "note": "保險金額1000000；契約始日080/08/02，終身；儲蓄型"
+   }
+  ],
+  "insurance_count": 5,
+  "debt_claims": [
+   {
+    "desc": "借貸",
+    "owner": "何春美",
+    "amount_twd": 5000000,
+    "note": "取得時間111/05/27；原因111/05/27；債權人及債務人欄空白"
+   }
+  ],
+  "debt_claims_total_twd": 5000000,
+  "debts": [
+   {
+    "desc": "保單借款（債權人：新光人壽保險公司）",
+    "owner": "何春美",
+    "amount_twd": 54335,
+    "note": "取得時間108/04/09；原因：新光人壽五動鑫"
+   }
+  ],
+  "debts_count": 1,
+  "debts_total_twd": 54335,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "第10頁為申報表最後頁（前9頁本頁已含各分項）。土地8筆、建物4筆、存款3筆、股票4筆、基金2筆、保險5筆、債務1筆。(八)有價證券總價額與(三)債券、(四)其他有價證券總額欄為空白，有價證券總價額填null。建物第1筆取得價額手寫「1245萬」判讀為1245萬（不確定）。建物第2筆價額欄註記含陽台10.93平方公尺、平台4.34平方公尺。黃金存摺列於(九)其他財產。未列出保單號碼、帳號、地址、地號、建號。"
+ }
+}

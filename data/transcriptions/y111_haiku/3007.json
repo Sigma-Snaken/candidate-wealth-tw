@@ -1,0 +1,62 @@
+{"seq": "3007", "model": "claude-haiku", "data": {
+ "declarant": "潘翠雲",
+ "declare_date": "民國111年8月31日",
+ "spouse": "洪進謀",
+ "minor_children_count": 0,
+ "total_pages": 18,
+ "land": [
+  {"location": "新北市新莊區雙鳳段", "area_m2": 19.04, "share": "303/10000", "owner": "潘翠雲", "acquired": "99.07.21", "reason": "買賣", "price": "合併建物共570萬元"}
+ ],
+ "land_count": 1,
+ "buildings": [
+  {"location": "新北市新莊區新北大道七段", "area_m2": 113.5, "share": "1", "owner": "潘翠雲", "acquired": "99.07.21", "reason": "買賣", "price": "合併土地共570萬元"}
+ ],
+ "building_count": 1,
+ "ships": [],
+ "vehicles": [
+  {"desc": "國瑞 UPIEPE（汽缸容量1497cc）", "owner": "潘翠雲", "acquired": "94.01.28", "price": "50萬"}
+ ],
+ "vehicle_count": 1,
+ "aircraft": [],
+ "cash": [],
+ "cash_total_twd": null,
+ "deposits": [],
+ "deposit_count": 0,
+ "deposit_total_twd": null,
+ "securities_total_twd": 126726,
+ "stocks": [],
+ "stock_count": 0,
+ "stock_total_twd": null,
+ "bonds": [],
+ "bond_total_twd": null,
+ "funds": [
+  {"name": "安聯中國東協", "code": "8614", "owner": "潘翠雲", "units": 9931.5, "par": 12.76, "currency": null, "twd": 126726}
+ ],
+ "fund_total_twd": 126726,
+ "other_securities": [],
+ "other_securities_total_twd": null,
+ "other_assets": [],
+ "other_assets_total_twd": null,
+ "insurance": [
+  {"desc": "法國巴黎人壽 威利100變額萬能壽險保險專案", "owner": "潘翠雲", "amount_twd": 100000, "note": "投資型壽險；保險金額100000；契約始日2018/8/2（補1第19頁）"},
+  {"desc": "遠雄人壽 終身壽險", "owner": "潘翠雲", "amount_twd": 438874, "note": "儲蓄型；保險金額226150；契約始日1998/12/9（補1第19頁）"},
+  {"desc": "臺灣人壽 長發還本終身保險", "owner": "潘翠雲", "amount_twd": 660200, "note": "儲蓄型；保險金額500000；契約始日1997/5/1（補1第19頁）"},
+  {"desc": "國泰人壽 得意還本終身壽險", "owner": "潘翠雲", "amount_twd": 417600, "note": "儲蓄型；保險金額300000；契約始日2000/6/26，契約終日2020/6/26（補1第19頁）"},
+  {"desc": "國泰人壽 富貴保本三福", "owner": "潘翠雲", "amount_twd": 303600, "note": "儲蓄型；保險金額300000；契約始日1998/8/24，契約終日2008/8/24（補1第19頁）"},
+  {"desc": "中國人壽 悠遊人生變額壽險", "owner": "潘翠雲", "amount_twd": 294000, "note": "投資型；保險金額2500000；契約始日2009/12/29（補1第19頁）"},
+  {"desc": "中國人壽 悠遊人生變額壽險", "owner": "洪進謀", "amount_twd": 503000, "note": "投資型；保險金額1000000；契約始日2009/12/29（補1第19頁）"}
+ ],
+ "insurance_count": 7,
+ "debt_claims": [],
+ "debt_claims_total_twd": null,
+ "debts": [
+  {"desc": "信用貸款／國泰世華銀行", "owner": "潘翠雲", "amount_twd": 1260372, "note": "取得時間 108.11.12，原因 消費性貸款"},
+  {"desc": "房屋貸款／華南銀行", "owner": "潘翠雲", "amount_twd": 2276498, "note": "取得時間 99.07.21，原因 房屋貸款"}
+ ],
+ "debts_count": 2,
+ "debts_total_twd": 3536870,
+ "business_investments": [],
+ "business_investments_total_twd": null,
+ "trust_items": [],
+ "notes": "本表有補1（3007_1.pdf，完整重送本，共19頁）。第1至18頁內容與原本（3007_0.pdf）逐項比對一致；第19頁為更新後之保險表（取代原第14頁14筆保險），保險以補1第19頁為準，共7筆，累積已繳保險費折合新臺幣總額2,717,274元。保險表頭折合新臺幣總金額以分項加總為準。申報日取表上「申報日」民國111年8月31日（交件日亦為111年8月31日）。配偶洪進謀；配偶及未成年子女表僅列配偶，未成年子女人數記為0。保險被保險人洪仔慧、洪仔霈（原第14頁備註）於補1已不列。土地、建物欄位與原本一致。有價證券：基金1筆，外幣幣別欄為TWD，記為null。存款、現金、股票、債券、其他財產、債權、事業投資之總申報筆數皆為0，總金額欄空白，填null。債務表總金額3,536,870與分項加總一致。債權人地址未輸出；建物門牌號碼及地號未輸出。"
+}}

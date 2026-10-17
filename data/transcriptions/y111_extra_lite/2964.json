@@ -1,0 +1,1 @@
+{"seq": "2964", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 20.1, "via": "gemini-api", "usage": {"in": 31200, "out": 94, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本案包含原申報表與後續補正文件（補1、補2）。補正內容新增了部分保險與債務資料（第19至21頁），並取代原表的對應項目。"}}

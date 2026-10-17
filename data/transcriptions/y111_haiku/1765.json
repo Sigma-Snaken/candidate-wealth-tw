@@ -1,0 +1,118 @@
+{
+  "seq": "1765",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "許進榮",
+    "declare_date": null,
+    "spouse": "鄭淑敏",
+    "minor_children_count": 0,
+    "total_pages": 16,
+    "land": [
+      {
+        "location": "臺東縣成功鎮沙灣段",
+        "area_m2": 3785.01,
+        "share": "全部",
+        "owner": "許進榮",
+        "acquired": "106.6（日不清）",
+        "reason": "夫妻贈與",
+        "price": null
+      },
+      {
+        "location": "臺東縣成功鎮沙灣段",
+        "area_m2": 5712.12,
+        "share": "全部",
+        "owner": "許進榮",
+        "acquired": "106.6（日不清）",
+        "reason": "夫妻贈與",
+        "price": null
+      }
+    ],
+    "land_count": 2,
+    "buildings": [],
+    "building_count": 0,
+    "ships": [
+      {
+        "desc": "釣船（一支）",
+        "owner": "許進榮",
+        "acquired": "106.8.16",
+        "price": "1700000"
+      }
+    ],
+    "vehicles": [
+      {
+        "desc": "鈴木(汽車)",
+        "owner": "鄭淑敏",
+        "acquired": "106.7.1",
+        "price": "120000"
+      },
+      {
+        "desc": "BENZ(汽車)",
+        "owner": "鄭淑敏",
+        "acquired": null,
+        "price": "300000"
+      },
+      {
+        "desc": "馬自達(汽車)",
+        "owner": "鄭淑敏",
+        "acquired": "100.10.16",
+        "price": "360000"
+      }
+    ],
+    "vehicle_count": 3,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": 0,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {
+        "desc": "中華郵政公司壽險處 郵政簡易人壽（儲蓄型保險，名稱手寫模糊）",
+        "owner": "許進榮",
+        "amount_twd": 360000,
+        "note": "累積已繳保險費折合新臺幣 360000；保險金額手寫約 1200000，數字不清；契約期間手寫不清"
+      }
+    ],
+    "insurance_count": 1,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {
+        "desc": "授信－漁會信用部（臺東縣新港區，手寫判讀）",
+        "owner": "許進榮",
+        "amount_twd": 201645,
+        "note": "取得時間 110年6月（日不清）；原因 消費性週轉金"
+      },
+      {
+        "desc": "授信－漁會信用部（臺東縣新港區，手寫判讀）",
+        "owner": "許進榮",
+        "amount_twd": 968939,
+        "note": "取得時間 106年1月（日不清）；原因 擔保設備資金；債務人手寫模糊，判讀為許進榮"
+      },
+      {
+        "desc": "授信－漁會信用部（臺東縣成功鎮，手寫判讀）",
+        "owner": "鄭淑敏（判讀，手寫模糊）",
+        "amount_twd": 708202,
+        "note": "取得時間 110年6月（日不清）；原因 消費性週轉金"
+      }
+    ],
+    "debts_count": 3,
+    "debts_total_twd": 1878786,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 申報日欄空白，交件日為民國111年9月1日（第16頁）。2) 配偶姓名手寫模糊，判讀為鄭淑敏（第2-3字存疑）；鄭淑敏同時列為車輛所有人與債務人。3) 土地面積手寫：第1筆判讀 3785.01（第2字似 7，存疑），第2筆判讀 5712.12（第2字存疑）；土地取得時間日不清；土地取得價額欄為公告現值手寫（每平方公尺約430元、450元，年份不清），未填入 price。4) 船舶總噸數手寫 11.70。5) 第6頁 現金、第7頁 存款、第8頁 有價證券 總額皆為 0。6) 債務 三列：債權人為漁會信用部（手寫模糊，地名判讀為新港區/成功鎮）；列2 金額原讀 968239，依總金額與三列加總（201645+968939+708202=1878786）改判為 968939；表頭總金額手寫判讀 1,878,786（原先誤讀為 1,578,786，已改）。7) 地址、門牌、地號、保單號碼、車牌、帳號均未輸出。"
+  }
+}

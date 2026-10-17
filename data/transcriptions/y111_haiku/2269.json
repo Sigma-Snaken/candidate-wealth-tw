@@ -1,0 +1,68 @@
+{"seq": "2269", "model": "claude-haiku", "data": {
+"declarant": "馮印才",
+"declare_date": "民國111年9月1日",
+"spouse": "杜麗娟",
+"minor_children_count": 0,
+"total_pages": null,
+"land": [],
+"land_count": 0,
+"buildings": [
+{"location": "連江縣東引鄉中柳村", "area_m2": 51.83, "share": "全部", "owner": "馮印才", "acquired": "100.07.06", "reason": "買賣", "price": "2000000"},
+{"location": "連江縣東引鄉中柳村", "area_m2": 49.38, "share": "全部", "owner": "馮印才", "acquired": "90.01.16", "reason": "買賣", "price": "2000000"},
+{"location": "新北市淡水區", "area_m2": 48, "share": "全部", "owner": "杜麗娟", "acquired": "93年", "reason": "買賣", "price": "18000000"},
+{"location": "新北市淡水區", "area_m2": 13, "share": "全部", "owner": "杜麗娟", "acquired": "82年", "reason": "買賣", "price": "5500000"}
+],
+"building_count": 4,
+"ships": [],
+"vehicles": [
+{"desc": "國瑞 豐田 VIOS（汽缸容量1497）", "owner": "馮印才", "acquired": "103.08.19", "price": "520000"},
+{"desc": "中華 CO16SA（汽缸容量1584）", "owner": "馮印才", "acquired": "104.08.20", "price": "200000"},
+{"desc": "現代（汽缸容量2199）", "owner": "馮印才", "acquired": "103.06.25", "price": "500000"}
+],
+"vehicle_count": 3,
+"aircraft": [],
+"cash": [
+{"currency": "新臺幣", "owner": "杜麗娟", "foreign_amount": null, "twd": 500000}
+],
+"cash_total_twd": 500000,
+"deposits": [
+{"bank": "馬祖東引郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "馮印才", "foreign_amount": null, "twd": 350000},
+{"bank": "淡水竹圍郵局", "kind": "定期存款", "currency": "新臺幣", "owner": "杜麗娟", "foreign_amount": null, "twd": 8000000}
+],
+"deposit_count": 2,
+"deposit_total_twd": 8350000,
+"securities_total_twd": 3000000,
+"stocks": [
+{"code": null, "name": "台積電", "owner": "杜麗娟", "shares": 2400, "par": 500, "currency": null, "twd": 1200000},
+{"code": null, "name": "華碩", "owner": "杜麗娟", "shares": 2400, "par": 250, "currency": null, "twd": 600000},
+{"code": null, "name": "中華電信", "owner": "杜麗君", "shares": 10000, "par": 120, "currency": null, "twd": 1200000}
+],
+"stock_count": 3,
+"stock_total_twd": 3000000,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [],
+"insurance_count": 0,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [],
+"debts_count": 0,
+"debts_total_twd": 0,
+"business_investments": [
+{"desc": "台灣駿英國際股份有限公司", "owner": "馮印才", "amount_twd": 40000000, "note": "99.05.20取得，個人投資"},
+{"desc": "東湧船舶運輸股份有限公司", "owner": "馮印才", "amount_twd": 1400000, "note": "77.11.24取得，個人投資"},
+{"desc": "東引船舶運輸股份有限公司", "owner": "馮印才", "amount_twd": 4400000, "note": "109.03.10取得，個人投資"},
+{"desc": "東引裝卸行", "owner": "馮印才", "amount_twd": 6400000, "note": "94.05.23取得，個人投資"},
+{"desc": "東湧超級市場", "owner": "馮印才", "amount_twd": 200000, "note": "82.04.02取得，個人投資"},
+{"desc": "東湧興業有限公司", "owner": "馮印才", "amount_twd": 300000, "note": "109.01.17取得，個人投資"}
+],
+"business_investments_total_twd": 52700000,
+"trust_items": [],
+"notes": "依原表（僅 2269_0.pdf，無補正檔）轉錄。PDF 共18頁，頁碼欄為空白，total_pages 填 null。土地表為空，land_count 依空表填 0；頁尾總申報筆數被印章遮住，以空表判定。現金總額手寫「500000」附近有印章，判讀為 500000，與明細相符。股票名稱欄無代碼，code 皆為 null；股數、票面價額依手寫判讀，台積電票面 500、華碩票面 250、中華電信票面 120，請複核。基金、債券、保險、債權、債務、其他有價證券皆為空表，數字為 0。汽車汽缸容量併入 desc。建物地址省略門牌（民權路）。身分證、電話、帳號、保單號碼等已省略。"
+}}

@@ -1,0 +1,1 @@
+{"seq": "3446", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 8.0, "via": "gemini-api", "usage": {"in": 7792, "out": 107, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本申報案包含一份原申報表及一份補正文件，補正主要針對未成年子女財產等相關欄位進行更正，但因船舶、汽車、航空器及外幣資產申報數均為零，故無實質欄位異動。"}}

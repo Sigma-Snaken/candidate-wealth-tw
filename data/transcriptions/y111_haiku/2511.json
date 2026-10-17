@@ -1,0 +1,98 @@
+{"seq": "2511", "model": "claude-haiku", "data": {
+"declarant": "李正文",
+"declare_date": "民國111年8月31日",
+"spouse": "曾薰萱",
+"minor_children_count": 0,
+"total_pages": 11,
+"land": [
+{"location": "花蓮縣吉安鄉吉興段", "area_m2": 35.61, "share": "全部", "owner": "李正文", "acquired": "106/09/30", "reason": "分割繼承", "price": "815469"},
+{"location": "花蓮縣吉安鄉吉興段", "area_m2": 336.01, "share": "全部", "owner": "李正文", "acquired": "106/09/30", "reason": "分割繼承", "price": "7694629"},
+{"location": "花蓮縣吉安鄉吉興段", "area_m2": 184.58, "share": "全部", "owner": "李正文", "acquired": "106/09/30", "reason": "分割繼承", "price": "4226882"},
+{"location": "花蓮縣吉安鄉吉興段", "area_m2": 51.16, "share": "全部", "owner": "李正文", "acquired": "106/09/30", "reason": "分割繼承", "price": "1171564"},
+{"location": "花蓮縣吉安鄉吉興段", "area_m2": 8.8, "share": "全部", "owner": "李正文", "acquired": "106/09/30", "reason": "分割繼承", "price": "201520"},
+{"location": "花蓮縣吉安鄉光英段", "area_m2": 57.93, "share": "1/2", "owner": "李正文", "acquired": "107/05/07", "reason": "繼承", "price": "72413"},
+{"location": "花蓮縣吉安鄉光英段", "area_m2": 1365.21, "share": "1/2", "owner": "李正文", "acquired": "107/05/07", "reason": "繼承", "price": "1706513"},
+{"location": "花蓮縣光復鄉南富段", "area_m2": 14579.48, "share": "全部", "owner": "曾薰萱", "acquired": "108/11/07", "reason": "權利取得", "price": "2041127"},
+{"location": "花蓮縣光復鄉南富段", "area_m2": 15518.31, "share": "1/4", "owner": "曾薰萱", "acquired": "108/10/08", "reason": "權利取得", "price": "543141"}
+],
+"land_count": 9,
+"buildings": [
+{"location": "花蓮縣吉安鄉南昌村", "area_m2": 224.4, "share": "全部", "owner": "李正文", "acquired": "106/09/30", "reason": "繼承", "price": "327000"},
+{"location": "花蓮縣吉安鄉吉興段", "area_m2": 212.86, "share": "全部", "owner": "李正文", "acquired": "106/09/30", "reason": "分割繼承", "price": "327000"}
+],
+"building_count": 2,
+"ships": [],
+"vehicles": [
+{"desc": "國瑞(汽車)", "owner": "曾薰萱", "acquired": "104/06/17", "price": null},
+{"desc": "中華(汽車)", "owner": "曾薰萱", "acquired": "106/09/30", "price": null}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "永豐銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 1187267},
+{"bank": "元大銀行花蓮分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 16502},
+{"bank": "元大銀行花蓮分行", "kind": "活期存款", "currency": "美元", "owner": "曾薰萱", "foreign_amount": 47.73, "twd": 1331.7},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 289468},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 399},
+{"bank": "花蓮縣吉安鄉農會信用部", "kind": "活期存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 2810},
+{"bank": "花蓮第二信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 1184057.5},
+{"bank": "花蓮第二信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 172},
+{"bank": "花蓮第一信用合作社營業部", "kind": "活期證券戶", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 100},
+{"bank": "花蓮第一信用合作社營業部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 1733},
+{"bank": "花蓮第一信用合作社營業部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 416772},
+{"bank": "台北富邦銀行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 10612},
+{"bank": "彰化銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 1879},
+{"bank": "彰化銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 829},
+{"bank": "華南銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 131},
+{"bank": "華南銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 741},
+{"bank": "合作金庫", "kind": "活期存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 77},
+{"bank": "合作金庫", "kind": "活期存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 963},
+{"bank": "土地銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李正文", "foreign_amount": null, "twd": 18},
+{"bank": "土地銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "曾薰萱", "foreign_amount": null, "twd": 332}
+],
+"deposit_count": 20,
+"deposit_total_twd": 3116194.2,
+"securities_total_twd": 27510,
+"stocks": [
+{"code": "2353", "name": "宏碁", "owner": "李正文", "shares": 783, "par": 10, "currency": null, "twd": 7830},
+{"code": "2337", "name": "旺宏", "owner": "李正文", "shares": 523, "par": 10, "currency": null, "twd": 5230},
+{"code": "2303", "name": "聯電", "owner": "李正文", "shares": 1445, "par": 10, "currency": null, "twd": 14450}
+],
+"stock_count": 3,
+"stock_total_twd": 27510,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "富邦人壽保險 安泰人壽靈活理財變額保險乙型", "owner": "李正文", "amount_twd": 216000, "note": "投資型壽險；契約 094/03/03~160/03/03；保險金額 1560000"},
+{"desc": "元大人壽保險 元大人壽永愛終身壽險", "owner": "曾薰萱", "amount_twd": 74167, "note": "儲蓄型壽險；契約 104/02/24~終身；保險金額 300000"},
+{"desc": "元大人壽保險 元大人壽新享有利增額終身壽險", "owner": "曾薰萱", "amount_twd": 416284, "note": "儲蓄型壽險；契約 103/12/24~終身；保險金額 392640"},
+{"desc": "元大人壽保險 紐約人壽安心保本防癌保險", "owner": "曾薰萱", "amount_twd": 285384, "note": "儲蓄型壽險；契約 099/01/19~124/01/19；保險金額 500000"},
+{"desc": "中國人壽保險 中國人壽傳富一生終身壽險(定期給付型)", "owner": "曾薰萱", "amount_twd": 15824, "note": "儲蓄型壽險；契約 110/10/18~終身；保險金額 200000"}
+],
+"insurance_count": 5,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "保單借款／富邦人壽保險公司", "owner": "李正文", "amount_twd": 115403, "note": "取得 093/04/16；原因：增值分紅終身壽險(繳費二十年)保單借款"},
+{"desc": "授信／花蓮縣吉安鄉農會信用部", "owner": "李正文", "amount_twd": 1003181, "note": "取得 103/08/15；原因：購買其他不動產"},
+{"desc": "保單借款／元大人壽保險公司", "owner": "曾薰萱", "amount_twd": 126966, "note": "取得 102/08/01；原因：紐約人壽安心保本防癌保險借款"},
+{"desc": "保單借款／元大人壽保險公司", "owner": "曾薰萱", "amount_twd": 321407, "note": "取得 106/01/24；原因：元大人壽永愛終身壽險保險借款"},
+{"desc": "授信／土地銀行花蓮分行", "owner": "曾薰萱", "amount_twd": 27045, "note": "取得 104/01/29；原因：其他個人金融貸款"}
+],
+"debts_count": 5,
+"debts_total_twd": 1594002,
+"business_investments": [
+{"desc": "花蓮第二信用合作社", "owner": "李正文", "amount_twd": 4000, "note": "取得 107/05/22；原因：股金"}
+],
+"business_investments_total_twd": 4000,
+"trust_items": [],
+"notes": "交件日 111年8月31日。建物一「花蓮縣吉安鄉南昌村9鄰文化八街30巷」含門牌，依規則僅保留村里。建物一取得價額原文為「327,000（含陽台24.78平方公尺，與第一筆至第五筆土地及建物第一筆合併繼承）」，price 僅記數字。土地一至五取得價額原文含「土地公告現值每平方公尺22900元」等註記，僅記數字。債權人地址（農會、土地銀行）與保單號碼、帳號皆省略。汽車取得價額欄空白。保險 insurance_count 與表上總申報筆數 5 相符，保險累積已繳總額 1,007,659 與逐筆相加相符。"
+}}

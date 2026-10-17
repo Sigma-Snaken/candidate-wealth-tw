@@ -1,0 +1,54 @@
+{
+  "seq": "2937",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "周陳曉玟",
+    "declare_date": "民國111年8月31日",
+    "spouse": null,
+    "minor_children_count": 2,
+    "total_pages": 18,
+    "land": [
+      {"location": "屏東縣三地門鄉新東寶段", "area_m2": 66.1, "share": "全部", "owner": "周陳曉玟", "acquired": "102/4/17", "reason": "買賣", "price": "超過五年"},
+      {"location": "屏東縣春日鄉七佳段", "area_m2": 81.04, "share": "全部", "owner": "周陳曉玟", "acquired": "111/12/07", "reason": "買賣", "price": "與建物一起取得"}
+    ],
+    "land_count": 2,
+    "buildings": [
+      {"location": "屏東縣春日鄉", "area_m2": 66.1, "share": "1/2", "owner": "周陳曉玟", "acquired": "111/12/07", "reason": "買賣", "price": "150000"}
+    ],
+    "building_count": 1,
+    "ships": [],
+    "vehicles": [
+      {"desc": "國瑞", "owner": "周陳曉玟", "acquired": "111/1", "price": "810000"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": null,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": null,
+    "securities_total_twd": null,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": null,
+    "bonds": [],
+    "bond_total_twd": null,
+    "funds": [],
+    "fund_total_twd": null,
+    "other_securities": [],
+    "other_securities_total_twd": null,
+    "other_assets": [],
+    "other_assets_total_twd": null,
+    "insurance": [],
+    "insurance_count": 0,
+    "debt_claims": [],
+    "debt_claims_total_twd": null,
+    "debts": [],
+    "debts_count": 0,
+    "debts_total_twd": null,
+    "business_investments": [],
+    "business_investments_total_twd": null,
+    "trust_items": [],
+    "notes": "1) 掃描為橫向旋轉頁面，已旋轉後逐頁判讀。2) 配偶欄未填，無配偶；未成年子女2人（兒、女），僅列人數。3) 土地2筆、建物1筆、汽車1筆，總申報筆數分別為2、1、1，與表上數字相符；飛機、船舶為0筆。4) 土地第1筆段名手寫判讀存疑（屏東縣三地門鄉新東寶段），第2筆段名判讀為七佳段存疑；土地與建物坐落僅抄至鄉鎮段，地號、建號與門牌未填。5) 建物持分手寫『○分之一』，判讀為1/2，請覆核。6) 建物與土地第1筆面積皆為66.1，依表上所示。7) 取得時間『111/12/07』與『111/1』為手寫判讀，汽車取得時間僅見『111/1』。8) 取得價額原文：建物『15萬』轉為150000；汽車『81萬』轉為810000；土地第1筆『超過五年』、第2筆『與建物一起取得』保留原文。9) 現金、存款、股票、基金、債券、其他有價證券、珠寶等其他財產、保險、債權、債務、事業投資皆為0筆；表頭總金額欄空白，以null表示。10) 汽車品牌為『國瑞』，取得原因『買賣』，因schema無原因欄位而未納入JSON；車牌號碼未列入。11) 第18頁交件日111年9月1日，備註欄空白。"
+  }
+}

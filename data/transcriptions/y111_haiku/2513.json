@@ -1,0 +1,460 @@
+{
+ "seq": "2513",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "徐雪玉",
+  "declare_date": "民國111年8月26日",
+  "spouse": "陳新發",
+  "minor_children_count": 0,
+  "total_pages": 12,
+  "land": [
+   {
+    "location": "花蓮縣壽豐鄉烏代段",
+    "area_m2": 137.49,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "105/10/18",
+    "reason": "分割繼承",
+    "price": "(土地公告現值每平方公尺1000元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉烏代段",
+    "area_m2": 443.89,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "105/10/18",
+    "reason": "分割繼承",
+    "price": "(土地公告現值每平方公尺1000元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉烏代段",
+    "area_m2": 2318.43,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "105/10/18",
+    "reason": "分割繼承",
+    "price": "(土地公告現值每平方公尺1000元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉東華段",
+    "area_m2": 52.65,
+    "share": "全部",
+    "owner": "徐雪玉",
+    "acquired": "094/03/23",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺21300元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉東華段",
+    "area_m2": 68.43,
+    "share": "全部",
+    "owner": "徐雪玉",
+    "acquired": "094/03/23",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺19500元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉志新段",
+    "area_m2": 100.47,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "079/04/20",
+    "reason": "贈與",
+    "price": "(土地公告現值每平方公尺8900元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉志新段",
+    "area_m2": 267.27,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "079/04/20",
+    "reason": "贈與",
+    "price": "(土地公告現值每平方公尺8900元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉志新段",
+    "area_m2": 83.7,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "079/04/20",
+    "reason": "贈與",
+    "price": "(土地公告現值每平方公尺8900元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉志新段",
+    "area_m2": 134.56,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "088/06/04",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺2300元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉志新段",
+    "area_m2": 3116.92,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "091/06/10",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺2300元)"
+   },
+   {
+    "location": "花蓮縣壽豐鄉吳全段",
+    "area_m2": 3091.71,
+    "share": "1/3",
+    "owner": "陳新發",
+    "acquired": "105/10/18",
+    "reason": "分割繼承",
+    "price": "(土地公告現值每平方公尺1400元)"
+   }
+  ],
+  "land_count": 11,
+  "buildings": [
+   {
+    "location": "花蓮縣壽豐鄉志學村",
+    "area_m2": 71.6,
+    "share": "全部",
+    "owner": "徐雪玉",
+    "acquired": "094/03/14",
+    "reason": "買賣",
+    "price": "47900"
+   },
+   {
+    "location": "花蓮縣壽豐鄉志新段",
+    "area_m2": 220.9,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "106/04/20",
+    "reason": "贈與",
+    "price": "994500"
+   },
+   {
+    "location": "花蓮縣壽豐鄉志新段",
+    "area_m2": 226,
+    "share": "全部",
+    "owner": "陳新發",
+    "acquired": "080/04/30",
+    "reason": "第一次登記",
+    "price": null
+   }
+  ],
+  "building_count": 3,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "Mercedes-Benz 汽車",
+    "owner": "陳新發",
+    "acquired": "106/01/11",
+    "price": "4000000"
+   },
+   {
+    "desc": "Mercedes-Benz 汽車",
+    "owner": "徐雪玉",
+    "acquired": "104/12/25",
+    "price": "2790000"
+   }
+  ],
+  "vehicle_count": 2,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+   {
+    "bank": "花蓮縣花蓮市農會信用部",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 8736
+   },
+   {
+    "bank": "中信銀行花蓮分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 1006
+   },
+   {
+    "bank": "中信銀行花蓮分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 1166
+   },
+   {
+    "bank": "郵政儲金匯業局",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 2027345
+   },
+   {
+    "bank": "郵政儲金匯業局",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 104971
+   },
+   {
+    "bank": "花蓮縣壽豐鄉農會信用部志學分部",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 1933
+   },
+   {
+    "bank": "花蓮縣壽豐鄉農會信用部志學分部",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 33237
+   },
+   {
+    "bank": "花蓮第二信用合作社",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 1931
+   },
+   {
+    "bank": "花蓮第二信用合作社",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 6544
+   },
+   {
+    "bank": "花蓮第一信用合作社信義簡易型分社",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 66229
+   },
+   {
+    "bank": "花蓮第一信用合作社信義簡易型分社",
+    "kind": "支票存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 1531
+   },
+   {
+    "bank": "花蓮第一信用合作社營業部",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 133
+   },
+   {
+    "bank": "花蓮第一信用合作社中華分社",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 21037
+   },
+   {
+    "bank": "花蓮第一信用合作社中華分社",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 53
+   },
+   {
+    "bank": "花蓮第一信用合作社復興分社",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 6606
+   },
+   {
+    "bank": "國泰世華銀行花蓮分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 5076
+   },
+   {
+    "bank": "國泰世華銀行花蓮分行",
+    "kind": "活期存款",
+    "currency": "美元",
+    "owner": "徐雪玉",
+    "foreign_amount": 16578.73,
+    "twd": 500180.28
+   },
+   {
+    "bank": "合庫商業銀行北花蓮分行",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 1174
+   },
+   {
+    "bank": "臺灣銀行花蓮分行",
+    "kind": "綜合存款",
+    "currency": "新臺幣",
+    "owner": "陳新發",
+    "foreign_amount": null,
+    "twd": 1041
+   },
+   {
+    "bank": "臺灣銀行花蓮分行",
+    "kind": "綜合存款",
+    "currency": "新臺幣",
+    "owner": "徐雪玉",
+    "foreign_amount": null,
+    "twd": 1328
+   }
+  ],
+  "deposit_count": 20,
+  "deposit_total_twd": 2791257.28,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+   {
+    "desc": "國泰人壽 新呵護久久失能照護",
+    "owner": "徐雪玉",
+    "amount_twd": 528620,
+    "note": null
+   },
+   {
+    "desc": "國泰人壽 新美寧年年利變",
+    "owner": "徐雪玉",
+    "amount_twd": 965293.72,
+    "note": "外幣31996（美元，匯率30.17）"
+   },
+   {
+    "desc": "國泰人壽 慈美鑫利變美元",
+    "owner": "徐雪玉",
+    "amount_twd": 412624.15,
+    "note": "外幣13677（美元，匯率30.17）"
+   },
+   {
+    "desc": "國泰人壽 萬代福211",
+    "owner": "徐雪玉",
+    "amount_twd": 116343,
+    "note": null
+   },
+   {
+    "desc": "國泰人壽 達康101終身",
+    "owner": "徐雪玉",
+    "amount_twd": 178201,
+    "note": null
+   },
+   {
+    "desc": "國泰人壽 新呵護久久失能照護",
+    "owner": "陳新發",
+    "amount_twd": 797940,
+    "note": null
+   },
+   {
+    "desc": "國泰人壽 新鑽情終身壽險",
+    "owner": "陳新發",
+    "amount_twd": 238272,
+    "note": null
+   },
+   {
+    "desc": "國泰人壽 安心保住院醫療終身保險",
+    "owner": "陳新發",
+    "amount_twd": 262095,
+    "note": null
+   },
+   {
+    "desc": "台灣人壽 還本終身保險",
+    "owner": "徐雪玉",
+    "amount_twd": 1399200,
+    "note": null
+   },
+   {
+    "desc": "台灣人壽 還本終身保險",
+    "owner": "徐雪玉",
+    "amount_twd": 1412400,
+    "note": null
+   }
+  ],
+  "insurance_count": 10,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "授信 花蓮市第一信用合作社信義簡易型分社",
+    "owner": "陳新發",
+    "amount_twd": 1000000,
+    "note": "取得時間110/08/26；週轉金"
+   },
+   {
+    "desc": "授信 花蓮市第一信用合作社信義簡易型分社",
+    "owner": "陳新發",
+    "amount_twd": 1700000,
+    "note": "取得時間108/12/23；週轉金"
+   },
+   {
+    "desc": "授信 花蓮市第一信用合作社信義簡易型分社",
+    "owner": "陳新發",
+    "amount_twd": 1800000,
+    "note": "取得時間110/01/27；週轉金"
+   },
+   {
+    "desc": "授信 花蓮市第一信用合作社信義簡易型分社",
+    "owner": "陳新發",
+    "amount_twd": 1000000,
+    "note": "取得時間109/10/29；週轉金"
+   }
+  ],
+  "debts_count": 4,
+  "debts_total_twd": 5500000,
+  "business_investments": [
+   {
+    "desc": "花蓮第二信用合作社",
+    "owner": "徐雪玉",
+    "amount_twd": 2000,
+    "note": "取得時間096/11/12；股金"
+   },
+   {
+    "desc": "花蓮第二信用合作社",
+    "owner": "陳新發",
+    "amount_twd": 2000,
+    "note": "取得時間098/08/04；股金"
+   },
+   {
+    "desc": "有限責任花蓮第一信用合作社",
+    "owner": "徐雪玉",
+    "amount_twd": 5100,
+    "note": "取得時間101/04/17；股金"
+   },
+   {
+    "desc": "有限責任花蓮第一信用合作社",
+    "owner": "陳新發",
+    "amount_twd": 10300,
+    "note": "取得時間101/04/17；股金"
+   }
+  ],
+  "business_investments_total_twd": 19400,
+  "trust_items": [],
+  "notes": "1)建物01位置去除門牌（007鄰中正路），僅留到村里；建物03取得價額欄為「(含陽台9.11平方公尺)」非金額，price 填 null。2)土地取得價額欄為土地公告現值說明文字，依原文保留。3)存款各列之存放機構已去除前綴機構代碼（數字），未含帳號；第17列為美元存款，外幣16578.73，折合新臺幣500180.28，匯率30.17。4)保險逐筆加總為6310988.88，表上手寫總額為6,310,988.87（差0.01，依表照填未另改，逐筆值已依表）。5)保單號碼、車牌、債權人地址、事業投資地址均未納入。6)交件日111年9月1日。"
+ }
+}

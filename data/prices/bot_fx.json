@@ -1,0 +1,2297 @@
+{
+"2026-08-24": {
+"USD": {
+"cash_buy": 31.465,
+"cash_sell": 32.135,
+"spot_buy": 31.815,
+"spot_sell": 31.915,
+"mid": 31.865
+},
+"HKD": {
+"cash_buy": 3.909,
+"cash_sell": 4.113,
+"spot_buy": 4.035,
+"spot_sell": 4.095,
+"mid": 4.065
+},
+"GBP": {
+"cash_buy": 42.24,
+"cash_sell": 44.36,
+"spot_buy": 43.25,
+"spot_sell": 43.65,
+"mid": 43.45
+},
+"AUD": {
+"cash_buy": 22.43,
+"cash_sell": 23.21,
+"spot_buy": 22.72,
+"spot_sell": 22.92,
+"mid": 22.82
+},
+"CAD": {
+"cash_buy": 22.53,
+"cash_sell": 23.44,
+"spot_buy": 22.93,
+"spot_sell": 23.13,
+"mid": 23.03
+},
+"SGD": {
+"cash_buy": 24.51,
+"cash_sell": 25.42,
+"spot_buy": 25.0,
+"spot_sell": 25.18,
+"mid": 25.09
+},
+"CHF": {
+"cash_buy": 38.91,
+"cash_sell": 40.11,
+"spot_buy": 39.59,
+"spot_sell": 39.84,
+"mid": 39.715
+},
+"JPY": {
+"cash_buy": 0.1909,
+"cash_sell": 0.2037,
+"spot_buy": 0.1982,
+"spot_sell": 0.2022,
+"mid": 0.2002
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.95,
+"spot_sell": 2.03,
+"mid": 1.99
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.31,
+"spot_sell": 3.41,
+"mid": 3.36
+},
+"NZD": {
+"cash_buy": 18.54,
+"cash_sell": 19.39,
+"spot_buy": 18.92,
+"spot_sell": 19.12,
+"mid": 19.02
+},
+"THB": {
+"cash_buy": 0.8472,
+"cash_sell": 1.0372,
+"spot_buy": 0.9606,
+"spot_sell": 1.0006,
+"mid": 0.9806
+},
+"PHP": {
+"cash_buy": 0.4504,
+"cash_sell": 0.5824,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5164
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 36.36,
+"cash_sell": 37.7,
+"spot_buy": 36.98,
+"spot_sell": 37.38,
+"mid": 37.18
+},
+"KRW": {
+"cash_buy": 0.02129,
+"cash_sell": 0.02519,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02324
+},
+"VND": {
+"cash_buy": 0.00099,
+"cash_sell": 0.0014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00119
+},
+"MYR": {
+"cash_buy": 6.858,
+"cash_sell": 8.383,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.6205
+},
+"CNY": {
+"cash_buy": 4.641,
+"cash_sell": 4.803,
+"spot_buy": 4.713,
+"spot_sell": 4.763,
+"mid": 4.738
+}
+},
+"2026-08-25": {
+"USD": {
+"cash_buy": 31.47,
+"cash_sell": 32.14,
+"spot_buy": 31.82,
+"spot_sell": 31.92,
+"mid": 31.87
+},
+"HKD": {
+"cash_buy": 3.909,
+"cash_sell": 4.113,
+"spot_buy": 4.035,
+"spot_sell": 4.095,
+"mid": 4.065
+},
+"GBP": {
+"cash_buy": 42.27,
+"cash_sell": 44.39,
+"spot_buy": 43.28,
+"spot_sell": 43.68,
+"mid": 43.48
+},
+"AUD": {
+"cash_buy": 22.37,
+"cash_sell": 23.15,
+"spot_buy": 22.66,
+"spot_sell": 22.86,
+"mid": 22.76
+},
+"CAD": {
+"cash_buy": 22.5,
+"cash_sell": 23.41,
+"spot_buy": 22.9,
+"spot_sell": 23.1,
+"mid": 23.0
+},
+"SGD": {
+"cash_buy": 24.49,
+"cash_sell": 25.4,
+"spot_buy": 24.98,
+"spot_sell": 25.16,
+"mid": 25.07
+},
+"CHF": {
+"cash_buy": 38.83,
+"cash_sell": 40.03,
+"spot_buy": 39.51,
+"spot_sell": 39.76,
+"mid": 39.635
+},
+"JPY": {
+"cash_buy": 0.1906,
+"cash_sell": 0.2034,
+"spot_buy": 0.1979,
+"spot_sell": 0.2019,
+"mid": 0.1999
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.949,
+"spot_sell": 2.029,
+"mid": 1.989
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.3,
+"spot_sell": 3.4,
+"mid": 3.35
+},
+"NZD": {
+"cash_buy": 18.49,
+"cash_sell": 19.34,
+"spot_buy": 18.87,
+"spot_sell": 19.07,
+"mid": 18.97
+},
+"THB": {
+"cash_buy": 0.8439,
+"cash_sell": 1.0339,
+"spot_buy": 0.9573,
+"spot_sell": 0.9973,
+"mid": 0.9773
+},
+"PHP": {
+"cash_buy": 0.4503,
+"cash_sell": 0.5823,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5163
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 36.35,
+"cash_sell": 37.69,
+"spot_buy": 36.97,
+"spot_sell": 37.37,
+"mid": 37.17
+},
+"KRW": {
+"cash_buy": 0.02127,
+"cash_sell": 0.02517,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02322
+},
+"VND": {
+"cash_buy": 0.001,
+"cash_sell": 0.00141,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.0012
+},
+"MYR": {
+"cash_buy": 6.849,
+"cash_sell": 8.374,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.6115
+},
+"CNY": {
+"cash_buy": 4.643,
+"cash_sell": 4.805,
+"spot_buy": 4.715,
+"spot_sell": 4.765,
+"mid": 4.74
+}
+},
+"2026-08-26": {
+"USD": {
+"cash_buy": 31.42,
+"cash_sell": 32.09,
+"spot_buy": 31.77,
+"spot_sell": 31.87,
+"mid": 31.82
+},
+"HKD": {
+"cash_buy": 3.902,
+"cash_sell": 4.106,
+"spot_buy": 4.028,
+"spot_sell": 4.088,
+"mid": 4.058
+},
+"GBP": {
+"cash_buy": 42.17,
+"cash_sell": 44.29,
+"spot_buy": 43.18,
+"spot_sell": 43.58,
+"mid": 43.38
+},
+"AUD": {
+"cash_buy": 22.45,
+"cash_sell": 23.23,
+"spot_buy": 22.74,
+"spot_sell": 22.94,
+"mid": 22.84
+},
+"CAD": {
+"cash_buy": 22.46,
+"cash_sell": 23.37,
+"spot_buy": 22.86,
+"spot_sell": 23.06,
+"mid": 22.96
+},
+"SGD": {
+"cash_buy": 24.48,
+"cash_sell": 25.39,
+"spot_buy": 24.97,
+"spot_sell": 25.15,
+"mid": 25.06
+},
+"CHF": {
+"cash_buy": 38.8,
+"cash_sell": 40.0,
+"spot_buy": 39.48,
+"spot_sell": 39.73,
+"mid": 39.605
+},
+"JPY": {
+"cash_buy": 0.1909,
+"cash_sell": 0.2037,
+"spot_buy": 0.1982,
+"spot_sell": 0.2022,
+"mid": 0.2002
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.957,
+"spot_sell": 2.037,
+"mid": 1.997
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.31,
+"spot_sell": 3.41,
+"mid": 3.36
+},
+"NZD": {
+"cash_buy": 18.48,
+"cash_sell": 19.33,
+"spot_buy": 18.86,
+"spot_sell": 19.06,
+"mid": 18.96
+},
+"THB": {
+"cash_buy": 0.8436,
+"cash_sell": 1.0336,
+"spot_buy": 0.957,
+"spot_sell": 0.997,
+"mid": 0.977
+},
+"PHP": {
+"cash_buy": 0.4502,
+"cash_sell": 0.5822,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5162
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 36.32,
+"cash_sell": 37.66,
+"spot_buy": 36.94,
+"spot_sell": 37.34,
+"mid": 37.14
+},
+"KRW": {
+"cash_buy": 0.02125,
+"cash_sell": 0.02515,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.0232
+},
+"VND": {
+"cash_buy": 0.001,
+"cash_sell": 0.00141,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.0012
+},
+"MYR": {
+"cash_buy": 6.882,
+"cash_sell": 8.407,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.6445
+},
+"CNY": {
+"cash_buy": 4.638,
+"cash_sell": 4.8,
+"spot_buy": 4.71,
+"spot_sell": 4.76,
+"mid": 4.735
+}
+},
+"2026-08-27": {
+"USD": {
+"cash_buy": 31.29,
+"cash_sell": 31.96,
+"spot_buy": 31.64,
+"spot_sell": 31.74,
+"mid": 31.69
+},
+"HKD": {
+"cash_buy": 3.886,
+"cash_sell": 4.09,
+"spot_buy": 4.012,
+"spot_sell": 4.072,
+"mid": 4.042
+},
+"GBP": {
+"cash_buy": 41.87,
+"cash_sell": 43.99,
+"spot_buy": 42.88,
+"spot_sell": 43.28,
+"mid": 43.08
+},
+"AUD": {
+"cash_buy": 22.37,
+"cash_sell": 23.15,
+"spot_buy": 22.66,
+"spot_sell": 22.86,
+"mid": 22.76
+},
+"CAD": {
+"cash_buy": 22.33,
+"cash_sell": 23.24,
+"spot_buy": 22.73,
+"spot_sell": 22.93,
+"mid": 22.83
+},
+"SGD": {
+"cash_buy": 24.36,
+"cash_sell": 25.27,
+"spot_buy": 24.85,
+"spot_sell": 25.03,
+"mid": 24.94
+},
+"CHF": {
+"cash_buy": 38.5,
+"cash_sell": 39.7,
+"spot_buy": 39.18,
+"spot_sell": 39.43,
+"mid": 39.305
+},
+"JPY": {
+"cash_buy": 0.1896,
+"cash_sell": 0.2024,
+"spot_buy": 0.1969,
+"spot_sell": 0.2009,
+"mid": 0.1989
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.946,
+"spot_sell": 2.026,
+"mid": 1.986
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.28,
+"spot_sell": 3.38,
+"mid": 3.33
+},
+"NZD": {
+"cash_buy": 18.36,
+"cash_sell": 19.21,
+"spot_buy": 18.74,
+"spot_sell": 18.94,
+"mid": 18.84
+},
+"THB": {
+"cash_buy": 0.8373,
+"cash_sell": 1.0273,
+"spot_buy": 0.9507,
+"spot_sell": 0.9907,
+"mid": 0.9707
+},
+"PHP": {
+"cash_buy": 0.4463,
+"cash_sell": 0.5783,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5123
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 36.12,
+"cash_sell": 37.46,
+"spot_buy": 36.74,
+"spot_sell": 37.14,
+"mid": 36.94
+},
+"KRW": {
+"cash_buy": 0.02123,
+"cash_sell": 0.02513,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02318
+},
+"VND": {
+"cash_buy": 0.00099,
+"cash_sell": 0.0014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00119
+},
+"MYR": {
+"cash_buy": 6.845,
+"cash_sell": 8.37,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.6075
+},
+"CNY": {
+"cash_buy": 4.619,
+"cash_sell": 4.781,
+"spot_buy": 4.691,
+"spot_sell": 4.741,
+"mid": 4.716
+}
+},
+"2026-08-28": {
+"USD": {
+"cash_buy": 31.215,
+"cash_sell": 31.885,
+"spot_buy": 31.565,
+"spot_sell": 31.665,
+"mid": 31.615
+},
+"HKD": {
+"cash_buy": 3.876,
+"cash_sell": 4.08,
+"spot_buy": 4.002,
+"spot_sell": 4.062,
+"mid": 4.032
+},
+"GBP": {
+"cash_buy": 41.77,
+"cash_sell": 43.89,
+"spot_buy": 42.78,
+"spot_sell": 43.18,
+"mid": 42.98
+},
+"AUD": {
+"cash_buy": 22.36,
+"cash_sell": 23.14,
+"spot_buy": 22.65,
+"spot_sell": 22.85,
+"mid": 22.75
+},
+"CAD": {
+"cash_buy": 22.33,
+"cash_sell": 23.24,
+"spot_buy": 22.73,
+"spot_sell": 22.93,
+"mid": 22.83
+},
+"SGD": {
+"cash_buy": 24.31,
+"cash_sell": 25.22,
+"spot_buy": 24.8,
+"spot_sell": 24.98,
+"mid": 24.89
+},
+"CHF": {
+"cash_buy": 38.48,
+"cash_sell": 39.68,
+"spot_buy": 39.16,
+"spot_sell": 39.41,
+"mid": 39.285
+},
+"JPY": {
+"cash_buy": 0.1889,
+"cash_sell": 0.2017,
+"spot_buy": 0.1962,
+"spot_sell": 0.2002,
+"mid": 0.1982
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.938,
+"spot_sell": 2.018,
+"mid": 1.978
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.28,
+"spot_sell": 3.38,
+"mid": 3.33
+},
+"NZD": {
+"cash_buy": 18.37,
+"cash_sell": 19.22,
+"spot_buy": 18.75,
+"spot_sell": 18.95,
+"mid": 18.85
+},
+"THB": {
+"cash_buy": 0.8319,
+"cash_sell": 1.0219,
+"spot_buy": 0.9453,
+"spot_sell": 0.9853,
+"mid": 0.9653
+},
+"PHP": {
+"cash_buy": 0.4419,
+"cash_sell": 0.5739,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5079
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 36.01,
+"cash_sell": 37.35,
+"spot_buy": 36.63,
+"spot_sell": 37.03,
+"mid": 36.83
+},
+"KRW": {
+"cash_buy": 0.0213,
+"cash_sell": 0.0252,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02325
+},
+"VND": {
+"cash_buy": 0.00099,
+"cash_sell": 0.0014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00119
+},
+"MYR": {
+"cash_buy": 6.816,
+"cash_sell": 8.341,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.5785
+},
+"CNY": {
+"cash_buy": 4.606,
+"cash_sell": 4.768,
+"spot_buy": 4.678,
+"spot_sell": 4.728,
+"mid": 4.703
+}
+},
+"2026-08-31": {
+"USD": {
+"cash_buy": 31.285,
+"cash_sell": 31.955,
+"spot_buy": 31.635,
+"spot_sell": 31.735,
+"mid": 31.685
+},
+"HKD": {
+"cash_buy": 3.886,
+"cash_sell": 4.09,
+"spot_buy": 4.012,
+"spot_sell": 4.072,
+"mid": 4.042
+},
+"GBP": {
+"cash_buy": 41.74,
+"cash_sell": 43.86,
+"spot_buy": 42.75,
+"spot_sell": 43.15,
+"mid": 42.95
+},
+"AUD": {
+"cash_buy": 22.3,
+"cash_sell": 23.08,
+"spot_buy": 22.59,
+"spot_sell": 22.79,
+"mid": 22.69
+},
+"CAD": {
+"cash_buy": 22.31,
+"cash_sell": 23.22,
+"spot_buy": 22.71,
+"spot_sell": 22.91,
+"mid": 22.81
+},
+"SGD": {
+"cash_buy": 24.33,
+"cash_sell": 25.24,
+"spot_buy": 24.82,
+"spot_sell": 25.0,
+"mid": 24.91
+},
+"CHF": {
+"cash_buy": 38.42,
+"cash_sell": 39.62,
+"spot_buy": 39.1,
+"spot_sell": 39.35,
+"mid": 39.225
+},
+"JPY": {
+"cash_buy": 0.1894,
+"cash_sell": 0.2022,
+"spot_buy": 0.1967,
+"spot_sell": 0.2007,
+"mid": 0.1987
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.925,
+"spot_sell": 2.005,
+"mid": 1.965
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.26,
+"spot_sell": 3.36,
+"mid": 3.31
+},
+"NZD": {
+"cash_buy": 18.28,
+"cash_sell": 19.13,
+"spot_buy": 18.66,
+"spot_sell": 18.86,
+"mid": 18.76
+},
+"THB": {
+"cash_buy": 0.8292,
+"cash_sell": 1.0192,
+"spot_buy": 0.9426,
+"spot_sell": 0.9826,
+"mid": 0.9626
+},
+"PHP": {
+"cash_buy": 0.4419,
+"cash_sell": 0.5739,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5079
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 35.96,
+"cash_sell": 37.3,
+"spot_buy": 36.58,
+"spot_sell": 36.98,
+"mid": 36.78
+},
+"KRW": {
+"cash_buy": 0.02141,
+"cash_sell": 0.02531,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02336
+},
+"VND": {
+"cash_buy": 0.00099,
+"cash_sell": 0.0014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00119
+},
+"MYR": {
+"cash_buy": 6.845,
+"cash_sell": 8.37,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.6075
+},
+"CNY": {
+"cash_buy": 4.617,
+"cash_sell": 4.779,
+"spot_buy": 4.689,
+"spot_sell": 4.739,
+"mid": 4.714
+}
+},
+"2026-09-01": {
+"USD": {
+"cash_buy": 31.27,
+"cash_sell": 31.94,
+"spot_buy": 31.62,
+"spot_sell": 31.72,
+"mid": 31.67
+},
+"HKD": {
+"cash_buy": 3.883,
+"cash_sell": 4.087,
+"spot_buy": 4.009,
+"spot_sell": 4.069,
+"mid": 4.039
+},
+"GBP": {
+"cash_buy": 41.67,
+"cash_sell": 43.79,
+"spot_buy": 42.68,
+"spot_sell": 43.08,
+"mid": 42.88
+},
+"AUD": {
+"cash_buy": 22.26,
+"cash_sell": 23.04,
+"spot_buy": 22.55,
+"spot_sell": 22.75,
+"mid": 22.65
+},
+"CAD": {
+"cash_buy": 22.33,
+"cash_sell": 23.24,
+"spot_buy": 22.73,
+"spot_sell": 22.93,
+"mid": 22.83
+},
+"SGD": {
+"cash_buy": 24.31,
+"cash_sell": 25.22,
+"spot_buy": 24.8,
+"spot_sell": 24.98,
+"mid": 24.89
+},
+"CHF": {
+"cash_buy": 38.27,
+"cash_sell": 39.47,
+"spot_buy": 38.95,
+"spot_sell": 39.2,
+"mid": 39.075
+},
+"JPY": {
+"cash_buy": 0.1887,
+"cash_sell": 0.2015,
+"spot_buy": 0.196,
+"spot_sell": 0.2,
+"mid": 0.198
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.922,
+"spot_sell": 2.002,
+"mid": 1.962
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.25,
+"spot_sell": 3.35,
+"mid": 3.3
+},
+"NZD": {
+"cash_buy": 18.21,
+"cash_sell": 19.06,
+"spot_buy": 18.59,
+"spot_sell": 18.79,
+"mid": 18.69
+},
+"THB": {
+"cash_buy": 0.825,
+"cash_sell": 1.015,
+"spot_buy": 0.9384,
+"spot_sell": 0.9784,
+"mid": 0.9584
+},
+"PHP": {
+"cash_buy": 0.4417,
+"cash_sell": 0.5737,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5077
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 35.9,
+"cash_sell": 37.24,
+"spot_buy": 36.52,
+"spot_sell": 36.92,
+"mid": 36.72
+},
+"KRW": {
+"cash_buy": 0.02132,
+"cash_sell": 0.02522,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02327
+},
+"VND": {
+"cash_buy": 0.00099,
+"cash_sell": 0.0014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00119
+},
+"MYR": {
+"cash_buy": 6.819,
+"cash_sell": 8.344,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.5815
+},
+"CNY": {
+"cash_buy": 4.613,
+"cash_sell": 4.775,
+"spot_buy": 4.685,
+"spot_sell": 4.735,
+"mid": 4.71
+}
+},
+"2026-09-02": {
+"USD": {
+"cash_buy": 31.34,
+"cash_sell": 32.01,
+"spot_buy": 31.69,
+"spot_sell": 31.79,
+"mid": 31.74
+},
+"HKD": {
+"cash_buy": 3.891,
+"cash_sell": 4.095,
+"spot_buy": 4.017,
+"spot_sell": 4.077,
+"mid": 4.047
+},
+"GBP": {
+"cash_buy": 41.7,
+"cash_sell": 43.82,
+"spot_buy": 42.71,
+"spot_sell": 43.11,
+"mid": 42.91
+},
+"AUD": {
+"cash_buy": 22.29,
+"cash_sell": 23.07,
+"spot_buy": 22.58,
+"spot_sell": 22.78,
+"mid": 22.68
+},
+"CAD": {
+"cash_buy": 22.3,
+"cash_sell": 23.21,
+"spot_buy": 22.7,
+"spot_sell": 22.9,
+"mid": 22.8
+},
+"SGD": {
+"cash_buy": 24.36,
+"cash_sell": 25.27,
+"spot_buy": 24.85,
+"spot_sell": 25.03,
+"mid": 24.94
+},
+"CHF": {
+"cash_buy": 38.19,
+"cash_sell": 39.39,
+"spot_buy": 38.87,
+"spot_sell": 39.12,
+"mid": 38.995
+},
+"JPY": {
+"cash_buy": 0.1895,
+"cash_sell": 0.2023,
+"spot_buy": 0.1968,
+"spot_sell": 0.2008,
+"mid": 0.1988
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.926,
+"spot_sell": 2.006,
+"mid": 1.966
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.25,
+"spot_sell": 3.35,
+"mid": 3.3
+},
+"NZD": {
+"cash_buy": 18.04,
+"cash_sell": 18.89,
+"spot_buy": 18.42,
+"spot_sell": 18.62,
+"mid": 18.52
+},
+"THB": {
+"cash_buy": 0.825,
+"cash_sell": 1.015,
+"spot_buy": 0.9384,
+"spot_sell": 0.9784,
+"mid": 0.9584
+},
+"PHP": {
+"cash_buy": 0.4415,
+"cash_sell": 0.5735,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5075
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 35.94,
+"cash_sell": 37.28,
+"spot_buy": 36.56,
+"spot_sell": 36.96,
+"mid": 36.76
+},
+"KRW": {
+"cash_buy": 0.02151,
+"cash_sell": 0.02541,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02346
+},
+"VND": {
+"cash_buy": 0.00099,
+"cash_sell": 0.0014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00119
+},
+"MYR": {
+"cash_buy": 6.826,
+"cash_sell": 8.351,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.5885
+},
+"CNY": {
+"cash_buy": 4.623,
+"cash_sell": 4.785,
+"spot_buy": 4.695,
+"spot_sell": 4.745,
+"mid": 4.72
+}
+},
+"2026-09-03": {
+"USD": {
+"cash_buy": 31.355,
+"cash_sell": 32.025,
+"spot_buy": 31.705,
+"spot_sell": 31.805,
+"mid": 31.755
+},
+"HKD": {
+"cash_buy": 3.893,
+"cash_sell": 4.097,
+"spot_buy": 4.019,
+"spot_sell": 4.079,
+"mid": 4.049
+},
+"GBP": {
+"cash_buy": 41.68,
+"cash_sell": 43.8,
+"spot_buy": 42.69,
+"spot_sell": 43.09,
+"mid": 42.89
+},
+"AUD": {
+"cash_buy": 22.38,
+"cash_sell": 23.16,
+"spot_buy": 22.67,
+"spot_sell": 22.87,
+"mid": 22.77
+},
+"CAD": {
+"cash_buy": 22.48,
+"cash_sell": 23.39,
+"spot_buy": 22.88,
+"spot_sell": 23.08,
+"mid": 22.98
+},
+"SGD": {
+"cash_buy": 24.45,
+"cash_sell": 25.36,
+"spot_buy": 24.94,
+"spot_sell": 25.12,
+"mid": 25.03
+},
+"CHF": {
+"cash_buy": 38.43,
+"cash_sell": 39.63,
+"spot_buy": 39.11,
+"spot_sell": 39.36,
+"mid": 39.235
+},
+"JPY": {
+"cash_buy": 0.1928,
+"cash_sell": 0.2056,
+"spot_buy": 0.2001,
+"spot_sell": 0.2041,
+"mid": 0.2021
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.935,
+"spot_sell": 2.015,
+"mid": 1.975
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.26,
+"spot_sell": 3.36,
+"mid": 3.31
+},
+"NZD": {
+"cash_buy": 18.14,
+"cash_sell": 18.99,
+"spot_buy": 18.52,
+"spot_sell": 18.72,
+"mid": 18.62
+},
+"THB": {
+"cash_buy": 0.834,
+"cash_sell": 1.024,
+"spot_buy": 0.9474,
+"spot_sell": 0.9874,
+"mid": 0.9674
+},
+"PHP": {
+"cash_buy": 0.4421,
+"cash_sell": 0.5741,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5081
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 36.03,
+"cash_sell": 37.37,
+"spot_buy": 36.65,
+"spot_sell": 37.05,
+"mid": 36.85
+},
+"KRW": {
+"cash_buy": 0.02165,
+"cash_sell": 0.02555,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.0236
+},
+"VND": {
+"cash_buy": 0.00099,
+"cash_sell": 0.0014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00119
+},
+"MYR": {
+"cash_buy": 6.826,
+"cash_sell": 8.351,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.5885
+},
+"CNY": {
+"cash_buy": 4.629,
+"cash_sell": 4.791,
+"spot_buy": 4.701,
+"spot_sell": 4.751,
+"mid": 4.726
+}
+},
+"2026-09-04": {
+"USD": {
+"cash_buy": 31.23,
+"cash_sell": 31.9,
+"spot_buy": 31.58,
+"spot_sell": 31.68,
+"mid": 31.63
+},
+"HKD": {
+"cash_buy": 3.878,
+"cash_sell": 4.082,
+"spot_buy": 4.004,
+"spot_sell": 4.064,
+"mid": 4.034
+},
+"GBP": {
+"cash_buy": 41.61,
+"cash_sell": 43.73,
+"spot_buy": 42.62,
+"spot_sell": 43.02,
+"mid": 42.82
+},
+"AUD": {
+"cash_buy": 22.38,
+"cash_sell": 23.16,
+"spot_buy": 22.67,
+"spot_sell": 22.87,
+"mid": 22.77
+},
+"CAD": {
+"cash_buy": 22.42,
+"cash_sell": 23.33,
+"spot_buy": 22.82,
+"spot_sell": 23.02,
+"mid": 22.92
+},
+"SGD": {
+"cash_buy": 24.39,
+"cash_sell": 25.3,
+"spot_buy": 24.88,
+"spot_sell": 25.06,
+"mid": 24.97
+},
+"CHF": {
+"cash_buy": 38.31,
+"cash_sell": 39.51,
+"spot_buy": 38.99,
+"spot_sell": 39.24,
+"mid": 39.115
+},
+"JPY": {
+"cash_buy": 0.193,
+"cash_sell": 0.2058,
+"spot_buy": 0.2003,
+"spot_sell": 0.2043,
+"mid": 0.2023
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.94,
+"spot_sell": 2.02,
+"mid": 1.98
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.27,
+"spot_sell": 3.37,
+"mid": 3.32
+},
+"NZD": {
+"cash_buy": 18.13,
+"cash_sell": 18.98,
+"spot_buy": 18.51,
+"spot_sell": 18.71,
+"mid": 18.61
+},
+"THB": {
+"cash_buy": 0.8318,
+"cash_sell": 1.0218,
+"spot_buy": 0.9452,
+"spot_sell": 0.9852,
+"mid": 0.9652
+},
+"PHP": {
+"cash_buy": 0.4388,
+"cash_sell": 0.5708,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5048
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 35.94,
+"cash_sell": 37.28,
+"spot_buy": 36.56,
+"spot_sell": 36.96,
+"mid": 36.76
+},
+"KRW": {
+"cash_buy": 0.02165,
+"cash_sell": 0.02555,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.0236
+},
+"VND": {
+"cash_buy": 0.00099,
+"cash_sell": 0.0014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00119
+},
+"MYR": {
+"cash_buy": 6.795,
+"cash_sell": 8.32,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.5575
+},
+"CNY": {
+"cash_buy": 4.617,
+"cash_sell": 4.779,
+"spot_buy": 4.689,
+"spot_sell": 4.739,
+"mid": 4.714
+}
+},
+"2026-10-16": {
+"USD": {
+"cash_buy": 31.94,
+"cash_sell": 32.61,
+"spot_buy": 32.29,
+"spot_sell": 32.39,
+"mid": 32.34
+},
+"HKD": {
+"cash_buy": 3.964,
+"cash_sell": 4.168,
+"spot_buy": 4.09,
+"spot_sell": 4.15,
+"mid": 4.12
+},
+"GBP": {
+"cash_buy": 41.85,
+"cash_sell": 43.97,
+"spot_buy": 42.86,
+"spot_sell": 43.26,
+"mid": 43.06
+},
+"AUD": {
+"cash_buy": 22.12,
+"cash_sell": 22.9,
+"spot_buy": 22.41,
+"spot_sell": 22.61,
+"mid": 22.51
+},
+"CAD": {
+"cash_buy": 22.34,
+"cash_sell": 23.25,
+"spot_buy": 22.74,
+"spot_sell": 22.94,
+"mid": 22.84
+},
+"SGD": {
+"cash_buy": 24.69,
+"cash_sell": 25.6,
+"spot_buy": 25.18,
+"spot_sell": 25.36,
+"mid": 25.27
+},
+"CHF": {
+"cash_buy": 38.39,
+"cash_sell": 39.59,
+"spot_buy": 39.07,
+"spot_sell": 39.32,
+"mid": 39.195
+},
+"JPY": {
+"cash_buy": 0.1954,
+"cash_sell": 0.2082,
+"spot_buy": 0.2027,
+"spot_sell": 0.2067,
+"mid": 0.2047
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.925,
+"spot_sell": 2.005,
+"mid": 1.965
+},
+"SEK": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 3.22,
+"spot_sell": 3.32,
+"mid": 3.27
+},
+"NZD": {
+"cash_buy": 17.85,
+"cash_sell": 18.7,
+"spot_buy": 18.23,
+"spot_sell": 18.43,
+"mid": 18.33
+},
+"THB": {
+"cash_buy": 0.8394,
+"cash_sell": 1.0294,
+"spot_buy": 0.9528,
+"spot_sell": 0.9928,
+"mid": 0.9728
+},
+"PHP": {
+"cash_buy": 0.4476,
+"cash_sell": 0.5796,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5136
+},
+"IDR": {
+"cash_buy": 0.00143,
+"cash_sell": 0.00213,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00178
+},
+"EUR": {
+"cash_buy": 35.53,
+"cash_sell": 36.87,
+"spot_buy": 36.15,
+"spot_sell": 36.55,
+"mid": 36.35
+},
+"KRW": {
+"cash_buy": 0.02252,
+"cash_sell": 0.02642,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02447
+},
+"VND": {
+"cash_buy": 0.00103,
+"cash_sell": 0.00144,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00123
+},
+"MYR": {
+"cash_buy": 6.898,
+"cash_sell": 8.423,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 7.6605
+},
+"CNY": {
+"cash_buy": 4.739,
+"cash_sell": 4.901,
+"spot_buy": 4.811,
+"spot_sell": 4.861,
+"mid": 4.836
+}
+},
+"2022-08-26": {
+"USD": {
+"cash_buy": 29.82,
+"cash_sell": 30.49,
+"spot_buy": 30.17,
+"spot_sell": 30.27,
+"mid": 30.22
+},
+"HKD": {
+"cash_buy": 3.695,
+"cash_sell": 3.899,
+"spot_buy": 3.821,
+"spot_sell": 3.881,
+"mid": 3.851
+},
+"GBP": {
+"cash_buy": 34.42,
+"cash_sell": 36.54,
+"spot_buy": 35.43,
+"spot_sell": 35.83,
+"mid": 35.63
+},
+"AUD": {
+"cash_buy": 20.63,
+"cash_sell": 21.41,
+"spot_buy": 20.92,
+"spot_sell": 21.12,
+"mid": 21.02
+},
+"CAD": {
+"cash_buy": 22.85,
+"cash_sell": 23.76,
+"spot_buy": 23.25,
+"spot_sell": 23.45,
+"mid": 23.35
+},
+"SGD": {
+"cash_buy": 21.14,
+"cash_sell": 22.05,
+"spot_buy": 21.63,
+"spot_sell": 21.81,
+"mid": 21.72
+},
+"CHF": {
+"cash_buy": 30.51,
+"cash_sell": 31.71,
+"spot_buy": 31.19,
+"spot_sell": 31.44,
+"mid": 31.315
+},
+"JPY": {
+"cash_buy": 0.2113,
+"cash_sell": 0.2241,
+"spot_buy": 0.2186,
+"spot_sell": 0.2226,
+"mid": 0.2206
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.756,
+"spot_sell": 1.836,
+"mid": 1.796
+},
+"SEK": {
+"cash_buy": 2.46,
+"cash_sell": 2.98,
+"spot_buy": 2.8,
+"spot_sell": 2.9,
+"mid": 2.85
+},
+"NZD": {
+"cash_buy": 18.24,
+"cash_sell": 19.09,
+"spot_buy": 18.62,
+"spot_sell": 18.82,
+"mid": 18.72
+},
+"THB": {
+"cash_buy": 0.7118,
+"cash_sell": 0.9018,
+"spot_buy": 0.8242,
+"spot_sell": 0.8642,
+"mid": 0.8442
+},
+"PHP": {
+"cash_buy": 0.4659,
+"cash_sell": 0.5989,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5324
+},
+"IDR": {
+"cash_buy": 0.00168,
+"cash_sell": 0.00238,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00203
+},
+"EUR": {
+"cash_buy": 29.32,
+"cash_sell": 30.66,
+"spot_buy": 29.94,
+"spot_sell": 30.34,
+"mid": 30.14
+},
+"KRW": {
+"cash_buy": 0.02095,
+"cash_sell": 0.02485,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.0229
+},
+"VND": {
+"cash_buy": 0.00107,
+"cash_sell": 0.00148,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00128
+},
+"MYR": {
+"cash_buy": 5.742,
+"cash_sell": 7.222,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 6.482
+},
+"CNY": {
+"cash_buy": 4.302,
+"cash_sell": 4.464,
+"spot_buy": 4.374,
+"spot_sell": 4.424,
+"mid": 4.399
+}
+},
+"2022-08-29": {
+"USD": {
+"cash_buy": 30.0,
+"cash_sell": 30.67,
+"spot_buy": 30.35,
+"spot_sell": 30.45,
+"mid": 30.4
+},
+"HKD": {
+"cash_buy": 3.717,
+"cash_sell": 3.921,
+"spot_buy": 3.843,
+"spot_sell": 3.903,
+"mid": 3.873
+},
+"GBP": {
+"cash_buy": 34.29,
+"cash_sell": 36.41,
+"spot_buy": 35.3,
+"spot_sell": 35.7,
+"mid": 35.5
+},
+"AUD": {
+"cash_buy": 20.45,
+"cash_sell": 21.23,
+"spot_buy": 20.74,
+"spot_sell": 20.94,
+"mid": 20.84
+},
+"CAD": {
+"cash_buy": 22.77,
+"cash_sell": 23.68,
+"spot_buy": 23.17,
+"spot_sell": 23.37,
+"mid": 23.27
+},
+"SGD": {
+"cash_buy": 21.16,
+"cash_sell": 22.07,
+"spot_buy": 21.65,
+"spot_sell": 21.83,
+"mid": 21.74
+},
+"CHF": {
+"cash_buy": 30.54,
+"cash_sell": 31.74,
+"spot_buy": 31.22,
+"spot_sell": 31.47,
+"mid": 31.345
+},
+"JPY": {
+"cash_buy": 0.2099,
+"cash_sell": 0.2227,
+"spot_buy": 0.2172,
+"spot_sell": 0.2212,
+"mid": 0.2192
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.756,
+"spot_sell": 1.836,
+"mid": 1.796
+},
+"SEK": {
+"cash_buy": 2.46,
+"cash_sell": 2.98,
+"spot_buy": 2.8,
+"spot_sell": 2.9,
+"mid": 2.85
+},
+"NZD": {
+"cash_buy": 18.1,
+"cash_sell": 18.95,
+"spot_buy": 18.48,
+"spot_sell": 18.68,
+"mid": 18.58
+},
+"THB": {
+"cash_buy": 0.7069,
+"cash_sell": 0.8969,
+"spot_buy": 0.8193,
+"spot_sell": 0.8593,
+"mid": 0.8393
+},
+"PHP": {
+"cash_buy": 0.4673,
+"cash_sell": 0.6003,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5338
+},
+"IDR": {
+"cash_buy": 0.00168,
+"cash_sell": 0.00238,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00203
+},
+"EUR": {
+"cash_buy": 29.41,
+"cash_sell": 30.75,
+"spot_buy": 30.03,
+"spot_sell": 30.43,
+"mid": 30.23
+},
+"KRW": {
+"cash_buy": 0.0208,
+"cash_sell": 0.0247,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02275
+},
+"VND": {
+"cash_buy": 0.00107,
+"cash_sell": 0.00148,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00128
+},
+"MYR": {
+"cash_buy": 5.759,
+"cash_sell": 7.239,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 6.499
+},
+"CNY": {
+"cash_buy": 4.291,
+"cash_sell": 4.453,
+"spot_buy": 4.363,
+"spot_sell": 4.413,
+"mid": 4.388
+}
+},
+"2022-08-30": {
+"USD": {
+"cash_buy": 30.065,
+"cash_sell": 30.735,
+"spot_buy": 30.415,
+"spot_sell": 30.515,
+"mid": 30.465
+},
+"HKD": {
+"cash_buy": 3.725,
+"cash_sell": 3.929,
+"spot_buy": 3.851,
+"spot_sell": 3.911,
+"mid": 3.881
+},
+"GBP": {
+"cash_buy": 34.56,
+"cash_sell": 36.68,
+"spot_buy": 35.57,
+"spot_sell": 35.97,
+"mid": 35.77
+},
+"AUD": {
+"cash_buy": 20.71,
+"cash_sell": 21.49,
+"spot_buy": 21.0,
+"spot_sell": 21.2,
+"mid": 21.1
+},
+"CAD": {
+"cash_buy": 22.96,
+"cash_sell": 23.87,
+"spot_buy": 23.36,
+"spot_sell": 23.56,
+"mid": 23.46
+},
+"SGD": {
+"cash_buy": 21.25,
+"cash_sell": 22.16,
+"spot_buy": 21.74,
+"spot_sell": 21.92,
+"mid": 21.83
+},
+"CHF": {
+"cash_buy": 30.59,
+"cash_sell": 31.79,
+"spot_buy": 31.27,
+"spot_sell": 31.52,
+"mid": 31.395
+},
+"JPY": {
+"cash_buy": 0.2109,
+"cash_sell": 0.2237,
+"spot_buy": 0.2182,
+"spot_sell": 0.2222,
+"mid": 0.2202
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.773,
+"spot_sell": 1.853,
+"mid": 1.813
+},
+"SEK": {
+"cash_buy": 2.48,
+"cash_sell": 3.0,
+"spot_buy": 2.82,
+"spot_sell": 2.92,
+"mid": 2.87
+},
+"NZD": {
+"cash_buy": 18.31,
+"cash_sell": 19.16,
+"spot_buy": 18.69,
+"spot_sell": 18.89,
+"mid": 18.79
+},
+"THB": {
+"cash_buy": 0.7093,
+"cash_sell": 0.8993,
+"spot_buy": 0.8217,
+"spot_sell": 0.8617,
+"mid": 0.8417
+},
+"PHP": {
+"cash_buy": 0.4685,
+"cash_sell": 0.6015,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.535
+},
+"IDR": {
+"cash_buy": 0.00173,
+"cash_sell": 0.00243,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00208
+},
+"EUR": {
+"cash_buy": 29.74,
+"cash_sell": 31.08,
+"spot_buy": 30.36,
+"spot_sell": 30.76,
+"mid": 30.56
+},
+"KRW": {
+"cash_buy": 0.02088,
+"cash_sell": 0.02478,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02283
+},
+"VND": {
+"cash_buy": 0.00108,
+"cash_sell": 0.00149,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00129
+},
+"MYR": {
+"cash_buy": 5.786,
+"cash_sell": 7.266,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 6.526
+},
+"CNY": {
+"cash_buy": 4.306,
+"cash_sell": 4.468,
+"spot_buy": 4.378,
+"spot_sell": 4.428,
+"mid": 4.403
+}
+},
+"2022-08-31": {
+"USD": {
+"cash_buy": 30.035,
+"cash_sell": 30.705,
+"spot_buy": 30.385,
+"spot_sell": 30.485,
+"mid": 30.435
+},
+"HKD": {
+"cash_buy": 3.722,
+"cash_sell": 3.926,
+"spot_buy": 3.848,
+"spot_sell": 3.908,
+"mid": 3.878
+},
+"GBP": {
+"cash_buy": 34.24,
+"cash_sell": 36.36,
+"spot_buy": 35.25,
+"spot_sell": 35.65,
+"mid": 35.45
+},
+"AUD": {
+"cash_buy": 20.54,
+"cash_sell": 21.32,
+"spot_buy": 20.83,
+"spot_sell": 21.03,
+"mid": 20.93
+},
+"CAD": {
+"cash_buy": 22.76,
+"cash_sell": 23.67,
+"spot_buy": 23.16,
+"spot_sell": 23.36,
+"mid": 23.26
+},
+"SGD": {
+"cash_buy": 21.2,
+"cash_sell": 22.11,
+"spot_buy": 21.69,
+"spot_sell": 21.87,
+"mid": 21.78
+},
+"CHF": {
+"cash_buy": 30.36,
+"cash_sell": 31.56,
+"spot_buy": 31.04,
+"spot_sell": 31.29,
+"mid": 31.165
+},
+"JPY": {
+"cash_buy": 0.2103,
+"cash_sell": 0.2231,
+"spot_buy": 0.2176,
+"spot_sell": 0.2216,
+"mid": 0.2196
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.748,
+"spot_sell": 1.828,
+"mid": 1.788
+},
+"SEK": {
+"cash_buy": 2.46,
+"cash_sell": 2.98,
+"spot_buy": 2.8,
+"spot_sell": 2.9,
+"mid": 2.85
+},
+"NZD": {
+"cash_buy": 18.21,
+"cash_sell": 19.06,
+"spot_buy": 18.59,
+"spot_sell": 18.79,
+"mid": 18.69
+},
+"THB": {
+"cash_buy": 0.7074,
+"cash_sell": 0.8974,
+"spot_buy": 0.8198,
+"spot_sell": 0.8598,
+"mid": 0.8398
+},
+"PHP": {
+"cash_buy": 0.4684,
+"cash_sell": 0.6014,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5349
+},
+"IDR": {
+"cash_buy": 0.00173,
+"cash_sell": 0.00243,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00208
+},
+"EUR": {
+"cash_buy": 29.63,
+"cash_sell": 30.97,
+"spot_buy": 30.25,
+"spot_sell": 30.65,
+"mid": 30.45
+},
+"KRW": {
+"cash_buy": 0.02095,
+"cash_sell": 0.02485,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.0229
+},
+"VND": {
+"cash_buy": 0.00107,
+"cash_sell": 0.00148,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00128
+},
+"MYR": {
+"cash_buy": 5.789,
+"cash_sell": 7.269,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 6.529
+},
+"CNY": {
+"cash_buy": 4.312,
+"cash_sell": 4.474,
+"spot_buy": 4.384,
+"spot_sell": 4.434,
+"mid": 4.409
+}
+},
+"2022-09-01": {
+"USD": {
+"cash_buy": 30.13,
+"cash_sell": 30.8,
+"spot_buy": 30.48,
+"spot_sell": 30.58,
+"mid": 30.53
+},
+"HKD": {
+"cash_buy": 3.733,
+"cash_sell": 3.937,
+"spot_buy": 3.859,
+"spot_sell": 3.919,
+"mid": 3.889
+},
+"GBP": {
+"cash_buy": 34.24,
+"cash_sell": 36.36,
+"spot_buy": 35.25,
+"spot_sell": 35.65,
+"mid": 35.45
+},
+"AUD": {
+"cash_buy": 20.47,
+"cash_sell": 21.25,
+"spot_buy": 20.76,
+"spot_sell": 20.96,
+"mid": 20.86
+},
+"CAD": {
+"cash_buy": 22.69,
+"cash_sell": 23.6,
+"spot_buy": 23.09,
+"spot_sell": 23.29,
+"mid": 23.19
+},
+"SGD": {
+"cash_buy": 21.23,
+"cash_sell": 22.14,
+"spot_buy": 21.72,
+"spot_sell": 21.9,
+"mid": 21.81
+},
+"CHF": {
+"cash_buy": 30.46,
+"cash_sell": 31.66,
+"spot_buy": 31.14,
+"spot_sell": 31.39,
+"mid": 31.265
+},
+"JPY": {
+"cash_buy": 0.2099,
+"cash_sell": 0.2227,
+"spot_buy": 0.2172,
+"spot_sell": 0.2212,
+"mid": 0.2192
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.737,
+"spot_sell": 1.817,
+"mid": 1.777
+},
+"SEK": {
+"cash_buy": 2.47,
+"cash_sell": 2.99,
+"spot_buy": 2.81,
+"spot_sell": 2.91,
+"mid": 2.86
+},
+"NZD": {
+"cash_buy": 18.17,
+"cash_sell": 19.02,
+"spot_buy": 18.55,
+"spot_sell": 18.75,
+"mid": 18.65
+},
+"THB": {
+"cash_buy": 0.7051,
+"cash_sell": 0.8951,
+"spot_buy": 0.8175,
+"spot_sell": 0.8575,
+"mid": 0.8375
+},
+"PHP": {
+"cash_buy": 0.4675,
+"cash_sell": 0.6005,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.534
+},
+"IDR": {
+"cash_buy": 0.00173,
+"cash_sell": 0.00243,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00208
+},
+"EUR": {
+"cash_buy": 29.81,
+"cash_sell": 31.15,
+"spot_buy": 30.43,
+"spot_sell": 30.83,
+"mid": 30.63
+},
+"KRW": {
+"cash_buy": 0.0208,
+"cash_sell": 0.0247,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02275
+},
+"VND": {
+"cash_buy": 0.00108,
+"cash_sell": 0.00149,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00129
+},
+"MYR": {
+"cash_buy": 5.799,
+"cash_sell": 7.279,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 6.539
+},
+"CNY": {
+"cash_buy": 4.321,
+"cash_sell": 4.483,
+"spot_buy": 4.393,
+"spot_sell": 4.443,
+"mid": 4.418
+}
+},
+"2022-09-02": {
+"USD": {
+"cash_buy": 30.185,
+"cash_sell": 30.855,
+"spot_buy": 30.535,
+"spot_sell": 30.635,
+"mid": 30.585
+},
+"HKD": {
+"cash_buy": 3.74,
+"cash_sell": 3.944,
+"spot_buy": 3.866,
+"spot_sell": 3.926,
+"mid": 3.896
+},
+"GBP": {
+"cash_buy": 34.15,
+"cash_sell": 36.27,
+"spot_buy": 35.16,
+"spot_sell": 35.56,
+"mid": 35.36
+},
+"AUD": {
+"cash_buy": 20.39,
+"cash_sell": 21.17,
+"spot_buy": 20.68,
+"spot_sell": 20.88,
+"mid": 20.78
+},
+"CAD": {
+"cash_buy": 22.77,
+"cash_sell": 23.68,
+"spot_buy": 23.17,
+"spot_sell": 23.37,
+"mid": 23.27
+},
+"SGD": {
+"cash_buy": 21.23,
+"cash_sell": 22.14,
+"spot_buy": 21.72,
+"spot_sell": 21.9,
+"mid": 21.81
+},
+"CHF": {
+"cash_buy": 30.41,
+"cash_sell": 31.61,
+"spot_buy": 31.09,
+"spot_sell": 31.34,
+"mid": 31.215
+},
+"JPY": {
+"cash_buy": 0.2088,
+"cash_sell": 0.2216,
+"spot_buy": 0.2161,
+"spot_sell": 0.2201,
+"mid": 0.2181
+},
+"ZAR": {
+"cash_buy": null,
+"cash_sell": null,
+"spot_buy": 1.729,
+"spot_sell": 1.809,
+"mid": 1.769
+},
+"SEK": {
+"cash_buy": 2.46,
+"cash_sell": 2.98,
+"spot_buy": 2.8,
+"spot_sell": 2.9,
+"mid": 2.85
+},
+"NZD": {
+"cash_buy": 18.11,
+"cash_sell": 18.96,
+"spot_buy": 18.49,
+"spot_sell": 18.69,
+"mid": 18.59
+},
+"THB": {
+"cash_buy": 0.7047,
+"cash_sell": 0.8947,
+"spot_buy": 0.8171,
+"spot_sell": 0.8571,
+"mid": 0.8371
+},
+"PHP": {
+"cash_buy": 0.4653,
+"cash_sell": 0.5983,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.5318
+},
+"IDR": {
+"cash_buy": 0.00173,
+"cash_sell": 0.00243,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00208
+},
+"EUR": {
+"cash_buy": 29.73,
+"cash_sell": 31.07,
+"spot_buy": 30.35,
+"spot_sell": 30.75,
+"mid": 30.55
+},
+"KRW": {
+"cash_buy": 0.02071,
+"cash_sell": 0.02461,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.02266
+},
+"VND": {
+"cash_buy": 0.00108,
+"cash_sell": 0.00149,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 0.00129
+},
+"MYR": {
+"cash_buy": 5.809,
+"cash_sell": 7.289,
+"spot_buy": null,
+"spot_sell": null,
+"mid": 6.549
+},
+"CNY": {
+"cash_buy": 4.328,
+"cash_sell": 4.49,
+"spot_buy": 4.4,
+"spot_sell": 4.45,
+"mid": 4.425
+}
+}
+}

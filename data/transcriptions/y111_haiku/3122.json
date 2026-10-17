@@ -1,0 +1,77 @@
+{"seq": "3122", "model": "claude-haiku", "data": {
+"declarant": "許原龍",
+"declare_date": "民國111年8月25日",
+"spouse": "陳心華",
+"minor_children_count": 0,
+"total_pages": 18,
+"land": [
+{"location": "彰化縣彰化市西勢段西勢小段", "area_m2": 0.18, "share": "全部", "owner": "陳心華", "acquired": "109/01/02", "reason": "買賣", "price": "10158"},
+{"location": "彰化縣彰化市西勢段西勢小段", "area_m2": 185.92, "share": "全部", "owner": "陳心華", "acquired": "109/01/02", "reason": "買賣", "price": "10491.6372"},
+{"location": "彰化縣彰化市西勢段西勢小段", "area_m2": 38.0, "share": "全部", "owner": "陳心華", "acquired": "109/01/02", "reason": "買賣", "price": "2185.82"},
+{"location": "彰化縣彰化市西勢段西勢小段", "area_m2": 96.0, "share": "全部", "owner": "陳心華", "acquired": "110/04/26", "reason": "信託", "price": "6189.600"}
+],
+"land_count": 4,
+"buildings": [
+{"location": "彰化縣彰化市西勢段西勢小段", "area_m2": 332.12, "share": "全部", "owner": "陳心華", "acquired": "108/9/30", "reason": "第一次登記", "price": "14692609"},
+{"location": "彰化縣彰化市西勢段西勢小段", "area_m2": 51.87, "share": "全部", "owner": "陳心華", "acquired": "110/04/26", "reason": "信託", "price": "2480002"}
+],
+"building_count": 2,
+"ships": [],
+"vehicles": [
+{"desc": "AUDI 汽車 1984cc", "owner": "陳心華", "acquired": "104/03/31", "price": null}
+],
+"vehicle_count": 1,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": null,
+"deposits": [
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "許原龍", "foreign_amount": null, "twd": 329153},
+{"bank": "彰化第一信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "許原龍", "foreign_amount": null, "twd": 3366},
+{"bank": "彰化第一信用合作社", "kind": "支票存款", "currency": "新臺幣", "owner": "許原龍", "foreign_amount": null, "twd": 200},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 657944},
+{"bank": "彰化第一信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 12708},
+{"bank": "彰化第一信用合作社", "kind": "支票存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 100},
+{"bank": "彰化第一信用合作社", "kind": "活期存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 2061},
+{"bank": "彰化第一信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 1},
+{"bank": "彰化第一信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 1276615},
+{"bank": "三信商業銀行（判讀存疑）", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 603},
+{"bank": "新光銀行（判讀存疑）", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 3},
+{"bank": "（判讀不清）", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 333},
+{"bank": "（判讀不清）", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳心華", "foreign_amount": null, "twd": 27}
+],
+"deposit_count": 13,
+"deposit_total_twd": 2283114,
+"securities_total_twd": null,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": null,
+"bonds": [],
+"bond_total_twd": null,
+"funds": [],
+"fund_total_twd": null,
+"other_securities": [],
+"other_securities_total_twd": null,
+"other_assets": [],
+"other_assets_total_twd": null,
+"insurance": [
+{"desc": "保險（保險公司與保險名稱判讀不清）", "owner": "許原龍", "amount_twd": 300072, "note": "保險金額10000；契約期間91/6起；累積已繳保險費判讀不確定"}
+],
+"insurance_count": 1,
+"debt_claims": [],
+"debt_claims_total_twd": null,
+"debts": [
+{"desc": "信用合作社借款（債權人名稱判讀不清）", "owner": "陳心華", "amount_twd": 1952808, "note": "取得（發生）時間約108/12/... 判讀不確定"}
+],
+"debts_count": 1,
+"debts_total_twd": 1952808,
+"business_investments": [
+{"desc": "彰化第一信用合作社（社員股金）", "owner": "許原龍", "amount_twd": 2000, "note": "取得時間95/9/12；原因：股金"},
+{"desc": "彰化第一信用合作社（社員股金）", "owner": "許原龍", "amount_twd": 10000, "note": "取得時間95/05/06；原因：股金"},
+{"desc": "彰化第一信用合作社（社員股金）", "owner": "陳心華", "amount_twd": 2000, "note": "取得時間110/4/01；原因：股金"},
+{"desc": "彰化第一信用合作社（社員股金）", "owner": "陳心華", "amount_twd": 1000, "note": "取得時間110/4/01；原因：股金"},
+{"desc": "（判讀不清）", "owner": "陳心華", "amount_twd": 5000, "note": "取得時間110/6/27（判讀存疑）"}
+],
+"business_investments_total_twd": 7000,
+"trust_items": [],
+"notes": "多處為手寫，判讀存疑：所有人與配偶姓名（陳心華）、部分金融機構名稱、事業投資與保險細項、債務債權人名稱、基金列表（表上總申報筆數手寫判讀為5但各列空白，故 funds 留空、fund_total null）、(九)其他財產手寫總價值模糊（約3,0?3元，未確定，故 null）。(七)存款表上手寫總額 2283114 與各列加總一致。事業投資表上總金額7000元與各列加總20000不一致，已依表上數字填 business_investments_total_twd=7000，請核對。地址與帳號未記。"
+}}

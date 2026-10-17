@@ -1,0 +1,63 @@
+{"seq": "2976", "model": "claude-haiku", "data": {
+"declarant": "高惠芬",
+"declare_date": "民國111年9月2日",
+"spouse": "陳建華",
+"minor_children_count": 0,
+"total_pages": null,
+"land": [
+{"location": "屏東縣瑪家鄉涼山段", "area_m2": 2.51, "share": "全部", "owner": "高惠芬", "acquired": "94.01.06", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣瑪家鄉涼山段", "area_m2": 3.45, "share": "全部", "owner": "高惠芬", "acquired": "89.08.31", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣瑪家鄉涼山段", "area_m2": 820, "share": "2分之1", "owner": "高惠芬", "acquired": "89.08.03", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣瑪家鄉筏灣段", "area_m2": 27.44, "share": "2分之1", "owner": "陳建華", "acquired": "97.08.26", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣瑪家鄉筏灣段", "area_m2": 10.94, "share": "全部", "owner": "陳建華", "acquired": "93.08.30", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣瑪家鄉筏灣段", "area_m2": 4.78, "share": "全部", "owner": "陳建華", "acquired": "93.08.30", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣瑪家鄉筏灣段", "area_m2": 12.72, "share": "2分之1", "owner": "陳建華", "acquired": "93.08.30", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣瑪家鄉筏灣段", "area_m2": 5.16, "share": "3分之1", "owner": "陳建華", "acquired": "93.08.30", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣瑪家鄉筏灣段", "area_m2": 11.54, "share": "全部", "owner": "陳建華", "acquired": "93.08.30", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣長治鄉番子寮段", "area_m2": 10.055, "share": "全部", "owner": "陳建華", "acquired": "88.06.24", "reason": "繼承", "price": "超過五年"},
+{"location": "屏東縣潮州鎮新光華段", "area_m2": 181.44, "share": "全部", "owner": "陳建華", "acquired": "81.07.02", "reason": "繼承", "price": "超過五年"}
+],
+"land_count": 11,
+"buildings": [
+{"location": "屏東縣潮州鎮潮州段", "area_m2": 185, "share": "全部", "owner": "陳建華", "acquired": "81.07.02", "reason": "買賣", "price": "4500000"}
+],
+"building_count": 1,
+"ships": [],
+"vehicles": [
+{"desc": "本田 CRV", "owner": "高惠芬", "acquired": "99.11.26", "price": "1100000"},
+{"desc": "中華 CM13MPW", "owner": "陳建華", "acquired": "107.01.18", "price": "450000"}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [],
+"deposit_count": 0,
+"deposit_total_twd": null,
+"securities_total_twd": null,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": null,
+"bonds": [],
+"bond_total_twd": null,
+"funds": [],
+"fund_total_twd": null,
+"other_securities": [],
+"other_securities_total_twd": null,
+"other_assets": [],
+"other_assets_total_twd": null,
+"insurance": [
+{"desc": "三商美邦人壽 心安終身壽險（名稱字跡不清）", "owner": "高惠芬", "amount_twd": 256900, "note": "要保人高惠芬；契約105.1.4-125.1.4；保險金額36700；外幣無；契約類型字跡不清（判讀：反儲險）"},
+{"desc": "三商美邦人壽 健康保險（名稱字跡不清）", "owner": "陳建華", "amount_twd": 509390, "note": "要保人陳建華；契約105.2.26-115.2.26；保險金額72770；外幣無；契約類型判讀為長期照護險"}
+],
+"insurance_count": 2,
+"debt_claims": [],
+"debt_claims_total_twd": null,
+"debts": [],
+"debts_count": 0,
+"debts_total_twd": null,
+"business_investments": [],
+"business_investments_total_twd": null,
+"trust_items": [],
+"notes": "無補正檔。表上印刷的總頁數欄空白，total_pages 為 null。土地坐落表上只列鄉鎮段，依申報表選區與戶籍地補列「屏東縣」；土地原因與取得價額欄以「〃」沿用第1列的「繼承」「超過五年」。建物取得價額『4百50萬』轉為4500000。(九)其他財產與(七)存款、(八)有價證券、現金以外各分項之總額欄均空白或無手寫數字，對應 total 欄為 null（現金總金額表上印 0 元，填 0）。(九)標題旁手寫的766290與(十)保險累積已繳保險費合計 256900+509390=766290 相符，故視為保險欄的金額，(九)項目列為空。保險名稱與契約類型字跡不清，已於 note 註明。車牌號碼未列入。"
+}}

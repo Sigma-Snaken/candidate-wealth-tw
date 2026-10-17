@@ -1,0 +1,365 @@
+<title>候選人財產透視</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a civic ledger — sticky filter rail on top, ranked roll below, side-by-side comparison tray, detail sheet as a dialog. */
+:root{
+  --bg:#f6f7f8; --paper:#ffffff; --ink:#15191f; --ink2:#4a525c; --ink3:#77808b; --rule:#dde1e6; --rule2:#eceff2;
+  --seal:#c23a2b; --seal-soft:#f7e3df; --focus:#2a78d6;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --debt:#8a919a;
+  --warn-bg:#fff4d6; --warn-ink:#7a5200;
+  --f-display:"Noto Serif TC","Songti TC","PMingLiU",serif;
+  --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --f-num:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121417; --paper:#1a1d21; --ink:#eef0f2; --ink2:#b9c0c8; --ink3:#8a929b; --rule:#2e333a; --rule2:#23272c;
+  --seal:#e5604f; --seal-soft:#3a201c; --focus:#3987e5;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --debt:#6d747d;
+  --warn-bg:#3a2f12; --warn-ink:#f2cf7a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121417; --paper:#1a1d21; --ink:#eef0f2; --ink2:#b9c0c8; --ink3:#8a929b; --rule:#2e333a; --rule2:#23272c;
+  --seal:#e5604f; --seal-soft:#3a201c; --focus:#3987e5;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --debt:#6d747d;
+  --warn-bg:#3a2f12; --warn-ink:#f2cf7a; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 64px;display:grid;gap:24px}
+.num{font-family:var(--f-num);font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:.02em}
+a{color:var(--focus)}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+/* masthead */
+.mast{display:grid;grid-template-columns:1fr auto;gap:16px 32px;align-items:end;border-bottom:3px double var(--rule);padding-bottom:20px}
+.mast h1{font-size:clamp(30px,5vw,46px);font-weight:900;line-height:1.15}
+.mast h1 .seal{display:inline-block;border:2px solid var(--seal);color:var(--seal);font-size:.36em;padding:.15em .4em;vertical-align:.55em;margin-left:.5em;transform:rotate(-4deg);letter-spacing:.1em}
+.mast p{margin:8px 0 0;color:var(--ink2);max-width:62ch}
+.facts{display:grid;grid-template-columns:repeat(3,auto);gap:4px 20px;font-size:13px;color:var(--ink3)}
+.facts b{display:block;color:var(--ink);font-family:var(--f-num);font-size:20px;font-weight:500}
+@media (max-width:720px){.mast{grid-template-columns:1fr}.facts{grid-template-columns:repeat(3,1fr)}}
+
+/* filter rail */
+.rail{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--rule);
+  display:flex;flex-wrap:wrap;gap:8px;align-items:end}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.fld{display:grid;gap:2px;font-size:12px;color:var(--ink3);min-width:0}
+.fld input,.fld select{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:7px 10px;min-width:0;max-width:100%}
+.fld input{width:160px}
+.fld.chk span:last-child{display:flex;align-items:center;gap:6px;color:var(--ink2);font-size:13px;padding-block:7px}
+.fld.chk input{width:16px;height:16px;accent-color:var(--seal)}
+.rail .count{margin-left:auto;font-size:13px;color:var(--ink2);align-self:center}
+@media (max-width:720px){.fld{flex:1 1 140px}.fld input,.fld select{width:100%}.rail{position:static}.rail .count{margin-left:0;flex-basis:100%}}
+
+/* legend */
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.sw.debt{background:repeating-linear-gradient(135deg,var(--debt) 0 2px,transparent 2px 5px);border:1px solid var(--debt)}
+
+/* roll */
+.roll{display:grid;gap:0;background:var(--paper);border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+.row{display:grid;grid-template-columns:44px minmax(150px,220px) 1fr 170px 40px;gap:12px;align-items:center;padding:10px 14px;border-top:1px solid var(--rule2);cursor:pointer}
+.row:first-child{border-top:0}
+.row:hover{background:var(--rule2)}
+.rank{font-family:var(--f-num);color:var(--ink3);font-size:13px;text-align:right}
+.who{min-width:0}
+.who .n{font-weight:700;font-size:16px}
+.who .m{font-size:12px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chip{display:inline-block;font-size:11px;padding:0 6px;border-radius:4px;background:var(--warn-bg);color:var(--warn-ink);margin-left:6px;vertical-align:2px;font-weight:500}
+.bars{min-width:0;display:grid;gap:3px}
+.bar{display:flex;gap:2px;height:14px;align-items:stretch}
+.bar i{display:block;height:100%;min-width:0}
+.bar i:first-child{border-radius:4px 0 0 4px}.bar i:last-child{border-radius:0 4px 4px 0}.bar i:only-child{border-radius:4px}
+.dbar{height:5px;display:flex}
+.dbar i{display:block;height:100%;border-radius:0 3px 3px 0;background:repeating-linear-gradient(135deg,var(--debt) 0 2px,transparent 2px 4px);border:1px solid var(--debt);border-left:0}
+.val{text-align:right}
+.val b{display:block;font-family:var(--f-num);font-weight:500;font-size:15px}
+.val small{color:var(--ink3);font-size:12px;font-family:var(--f-num);display:block}
+.val .prv em{font-style:normal;margin-left:4px}
+.dn{color:var(--s1)}
+.cmpbox{display:grid;place-items:center}
+.cmpbox input{width:18px;height:18px;accent-color:var(--seal);cursor:pointer}
+@media (max-width:720px){.row{grid-template-columns:30px 1fr 30px;grid-template-areas:"r w c" ". b b" ". v v";gap:6px 10px}
+  .rank{grid-area:r}.who{grid-area:w}.bars{grid-area:b}.val{grid-area:v;text-align:left;display:flex;flex-wrap:wrap;gap:2px 12px;align-items:baseline}.val b{font-size:16px}.cmpbox{grid-area:c}}
+.more{display:flex;justify-content:center}
+.btn{background:var(--paper);border:1px solid var(--rule);border-radius:6px;padding:7px 14px;cursor:pointer}
+.btn:hover{border-color:var(--ink3)}
+.btn.pri{background:var(--seal);border-color:var(--seal);color:#fff}
+
+/* compare tray */
+.tray{position:fixed;left:0;right:0;bottom:0;z-index:8;background:var(--paper);border-top:2px solid var(--seal);
+  padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));
+  display:flex;gap:10px;align-items:center;flex-wrap:wrap;box-shadow:0 -6px 20px rgb(0 0 0 / .08)}
+.tray .tags{display:flex;gap:6px;flex-wrap:wrap;flex:1;min-width:0}
+.tag{background:var(--seal-soft);border-radius:999px;padding:2px 4px 2px 10px;font-size:13px;display:inline-flex;gap:4px;align-items:center}
+.tag button{border:0;background:none;cursor:pointer;color:var(--ink2);padding:0 4px;font-size:15px;line-height:1}
+
+/* dialog sheets */
+dialog{border:0;padding:0;background:var(--paper);color:var(--ink);border-radius:12px;width:min(1080px,calc(100vw - 24px));max-height:calc(100vh - 24px);box-shadow:0 20px 60px rgb(0 0 0 / .3)}
+dialog::backdrop{background:rgb(10 12 15 / .55)}
+.sheet{padding:22px clamp(16px,3vw,32px) 32px;display:grid;gap:20px}
+.sheet header{display:flex;justify-content:space-between;gap:16px;align-items:start;border-bottom:3px double var(--rule);padding-bottom:12px}
+.sheet h2{font-size:28px;font-weight:900}
+.sheet .sub{color:var(--ink2);font-size:14px}
+.x{border:1px solid var(--rule);background:var(--paper);border-radius:6px;width:36px;height:36px;cursor:pointer;font-size:18px;flex:none}
+.kv{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:8px;overflow:hidden}
+.kv div{background:var(--paper);padding:10px 12px}
+.kv dt{font-size:12px;color:var(--ink3)}
+.kv dd{margin:0;font-family:var(--f-num);font-size:18px;font-variant-numeric:tabular-nums}
+.kv dd small{font-size:12px;color:var(--ink3)}
+.kv dd small{white-space:nowrap}
+.kv div.wide{grid-column:1/-1}
+.kv div.wide dd small{white-space:normal}
+@media (max-width:560px){.kv{grid-template-columns:repeat(2,minmax(0,1fr))}.kv div.ins{grid-column:1/-1}}
+.kv .hl dd{color:var(--seal);font-weight:500}
+h3{font-size:18px;font-weight:600;display:flex;gap:10px;align-items:baseline}
+h3 small{font-family:var(--f-body);font-size:13px;color:var(--ink3);font-weight:400}
+.tbl{overflow-x:auto;border:1px solid var(--rule);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:6px 10px;border-bottom:1px solid var(--rule2);text-align:left;white-space:nowrap}
+th{font-weight:500;color:var(--ink3);background:var(--bg);position:sticky;top:0}
+td.r,th.r{text-align:right;font-family:var(--f-num);font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+.up{color:var(--seal)}
+.note{background:var(--warn-bg);color:var(--warn-ink);border-radius:8px;padding:10px 14px;font-size:13px}
+.note b{font-weight:700}
+.note.ok{background:var(--rule2);color:var(--ink2)}
+.muted{color:var(--ink3);font-size:13px}
+
+/* compare grid */
+.cgrid{display:grid;grid-template-columns:repeat(var(--n),minmax(200px,1fr));gap:12px;overflow-x:auto}
+.ccol{border:1px solid var(--rule);border-radius:10px;padding:14px;display:grid;gap:10px;align-content:start;min-width:0}
+.ccol h4{margin:0;font-family:var(--f-display);font-size:20px}
+.ccol .m{font-size:12px;color:var(--ink3)}
+.crow{display:flex;justify-content:space-between;gap:8px;font-size:13px;border-top:1px dashed var(--rule);padding-top:6px}
+.crow b{font-family:var(--f-num);font-weight:500}
+.vbar{height:180px;display:flex;flex-direction:column-reverse;gap:2px}
+.vbar i{display:block;width:100%}
+.vbar i:last-child{border-radius:4px 4px 0 0}
+
+/* method */
+.method{background:var(--paper);border:1px solid var(--rule);border-radius:10px;padding:20px clamp(16px,3vw,28px);display:grid;gap:12px}
+.method h2{font-size:22px}
+.method p,.method li{max-width:72ch;color:var(--ink2);font-size:14px}
+.method code{font-family:var(--f-num);background:var(--bg);padding:1px 5px;border-radius:4px;font-size:13px}
+.formula{font-family:var(--f-num);background:var(--bg);border-left:3px solid var(--seal);padding:10px 14px;font-size:13px;overflow-x:auto}
+
+#tip{position:fixed;pointer-events:none;z-index:20;background:var(--ink);color:var(--paper);font-size:12px;padding:6px 9px;border-radius:6px;max-width:240px}
+.spacer{height:70px}
+a.rep{font-size:12px;color:var(--ink3);text-decoration:none;border-bottom:1px dotted var(--ink3)}
+a.rep:hover{color:var(--seal);border-color:var(--seal)}
+.dl{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center}
+@media (prefers-reduced-motion:no-preference){.row{transition:background .12s}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <h1>候選人財產透視<span class="seal">115 地方選舉</span></h1>
+      <p>把中選會公告的 1,590 份公職候選人財產申報表逐份轉成數字，股票改用 115 年 10 月 16 日（週五）收盤價重算市值，讓同一選區的候選人可以並排比較。</p>
+    </div>
+    <div class="facts">
+      <div>候選人<b class="num" id="fN">—</b></div>
+      <div>股價基準日<b class="num">10/16</b></div>
+      <div>需人工核對<b class="num" id="fW">—</b></div>
+    </div>
+  </header>
+
+  <nav class="rail" aria-label="篩選">
+    <label class="fld">姓名<input id="q" type="search" placeholder="輸入姓名" autocomplete="off"></label>
+    <label class="fld">選舉類別<select id="fType"><option value="">全部</option></select></label>
+    <label class="fld">縣市<select id="fCity"><option value="">全部</option></select></label>
+    <label class="fld">選舉區<select id="fDist"><option value="">全部</option></select></label>
+    <label class="fld">政黨<select id="fParty"><option value="">全部</option></select></label>
+    <label class="fld">排序<select id="fSort">
+      <option value="net_mkt">淨資產（股票以市值）</option>
+      <option value="net_decl">淨資產（申報面額）</option>
+      <option value="deposit">存款＋現金</option>
+      <option value="sec_mkt">股票與基金市值</option>
+      <option value="gain">市值與申報差額</option>
+      <option value="debt">債務</option>
+      <option value="land">土地持分面積</option>
+      <option value="bldg">建物筆數</option>
+      <option value="chg">與 111 年相比增加最多</option>
+      <option value="chg_asc">與 111 年相比減少最多</option>
+      <option value="net_asc">淨資產由少到多</option>
+    </select></label>
+    <label class="fld chk"><span>&nbsp;</span><span><input type="checkbox" id="fPrev"> 只看有 111 年資料</span></label>
+    <span class="count" id="count"></span>
+  </nav>
+
+  <div class="legend" aria-label="圖例">
+    <span><i class="sw" style="background:var(--s1)"></i>存款＋現金</span>
+    <span><i class="sw" style="background:var(--s2)"></i>股票（市值）</span>
+    <span><i class="sw" style="background:var(--s3)"></i>基金・債券・其他證券</span>
+    <span><i class="sw" style="background:var(--s4)"></i>事業投資・債權・其他財產</span>
+    <span><i class="sw debt"></i>債務</span>
+    <span class="muted">不動產沒有申報價值，只列筆數與面積。</span>
+  </div>
+
+  <section class="roll" id="roll" aria-live="polite"><div class="row"><span></span><span class="muted">載入申報資料中…</span></div></section>
+  <div class="more"><button class="btn" id="more" hidden>顯示更多</button></div>
+
+  <section class="method" id="method">
+    <h2>資料怎麼來的</h2>
+    <ul>
+      <li><b>來源</b>：中選會「公職候選人財產申報系統（公告端）」<a href="https://pdps-dec.cec.gov.tw/release/formal/HomePage.html" target="_blank" rel="noopener">pdps-dec.cec.gov.tw</a>，115 年地方公職人員選舉直轄市長、縣（市）長、直轄市議員、縣（市）議員共 1,590 份申報表，申報日多在 115 年 8 至 9 月。</li>
+      <li><b>轉錄</b>：申報表是掃描影像，沒有文字層。每份 PDF 交給 Gemini 3.5 Flash 逐頁讀取並輸出結構化資料，再用程式把每一類的明細加總、筆數拿去和表上印的「總金額」「總申報筆數」比對。對不上的申報表改用 Gemini 3.1 Pro 重讀；仍對不上的標示「需核對」，兩個數字都列出來，請以原始 PDF 為準。</li>
+      <li><b>股價</b>：上市取證交所 MI_INDEX、上櫃取櫃買中心每日收盤行情，興櫃沒有收盤價，取當日均價。股票名稱以完全相符比對代號（只做全形半形、台臺、公司字尾的正規化），不做模糊比對；未上市櫃或比對不到的證券維持申報值。</li>
+      <li><b>匯率</b>：候選人各自用不同銀行、不同日期的匯率，同一天申報的美元就有上百種。本站「市值」一律改用臺灣銀行牌告即期買入與賣出的中價，115 年用 10 月 16 日、111 年用 9 月 2 日，和股價同一天。表上沒寫幣別的外幣證券，依金額反推的匯率判斷幣別。候選人自己寫的匯率與換算金額都保留，列在明細，「申報」淨資產照用他們自己的數字。</li>
+      <li><b>111 年（2022）比較</b>：111 年的申報公告只上網一年，官方網站已下架。這裡用網際網路檔案館保存的 111declaration.cec.gov.tw 存檔（2,063 份 PDF），以「同縣市、同姓名」對到 872 位 115 年候選人，連同補正文件一起轉錄：705 份用 Gemini 3.5 Flash，166 份改由 Claude Haiku 逐頁判讀，兩者都經過同樣的加總核對；另有 1 份字跡無法完整判讀，未列入比較。111 年的股票以 111 年 9 月 2 日（週五）收盤價計，上次與這次的「申報面額」可以直接相比。同名不同人、跨縣市參選、存檔缺漏的情況都可能存在。</li>
+      <li><b>政黨</b>：依中選會公告的候選人登記名冊上的「推薦之政黨」。財產申報系統上的政黨欄多數空白，也有填錯的，所以不採用。</li>
+      <li><b>沒有算進去的</b>：土地、建物只有面積與取得原因，法規不要求申報價值，因此不列入金額；保險只列件數；汽車列出廠牌、汽缸容量與取得資料，但沒有估價。</li>
+    </ul>
+    <div class="formula">淨資產 = 現金 + 存款 + 股票 + 基金 + 債券 + 其他有價證券 + 其他財產 + 債權 + 事業投資 − 債務<br>「市值」版本把可比對到收盤價的股票與 ETF 換成 股數 × 10/16 收盤價，其餘不變。</div>
+    <div class="dl" id="dl"></div>
+    <p>持有人只區分本人、配偶、未成年子女，不顯示子女姓名、身分證字號、帳號與地址。轉錄由 AI 完成，可能有誤讀，引用前請點開原始申報表核對。</p>
+  </section>
+  <div class="spacer"></div>
+</div>
+
+<div class="tray" id="tray" hidden>
+  <strong>比較</strong>
+  <div class="tags" id="tags"></div>
+  <button class="btn" id="clr">清除</button>
+  <button class="btn pri" id="go">並排比較</button>
+</div>
+
+<dialog id="dlg" aria-label="候選人明細"><div class="sheet" id="sheet"></div></dialog>
+<div id="tip" hidden></div>
+
+<script>
+const $=s=>document.querySelector(s);
+const fmt=v=>{v=+v||0;const a=Math.abs(v),s=v<0?'−':'';if(a>=1e8)return s+(a/1e8).toFixed(a>=1e10?1:2)+' 億';if(a>=1e4)return s+Math.round(a/1e4).toLocaleString('zh-TW')+' 萬';return s+Math.round(a).toLocaleString('zh-TW')+' 元'};
+const full=v=>v==null?'—':Math.round(v).toLocaleString('zh-TW');
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let DATA=[],view=[],shown=0,PAGE=60,cmp=[];const SHARD={};
+async function full_(c){if(!c.stocks){if(!SHARD[c.shard])SHARD[c.shard]=fetch(`detail/${c.shard}.json`).then(r=>r.json());const d=(await SHARD[c.shard])[c.id];Object.assign(c,d)}return c}
+const SEGS=[['dep','存款＋現金','--s1'],['stk','股票（市值）','--s2'],['fund','基金・債券・其他證券','--s3'],['oth','事業投資・債權・其他財產','--s4']];
+function derive(c){const s=c.sum;c.seg={dep:(s.cash_std??s.cash)+(s.deposit_std??s.deposit),stk:Math.max(0,s.stock_mkt),fund:s.fund_mkt+s.bond+s.other_sec,oth:s.other_assets+s.claims+s.biz};
+  c.gross=Object.values(c.seg).reduce((a,b)=>a+b,0);c.gain=(s.stock_mkt+s.fund_mkt)-(s.stock_decl+s.fund_decl);
+  c.warn=c.issues.some(i=>i.kind==='sum mismatch'&&Math.abs(i.items-(i.declared||0))>Math.max(1e4,0.01*Math.abs(i.declared||0)));if(c.sum.suspect_n)c.warn=true;c.chg=c.prev?c.sum.net_decl-c.prev.sum.net_decl:null;return c}
+const SORTS={net_mkt:c=>c.sum.net_mkt,net_decl:c=>c.sum.net_decl,deposit:c=>c.seg.dep,sec_mkt:c=>c.sum.stock_mkt+c.sum.fund_mkt,gain:c=>c.gain,debt:c=>c.sum.debt,land:c=>c.sum.land_area,bldg:c=>c.sum.bldg_n,net_asc:c=>-c.sum.net_mkt,chg:c=>c.chg??-Infinity,chg_asc:c=>c.chg==null?-Infinity:-c.chg};
+function opts(sel,vals){const cur=sel.value;sel.length=1;vals.forEach(v=>sel.add(new Option(v,v)));if(vals.includes(cur))sel.value=cur}
+const TYPE_ORDER=['直轄市長','縣（市）長','直轄市議員','縣（市）議員'];
+function refreshOpts(){const t=$('#fType').value,ci=$('#fCity').value;
+  opts($('#fCity'),[...new Set(DATA.filter(c=>!t||c.type===t).map(c=>c.city))].sort((a,b)=>a.localeCompare(b,'zh-TW')));
+  const ds=[...new Set(DATA.filter(c=>(!t||c.type===t)&&(!$('#fCity').value||c.city===$('#fCity').value)).map(c=>c.dist))];
+  ds.sort((a,b)=>{const na=+(a.match(/第(\d+)/)||[0,0])[1],nb=+(b.match(/第(\d+)/)||[0,0])[1];return a.replace(/第\d+.*/,'').localeCompare(b.replace(/第\d+.*/,''),'zh-TW')||na-nb});
+  opts($('#fDist'),ds)}
+function apply(){const q=$('#q').value.trim(),t=$('#fType').value,ci=$('#fCity').value,d=$('#fDist').value,p=$('#fParty').value,k=SORTS[$('#fSort').value],pv=$('#fPrev').checked||$('#fSort').value.startsWith('chg');
+  view=DATA.filter(c=>(!q||c.name.includes(q))&&(!t||c.type===t)&&(!ci||c.city===ci)&&(!d||c.dist===d)&&(!p||c.party===p)&&(!pv||c.prev)).sort((a,b)=>k(b)-k(a));
+  shown=0;$('#roll').innerHTML='';
+  $('#count').textContent=view.length?`${view.length.toLocaleString()} 位`+(d?`・${d}`:''):'';
+  if(!view.length){$('#roll').innerHTML='<div class="row" style="cursor:default"><span></span><span class="muted">沒有符合條件的候選人，請放寬篩選。</span></div>'}
+  more()}
+function barHTML(c,max){if(max<=0)max=1;
+  const segs=SEGS.map(([k,l,v])=>c.seg[k]>0?`<i style="flex:0 0 ${(c.seg[k]/max*100).toFixed(3)}%;background:var(${v})" data-t="${l}　${fmt(c.seg[k])}"></i>`:'').join('');
+  const d=c.sum.debt>0?`<div class="dbar"><i style="width:${Math.min(100,c.sum.debt/max*100).toFixed(3)}%" data-t="債務　${fmt(c.sum.debt)}"></i></div>`:'';
+  return `<div class="bar">${segs}</div>${d}`}
+function more(){const max=Math.max(1,...view.map(c=>Math.max(c.gross,c.sum.debt)));
+  const frag=view.slice(shown,shown+PAGE).map((c,i)=>`<div class="row" data-id="${c.id}" tabindex="0" role="button" aria-label="${esc(c.name)} 明細">
+   <span class="rank">${shown+i+1}</span>
+   <div class="who"><div class="n">${esc(c.name)}${c.warn?'<span class="chip">需核對</span>':''}</div><div class="m">${esc(c.party)}・${esc(c.type)}・${esc(c.dist)}</div></div>
+   <div class="bars">${barHTML(c,max)}</div>
+   <div class="val"><b>${fmt(c.sum.net_mkt)}</b><small>申報 ${fmt(c.sum.net_decl)}</small>${c.prev?`<small class="prv">111年 ${fmt(c.prev.sum.net_decl)}<em class="${c.chg>=0?'up':'dn'}">${c.chg>=0?'＋':'－'}${fmt(Math.abs(c.chg))}</em></small>`:''}</div>
+   <label class="cmpbox" onclick="event.stopPropagation()" title="加入比較"><input type="checkbox" data-c="${c.id}" ${cmp.includes(c.id)?'checked':''} aria-label="把 ${esc(c.name)} 加入比較"></label></div>`).join('');
+  $('#roll').insertAdjacentHTML('beforeend',frag);shown+=PAGE;$('#more').hidden=shown>=view.length}
+function tray(){$('#tray').hidden=!cmp.length;$('#tags').innerHTML=cmp.map(id=>{const c=DATA.find(x=>x.id===id);return `<span class="tag">${esc(c.name)}<button data-rm="${id}" aria-label="移除 ${esc(c.name)}">×</button></span>`}).join('');
+  document.querySelectorAll('input[data-c]').forEach(b=>b.checked=cmp.includes(b.dataset.c))}
+function toggle(id,on){cmp=cmp.filter(x=>x!==id);if(on){if(cmp.length>=6){cmp.shift()}cmp.push(id)}tray()}
+function prevHTML(c){if(!c.prev)return '<h3>與 111 年（2022）比較</h3><p class="muted">在 111 年地方選舉的候選人申報存檔中，找不到同縣市、同姓名的申報表。可能是上次沒有參選、參選其他縣市，或存檔缺漏。</p>';
+  const a=c.prev.sum,b=c.sum,P=c.prev;
+  const L=[['存款＋現金',a.cash+a.deposit,b.cash+b.deposit],['股票與基金（申報面額）',a.stock_decl+a.fund_decl,b.stock_decl+b.fund_decl],['股票與基金（各自當時收盤市值）',a.stock_mkt+a.fund_mkt,b.stock_mkt+b.fund_mkt],
+    ['事業投資・債權・其他',a.biz+a.claims+a.other_assets+a.bond+a.other_sec,b.biz+b.claims+b.other_assets+b.bond+b.other_sec],['債務',a.debt,b.debt],['淨資產（申報）',a.net_decl,b.net_decl],['淨資產（市值）',a.net_mkt,b.net_mkt]];
+  const rows=L.map(([l,x,y])=>`<tr><td>${l}</td><td class="r">${full(x)}</td><td class="r">${full(y)}</td><td class="r ${y-x>=0?'up':'dn'}">${y-x>=0?'＋':'－'}${full(Math.abs(y-x))}</td></tr>`).join('')+
+   `<tr><td>土地（筆／持分 m²）</td><td class="r">${a.land_n}／${a.land_area.toLocaleString()}</td><td class="r">${b.land_n}／${b.land_area.toLocaleString()}</td><td class="r">${b.land_n-a.land_n>=0?'＋':'－'}${Math.abs(b.land_n-a.land_n)} 筆</td></tr>
+    <tr><td>建物（筆／持分 m²）</td><td class="r">${a.bldg_n}／${a.bldg_area.toLocaleString()}</td><td class="r">${b.bldg_n}／${b.bldg_area.toLocaleString()}</td><td class="r">${b.bldg_n-a.bldg_n>=0?'＋':'－'}${Math.abs(b.bldg_n-a.bldg_n)} 筆</td></tr>`;
+  const pi=(P.issues||[]).filter(i=>i.kind!=='no declared total');
+  return `<h3>與 111 年（2022）比較 <small>111 年申報日 ${esc(P.date||'—')}；111 年股票以 111/9/2 收盤價計</small></h3>
+   ${pi.length?'<div class="note"><b>111 年申報表需核對</b>：明細加總與表上總額不一致，請點開存檔核對。</div>':''}
+   <div class="tbl"><table><thead><tr><th>項目</th><th class="r">111 年</th><th class="r">115 年</th><th class="r">增減</th></tr></thead><tbody>${rows}</tbody></table></div>
+   <p class="muted">依同縣市、同姓名比對：${esc(P.folder)}。${P.n_files>1?`含 ${P.n_files-1} 份補正。`:''}111 年原始申報表可在 GitHub Release 的 PDF 壓縮檔下載，對照表見 data/pdf_manifest.csv。</p>`}
+const ROLE_NOTE='持有人：本人／配偶／子女';
+const REPO=(window.SITE_CONFIG&&window.SITE_CONFIG.repo)||'Sigma-Snaken/candidate-wealth-tw';
+const SECZH={deposits:'存款',cash:'現金',stocks:'股票',funds:'基金',bonds:'債券',other_securities:'其他有價證券',land:'土地',buildings:'建物',vehicles:'汽車',insurance:'保險',debt_claims:'債權',debts:'債務',business_investments:'事業投資',other_assets:'其他財產',form:'表頭或總額'};
+function issueUrl(c,o){const p=new URLSearchParams({template:'correction.yml',title:`[更正] ${c.name}（${c.id}）${o&&o.sec?SECZH[o.sec]||'':''}`,year:'115',seq:c.id,candidate:c.name});
+  if(o){if(o.sec)p.set('section',`${SECZH[o.sec]||''} ${o.sec}`);if(o.i!=null)p.set('row',String(o.i));if(o.field)p.set('field',o.field);if(o.cur!=null)p.set('current',String(o.cur));}
+  return `https://github.com/${REPO}/issues/new?${p}`}
+const rl=(c,o)=>`<td><a class="rep" href="${issueUrl(c,o)}" target="_blank" rel="noopener" title="這一列有誤？回報給我們">回報</a></td>`;
+function rowsTbl(head,rows){return rows.length?`<div class="tbl"><table><thead><tr>${head.map(h=>`<th class="${h[1]||''}">${h[0]}</th>`).join('')}</tr></thead><tbody>${rows.join('')}</tbody></table></div>`:'<p class="muted">未申報。</p>'}
+async function detail(c0){const c=await full_(c0);const s=c.sum;
+  const issues=c.issues.filter(i=>i.kind!=='no declared total');
+  const SEC={cash:'現金',deposit:'存款',stock:'股票',securities:'有價證券',bond:'債券',fund:'基金',other_sec:'其他有價證券',other_assets:'其他財產',debt_claims:'債權',debts:'債務',business:'事業投資',land:'土地',building:'建物'};
+  const iss=issues.length?`<div class="note"><b>需核對</b>：${c.form_inconsistent?'Flash 與 Pro 兩個模型讀到相同數字，申報表本身的明細加總與總額就不一致。':'AI 讀出的明細和表上印的總數對不上，可能是轉錄誤讀，請以原始申報表為準。'}<br>${issues.map(i=>`${SEC[i.sec]||i.sec}${i.kind==='count mismatch'?'筆數':'金額'}：明細加總 <span class="num">${full(i.items)}</span>，表上 <span class="num">${full(i.declared)}</span>`).join('<br>')}</div>`:'';
+  const stk=[...c.stocks,...c.funds].sort((a,b)=>b.market-a.market).map(x=>`<tr><td>${esc(x.name)}</td><td>${esc(x.code||'')}</td><td>${x.role}</td><td class="r">${x.units_used!=null?full(x.units_used):full(x.units)}</td><td class="r">${full(x.declared)}</td><td class="r">${x.close??'—'}</td><td class="r ${x.priced&&x.market>x.declared?'up':''}">${full(x.market)}</td><td class="muted">${esc(x.flag||'')}</td>${rl(c,{sec:x.sec,i:x.i,field:'金額',cur:x.declared})}</tr>`);
+  const fx2=v=>v==null?'—':(+v).toLocaleString('zh-TW',{maximumFractionDigits:4});
+  const dep=c.deposits.map(x=>{const f=x.cur&&x.cur!=='TWD';return `<tr><td>${esc(x.bank)}</td><td>${f?esc(x.cur):'新臺幣'}</td><td>${x.role}</td><td class="r">${f&&x.fx!=null?fx2(x.fx):''}</td><td class="r">${f?fx2(x.rate)+(x.rate_src==='stated'?'':'*'):''}</td><td class="r">${x.twd?full(x.twd):(x.twd_filled?'（空白）':full(x.twd))}</td><td class="r">${f?fx2(x.std_rate):''}</td><td class="r">${full(x.std_twd??x.twd)}</td>${rl(c,{sec:'deposits',i:x.i,field:'金額',cur:x.twd})}</tr>`});
+  const cars=(c.cars||[]).map(v=>`<tr><td>${esc(v.model||'')}</td><td>${esc(v.brand||'')}</td><td class="r">${v.cc!=null?full(v.cc):esc(v.cc_raw||'—')}</td><td>${v.role}</td><td>${esc(v.acq||'')}</td><td>${esc(v.reason||'')}</td><td>${esc(v.price||'')}</td>${rl(c,{sec:'vehicles',i:v.i,field:'廠牌型號',cur:v.model})}</tr>`);
+  const re=[...c.land.map(x=>['土地',x,'land']),...c.bldg.map(x=>['建物',x,'buildings'])].map(([k,x,sec])=>`<tr><td>${k}</td><td>${esc(x.loc)}</td><td>${x.role}</td><td class="r">${x.area??'—'}</td><td>${esc(x.share||'')}</td><td class="r">${x.own_area??'—'}</td><td>${esc(x.acq||'')}</td><td>${esc(x.reason||'')}</td>${rl(c,{sec,i:x.i,field:'面積',cur:x.area})}</tr>`);
+  const oth=[...c.biz.map(x=>['事業投資',x]),...c.other.map(x=>['其他財產／債權',x]),...c.bonds.map(x=>['債券／其他證券',{desc:x.name,twd:x.twd,role:x.role,sec:x.sec,i:x.i}]),...c.debts.map(x=>['債務',x])].map(([k,x])=>`<tr><td>${k}</td><td>${esc(x.desc)}</td><td>${x.role}</td><td class="r">${full(x.twd)}</td>${rl(c,{sec:x.sec,i:x.i,field:'金額',cur:x.twd})}</tr>`);
+  const role=Object.entries(c.by_role).map(([r,v])=>`${r} ${fmt((v.deposit||0)+(v.cash||0)+(v.sec_market||0)-(v.debt||0))}`).join('・');
+  const sus=s.suspect_n?`<div class="note"><b>疑似申報填寫錯誤</b>：有 ${s.suspect_n} 筆證券的申報金額合計 ${fmt(s.suspect_amt)}，每單位價值超過 5 萬元，明顯不合理（常見原因是淨值欄位小數點錯位）。這些項目不計入本站的兩種淨資產，請以原始申報表判斷實際金額。</div>`:'';
+  $('#sheet').innerHTML=`<header><div><h2>${esc(c.name)}</h2><div class="sub">${esc(c.party)}・${esc(c.type)}・${esc(c.dist)}・申報日 ${esc(c.date||'—')}${c.has_spouse?'・有配偶':''}${c.kids?`・未成年子女 ${c.kids} 人`:''}</div></div><button class="x" onclick="dlg.close()" aria-label="關閉">×</button></header>
+   ${c.manual_note?`<div class="note ok"><b>人工核對</b>：${esc(c.manual_note.replace(/^人工核對（[^）]*）：/,''))}</div>`:''}${iss}${sus}
+   <dl class="kv"><div class="hl"><dt>淨資產（股票市值）</dt><dd>${fmt(s.net_mkt)}</dd></div><div><dt>淨資產（申報面額）</dt><dd>${fmt(s.net_decl)}</dd></div>
+   <div><dt>存款＋現金（統一匯率）</dt><dd>${fmt((s.deposit_std??s.deposit)+(s.cash_std??s.cash))}${s.fx_n?` <small>申報 ${fmt(s.deposit+s.cash)}</small>`:''}</dd></div><div><dt>股票與基金 市值</dt><dd>${fmt(s.stock_mkt+s.fund_mkt)} <small>申報 ${fmt(s.stock_decl+s.fund_decl)}</small></dd></div>
+   <div><dt>事業投資・債權・其他</dt><dd>${fmt(s.biz+s.claims+s.other_assets+s.bond+s.other_sec)}</dd></div><div><dt>債務</dt><dd>${fmt(s.debt)}</dd></div>
+   <div><dt>土地</dt><dd>${s.land_n} 筆 <small>持分 ${s.land_area.toLocaleString()} m²</small></dd></div><div><dt>建物</dt><dd>${s.bldg_n} 筆 <small>持分 ${s.bldg_area.toLocaleString()} m²</small></dd></div>
+   <div class="ins"><dt>保險</dt><dd>${s.ins_n} 件</dd></div><div class="wide"><dt>汽車</dt><dd>${s.car_n} 輛${(s.car_brands||[]).length?` <small>${s.car_brands.map(([b,n])=>esc(b)+(n>1?' ×'+n:'')).join('、')}</small>`:''}</dd></div></dl>
+   <p class="muted">依持有人（不含不動產、事業投資）：${role||'—'}。<a href="${c.pdf}" target="_blank" rel="noopener">開啟中選會原始申報表 PDF</a>。發現轉錄錯誤？每列最右邊可以直接<a href="${issueUrl(c)}" target="_blank" rel="noopener">回報</a>，經審核後更正。</p>
+   ${prevHTML(c)}
+   <h3>股票與基金 <small>10/16 收盤價重算；紅字為市值高於申報值</small></h3>
+   ${rowsTbl([['名稱'],['代號'],['持有人'],['股數／單位','r'],['申報值','r'],['收盤價','r'],['市值','r'],['備註'],['']],stk)}
+   <h3>存款 <small>${c.deposits.length} 筆；外幣以臺灣銀行 115/10/16 即期中價統一換算，標 * 的申報匯率是由金額反推，表上沒有寫明</small></h3>
+   ${rowsTbl([['存放機構'],['幣別'],['持有人'],['外幣金額','r'],['申報匯率','r'],['申報新臺幣','r'],['統一匯率','r'],['統一換算新臺幣','r'],['']],dep)}
+   <h3>汽車、船舶、航空器 <small>${(c.cars||[]).length} 輛汽車${(c.ships||[]).length?`、${c.ships.length} 艘船舶`:''}${(c.aircraft||[]).length?`、${c.aircraft.length} 架航空器`:''}</small></h3>
+   ${rowsTbl([['廠牌型號'],['廠牌'],['汽缸容量 cc','r'],['所有人'],['取得時間'],['取得原因'],['取得價額'],['']],cars)}
+   ${(c.ships||[]).length?rowsTbl([['船舶種類'],['噸數／長度'],['所有人'],['取得時間'],['取得價額']],c.ships.map(x=>`<tr><td>${esc(x.kind)}</td><td>${esc(x.size||'')}</td><td>${x.role}</td><td>${esc(x.acq||'')}</td><td>${esc(x.price||'')}</td></tr>`)):''}
+   ${(c.aircraft||[]).length?rowsTbl([['航空器型式'],['製造廠'],['所有人'],['取得時間'],['取得價額']],c.aircraft.map(x=>`<tr><td>${esc(x.model)}</td><td>${esc(x.maker||'')}</td><td>${x.role}</td><td>${esc(x.acq||'')}</td><td>${esc(x.price||'')}</td></tr>`)):''}
+   <h3>不動產 <small>只有面積，沒有申報價值</small></h3>
+   ${rowsTbl([['類別'],['坐落'],['所有人'],['面積 m²','r'],['權利範圍'],['持分面積 m²','r'],['取得時間'],['取得原因'],['']],re)}
+   <h3>事業投資、其他財產與債務</h3>
+   ${rowsTbl([['類別'],['名稱'],['持有人'],['金額','r'],['']],oth)}
+   ${c.notes?`<p class="muted">轉錄備註：${esc(c.notes)}</p>`:''}`;
+  dlg.showModal();$('#sheet').scrollTop=0}
+async function compare(){const cs=await Promise.all(cmp.map(id=>full_(DATA.find(x=>x.id===id))));const max=Math.max(1,...cs.map(c=>Math.max(c.gross,c.sum.debt)));
+  const col=c=>{const s=c.sum;const vb=SEGS.map(([k,l,v])=>c.seg[k]>0?`<i style="height:${(c.seg[k]/max*100).toFixed(2)}%;background:var(${v})" data-t="${l}　${fmt(c.seg[k])}"></i>`:'').join('');
+   const top=[...c.stocks,...c.funds].sort((a,b)=>b.market-a.market).slice(0,5).map(x=>`<div class="crow"><span>${esc(x.name)}</span><b>${fmt(x.market)}</b></div>`).join('');
+   return `<div class="ccol"><div><h4>${esc(c.name)}${c.warn?'<span class="chip">需核對</span>':''}</h4><div class="m">${esc(c.party)}・${esc(c.dist)}</div></div>
+   <div class="vbar" aria-hidden="true">${vb}</div>
+   <div class="crow"><span>淨資產（市值）</span><b>${fmt(s.net_mkt)}</b></div><div class="crow"><span>淨資產（申報）</span><b>${fmt(s.net_decl)}</b></div>
+   <div class="crow"><span>存款＋現金</span><b>${fmt(s.deposit+s.cash)}</b></div><div class="crow"><span>股票與基金市值</span><b>${fmt(s.stock_mkt+s.fund_mkt)}</b></div>
+   <div class="crow"><span>事業投資等</span><b>${fmt(s.biz+s.claims+s.other_assets+s.bond+s.other_sec)}</b></div><div class="crow"><span>債務</span><b>${fmt(s.debt)}</b></div>
+   <div class="crow"><span>111 年淨資產（申報）</span><b>${c.prev?fmt(c.prev.sum.net_decl):'—'}</b></div>
+   <div class="crow"><span>土地／建物</span><b>${s.land_n}／${s.bldg_n} 筆</b></div><div class="crow"><span>土地持分面積</span><b>${s.land_area.toLocaleString()} m²</b></div>
+   ${top?`<div class="m" style="margin-top:6px">持股市值前五</div>${top}`:''}
+   <button class="btn" data-open="${c.id}">看完整明細</button></div>`};
+  $('#sheet').innerHTML=`<header><div><h2>並排比較</h2><div class="sub">直條高度用同一比例尺；股票以 10/16 收盤價計。</div></div><button class="x" onclick="dlg.close()" aria-label="關閉">×</button></header>
+   <div class="legend">${SEGS.map(([k,l,v])=>`<span><i class="sw" style="background:var(${v})"></i>${l}</span>`).join('')}</div>
+   <div class="cgrid" style="--n:${cs.length}">${cs.map(col).join('')}</div>`;dlg.showModal()}
+const dlg=$('#dlg');
+dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close();const o=e.target.closest('[data-open]');if(o)detail(DATA.find(x=>x.id===o.dataset.open))});
+$('#roll').addEventListener('click',e=>{const r=e.target.closest('.row[data-id]');if(r&&!e.target.closest('.cmpbox'))detail(DATA.find(x=>x.id===r.dataset.id))});
+$('#roll').addEventListener('keydown',e=>{if(e.key==='Enter'){const r=e.target.closest('.row[data-id]');if(r)detail(DATA.find(x=>x.id===r.dataset.id))}});
+$('#roll').addEventListener('change',e=>{if(e.target.dataset.c)toggle(e.target.dataset.c,e.target.checked)});
+$('#tags').addEventListener('click',e=>{if(e.target.dataset.rm)toggle(e.target.dataset.rm,false)});
+$('#clr').onclick=()=>{cmp=[];tray()};$('#go').onclick=compare;$('#more').onclick=more;
+let qt;$('#q').addEventListener('input',()=>{clearTimeout(qt);qt=setTimeout(apply,150)});
+$('#fType').onchange=()=>{refreshOpts();apply()};$('#fCity').onchange=()=>{refreshOpts();apply()};
+['#fDist','#fParty','#fSort','#fPrev'].forEach(s=>$(s).onchange=apply);
+const tip=$('#tip');document.addEventListener('mousemove',e=>{const t=e.target.closest&&e.target.closest('[data-t]');if(!t){tip.hidden=true;return}
+  tip.textContent=t.dataset.t;tip.hidden=false;tip.style.left=Math.min(innerWidth-250,e.clientX+12)+'px';tip.style.top=(e.clientY+14)+'px'});
+(()=>{const d=$('#dl');if(!d)return;const dl=window.SITE_CONFIG&&window.SITE_CONFIG.download;
+  d.innerHTML=(dl?`<a class="btn" href="download/candidate_wealth.sqlite">下載資料庫（SQLite）</a><a class="btn" href="download/csv/summary.csv">下載摘要（CSV）</a>`:'')+`<a href="https://github.com/${REPO}" target="_blank" rel="noopener">原始資料、程式與更正紀錄（GitHub）</a><a href="https://github.com/${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">如何協助更正</a>`})();
+fetch('data.json').then(r=>r.json()).then(d=>{DATA=d.map(derive);
+  $('#fN').textContent=DATA.length.toLocaleString();$('#fW').textContent=DATA.filter(c=>c.warn).length.toLocaleString();
+  opts($('#fType'),TYPE_ORDER.filter(t=>DATA.some(c=>c.type===t)));
+  const pc={};DATA.forEach(c=>pc[c.party]=(pc[c.party]||0)+1);opts($('#fParty'),Object.keys(pc).sort((a,b)=>pc[b]-pc[a]));
+  refreshOpts();apply()}).catch(()=>{$('#roll').innerHTML='<div class="row"><span></span><span class="muted">資料檔載入失敗，請重新整理頁面。</span></div>'});
+</script>

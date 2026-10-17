@@ -1,0 +1,63 @@
+{"seq": "2958", "model": "claude-haiku", "data": {
+"declarant": "陳揚",
+"declare_date": null,
+"spouse": null,
+"minor_children_count": 0,
+"total_pages": 18,
+"land": [
+{"location": "屏東縣三地門鄉沙溪段", "area_m2": 12860, "share": "全部", "owner": "陳揚", "acquired": "105/03/29", "reason": "拍賣", "price": "2,005,000(土地公告現值每平方公尺92元，與地號同項次一同拍賣二筆價款共2005000)"},
+{"location": "屏東縣三地門鄉沙溪段", "area_m2": 4740, "share": "全部", "owner": "陳揚", "acquired": "106/08/10", "reason": "地上權期間居滿", "price": "200,000(土地公告現值每平方公尺92元)"},
+{"location": "屏東縣三地門鄉沙溪段", "area_m2": 2164, "share": "全部", "owner": "陳揚", "acquired": "105/03/29", "reason": "拍賣", "price": "2,005,000(土地公告現值每平方公尺92元)"}
+],
+"land_count": 3,
+"buildings": [],
+"building_count": 0,
+"ships": [],
+"vehicles": [],
+"vehicle_count": 0,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "台新國際銀行屏東分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 62},
+{"bank": "台新國際銀行敦南分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 300},
+{"bank": "玉山銀行屏東分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 100808},
+{"bank": "屏東縣內埔地區農會信用部屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 1620},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 9190},
+{"bank": "陽信銀行屏東分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 108},
+{"bank": "臺灣新光銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 5},
+{"bank": "台北富邦銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 8},
+{"bank": "臺灣銀行中屏分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "陳揚", "foreign_amount": null, "twd": 304823}
+],
+"deposit_count": 9,
+"deposit_total_twd": 416924,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": null,
+"insurance": [
+{"desc": "國泰人壽保險公司 新呵護久久失能照護", "owner": "陳揚", "amount_twd": 38120, "note": "儲蓄型; 契約始日1080126, 終身"},
+{"desc": "中國人壽保險股份有限公司 新樂活終身醫療健康保險", "owner": "陳揚", "amount_twd": 70070, "note": "儲蓄型; 契約始日1050819, 終身"},
+{"desc": "中國人壽保險股份有限公司 新康健終身防癌健康保險", "owner": "陳揚", "amount_twd": 15000, "note": "儲蓄型; 契約始日1050819, 終身"}
+],
+"insurance_count": 3,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "投信", "owner": "陳揚", "amount_twd": 820942, "note": "109/04/06(手寫判讀); 週轉金"}
+],
+"debts_count": 1,
+"debts_total_twd": 820942,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "申報日月日被印章遮蓋，申報日留空。配偶與未成年子女欄空白。(九)珠寶表列0筆，表上總價額空白。保險表總金額空白，三筆累積已繳保險費合計123190(依列加總)。存款合計416924與表上印數相符。債務金額820942與取得時間109/04/06為手寫判讀，時間可能有誤。地址與門牌已略去。交件日111年8月30日。"
+}}

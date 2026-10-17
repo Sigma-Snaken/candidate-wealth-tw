@@ -1,0 +1,14 @@
+year: '115'
+seq: '2810'
+name: 蕭志全
+base: y115_flash
+note: 原表三筆元大基金的單位淨值填成 953230、415655、394170。同頁其他基金都用四位小數，應為 95.3230、41.5655、39.4170（漏打小數點），金額因此放大一萬倍。依單位數 × 更正後淨值推估為約 173 萬、76 萬、93 萬元。
+changes:
+  - {target: funds, row: 3, match: {name: 元大台灣高股息優質龍頭基金}, field: par, old: 953230, new: 95.323, page: 12, reason: 淨值漏打小數點, source: 人工核對 2026-10-17}
+  - {target: funds, row: 3, match: {name: 元大台灣高股息優質龍頭基金}, field: twd, old: 17304270159, new: 1730427.02, page: 12, reason: 單位數 18153.3 × 95.323, source: 人工核對 2026-10-17}
+  - {target: funds, row: 4, match: {name: 元大全球優質龍頭平衡基金}, field: par, old: 415655, new: 41.5655, page: 12, reason: 淨值漏打小數點, source: 人工核對 2026-10-17}
+  - {target: funds, row: 4, match: {name: 元大全球優質龍頭平衡基金}, field: twd, old: 7644643629, new: 764464.36, page: 12, reason: 單位數 18391.8 × 41.5655, source: 人工核對 2026-10-17}
+  - {target: funds, row: 5, match: {name: 元大日本龍頭企業基金}, field: par, old: 394170, new: 39.417, page: 12, reason: 淨值漏打小數點, source: 人工核對 2026-10-17}
+  - {target: funds, row: 5, match: {name: 元大日本龍頭企業基金}, field: twd, old: 9281363322, new: 928136.33, page: 12, reason: 單位數 23546.6 × 39.417, source: 人工核對 2026-10-17}
+  - {target: form, field: fund_total_twd, old: 34250767982.93, new: 23913900.64, page: 12, reason: 隨上列三筆更正調整, source: 人工核對 2026-10-17}
+  - {target: form, field: securities_total_twd, old: 34324887465.89, new: 98033383.6, page: 12, reason: 隨上列三筆更正調整, source: 人工核對 2026-10-17}

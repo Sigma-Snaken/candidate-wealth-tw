@@ -1,0 +1,55 @@
+{"seq": "2839", "model": "claude-haiku", "data": {
+  "declarant": "蔡依靜",
+  "declare_date": "民國111年8月31日",
+  "spouse": null,
+  "minor_children_count": 0,
+  "total_pages": 18,
+  "land": [
+    {"location": "花蓮縣萬榮鄉萬寶段", "area_m2": 172.99, "share": "全部", "owner": "蔡依靜", "acquired": "107/01/22", "reason": "買賣", "price": "土地公告現值每平方公尺71元"},
+    {"location": "花蓮縣萬榮鄉萬寶段", "area_m2": 3790.61, "share": "全部", "owner": "蔡依靜", "acquired": "107/01/22", "reason": "買賣", "price": "土地公告現值每平方公尺61元"},
+    {"location": "花蓮縣萬榮鄉萬寶段", "area_m2": 231.61, "share": "全部", "owner": "蔡依靜", "acquired": "107/01/22", "reason": "買賣", "price": "土地公告現值每平方公尺61元"}
+  ],
+  "land_count": 3,
+  "buildings": [],
+  "building_count": 0,
+  "ships": [],
+  "vehicles": [
+    {"desc": "國瑞(汽車)", "owner": "蔡依靜", "acquired": "107/04/20", "price": null},
+    {"desc": "中華(汽車)", "owner": "蔡依靜", "acquired": "096/08/29", "price": null}
+  ],
+  "vehicle_count": 2,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": null,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [
+    {"desc": "黃金存摺（金融機構：華南銀行永和分行，單位數21）", "owner": "蔡依靜", "amount_twd": 33264, "note": "項/件 1"}
+  ],
+  "other_assets_total_twd": 33264,
+  "insurance": [
+    {"desc": "南山人壽保險公司 南山人壽新終身醫療保險", "owner": "蔡依靜", "amount_twd": 1484, "note": "保險金額表上為1500.000000（單位原文，未換算）；契約始日104/05/20，終身；累積已繳保險費折合新臺幣1484（手寫更正）"},
+    {"desc": "中華郵政公司壽險處 郵政簡易人壽含家嚴增額保險(6年付款)", "owner": "蔡依靜", "amount_twd": 1550, "note": "保險金額表上為100000.000000（單位原文，未換算）；契約始日106/03/07，儲蓄型壽險；累積已繳保險費折合新臺幣1550（手寫更正）"}
+  ],
+  "insurance_count": 2,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [],
+  "debts_count": 0,
+  "debts_total_twd": 0,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "1) 申報日原印刷「110年11月01日」被劃除，手寫交件日為111年8月31日，declare_date 取交件日。2) 第7頁存款：印刷總金額275,087 被劃除，手寫更正為0；存款各列（第7至9頁）皆被一條斜線貫穿，判為整段刪除，故 deposits 留空、deposit_total_twd=0，deposit_count 表上數字無法辨識故為 null。此判讀請人工複核（若斜線非刪除，則存款約20餘筆需補入）。3) 保險累積已繳保險費印刷總額263,131 被劃除，手寫為3039（與兩筆相加 1484+1550=3034 不符，未採用合計，僅列個別筆數）。4) 保險保單號碼、身分證及車牌已省略。5) 黃金存摺價額判讀為33,264（手寫數字疊寫）。6) 汽車取得價額欄位空白，故 price 為 null。"
+}}

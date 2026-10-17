@@ -1,0 +1,1 @@
+{"seq": "2692", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 12.3, "via": "gemini-api", "usage": {"in": 9322, "out": 71, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本申報表第四頁(四)汽車總申報筆數為0筆，並無申報車輛。"}}

@@ -1,0 +1,78 @@
+{"seq": "1986", "model": "claude-haiku", "data": {
+  "declarant": "方一峰",
+  "declare_date": "民國111年8月29日",
+  "spouse": "李麗琴",
+  "minor_children_count": 0,
+  "total_pages": 16,
+  "land": [
+    {"location": "臺南市西港區營段", "area_m2": 111.49, "share": "2/15", "owner": "方一峰", "acquired": "81/9/14", "reason": "買賣", "price": "土地公告現值每平方公尺6900元"},
+    {"location": "臺南市西港區營段", "area_m2": 135.7, "share": "1/1", "owner": "方一峰", "acquired": "81/7/6", "reason": "買賣", "price": "土地公告現值每平方公尺5800元"},
+    {"location": "臺南市西港區營段", "area_m2": 66.9, "share": "1/5", "owner": "方一峰", "acquired": "81/9/14", "reason": "買賣", "price": "土地公告現值每平方公尺5800元"}
+  ],
+  "land_count": 3,
+  "buildings": [
+    {"location": "臺南市西港區營段", "area_m2": 186.91, "share": "1/1", "owner": "方一峰", "acquired": "81/7/6", "reason": "買賣", "price": "超過5年"}
+  ],
+  "building_count": 1,
+  "ships": [],
+  "vehicles": [
+    {"desc": "國瑞(汽車) 1497cc", "owner": "李麗琴", "acquired": "98/12/31", "price": "超過5年"},
+    {"desc": "國瑞(汽車) 1998cc", "owner": "李麗琴", "acquired": "100/9/30", "price": "超過5年"}
+  ],
+  "vehicle_count": 2,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+    {"bank": "土地銀行學甲", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "方一峰", "foreign_amount": null, "twd": 1744057},
+    {"bank": "臺南市南縣區 漁會信用部永吉分部", "kind": "活期存款", "currency": "新臺幣", "owner": "方一峰", "foreign_amount": null, "twd": 137040},
+    {"bank": "臺南市西港區 農會信用部後營分部", "kind": "活期存款", "currency": "新臺幣", "owner": "方一峰", "foreign_amount": null, "twd": 53534},
+    {"bank": "土地銀行學甲", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李麗琴", "foreign_amount": null, "twd": 215340},
+    {"bank": "合作金庫佳里分行", "kind": "活期存款", "currency": "新臺幣", "owner": "李麗琴", "foreign_amount": null, "twd": 50764},
+    {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李麗琴", "foreign_amount": null, "twd": 719117},
+    {"bank": "元大銀行佳里分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李麗琴", "foreign_amount": null, "twd": 283140},
+    {"bank": "台新國際銀行 佳里分行", "kind": "綜合存款", "currency": "美元", "owner": "李麗琴", "foreign_amount": 3932.65, "twd": 119473}
+  ],
+  "deposit_count": 8,
+  "deposit_total_twd": 3322465,
+  "securities_total_twd": 1672434,
+  "stocks": [
+    {"code": "2486", "name": "一詮", "owner": "李麗琴", "shares": 5000, "par": 10, "currency": null, "twd": 50000},
+    {"code": "2603", "name": "長榮", "owner": "李麗琴", "shares": 3000, "par": 10, "currency": null, "twd": 30000},
+    {"code": "3026", "name": "禾伸堂", "owner": "李麗琴", "shares": 1000, "par": 10, "currency": null, "twd": 10000},
+    {"code": "4766", "name": "南寶", "owner": "李麗琴", "shares": 4000, "par": 10, "currency": null, "twd": 40000}
+  ],
+  "stock_count": 4,
+  "stock_total_twd": 130000,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [
+    {"name": "富達亞洲高收益基金美元", "code": null, "owner": "李麗琴", "units": 212.74, "par": 5.541, "currency": "美金", "twd": 35812},
+    {"name": "富達亞洲高收益基金美元", "code": null, "owner": "李麗琴", "units": 391.141, "par": 3.28, "currency": "美金", "twd": 38975},
+    {"name": "聯博全球高收益債券AT股美元", "code": null, "owner": "李麗琴", "units": 210.28, "par": 5.541, "currency": "美金", "twd": 35397},
+    {"name": "聯博全球高收益債券AT股澳幣", "code": null, "owner": "李麗琴", "units": 624.41, "par": 11.02, "currency": "澳幣", "twd": 143537},
+    {"name": "中小成長", "code": null, "owner": "李麗琴", "units": 958.4, "par": 79.59, "currency": null, "twd": 76279},
+    {"name": "元大全球優質龍頭平衡基金美金", "code": null, "owner": "李麗琴", "units": 3332.7, "par": 10, "currency": "美金", "twd": 1012474}
+  ],
+  "fund_total_twd": 1342474,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 623339,
+  "insurance": [
+    {"desc": "中國人壽 中國人壽安", "owner": "方一峰", "amount_twd": 159647, "note": "保險金額1000；契約105/06/24起至終身；金額欄為累積已繳保險費折合新臺幣總額"},
+    {"desc": "中國人壽 中國人壽安", "owner": "李麗琴", "amount_twd": 123432, "note": "保險金額500；契約105/06/24起至終身；金額欄為累積已繳保險費折合新臺幣總額"},
+    {"desc": "中國人壽 中國人壽美", "owner": "李麗琴", "amount_twd": 170047, "note": "保險金額5300美元；契約105/2/4起至終身；累積已繳保險費外幣總額6119美元；金額欄為累積已繳保險費折合新臺幣總額"},
+    {"desc": "中國人壽 中國人壽美", "owner": "李麗琴", "amount_twd": 170213, "note": "保險金額5300美元；契約105/2/4起至終身；累積已繳保險費外幣總額6125美元；金額欄為累積已繳保險費折合新臺幣總額"}
+  ],
+  "insurance_count": 4,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [],
+  "debts_count": 0,
+  "debts_total_twd": 0,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "第1頁申報人本人、配偶均為方一峰、李麗琴；申報日為民國111年8月29日（第16頁交件日為111年9月1日）。(八)有價證券總價額原印刷為460000元並被劃線，旁有手寫更正，判讀為1672434，印章遮蓋，判讀不確定；該數字與股票130000加基金1342474之合計1472474不符，請覆核。(九)珠寶等財產的大項總價額手寫為623339元，但其子表總價額與申報筆數均為0，623339與保險折合新臺幣總額相同，疑為誤抄，已依表上數字填入other_assets_total_twd，請覆核。存款第2、3筆之機構名稱首段判讀為「臺南市南縣區」「臺南市西港區」，字跡不清。保險表格：保險公司與保險名稱欄印刷不完整，僅能判讀「中國人壽保」「中國人壽安」「中國人壽美」，公司名稱以「中國人壽」填入；保單號碼、要保人地址未填入。保險金額欄原文：1000、500、5300、5300，列於note。基金受益憑證的票面價額/單位淨值欄為每單位價值，外幣基金折合新臺幣金額依表上所列數字。元大全球優質龍頭平衡基金美金的twd依表上1012474（3332.7單位×10×匯率30.38）。台新國際銀行佳里分行為美元綜合存款，匯率30.38。車輛排氣量記於desc欄。"
+}}

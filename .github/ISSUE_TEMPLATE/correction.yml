@@ -1,0 +1,59 @@
+name: 資料更正
+description: 回報轉錄錯誤（數字、名稱、筆數讀錯），審核後會更正到資料庫
+title: "[更正] "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        謝謝協助！請先打開原始申報表核對（115 年在中選會網站，網址見明細頁；111 年在 Release 的 PDF 壓縮檔）。
+        從網站明細頁每列右邊的「回報」連結進來，前幾欄會自動填好。
+  - type: input
+    id: year
+    attributes: {label: 年度, description: 115 或 111}
+    validations: {required: true}
+  - type: input
+    id: seq
+    attributes: {label: 申報表編號, description: 115 年中選會 PDF 的檔名數字，例如 2517}
+    validations: {required: true}
+  - type: input
+    id: candidate
+    attributes: {label: 候選人姓名}
+    validations: {required: true}
+  - type: input
+    id: section
+    attributes:
+      label: 分項
+      description: 存款、現金、股票、基金、債券、其他有價證券、土地、建物、汽車、保險、債權、債務、事業投資、其他財產，或「表頭或總額」
+    validations: {required: true}
+  - type: input
+    id: row
+    attributes: {label: 列號, description: 由「回報」連結自動帶入；手動回報可留空，改填「目前的值」讓系統找到那一列}
+  - type: input
+    id: field
+    attributes:
+      label: 欄位
+      description: 金額、股數、單位數、單價（面額、淨值）、外幣金額、幣別、名稱、面積、權利範圍、所有人、汽缸容量、取得時間、取得原因；「表頭或總額」請寫例如「存款總額」「申報人」
+    validations: {required: true}
+  - type: input
+    id: current
+    attributes: {label: 目前的值, description: 網站或資料庫目前顯示的值}
+  - type: input
+    id: correct
+    attributes: {label: 正確的值, description: 依原始申報表應為多少}
+    validations: {required: true}
+  - type: input
+    id: page
+    attributes: {label: 原表頁碼, description: 申報表下方印的「第 N 頁」}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: 說明與依據, description: 例如「第 9 頁第 3 列，股數為 11,370 股」。可以貼截圖。}
+    validations: {required: true}
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: 確認
+      options:
+        - label: 我已對照原始申報表，這是轉錄錯誤，不是對申報內容的質疑
+          required: true

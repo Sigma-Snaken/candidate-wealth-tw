@@ -1,0 +1,104 @@
+{
+  "seq": "1650",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "蔡清續",
+    "declare_date": "民國111年8月25日",
+    "spouse": null,
+    "minor_children_count": 0,
+    "total_pages": 7,
+    "land": [],
+    "land_count": 0,
+    "buildings": [],
+    "building_count": 0,
+    "ships": [],
+    "vehicles": [],
+    "vehicle_count": 0,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {
+        "bank": "土地銀行澎湖分行",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "蔡清續",
+        "foreign_amount": null,
+        "twd": 100
+      },
+      {
+        "bank": "澎湖縣第二信用合作社營業部",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "蔡清續",
+        "foreign_amount": null,
+        "twd": 33
+      },
+      {
+        "bank": "郵政儲金匯業局",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "蔡清續",
+        "foreign_amount": null,
+        "twd": 1211
+      }
+    ],
+    "deposit_count": 3,
+    "deposit_total_twd": 1344,
+    "securities_total_twd": 1190931,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 2193596,
+    "insurance": [
+      {
+        "desc": "三商美邦人壽保險公司 二十年繳費祥安終身壽險",
+        "owner": "蔡清續",
+        "amount_twd": 499733,
+        "note": "保險金額100000；契約始日093/06/30；契約終日終身；amount_twd為累積已繳保險費折合新臺幣總額"
+      },
+      {
+        "desc": "三商美邦人壽保險公司 十年繳費守護久久失能照護終身保險",
+        "owner": "蔡清續",
+        "amount_twd": 498663,
+        "note": "保險金額20000；契約始日109/01/13；契約終日終身；amount_twd為累積已繳保險費折合新臺幣總額"
+      },
+      {
+        "desc": "國泰人壽保險公司 21世紀終身",
+        "owner": "蔡清續",
+        "amount_twd": 1195200,
+        "note": "保險金額1000000（表上印為1,000,00）；契約始日078/08/23；契約終日終身；amount_twd為累積已繳保險費折合新臺幣總額"
+      }
+    ],
+    "insurance_count": 3,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {
+        "desc": "授信／土地銀行澎湖分行",
+        "owner": "蔡清續",
+        "amount_twd": 828718,
+        "note": "取得時間089/05/30；原因週轉金"
+      },
+      {
+        "desc": "保單借款／國泰人壽保險公司",
+        "owner": "蔡清續",
+        "amount_twd": 421934,
+        "note": "取得時間090/08/23；原因21世紀終身保單借款"
+      }
+    ],
+    "debts_count": 2,
+    "debts_total_twd": 1250652,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "第8頁為空白頁，未轉錄。表上第(八)有價證券總價額印為1,190,931元、第(九)其他財產總價額印為2,193,596元，但其下各分項皆為0筆，依表上數字照填。(九)總價額2,193,596與三筆保險累積已繳保險費合計相同，疑為表單填寫錯置，照表轉錄。備註欄空白。保險單號及銀行代碼已省略。"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "seq": "2967",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "黃盈裕",
+    "declare_date": "民國111年9月2日",
+    "spouse": "涂孟嘉",
+    "minor_children_count": 3,
+    "total_pages": 17,
+    "land": [
+      {"location": "屏東縣崁頂鄉頂和段", "area_m2": 4757.88, "share": "1", "owner": "黃盈裕", "acquired": "98.03.02", "reason": "買賣", "price": "3568410"},
+      {"location": "屏東縣崁頂鄉頂和段", "area_m2": 93.4, "share": "1", "owner": "涂孟嘉", "acquired": "99.01.20", "reason": "買賣", "price": "224160"},
+      {"location": "屏東縣南州鄉南糖段", "area_m2": 189.43, "share": "1", "owner": "黃盈裕", "acquired": "99.10.04", "reason": "買賣", "price": "700000"},
+      {"location": "屏東縣崁頂鄉頂和段", "area_m2": 1.64, "share": "1", "owner": "涂孟嘉", "acquired": "99.01.20", "reason": "買賣", "price": "3936"},
+      {"location": "屏東縣南州鄉南州段", "area_m2": 72.72, "share": "1", "owner": "黃盈裕", "acquired": "108.07.12", "reason": "買賣", "price": "2500000"},
+      {"location": "屏東縣南州鄉南州段", "area_m2": 10354.38, "share": "5分之2", "owner": "黃盈裕", "acquired": "110.10.15", "reason": "贈與", "price": "5798453"}
+    ],
+    "land_count": 6,
+    "buildings": [
+      {"location": "屏東縣崁頂鄉園寮村", "area_m2": 145.9, "share": "1", "owner": "涂孟嘉", "acquired": "99.07.01", "reason": "買賣", "price": "216400"},
+      {"location": "屏東縣南州鄉溪南村", "area_m2": 140.66, "share": "1", "owner": "黃盈裕", "acquired": "108.07.12", "reason": "買賣", "price": "2500000"}
+    ],
+    "building_count": 2,
+    "ships": [],
+    "vehicles": [
+      {"desc": "TOYOTA", "owner": "涂孟嘉", "acquired": "105.01.06", "price": "750000"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": 0,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {"desc": "富邦人壽保險股份有限公司 優質理財變額萬能壽險乙型", "owner": "黃盈裕", "amount_twd": 180000, "note": "累積已繳保險費"},
+      {"desc": "安泰人壽保險股份有限公司 新限期繳費終身壽險", "owner": "黃盈裕", "amount_twd": 383120, "note": "累積已繳保險費"},
+      {"desc": "安泰人壽保險股份有限公司 重大疾病終身保險", "owner": "黃盈裕", "amount_twd": 657065, "note": "累積已繳保險費"},
+      {"desc": "遠雄人壽保險股份有限公司 遠雄新終身壽險", "owner": "涂孟嘉", "amount_twd": 203840, "note": "累積已繳保險費"},
+      {"desc": "中國人壽保險股份有限公司 金如意終身壽險", "owner": "涂孟嘉", "amount_twd": 387218, "note": "累積已繳保險費"},
+      {"desc": "遠雄人壽保險股份有限公司 遠雄新終身壽險", "owner": "涂孟嘉", "amount_twd": 195000, "note": "累積已繳保險費"},
+      {"desc": "中國人壽保險股份有限公司 金萬利終身壽險", "owner": "涂孟嘉", "amount_twd": 276978, "note": "累積已繳保險費"},
+      {"desc": "遠雄人壽保險股份有限公司 遠雄鑫多利終身還本6年期", "owner": "黃盈裕", "amount_twd": 316350, "note": "累積已繳保險費"},
+      {"desc": "遠雄人壽保險股份有限公司 遠雄鑫多利終身還本6年期", "owner": "涂孟嘉", "amount_twd": 316350, "note": "累積已繳保險費"},
+      {"desc": "遠雄人壽保險股份有限公司 遠雄鑫多利終身還本6年期", "owner": "未成年子女", "amount_twd": 316350, "note": "累積已繳保險費"},
+      {"desc": "遠雄人壽保險股份有限公司 遠雄鑫多利終身還本6年期", "owner": "未成年子女", "amount_twd": 316350, "note": "累積已繳保險費"},
+      {"desc": "遠雄人壽保險股份有限公司 遠雄鑫多利終身還本6年期", "owner": "未成年子女", "amount_twd": 316350, "note": "累積已繳保險費"},
+      {"desc": "新光人壽保險股份有限公司 新壽鑫旺富蔭終身儲蓄", "owner": "黃盈裕", "amount_twd": 2000000, "note": "累積已繳保險費"}
+    ],
+    "insurance_count": 13,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [],
+    "debts_count": 0,
+    "debts_total_twd": 0,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "保險13筆逐筆加總為5,864,971元，與表上總額一致。土地6筆、建物2筆、汽車1筆，皆依表上原文填寫。第一頁申報日的日期被印章遮蓋，填寫交件日111年9月2日。未成年子女三人，依規定不填姓名（保險第10至12列所有人以「未成年子女」表示）。土地坐落的「炭頂鄉」以「崁頂鄉」判讀。第17頁備註欄載明：南州鄉南州段土地72.72平方公尺與溪南村人和路建物合計買賣金額250萬元；南州鄉南州段土地10354.38平方公尺（5分之2）於110年10月15日因父親贈與登記取得，取得價額5,798,453元係以取得年度土地公告現值計算。"
+  }
+}

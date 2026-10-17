@@ -1,0 +1,73 @@
+{"seq": "2916", "model": "claude-haiku", "data": {
+  "declarant": "武清山",
+  "declare_date": "民國111年8月29日",
+  "spouse": "莊秀花",
+  "minor_children_count": 0,
+  "total_pages": 18,
+  "land": [
+    {"location": "嘉義縣阿里山鄉樂野段", "area_m2": 820, "share": "全部", "owner": "武清山", "acquired": "102/01/16", "reason": "耕作權期間屆滿", "price": "土地公告現值每平方公尺260元"},
+    {"location": "嘉義縣阿里山鄉新美段", "area_m2": 6831, "share": "全部", "owner": "武清山", "acquired": "92/12/16", "reason": "贈與", "price": "土地公告現值每平方公尺110元"},
+    {"location": "嘉義縣阿里山鄉新美段", "area_m2": 3530, "share": "全部", "owner": "武清山", "acquired": "92/12/16", "reason": "贈與", "price": "土地公告現值每平方公尺110元"},
+    {"location": "嘉義縣阿里山鄉里佳段", "area_m2": 16580, "share": "全部", "owner": "武清山", "acquired": "93/09/29", "reason": "贈與", "price": "土地公告現值每平方公尺110元"},
+    {"location": "嘉義縣阿里山鄉里佳段", "area_m2": 130, "share": "全部", "owner": "武清山", "acquired": "102/01/16", "reason": "地上權期間屆滿", "price": "土地公告現值每平方公尺400元"},
+    {"location": "嘉義縣阿里山鄉里佳段", "area_m2": 2130, "share": "1799/2130", "owner": "武清山", "acquired": "78/01/10", "reason": "買賣", "price": "土地公告現值每平方公尺110元"},
+    {"location": "嘉義縣中埔鄉王爺段", "area_m2": 89.22, "share": "全部", "owner": "武清山", "acquired": "93/12/27", "reason": "買賣", "price": "土地公告現值每平方公尺7000元"},
+    {"location": "嘉義縣中埔鄉王爺段", "area_m2": 1554.9, "share": "1/53", "owner": "武清山", "acquired": "93/12/24", "reason": "買賣", "price": "土地公告現值每平方公尺7000元"},
+    {"location": "嘉義縣阿里山鄉里佳段", "area_m2": 10332.0, "share": "全部", "owner": "武清山", "acquired": "111/07/27", "reason": "贈與", "price": "土地公告現值每平方公尺110元"},
+    {"location": "嘉義縣阿里山鄉里佳段", "area_m2": 3130.0, "share": "全部", "owner": "武清山", "acquired": "111/07/27", "reason": "贈與", "price": "土地公告現值每平方公尺110元"}
+  ],
+  "land_count": 10,
+  "buildings": [
+    {"location": "嘉義縣中埔鄉當收村016鄰興化步（建號判讀不清）", "area_m2": 116.3, "share": "全部", "owner": "武清山", "acquired": "93/11/11", "reason": "其他補項更正", "price": "251000"},
+    {"location": "嘉義縣中埔鄉王爺段（建號）", "area_m2": 120.13, "share": "全部", "owner": "武清山", "acquired": "93/12/13", "reason": "第一次登記", "price": "含陽台3.85平方公尺"}
+  ],
+  "building_count": 2,
+  "ships": [],
+  "vehicles": [
+    {"desc": "SUBARU（汽車）", "owner": "莊秀花", "acquired": "108/07/05", "price": "600000"}
+  ],
+  "vehicle_count": 1,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+    {"bank": "嘉義縣阿里山鄉農會信用部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "武清山", "foreign_amount": null, "twd": 4237},
+    {"bank": "嘉義縣阿里山鄉農會信用部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "莊秀花", "foreign_amount": null, "twd": 12955},
+    {"bank": "嘉義縣阿里山鄉農會信用部", "kind": "支票存款", "currency": "新臺幣", "owner": "武清山", "foreign_amount": null, "twd": 5000},
+    {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "莊秀花", "foreign_amount": null, "twd": 72},
+    {"bank": "金城商業銀行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "武清山", "foreign_amount": null, "twd": 17132},
+    {"bank": "臺灣銀行嘉義分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "武清山", "foreign_amount": null, "twd": 76}
+  ],
+  "deposit_count": 6,
+  "deposit_total_twd": 39472,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+    {"desc": "南山人壽保險公司 新康順終身保險（名稱判讀不確定）", "owner": "武清山", "amount_twd": 23040, "note": "儲蓄型；保險金額50000；契約1030625/終身"},
+    {"desc": "南山人壽保險公司 增〇意保險（名稱判讀不清）", "owner": "武清山", "amount_twd": 135800, "note": "儲蓄型；保險金額1000000；契約0970124/1170124"}
+  ],
+  "insurance_count": 2,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+    {"desc": "授信/嘉義縣阿里山鄉農會信用部", "owner": "武清山", "amount_twd": 675000, "note": "106/02/18；週轉金"},
+    {"desc": "授信/嘉義縣阿里山鄉農會信用部", "owner": "莊秀花", "amount_twd": 79984, "note": "107/08/09；週轉金"},
+    {"desc": "授信/京城商業銀行", "owner": "武清山", "amount_twd": 400143, "note": "94/01/25；無自用住宅購屋貸款"}
+  ],
+  "debts_count": 3,
+  "debts_total_twd": 1155127,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "手寫表單，依表上數字轉錄。(1)存款6筆逐筆加總39472元與表上相符。(2)保險2筆，表上印刷累積已繳保險費折合新臺幣總額158840元，與逐筆加總相符；保險名稱第一筆及第二筆部分字跡不清。(3)債務3筆逐筆加總1155127元與表上相符。(4)土地地段名字跡部分不清，依最可能判讀填寫；各筆土地「取得價額」欄為公告現值文字，原文保留。(5)建物第一筆地址（建號）判讀不清。(6)配偶莊秀花名下車輛與存款已分別列入。(7)申報日為表上民國111年8月29日；交件日為111年8月31日。(8)土地、股票、基金、債券、其他有價證券、事業投資、珠寶等各項均為0筆。"
+}}

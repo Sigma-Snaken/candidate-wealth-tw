@@ -1,0 +1,76 @@
+{
+  "seq": "2296",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "洪允典",
+    "declare_date": "民國111年8月31日",
+    "spouse": "王小林",
+    "minor_children_count": 0,
+    "total_pages": 9,
+    "land": [
+      {"location": "金門縣金寧鄉寧安段", "area_m2": 760, "share": "全部", "owner": "王小林", "acquired": "110/07/19", "reason": "買賣", "price": "14300"},
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 229.19, "share": "7790/25080", "owner": "洪允典", "acquired": "101/04/06", "reason": "買賣", "price": "43400"},
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 229.19, "share": "7790/25080", "owner": "洪允典", "acquired": "101/04/06", "reason": "買賣", "price": "43400"},
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 250.45, "share": "2303/24320", "owner": "洪允典", "acquired": "101/04/05", "reason": "買賣", "price": "43400"},
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 64.51, "share": "全部", "owner": "洪允典", "acquired": "101/04/05", "reason": "買賣", "price": "43400"},
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 68.62, "share": "全部", "owner": "洪允典", "acquired": "101/04/06", "reason": "買賣", "price": "43400"},
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 21.56, "share": "全部", "owner": "洪允典", "acquired": "101/04/06", "reason": "買賣", "price": "43400"}
+    ],
+    "land_count": 7,
+    "buildings": [
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 165.61, "share": "1/10", "owner": "洪允典", "acquired": "101/04/05", "reason": "買賣", "price": "(共同使用部分)"},
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 6.87, "share": "全部", "owner": "洪允典", "acquired": "101/04/05", "reason": "買賣", "price": null},
+      {"location": "金門縣金城鎮祥瑞段", "area_m2": 298.05, "share": "全部", "owner": "洪允典", "acquired": "101/04/05", "reason": "買賣", "price": "(含兩遮3.10平方公尺)"}
+    ],
+    "building_count": 3,
+    "ships": [],
+    "vehicles": [],
+    "vehicle_count": 0,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": null,
+    "deposits": [
+      {"bank": "永豐商業銀行", "kind": "活期儲蓄存款", "currency": "新台幣", "owner": "王小林", "foreign_amount": null, "twd": 100801},
+      {"bank": "台灣中小企業銀行金門分行", "kind": "活期儲蓄存款", "currency": "新台幣", "owner": "王小林", "foreign_amount": null, "twd": 6412001},
+      {"bank": "台灣土地銀行金門分行", "kind": "活期儲蓄存款", "currency": "新台幣", "owner": "洪允典", "foreign_amount": null, "twd": 658661}
+    ],
+    "deposit_count": 3,
+    "deposit_total_twd": 7171463,
+    "securities_total_twd": null,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": null,
+    "bonds": [],
+    "bond_total_twd": null,
+    "funds": [],
+    "fund_total_twd": null,
+    "other_securities": [],
+    "other_securities_total_twd": null,
+    "other_assets": [],
+    "other_assets_total_twd": null,
+    "insurance": [
+      {"desc": "新光人壽保險公司 久久手術醫療終身健康保險", "owner": "王小林", "amount_twd": 231136, "note": "儲蓄型壽險；契約期間 0980731/1440731；名稱判讀存疑"},
+      {"desc": "新光人壽保險公司 新光人壽健康保險", "owner": "王小林", "amount_twd": 308412, "note": "儲蓄型壽險；契約期間 0980731/1440731；名稱判讀存疑"},
+      {"desc": "南山人壽保險公司 南山人壽佳美元利率變動型終身保險(定期給付型)", "owner": "王小林", "amount_twd": 779535.96, "note": "契約期間 1070213/終身；外幣 美元 28056.000000"}
+    ],
+    "insurance_count": 3,
+    "debt_claims": [],
+    "debt_claims_total_twd": null,
+    "debts": [
+      {"desc": "授信 永豐銀行金門分行", "owner": "洪允典", "amount_twd": 1173966, "note": "取得時間 102/07/29；原因 週轉金"},
+      {"desc": "授信 永豐銀行金門分行", "owner": "洪允典", "amount_twd": 2260125, "note": "取得時間 102/07/29；原因 週轉金"},
+      {"desc": "授信 永豐銀行金門分行", "owner": "洪允典", "amount_twd": 3228478, "note": "取得時間 102/07/29；原因 週轉金"},
+      {"desc": "授信 永豐銀行金門分行", "owner": "洪允典", "amount_twd": 4989490, "note": "取得時間 102/07/29；原因 購置不動產"},
+      {"desc": "授信 土地銀行金門分行", "owner": "洪允典", "amount_twd": 89437, "note": "取得時間 108/01/16；原因 其他個人金融貸款"}
+    ],
+    "debts_count": 5,
+    "debts_total_twd": 11741496,
+    "business_investments": [
+      {"desc": "均盛營造有限公司", "owner": "王小林", "amount_twd": 15000000, "note": "取得時間 106/11/15；原因 投資（來源：補1更正頁）"},
+      {"desc": "綠索建築有限公司", "owner": "王小林", "amount_twd": 1200000, "note": "取得時間 109/9/21；原因 投資（來源：補1更正頁）"}
+    ],
+    "business_investments_total_twd": 16200000,
+    "trust_items": [],
+    "notes": "原表第6頁事業投資為0，依補1更正頁改列2筆（總額16,200,000）。土地第1項段名與保險第1、2項保險名稱因掃描模糊判讀存疑。土地取得價額欄為公告現值每平方公尺單價（14300、43400）。股票、債券、基金、其他有價證券、其他財產、現金、債權之總金額欄原表為「累計未達新台幣一百萬元」或空白，故填null。存款總金額依表上7,171,463。債務總金額依表上11,741,496。total_pages填原始表9頁（不含補1共2頁）。"
+  }
+}

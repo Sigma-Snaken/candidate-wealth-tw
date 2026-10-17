@@ -1,0 +1,740 @@
+{
+ "seq": "2874",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "鄭寶秀",
+  "declare_date": "民國111年8月31日",
+  "spouse": "陳連進",
+  "minor_children_count": 0,
+  "total_pages": 25,
+  "land": [
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 160,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 490,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 170,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 320,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 97,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 674,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 718,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 150,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 82,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 97,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 175,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 912,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 252,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 1232,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 126,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 204,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 1096,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 2299,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 165,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 810,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 131,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 485,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 490,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 446,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 247,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 989,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 39,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 107,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 126,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 189,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 141,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 97,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 403,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 960,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 3327,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 2512,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 1702,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 1702,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 495,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 189,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 252,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 1455,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 175,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 73,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月14日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 1193,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 1125,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 4054,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "新北市坪林區厚德岡坑段東坑小段",
+    "area_m2": 412,
+    "share": "1/162",
+    "owner": "鄭寶秀",
+    "acquired": "089年11月13日",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 1323,
+    "share": "1/192",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 2702,
+    "share": "261/76800",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 254,
+    "share": "1/192",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 97,
+    "share": "1/192",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 1439,
+    "share": "1/192",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 150,
+    "share": "261/76800",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 2546,
+    "share": "261/76800",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 3148,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 2029,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 3623,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 714,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 58,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 83,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 885,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 525,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "臺南市北門區渡子頭段",
+    "area_m2": 2131,
+    "share": "133/5328",
+    "owner": "陳連進",
+    "acquired": "078年4月6日",
+    "reason": "分割繼承",
+    "price": "超過五年"
+   }
+  ],
+  "land_count": 64,
+  "buildings": [],
+  "building_count": 0,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "中華",
+    "owner": "鄭寶秀",
+    "acquired": "106/07/13",
+    "price": "602000"
+   }
+  ],
+  "vehicle_count": 1,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": null,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 68000,
+  "stocks": [
+   {
+    "code": "5381",
+    "name": "合正科技股份有限公司",
+    "owner": "鄭寶秀",
+    "shares": 6800,
+    "par": 10,
+    "currency": null,
+    "twd": 68000
+   }
+  ],
+  "stock_count": 1,
+  "stock_total_twd": 68000,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 4961278,
+  "insurance": [
+   {
+    "desc": "安泰人壽 安泰鑫活理財變額保險(乙型)",
+    "owner": "鄭寶秀",
+    "amount_twd": 385000,
+    "note": "投資型壽險；保險金額1080000；契約094/12/30~終身"
+   },
+   {
+    "desc": "安泰人壽 安泰新限期繳費終身壽險",
+    "owner": "鄭寶秀",
+    "amount_twd": 629640,
+    "note": "儲蓄型壽險；保險金額200000；契約090/05/14~終身"
+   },
+   {
+    "desc": "新光人壽 加倍幸福終生壽險",
+    "owner": "鄭寶秀",
+    "amount_twd": 636387,
+    "note": "儲蓄型壽險；保險金額600000；契約095/01/04~143/01/04"
+   },
+   {
+    "desc": "新光人壽 健康百分百終身健康保險",
+    "owner": "鄭寶秀",
+    "amount_twd": 426946,
+    "note": "儲蓄型壽險；保險金額1000；契約102/07/30~143/07/30"
+   },
+   {
+    "desc": "新光人壽 新百齡終身壽險",
+    "owner": "鄭寶秀",
+    "amount_twd": 646543,
+    "note": "儲蓄型壽險；保險金額350000；契約075/01/08~終身"
+   },
+   {
+    "desc": "臺灣人壽保險股份有限公司 終身防癌健康保險",
+    "owner": "鄭寶秀",
+    "amount_twd": 70200,
+    "note": "儲蓄型壽險；保險金額200000；契約078/05/11~終身"
+   },
+   {
+    "desc": "國泰人壽 國泰住院醫療終身健康保險",
+    "owner": "陳連進",
+    "amount_twd": 150420,
+    "note": "儲蓄型壽險；保險金額1000；契約088/03/26~終身"
+   },
+   {
+    "desc": "國泰人壽 國泰防癌終身健康保險",
+    "owner": "陳連進",
+    "amount_twd": 85940,
+    "note": "儲蓄型壽險；保險金額300000；契約088/03/30~終身"
+   },
+   {
+    "desc": "國泰人壽 國泰繽滿人生312終身險",
+    "owner": "陳連進",
+    "amount_twd": 1260760,
+    "note": "儲蓄型壽險；保險金額1440000；契約076/01/12~終身"
+   },
+   {
+    "desc": "新光人壽 新百齡終身壽險",
+    "owner": "陳連進",
+    "amount_twd": 668442,
+    "note": "儲蓄型壽險；保險金額350000；契約075/01/08~終身"
+   }
+  ],
+  "insurance_count": 10,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "保單質借 新光人壽",
+    "owner": "鄭寶秀",
+    "amount_twd": 225509,
+    "note": "取得時間099/08/09；保單借款"
+   },
+   {
+    "desc": "保單質借 新光人壽",
+    "owner": "鄭寶秀",
+    "amount_twd": 117084,
+    "note": "取得時間101/03/22；保單借款"
+   },
+   {
+    "desc": "汽車貸款 裕融企業股份有限公司",
+    "owner": "鄭寶秀",
+    "amount_twd": 812736,
+    "note": "取得時間110/01/11；汽車貸款"
+   },
+   {
+    "desc": "保單質借 國泰人壽",
+    "owner": "陳連進",
+    "amount_twd": 708862,
+    "note": "取得時間099/07/26；保單借款"
+   },
+   {
+    "desc": "保單質借 新光人壽",
+    "owner": "陳連進",
+    "amount_twd": 234707,
+    "note": "取得時間099/08/09；保單借款"
+   }
+  ],
+  "debts_count": 5,
+  "debts_total_twd": 2098898,
+  "business_investments": [
+   {
+    "desc": "有限責任花蓮第一信用合作社",
+    "owner": "鄭寶秀",
+    "amount_twd": 5000,
+    "note": "取得時間091/08/23；加入會員"
+   }
+  ],
+  "business_investments_total_twd": 5000,
+  "trust_items": [],
+  "notes": "1)存款(七)表格以斜線整頁劃除，總金額手寫0，依規則略過（劃除前列示13筆，合計98788元，未列入）。2)(九)珠寶等項目小計手寫0，但表頭(九)總價額手寫4961278，與(十)保險合計欄相同；(十)保險10筆逐筆加總為4960278（相差1000，疑為手寫誤寫或426946/427946判讀問題），依表照填。3)備註欄另載一筆土地：台南縣渡子頭段小段，面積273.36平方公尺，權利範圍全部，所有權人陳連進，取得原因繼承；未併入土地表。4)土地登記時間原表以7碼填寫（如0891114），轉為民國年月日（089年11月14日）。5)汽車車牌、保單號碼、保險與債務之保單號碼均未納入。6)申報日取自基本資料頁。"
+ }
+}

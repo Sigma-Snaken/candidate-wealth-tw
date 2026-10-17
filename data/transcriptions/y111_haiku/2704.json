@@ -1,0 +1,52 @@
+{
+  "seq": "2704",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "武雪恩",
+    "declare_date": "民國111年9月1日",
+    "spouse": null,
+    "minor_children_count": 0,
+    "total_pages": 16,
+    "land": [],
+    "land_count": 0,
+    "buildings": [],
+    "building_count": 0,
+    "ships": [],
+    "vehicles": [
+      {"desc": "DAIHATSU TERIOS 1.5 A4 4WD（汽缸容量1495cc）", "owner": "武雪恩", "acquired": "104.04.08", "price": "850000"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": 0,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [],
+    "insurance_count": 0,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {"desc": "信貸／臺東縣成功鎮農會", "owner": "武雪恩", "amount_twd": 84000, "note": "取得（發生）時間 108.10.08；原因：個人資金調度"},
+      {"desc": "汽車貸款／裕融公司汽車", "owner": "武雪恩", "amount_twd": 1073616, "note": "取得（發生）時間 111.04.27；原因：個人資金調度"}
+    ],
+    "debts_count": 2,
+    "debts_total_twd": 1157616,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 原表（2704_0）第13頁將上述二筆債務誤列於「（十）債權」，表頭總金額1,157,616亦為該處誤植；補正（2704_1）第2頁已改列於「（十一）債務」並重新簽章，債權改為0筆。本欄依補正結果：債權0、債務2筆合計1,157,616元。2) 配偶欄及未成年子女欄空白。3) 汽車取得原因為買賣（欄位無對應欄位，未另列）。4) 汽車牌照號碼及債權人地址、債務人地址已省略。5) 原表申報日為民國111年9月1日；補正頁簽章日期為111/9/30。6) 原表共16頁，補正共3頁。"
+  }
+}

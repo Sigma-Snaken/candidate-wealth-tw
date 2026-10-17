@@ -1,0 +1,61 @@
+{
+  "seq": "3048",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "方一祥",
+    "declare_date": "民國111年8月31日",
+    "spouse": null,
+    "minor_children_count": 0,
+    "total_pages": 18,
+    "land": [
+      {"location": "屏東縣萬丹鄉新安段", "area_m2": 315.0, "share": "全部", "owner": "方一祥", "acquired": "91.12.31", "reason": "拍賣", "price": "超過五年"}
+    ],
+    "land_count": 1,
+    "buildings": [
+      {"location": "屏東縣萬丹鄉新安段", "area_m2": 171.31, "share": "全部", "owner": "方一祥", "acquired": "91.12.31", "reason": "拍賣", "price": "超過五年"}
+    ],
+    "building_count": 1,
+    "ships": [],
+    "vehicles": [
+      {"desc": "本田汽車", "owner": "方一祥", "acquired": "109.06.18", "price": "200000"},
+      {"desc": "國瑞汽車", "owner": "方一祥", "acquired": "103.12.30", "price": "超過五年"}
+    ],
+    "vehicle_count": 2,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": 0,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {"desc": "南山人壽 （保險名稱字跡不清）", "owner": "方一祥", "amount_twd": 360000, "note": "投資型壽險；保險金額500000；契約096/08起至165/08（日期字跡不清）；保單號碼未輸出"}
+    ],
+    "insurance_count": 1,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {"desc": "保單借款（債權人：南山人壽保險公司）", "owner": "方一祥", "amount_twd": 306525, "note": "取得時間097.09.25；原因南山人壽保單質借款"},
+      {"desc": "投信（債權人：銀行名稱掃描不清，地址略）", "owner": "方一祥", "amount_twd": 828340, "note": "取得時間109.06.09；原因週轉金"},
+      {"desc": "投信（債權人：銀行名稱掃描不清，地址略）", "owner": "方一祥", "amount_twd": 124487, "note": "取得時間109.05.28；原因週轉金"},
+      {"desc": "投信（債權人：銀行名稱掃描不清，地址略）", "owner": "方一祥", "amount_twd": 230843, "note": "取得時間106.01.26；原因信貸分期還款"}
+    ],
+    "debts_count": 4,
+    "debts_total_twd": 1490195,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "(1) 頁尾「第 X 頁,共18頁」清楚，total_pages=18。(2) 土地與建物坐落「屏東縣萬丹鄉新安段」為手寫，字跡略模糊，地號/建號已略。(3) 申報日手寫月日字跡略模糊，判讀為8月31日（交件日同為111年8月31日）。(4) 債務合計：表上總額手寫字跡不清，以四筆加總1490195判讀，請複核。(5) 南山人壽保險名稱與契約終止日字跡不清，保單號碼未輸出。(6) 債務之債權人（銀行）名稱與地址：名稱掃描不清，地址依規定未輸出。(7) 存款、現金、股票、債券、基金、其他有價證券、珠寶、債權、事業投資均為0或「無」。(8) 配偶及未成年子女欄空白，spouse 與未成年人數依此填寫。(9) 車輛僅記廠牌、持有人、取得時間與價額，車號與汽缸容量未記。"
+  }
+}

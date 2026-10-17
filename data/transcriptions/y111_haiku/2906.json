@@ -1,0 +1,93 @@
+{"seq": "2906", "model": "claude-haiku", "data": {
+"declarant": "陳怡岳",
+"declare_date": "民國111年8月26日",
+"spouse": "張梅雪",
+"minor_children_count": 0,
+"total_pages": null,
+"land": [
+{"location": "嘉義縣朴子市嘉朴段", "area_m2": 2230.2, "share": "1/152", "owner": "陳怡岳", "acquired": "102/01/28", "reason": "贈與", "price": "土地公告現值每平方公尺16000元"},
+{"location": "嘉義縣朴子市嘉朴段", "area_m2": 96.6, "share": "全部", "owner": "陳怡岳", "acquired": "102/01/28", "reason": "贈與", "price": "土地公告現值每平方公尺16000元"},
+{"location": "嘉義縣朴子市嘉朴段", "area_m2": 67.89, "share": "1/152", "owner": "陳怡岳", "acquired": "102/01/28", "reason": "贈與", "price": "土地公告現值每平方公尺16000元"},
+{"location": "嘉義縣朴子市嘉朴段", "area_m2": 66.0, "share": "1/152", "owner": "陳怡岳", "acquired": "102/01/28", "reason": "贈與", "price": "土地公告現值每平方公尺16000元"},
+{"location": "嘉義縣朴子市嘉朴段", "area_m2": 64.09, "share": "1/152", "owner": "陳怡岳", "acquired": "102/01/28", "reason": "贈與", "price": "土地公告現值每平方公尺16000元"},
+{"location": "嘉義縣民雄鄉大崎段", "area_m2": 3584.64, "share": "全部", "owner": "張梅雪", "acquired": "105/10/03", "reason": "買賣", "price": "9230000"},
+{"location": "雲林縣土庫鎮公厝段", "area_m2": 205.0, "share": "29/4800", "owner": "陳怡岳", "acquired": "74/03/27", "reason": "分割繼承", "price": "土地公告現值每平方公尺6000元"},
+{"location": "雲林縣土庫鎮公厝段", "area_m2": 3251.0, "share": "29/4800", "owner": "陳怡岳", "acquired": "74/03/27", "reason": "分割繼承", "price": "土地公告現值每平方公尺7107元"},
+{"location": "雲林縣土庫鎮公厝段", "area_m2": 3417.0, "share": "29/4800", "owner": "陳怡岳", "acquired": "74/03/27", "reason": "分割繼承", "price": "土地公告現值每平方公尺7256元"},
+{"location": "雲林縣土庫鎮公厝段", "area_m2": 3095.0, "share": "29/4800", "owner": "陳怡岳", "acquired": "74/03/27", "reason": "分割繼承", "price": "土地公告現值每平方公尺7368元"},
+{"location": "雲林縣土庫鎮公厝段", "area_m2": 3545.0, "share": "29/4800", "owner": "陳怡岳", "acquired": "74/03/27", "reason": "分割繼承", "price": "土地公告現值每平方公尺7178元"},
+{"location": "雲林縣土庫鎮公厝段", "area_m2": 2597.0, "share": "29/4800", "owner": "陳怡岳", "acquired": "74/03/27", "reason": "分割繼承", "price": "土地公告現值每平方公尺6285元"}
+],
+"land_count": 12,
+"buildings": [
+{"location": "嘉義縣朴子市嘉朴段", "area_m2": 832.64, "share": "1/152", "owner": "陳怡岳", "acquired": "102/01/28", "reason": "贈與", "price": "共同使用部分"},
+{"location": "嘉義縣朴子市嘉朴段", "area_m2": 195.81, "share": "全部", "owner": "陳怡岳", "acquired": "102/01/28", "reason": "贈與", "price": "含陽台15.31平方公尺"},
+{"location": "嘉義縣朴子市嘉朴段", "area_m2": 144.7, "share": "全部", "owner": "張梅雪", "acquired": "104/12/16", "reason": "買賣", "price": "355800"},
+{"location": "雲林縣土庫鎮北平里", "area_m2": 215.2, "share": "1/4", "owner": "陳怡岳", "acquired": "104/12/07", "reason": "繼承", "price": "248500"}
+],
+"building_count": 4,
+"ships": [],
+"vehicles": [
+{"desc": "JAGUAR（汽車）", "owner": "張梅雪", "acquired": "110/08/02", "price": "1900000"},
+{"desc": "MERCEDES-BENZ（汽車）", "owner": "張梅雪", "acquired": "109/10/23", "price": "1800000"},
+{"desc": "國瑞（汽車）", "owner": "張梅雪", "acquired": "108/07/31", "price": "650000"}
+],
+"vehicle_count": 3,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [],
+"deposit_count": 0,
+"deposit_total_twd": null,
+"securities_total_twd": 12340,
+"stocks": [
+{"code": "3662", "name": "齊民", "owner": "陳怡岳", "shares": 1102, "par": 10, "currency": null, "twd": 11020},
+{"code": "2317", "name": "鴻海", "owner": "陳怡岳", "shares": 132, "par": 10, "currency": null, "twd": 1320}
+],
+"stock_count": 2,
+"stock_total_twd": 12340,
+"bonds": [],
+"bond_total_twd": null,
+"funds": [],
+"fund_total_twd": null,
+"other_securities": [],
+"other_securities_total_twd": null,
+"other_assets": [],
+"other_assets_total_twd": null,
+"insurance": [
+{"desc": "富邦人壽保險公司 168還本終身保險", "owner": "陳怡岳", "amount_twd": 403636, "note": "保險金額610000；契約始日1040615；累積已繳保險費折合新臺幣403636"},
+{"desc": "國際康健人壽保險股份有限公司 終身保險VLR", "owner": "陳怡岳", "amount_twd": 180000, "note": "保險金額500000；累積已繳保險費折合新臺幣180000"},
+{"desc": "國際康健人壽保險股份有限公司 萬能壽險VLL", "owner": "陳怡岳", "amount_twd": 280000, "note": "保險金額2000000；累積已繳保險費折合新臺幣280000"},
+{"desc": "創世紀保險股份有限公司 萬能壽險", "owner": "張梅雪", "amount_twd": 82064, "note": "保險金額82064；累積已繳保險費折合新臺幣82064"},
+{"desc": "國泰人壽保險股份有限公司 鑫添金終身壽險", "owner": "張梅雪", "amount_twd": 766566, "note": "保險金額766566；累積已繳保險費折合新臺幣766566"},
+{"desc": "國泰人壽保險股份有限公司 添美盛美元終身保險", "owner": "張梅雪", "amount_twd": 1209474, "note": "保險金額41706美元；累積已繳保險費外幣41706美元，折合新臺幣1209474"},
+{"desc": "國泰人壽保險股份有限公司 美事年年利率變動型終身保險", "owner": "張梅雪", "amount_twd": 464000, "note": "保險金額16000美元；累積已繳保險費外幣16000美元，折合新臺幣464000"},
+{"desc": "國泰人壽保險股份有限公司 月月有利變額年金保險", "owner": "張梅雪", "amount_twd": 520000, "note": "保險金額520000；累積已繳保險費折合新臺幣520000"},
+{"desc": "國泰人壽保險股份有限公司 月月有利變額年金保險", "owner": "張梅雪", "amount_twd": 520000, "note": "保險金額520000；累積已繳保險費折合新臺幣520000"},
+{"desc": "南山人壽保險公司 期限壽險", "owner": "陳怡岳", "amount_twd": 213000, "note": "保險金額500000；累積已繳保險費折合新臺幣213000"},
+{"desc": "三商美邦人壽保險公司 20年期重大疾病健康終身保險", "owner": "陳怡岳", "amount_twd": 201300, "note": "保險金額1000；累積已繳保險費折合新臺幣201300"},
+{"desc": "三商美邦人壽保險公司 世紀雲豐變額壽險B型", "owner": "陳怡岳", "amount_twd": 246000, "note": "保險金額2600000；累積已繳保險費折合新臺幣246000"}
+],
+"insurance_count": 12,
+"debt_claims": [],
+"debt_claims_total_twd": null,
+"debts": [
+{"desc": "借款（農會信用部）", "owner": "陳怡岳", "amount_twd": 3529734, "note": "取得時間104/06/29；原因：購置自用住宅；債權人：嘉義縣六腳鄉農會信用部"},
+{"desc": "借款（農會信用部）", "owner": "張梅雪", "amount_twd": 4281532, "note": "取得時間105/10/24；原因：購置土地；債權人：嘉義縣六腳鄉農會信用部"},
+{"desc": "保單借款", "owner": "陳怡岳", "amount_twd": 199350, "note": "取得時間108/08/15；富邦人壽保單借款；債權人：富邦人壽保險公司"},
+{"desc": "保單借款", "owner": "陳怡岳", "amount_twd": 159181, "note": "取得時間092/09/07；南山人壽保單借款；債權人：南山人壽保險公司"},
+{"desc": "汽車貸款", "owner": "張梅雪", "amount_twd": 492366, "note": "取得時間109/10/23；買賣；債權人：台新大安租賃股份有限公司"},
+{"desc": "汽車貸款", "owner": "張梅雪", "amount_twd": 1173690, "note": "取得時間110/08/02；買賣；債權人：台新大安租賃股份有限公司"},
+{"desc": "信用借款", "owner": "陳怡岳", "amount_twd": 798600, "note": "取得時間109/04/27；周轉金；債權人：中信銀行永吉分行"},
+{"desc": "信用借款", "owner": "陳怡岳", "amount_twd": 1038000, "note": "取得時間107/12/26；周轉金；債權人：中信銀行永吉分行"}
+],
+"debts_count": 8,
+"debts_total_twd": 11672453,
+"business_investments": [
+{"desc": "有鮮實業有限公司", "owner": "張梅雪", "amount_twd": 2820000, "note": "取得時間111/02/17；原因：投資；事業地址略"},
+{"desc": "立川國際有限公司", "owner": "張梅雪", "amount_twd": 1000000, "note": "取得時間110/08/09；原因：投資；事業地址略"}
+],
+"business_investments_total_twd": 3820000,
+"trust_items": [],
+"notes": "保險公司名稱與險種名稱為手寫/印刷混合，部分判讀存疑（如保險公司歸屬與要保人欄位、部分險種名稱）；保險契約號碼未記。保險12筆之累積已繳保險費合計5086040與表上總額一致。債務8筆合計11672453與表上總額一致。股票2筆合計12340與表上總價額一致。(六)現金表上總金額為0。土地/建物地址僅保留縣市鄉鎮段，不含地號/門牌。事業投資地址未記。總頁數表上未填，故 total_pages 為 null。"
+}}

@@ -1,0 +1,73 @@
+{
+  "seq": "2310",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "楊育菡",
+    "declare_date": "民國111年9月1日",
+    "spouse": null,
+    "minor_children_count": 0,
+    "total_pages": 16,
+    "land": [],
+    "land_count": 0,
+    "buildings": [],
+    "building_count": 0,
+    "ships": [],
+    "vehicles": [],
+    "vehicle_count": 0,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": null,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": null,
+    "securities_total_twd": null,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": null,
+    "bonds": [],
+    "bond_total_twd": null,
+    "funds": [],
+    "fund_total_twd": null,
+    "other_securities": [],
+    "other_securities_total_twd": null,
+    "other_assets": [],
+    "other_assets_total_twd": null,
+    "insurance": [
+      {
+        "desc": "國泰人壽 富利多變額壽險",
+        "owner": "楊育菡",
+        "amount_twd": 500000,
+        "note": "投資型；保險金額 美元150,000；契約始日2013/12/16、終日2023；累積已繳保險費外幣總額空白"
+      },
+      {
+        "desc": "新光人壽 外幣利率變動型壽險",
+        "owner": "楊育菡",
+        "amount_twd": 140000,
+        "note": "儲蓄型；保險金額 美元2,000；累積已繳保險費外幣總額 美元4,672；保險名稱手寫，判讀存疑"
+      },
+      {
+        "desc": "保誠人壽 外幣終身保險",
+        "owner": "楊育菡",
+        "amount_twd": 150000,
+        "note": "儲蓄型；保險金額 美元1,680；契約始日2020/6/26；累積已繳保險費外幣總額 美元4,992；保險名稱手寫，判讀存疑"
+      }
+    ],
+    "insurance_count": 3,
+    "debt_claims": [],
+    "debt_claims_total_twd": null,
+    "debts": [],
+    "debts_count": 0,
+    "debts_total_twd": null,
+    "business_investments": [
+      {
+        "desc": "金門縣運旅行社有限公司",
+        "owner": "楊育菡",
+        "amount_twd": 1000000,
+        "note": "取得時間 2012 年（手寫，判讀存疑）；取得原因 投資；事業名稱為手寫，判讀可能有誤"
+      }
+    ],
+    "business_investments_total_twd": 1000000,
+    "trust_items": [],
+    "notes": "申報人姓名與保險要保人、事業投資人由手寫判讀，參照檔名為楊育菡；現金、存款、有價證券、債權、債務等表格空白，總金額欄空白者設為 null；保險名稱與事業名稱為手寫，判讀存疑。"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "seq": "2306",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "陳泱瑚",
+    "declare_date": "民國111年8月30日",
+    "spouse": "王雅慧",
+    "minor_children_count": 1,
+    "total_pages": 16,
+    "land": [
+      {"location": "金門縣金城鎮", "area_m2": 70.23, "share": "全部", "owner": "陳泱瑚", "acquired": "101.12.5", "reason": "買賣", "price": "303"},
+      {"location": "金門縣金湖鎮", "area_m2": 0.7, "share": "全部", "owner": "陳泱瑚", "acquired": "101.12.5", "reason": "買賣", "price": "0.3"},
+      {"location": "金門縣金湖鎮", "area_m2": 2.33, "share": "全部", "owner": "陳泱瑚", "acquired": "103.11.20", "reason": "買賣、贈與", "price": "303"},
+      {"location": "金門縣金寧鄉", "area_m2": 390.6, "share": "全部", "owner": "王雅慧", "acquired": "106.12.22", "reason": "父母贈與", "price": "0"},
+      {"location": "金門縣金寧鄉", "area_m2": 292.35, "share": "3分之1", "owner": "王雅慧", "acquired": "101.4.12", "reason": "買賣", "price": "0"},
+      {"location": "金門縣金寧鄉", "area_m2": 7.14, "share": "2分之1", "owner": "王雅慧", "acquired": "101.4.12", "reason": "買賣", "price": null},
+      {"location": "金門縣金湖鎮", "area_m2": 437.53, "share": "全部", "owner": "王雅慧", "acquired": "100.7.7", "reason": "買賣", "price": "3507"},
+      {"location": "新北市", "area_m2": 970.05, "share": "3分之1", "owner": "王雅慧", "acquired": "108.7.18", "reason": "買賣", "price": "1703"},
+      {"location": "金門縣金城鎮", "area_m2": 28.5, "share": "全部", "owner": "王雅慧", "acquired": "100.7.7", "reason": "買賣", "price": "303"},
+      {"location": "金門縣金湖鎮", "area_m2": 1005.3, "share": "3分之1", "owner": "王雅慧", "acquired": "102.1.5", "reason": "買賣", "price": "1103"},
+      {"location": "金門縣金寧鄉", "area_m2": 60, "share": "1分之1", "owner": "王雅慧", "acquired": "106.12.22", "reason": "贈與", "price": "0"},
+      {"location": "金門縣金寧鄉", "area_m2": 0.93, "share": "全部", "owner": "王雅慧", "acquired": "106.12.22", "reason": "贈與", "price": "0"},
+      {"location": "金門縣金寧鄉", "area_m2": 18.01, "share": "2分之1", "owner": "王雅慧", "acquired": "106.12.22", "reason": "贈與", "price": "0"},
+      {"location": "金門縣金寧鄉", "area_m2": 93, "share": "1分之1", "owner": "王雅慧", "acquired": "106.12.22", "reason": "贈與", "price": "0"}
+    ],
+    "land_count": 14,
+    "buildings": [
+      {"location": "新北市淡水區", "area_m2": 66.5, "share": "全部", "owner": "王雅慧", "acquired": "108.7.18", "reason": "買賣", "price": "640萬"},
+      {"location": "金門縣金寧鄉", "area_m2": 192.5, "share": "全部", "owner": "王雅慧", "acquired": "106.12.22", "reason": "買賣", "price": "690萬"},
+      {"location": "金門縣金寧鄉", "area_m2": 555.98, "share": "2分之1", "owner": "王雅慧", "acquired": "103.3.16", "reason": "買賣", "price": "550萬"},
+      {"location": "金門縣金沙鎮", "area_m2": 684.91, "share": "全部", "owner": "陳泱瑚", "acquired": "109.5.20", "reason": "承租", "price": "700萬"},
+      {"location": "金門縣金湖鎮", "area_m2": 136, "share": "全部", "owner": "陳泱瑚", "acquired": "103.11.20", "reason": "繼承", "price": "0"},
+      {"location": "金門縣金湖鎮", "area_m2": 61, "share": "全部", "owner": "陳泱瑚", "acquired": "103.11.20", "reason": "繼承", "price": "0"},
+      {"location": "金門縣金湖鎮", "area_m2": 360.99, "share": "全部", "owner": "陳泱瑚", "acquired": "106.1.13", "reason": "自建", "price": "980萬"}
+    ],
+    "building_count": 7,
+    "ships": [],
+    "vehicles": [
+      {"desc": "SUZUKI", "owner": "王雅慧", "acquired": "104", "price": "56萬"},
+      {"desc": "山葉", "owner": "王雅慧", "acquired": "105", "price": "6萬"}
+    ],
+    "vehicle_count": 2,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": null,
+    "deposits": [
+      {"bank": "臺灣土地銀行金城分行", "kind": "活期存款", "currency": "新臺幣", "owner": "王雅慧", "foreign_amount": null, "twd": 411751},
+      {"bank": "臺灣土地銀行金城分行", "kind": "活期存款", "currency": "新臺幣", "owner": "王雅慧", "foreign_amount": null, "twd": 1639},
+      {"bank": "臺灣土地銀行金城分行", "kind": "活期存款", "currency": "新臺幣", "owner": "王雅慧", "foreign_amount": null, "twd": 51},
+      {"bank": "臺灣土地銀行金城分行", "kind": "支票存款", "currency": "新臺幣", "owner": "王雅慧", "foreign_amount": null, "twd": 3074},
+      {"bank": "臺灣土地銀行金門分行", "kind": "活期存款", "currency": "外幣(幣別判讀不確定)", "owner": "王雅慧", "foreign_amount": 85374, "twd": 186179},
+      {"bank": "臺灣土地銀行金門分行", "kind": "活期存款", "currency": "外幣(幣別判讀不確定)", "owner": "王雅慧", "foreign_amount": 1635334, "twd": 500000},
+      {"bank": "臺灣土地銀行金城分行", "kind": "活期存款", "currency": "外幣(幣別判讀不確定)", "owner": "王雅慧", "foreign_amount": 37257, "twd": 500000},
+      {"bank": "金門信用合作社", "kind": "活期存款", "currency": "外幣(幣別判讀不確定)", "owner": "王雅慧", "foreign_amount": 100000, "twd": 100000},
+      {"bank": "永豐銀行", "kind": "活期存款", "currency": "新臺幣", "owner": "王雅慧", "foreign_amount": null, "twd": 293},
+      {"bank": "永豐銀行", "kind": "活期存款", "currency": "美金", "owner": "王雅慧", "foreign_amount": 14328, "twd": 500000},
+      {"bank": "兆豐銀行", "kind": "活期存款", "currency": "新臺幣", "owner": "王雅慧", "foreign_amount": null, "twd": 0},
+      {"bank": "臺灣土地銀行金湖分行", "kind": "活期存款", "currency": "新臺幣", "owner": "陳泱瑚", "foreign_amount": null, "twd": 30000}
+    ],
+    "deposit_count": 12,
+    "deposit_total_twd": 2806987,
+    "securities_total_twd": 2786652,
+    "stocks": [
+      {"code": null, "name": "富邦金融控股股份有限公司", "owner": "王雅慧", "shares": 822, "par": 57.6, "currency": null, "twd": 46857},
+      {"code": null, "name": "國泰金融控股股份有限公司", "owner": "王雅慧", "shares": 68333, "par": 46.7, "currency": null, "twd": 1587800},
+      {"code": null, "name": "元大金融控股股份有限公司", "owner": "王雅慧", "shares": 4297, "par": 20.4, "currency": null, "twd": 87658},
+      {"code": null, "name": "中國鋼鐵股份有限公司", "owner": "王雅慧", "shares": 1701, "par": 28.8, "currency": null, "twd": 48960},
+      {"code": null, "name": "鴻海精密工業股份有限公司", "owner": "王雅慧", "shares": 17056, "par": 50.2, "currency": null, "twd": 85611},
+      {"code": null, "name": "聯華電子股份有限公司", "owner": "王雅慧", "shares": 3854, "par": 41.3, "currency": null, "twd": 1591702}
+    ],
+    "stock_count": 6,
+    "stock_total_twd": null,
+    "bonds": [],
+    "bond_total_twd": null,
+    "funds": [
+      {"name": "國泰中小型成長基金", "code": null, "owner": "王雅慧", "units": 3540.8, "par": 75.07, "currency": null, "twd": 265808},
+      {"name": "國泰大中華基金", "code": null, "owner": "王雅慧", "units": 13758.9, "par": 34.03, "currency": null, "twd": 468215},
+      {"name": "國泰科技生化基金", "code": null, "owner": "王雅慧", "units": 1984.9, "par": 57.59, "currency": null, "twd": 114310},
+      {"name": "國泰小龍基金", "code": null, "owner": "王雅慧", "units": 4427, "par": 22.5, "currency": null, "twd": 99608}
+    ],
+    "fund_total_twd": 947941,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": null,
+    "insurance": [
+      {"desc": "國泰人壽 定期100壽險", "owner": "王雅慧", "amount_twd": 240255, "note": "保障型；保險金額100萬；契約93.4.20至112.4.20"},
+      {"desc": "國泰人壽 微摯愛小額終身壽險", "owner": "王雅慧", "amount_twd": 57204, "note": "終身型；保險金額30萬；契約106.5.2起（名稱判讀不確定）"},
+      {"desc": "國泰人壽 微摯愛終身壽險", "owner": "王雅慧", "amount_twd": 49155, "note": "保障型；保險金額30萬；契約107.2.12起（名稱判讀不確定）"},
+      {"desc": "國泰人壽 利率變動型終身壽險", "owner": "陳泱瑚", "amount_twd": 587772, "note": "儲蓄型；保險金額60仟；契約108.3.8起；累積已繳外幣美金20268（名稱判讀不確定）"},
+      {"desc": "國泰人壽 利率變動型終身壽險", "owner": "陳泱瑚", "amount_twd": 489752, "note": "儲蓄型；保險金額50仟；契約108.3.20起；累積已繳外幣美金16888（名稱判讀不確定）"},
+      {"desc": "國泰人壽 創世紀終身壽險", "owner": "陳泱瑚", "amount_twd": 200000, "note": "儲蓄型；保險金額100萬；契約95.3.8起（名稱判讀不確定）"},
+      {"desc": "國泰人壽 安心醫療終身保險", "owner": "陳泱瑚", "amount_twd": 216580, "note": "醫療險；保險金額700元；契約98.10.28起（名稱判讀不確定）"},
+      {"desc": "國泰人壽 安心手術醫療終身保險", "owner": "陳泱瑚", "amount_twd": 158301, "note": "醫療險；保險金額500元；契約98.10.28起（名稱判讀不確定）"},
+      {"desc": "國泰人壽 添福增額終身壽險", "owner": "王雅慧", "amount_twd": 112600, "note": "保障型；保險金額100萬；契約84.1.27起（名稱判讀不確定）"},
+      {"desc": "國泰人壽 康利終身壽險", "owner": "王雅慧", "amount_twd": 107831, "note": "保障型；保險金額10萬；契約95.2.17起（名稱判讀不確定）"},
+      {"desc": "國泰人壽 副本醫療終身保險", "owner": "王雅慧", "amount_twd": 101514, "note": "醫療險；保險金額500元；契約98.3.26起（名稱判讀不確定）"},
+      {"desc": "國泰人壽 醫療終身保險", "owner": "王雅慧", "amount_twd": 94263, "note": "醫療險；保險金額500元；契約99.1.6起（名稱判讀不確定）"}
+    ],
+    "insurance_count": 12,
+    "debt_claims": [],
+    "debt_claims_total_twd": null,
+    "debts": [
+      {"desc": "房貸 兆豐銀行金門分行", "owner": "王雅慧", "amount_twd": 3600000, "note": "取得時間108.7.18；原因買賣"},
+      {"desc": "房貸 金門信用合作社", "owner": "王雅慧", "amount_twd": 3600000, "note": "取得時間106.12.22；原因買賣"},
+      {"desc": "房貸 臺灣土地銀行金城分行", "owner": "王雅慧", "amount_twd": 6000000, "note": "取得時間103.1.20；原因自建"}
+    ],
+    "debts_count": 3,
+    "debts_total_twd": 13200000,
+    "business_investments": [
+      {"desc": "天○科技股份有限公司（名稱判讀不確定）", "owner": "陳泱瑚", "amount_twd": 1000000, "note": "取得時間106.5.10；原因負責人"},
+      {"desc": "山川不動產（名稱判讀不確定）", "owner": "陳泱瑚", "amount_twd": 200000, "note": "取得時間98.7.5（判讀不確定）；原因負責人"}
+    ],
+    "business_investments_total_twd": null,
+    "trust_items": [],
+    "notes": "1. 補正檔(2306_1.pdf)兩頁均有「與正本相符」章：基金受益憑證總價額補寫為947941（已採用）；債務頁總金額1320萬與原表相同，補正頁總申報筆數空白，沿用原表3筆。2. 存款總金額表上印為2806987，但12筆明細折合新臺幣加總為2232987，兩者不符，依表上數字填寫；第5-7、8筆幣別與外幣金額判讀不確定。3. 有價證券總價額表上為2786652（末位受印章遮蓋，判讀為2）；股票明細與表上總額無法核對，股票第2、6筆股數/價額與股數×票面價額計算不符，依表上原文填寫。股票與基金的股數、面額、金額以手寫判讀為準。4. 表中無(五)航空器、(六)現金分項，以空陣列及null填寫。5. 未成年子女僅計長子1人（民國100年生）；長女、次女為成年。6. 保險累積已繳保險費折合新臺幣總額：第一頁(十)保險為1624138（6筆）、第二頁為791089（6筆），合計12筆。7. 汽車：SUZUKI排氣量約1242cc；山葉排氣量100cc。8. 不動產段名、建號、門牌與多數人名、保險名稱及部分日期為手寫判讀，可能有誤；所有地址、門牌、電話、身分證字號、帳號均未輸出。9. 土地面積、持分與取得價額多為手寫，部分取得價額以判讀值（如303、1703）填寫。10. 債務項目之債權人地址已省略。"
+  }
+}

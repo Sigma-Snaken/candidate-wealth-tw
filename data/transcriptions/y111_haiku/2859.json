@@ -1,0 +1,76 @@
+{"seq": "2859", "model": "claude-haiku", "data": {
+"declarant": "林宗昆",
+"declare_date": "民國111年08月29日",
+"spouse": "劉雨蓁",
+"minor_children_count": 2,
+"total_pages": 19,
+"land": [
+ {"location": "秀林鄉下水源段", "area_m2": 3758.73, "share": "1/1", "owner": "劉雨蓁", "acquired": "103/12/01", "reason": "買賣", "price": "1500000"},
+ {"location": "花蓮市莊敬段", "area_m2": 150, "share": "1/1", "owner": "劉雨蓁", "acquired": "106/08/18", "reason": "贈與", "price": "11850000"}
+],
+"land_count": 2,
+"buildings": [
+ {"location": "花蓮縣花蓮市莊敬段", "area_m2": 325, "share": "1/1", "owner": "劉雨蓁", "acquired": "106/08/18", "reason": "贈與", "price": "11850000"}
+],
+"building_count": 1,
+"ships": [],
+"vehicles": [
+ {"desc": "BMW X5 25D(汽車) 1997cc", "owner": "林宗昆", "acquired": "110/04/15", "price": "1520000"},
+ {"desc": "BMW 520D(汽車) 1997cc", "owner": "劉雨蓁", "acquired": "104/04/02", "price": "1800000"}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [
+ {"currency": "新臺幣", "owner": "劉雨蓁", "foreign_amount": null, "twd": 320000}
+],
+"cash_total_twd": 320000,
+"deposits": [
+ {"bank": "元大商業銀行", "kind": "活期存款", "currency": "新臺幣", "owner": "林宗昆", "foreign_amount": null, "twd": 360000}
+],
+"deposit_count": 1,
+"deposit_total_twd": 360000,
+"securities_total_twd": 1601990,
+"stocks": [
+ {"code": null, "name": "介面(下市)", "owner": "林宗昆", "shares": 399, "par": 10, "currency": null, "twd": 3990},
+ {"code": null, "name": "聯電", "owner": "林宗昆", "shares": 40000, "par": 39.95, "currency": null, "twd": 1598000}
+],
+"stock_count": 2,
+"stock_total_twd": 1601990,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [
+ {"desc": "元大期貨", "owner": "林宗昆", "amount_twd": 3948000, "note": null},
+ {"desc": "元大期貨", "owner": "劉雨蓁", "amount_twd": 1410000, "note": null}
+],
+"other_assets_total_twd": 5358000,
+"insurance": [
+ {"desc": "全球人壽保險公司 超優利還本終身保險", "owner": "林宗昆", "amount_twd": 360000, "note": "年金型保險 保額360000 契約105/03/29~終身"},
+ {"desc": "國泰人壽 貴安順手術終身", "owner": "林宗昆", "amount_twd": 89736, "note": "年金型保險 保額1000 契約103/12/06~終身"},
+ {"desc": "國泰人壽 健康101終身", "owner": "林宗昆", "amount_twd": 10000, "note": "年金型保險 保額10000 契約093/12/20~103/12/20"},
+ {"desc": "國泰人壽 富貴保本三福終身", "owner": "林宗昆", "amount_twd": 350000, "note": "年金型保險 保額350000 契約086/12/24~終身"},
+ {"desc": "國泰人壽 新真安心住院醫療終身", "owner": "林宗昆", "amount_twd": 147272, "note": "年金型保險 保額1000 契約103/12/06~終身"},
+ {"desc": "國泰人壽 美利鬧金利變美元", "owner": "林宗昆", "amount_twd": 611616, "note": "投資型保險 保額17000美元 契約105/04/28~112/03/28"},
+ {"desc": "國泰人壽 美利鬧金利變美元", "owner": "林宗昆", "amount_twd": 427549, "note": "投資型保險 保額13000美元 契約105/10/15~112/09/15"},
+ {"desc": "國泰人壽 添美利美元", "owner": "林宗昆", "amount_twd": 831000, "note": "投資型保險 保額5000美元 契約109/11/02~終身"},
+ {"desc": "富邦人壽 醫想可護重大傷病保險", "owner": "林宗昆", "amount_twd": 67500, "note": "年金型保險 保額500000 契約108/07/08~108/07/07"},
+ {"desc": "南山人壽 鑫利久久利率變動型終身壽險", "owner": "劉雨蓁", "amount_twd": 58000, "note": "儲蓄型壽險 保額58000 契約103/09/03~109/09/03"}
+],
+"insurance_count": 29,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+ {"desc": "私人債務", "owner": "林宗昆", "amount_twd": 3800000, "note": "取得時間108/11/10；原因：投資"},
+ {"desc": "小額信用貸款/國泰世華銀行花蓮分行", "owner": "林宗昆", "amount_twd": 1150000, "note": "取得時間108/08/18；原因：投資"},
+ {"desc": "房屋貸款/華南銀行花蓮分行", "owner": "林宗昆", "amount_twd": 12138921, "note": "取得時間106/09/10；原因：買賣房屋"}
+],
+"debts_count": 3,
+"debts_total_twd": 17088921,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "保險（十）僅逐筆判讀出10筆（原表申報筆數29筆、總金額3,423,787），其餘19筆因掃描件旋轉且低解析，無法逐筆可靠判讀，未列出，請以原件補齊。股票聯電票面價額欄印刷為39.95（與股數×39.95=1,598,000一致），依原表字面填寫。債務與土地/建物第一筆坐落判讀依原件。未成年子女僅填人數2。"
+}}

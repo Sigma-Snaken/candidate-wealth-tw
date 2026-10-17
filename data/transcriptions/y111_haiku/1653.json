@@ -1,0 +1,75 @@
+{
+  "seq": "1653",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "蘇育德",
+    "declare_date": "民國111年8月29日",
+    "spouse": "洪瑄璟",
+    "minor_children_count": 0,
+    "total_pages": 14,
+    "land": [],
+    "land_count": 0,
+    "buildings": [],
+    "building_count": 0,
+    "ships": [],
+    "vehicles": [
+      {"desc": "中華 FR2.0H5DA", "owner": "蘇育德", "acquired": "2015年08月", "price": "100000"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [
+      {"currency": "新臺幣", "owner": "蘇育德", "foreign_amount": null, "twd": 498000}
+    ],
+    "cash_total_twd": 100000,
+    "deposits": [
+      {"bank": "台灣銀行澎湖分行", "kind": "活期存款", "currency": "新臺幣", "owner": "蘇育德", "foreign_amount": null, "twd": 68892},
+      {"bank": "澎湖中正路郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "蘇育德", "foreign_amount": null, "twd": 126512},
+      {"bank": "合作金庫澎湖分行", "kind": "活期存款", "currency": "新臺幣", "owner": "蘇育德", "foreign_amount": null, "twd": 25271},
+      {"bank": "iLEO數位帳戶 第一銀行", "kind": "活期存款", "currency": "新臺幣", "owner": "蘇育德", "foreign_amount": null, "twd": 255442},
+      {"bank": "iLEO數位帳戶 第一銀行", "kind": "外幣活期存款", "currency": "日幣", "owner": "蘇育德", "foreign_amount": 20661, "twd": 4550}
+    ],
+    "deposit_count": 5,
+    "deposit_total_twd": 480667,
+    "securities_total_twd": 367000,
+    "stocks": [
+      {"code": null, "name": "國泰永續高股息", "owner": "蘇育德", "shares": 3000, "par": 10, "currency": null, "twd": 30000},
+      {"code": null, "name": "聯電", "owner": "蘇育德", "shares": 1000, "par": 10, "currency": null, "twd": 10000},
+      {"code": null, "name": "台積電", "owner": "蘇育德", "shares": 1000, "par": 10, "currency": null, "twd": 10000},
+      {"code": null, "name": "光罩", "owner": "蘇育德", "shares": 2000, "par": 10, "currency": null, "twd": 20000},
+      {"code": null, "name": "一詮", "owner": "蘇育德", "shares": 2000, "par": 10, "currency": null, "twd": 20000},
+      {"code": null, "name": "長榮", "owner": "蘇育德", "shares": 1000, "par": 10, "currency": null, "twd": 10000},
+      {"code": null, "name": "華航", "owner": "蘇育德", "shares": 10000, "par": 10, "currency": null, "twd": 100000},
+      {"code": null, "name": "東森", "owner": "蘇育德", "shares": 2700, "par": 10, "currency": null, "twd": 27000},
+      {"code": null, "name": "長榮航", "owner": "蘇育德", "shares": 3000, "par": 10, "currency": null, "twd": 30000},
+      {"code": null, "name": "開發金", "owner": "蘇育德", "shares": 6000, "par": 10, "currency": null, "twd": 60000},
+      {"code": null, "name": "鈺創", "owner": "蘇育德", "shares": 2000, "par": 10, "currency": null, "twd": 20000},
+      {"code": null, "name": "力積電", "owner": "蘇育德", "shares": 3000, "par": 10, "currency": null, "twd": 30000}
+    ],
+    "stock_count": 12,
+    "stock_total_twd": 367000,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {"desc": "國泰人壽 312還本終身壽險", "owner": "蘇育德", "amount_twd": 350840, "note": "要保人欄空白（推定本人）；保險金額10萬；契約始日91/07/12，契約終日111/07/12（續保狀態）；累積已繳保險費折合新臺幣350,840元"},
+      {"desc": "中華郵政 幸福88", "owner": "蘇育德", "amount_twd": 244372, "note": "要保人蘇育德；壽險；保險金額50萬；契約始日107/12/18，契約終日115/12/18；累積已繳保險費折合新臺幣244,372元"}
+    ],
+    "insurance_count": 2,
+    "debt_claims": [
+      {"desc": "現金（借貸債權）", "owner": "蘇育德", "amount_twd": 480000, "note": "取得時間2020/9/22；取得原因：兄弟借款買房；債務人及地址欄未填"}
+    ],
+    "debt_claims_total_twd": 480000,
+    "debts": [],
+    "debts_count": 0,
+    "debts_total_twd": 0,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 第1頁申報日『8月』後『29日』為手寫，『9』疑似覆寫於『0』之上，判讀為29日，與第14頁交件日111年08月29日相符。2) 配偶洪瑄璟；未成年子女0人。3) 土地、建物、船舶、航空器皆為0筆（表上『0』手寫）。4) 汽車1筆：取得價額原文『10萬』，轉為100000；原表登記原因『購買』，因 schema 無原因欄位而未納入JSON；取得時間為2015年08月。5) 現金：表上列示新台幣498,000元一筆，但(六)現金區段印刷總金額為新臺幣100,000元，兩者不一致；cash_total_twd依表上總金額填100000。6) 存款5筆，合計480,667元，與表上總金額相符；帳號未列入。7) 股票12筆，合計367,000元，與表上總金額相符；名稱欄無斜線代碼，code皆為null；票面價額為10。8) 債券、基金、其他有價證券、珠寶等其他財產、債務、事業投資皆為0筆、總金額0元。9) 保險2筆，合計595,212元，與表上總金額相符；保單號碼未列入。10) 債權1筆，餘額480,000元，與表上總金額相符；債務人及地址欄未填。11) 第14頁備註欄空白。"
+  }
+}

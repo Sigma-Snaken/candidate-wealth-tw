@@ -1,0 +1,53 @@
+{"seq": "2876", "model": "claude-haiku", "data": {
+  "declarant": "田韻馨",
+  "declare_date": "民國111年9月1日",
+  "spouse": null,
+  "minor_children_count": 1,
+  "total_pages": 16,
+  "land": [],
+  "land_count": 0,
+  "buildings": [
+    {"location": "花蓮縣（鄉鎮段名手寫不清，待複核）", "area_m2": 92.4, "share": "1/1", "owner": "田韻馨", "acquired": "86.4.16", "reason": "地目變更", "price": "48700"}
+  ],
+  "building_count": 1,
+  "ships": [],
+  "vehicles": [
+    {"desc": "三陽(汽車)", "owner": "田韻馨", "acquired": "108.12.17", "price": "790000"}
+  ],
+  "vehicle_count": 1,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": 0,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+    {"desc": "國泰人壽保險 終身壽險（險種名稱手寫，待複核）", "owner": "田韻馨", "amount_twd": 105735, "note": "保險金額300000；契約始日106/10/21；累積已繳保險費折合新臺幣105735；保單號碼已省略"}
+  ],
+  "insurance_count": 1,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+    {"desc": "授信（債權人為銀行，名稱手寫不清，地址已省略）", "owner": "田韻馨", "amount_twd": 1137631, "note": "取得時間110/07/01；原因週轉金"},
+    {"desc": "授信（債權人為銀行，名稱手寫不清，地址已省略）", "owner": "田韻馨", "amount_twd": 482045, "note": "取得時間110/07/01；原因週轉金"},
+    {"desc": "保單借款（債權人：國泰人壽保險公司）", "owner": "田韻馨", "amount_twd": 201929, "note": "取得時間103/07/16；原因保單借款"}
+  ],
+  "debts_count": 3,
+  "debts_total_twd": 1821605,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "(1) 手寫表，部分坐落、險種名稱、債權人名稱判讀不確定，已標示待複核，地址與地號皆已省略。(2) 建物1筆：坐落鄉鎮段名手寫不清，面積92.4，權利範圍100000/100000判為1/1。(3) 保險1筆：累積已繳保險費折合新臺幣105,735，與表上印刷保險費欄一致，保單號碼與要保人以外資訊已省略。(4) 債務3筆合計1,137,631+482,045+201,929=1,821,605，與表上總金額1821605相符。(5) 未成年子女1人，僅填人數，姓名未記錄。(6) 申報日印刷111年8月15日，交件日手寫為111年9月1日，declare_date 取交件日。(7) 其他各分項表上均為0筆或0元。"
+}}

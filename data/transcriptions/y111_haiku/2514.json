@@ -1,0 +1,52 @@
+{"seq": "2514", "model": "claude-haiku", "data": {
+"declarant": "謝國榮",
+"declare_date": "民國111年8月25日",
+"spouse": "吳淑女",
+"minor_children_count": 0,
+"total_pages": 9,
+"land": [],
+"land_count": 0,
+"buildings": [
+{"location": "花蓮縣花蓮市主商段", "area_m2": 76.13, "share": "1/1", "owner": "謝國榮", "acquired": "075/10/03", "reason": null, "price": null}
+],
+"building_count": 1,
+"ships": [],
+"vehicles": [],
+"vehicle_count": 0,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [],
+"deposit_count": 0,
+"deposit_total_twd": 0,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "國泰人壽 新鐘情終身壽險", "owner": "謝國榮", "amount_twd": 1077437, "note": "儲蓄型；保險金額600000；契約096/08/30起"},
+{"desc": "國泰人壽 新鐘情終身壽險", "owner": "吳淑女", "amount_twd": 896036, "note": "儲蓄型；保險金額600000；契約096/08/30起"},
+{"desc": "國泰人壽 萬代福211", "owner": "吳淑女", "amount_twd": 255730, "note": "儲蓄型；保險金額200000；契約082/05/28起；備註欄載已無投保但仍在介接資料上"}
+],
+"insurance_count": 3,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "授信/花蓮第一信用合作社自由分社", "owner": "謝國榮", "amount_twd": 4559073, "note": "取得084/04/14；原因週轉金"},
+{"desc": "私人債務", "owner": "謝國榮", "amount_twd": 870919, "note": "取得084/04/14"}
+],
+"debts_count": 2,
+"debts_total_twd": 5429992,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "建物主商段手寫註明建物已拆除不存在、只是未辦滅失，取得/原因欄空白。存款備註：本人及配偶合計未達100萬元依規定免申報。備註欄另述：向花蓮第一信用合作社申請至111年8月25日債務餘額尚欠30,051,229（其中21,134,584屬保證債務），未列入債務表明細。保險3筆，總額手寫2,229,203與逐項加總相符。"
+}}

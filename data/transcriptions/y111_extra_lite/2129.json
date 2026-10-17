@@ -1,0 +1,1 @@
+{"seq": "2129", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 7.9, "via": "gemini-api", "usage": {"in": 14708, "out": 103, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本案包含原申報表及補正資料。經比對兩份PDF，補正資料（第2份PDF）更新了財產申報內容，各項資產均申報為「無」（總申報筆數皆為0筆）。"}}

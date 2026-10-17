@@ -1,0 +1,56 @@
+{
+  "seq": "3041",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "林宇澤",
+    "declare_date": "民國111年8月30日",
+    "spouse": null,
+    "minor_children_count": 0,
+    "total_pages": 18,
+    "land": [
+      {"location": "屏東縣東港鎮朝?段（地段名手寫，字跡不清）", "area_m2": 38.66, "share": "0.50000", "owner": "林宇澤", "acquired": "110.12.02", "reason": "繼承", "price": "483,250"},
+      {"location": "屏東縣東港鎮朝?段（地段名手寫，字跡不清）", "area_m2": 0.08, "share": "0.50000", "owner": "林宇澤", "acquired": "110.12.02", "reason": "繼承", "price": "1,552"}
+    ],
+    "land_count": 2,
+    "buildings": [
+      {"location": "屏東縣東港鎮朝?里新生三路（門牌手寫，字跡不清）", "area_m2": 38.7, "share": "0.50000", "owner": "林宇澤", "acquired": "110.12.02", "reason": "繼承", "price": "47,550"}
+    ],
+    "building_count": 1,
+    "ships": [],
+    "vehicles": [
+      {"desc": "日產 TEANA（排氣量1997 cc）", "owner": "林宇澤", "acquired": "106.02.13", "price": "超過5年"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [
+      {"currency": "新臺幣", "owner": "林宇澤", "foreign_amount": null, "twd": 20000}
+    ],
+    "cash_total_twd": 20000,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": null,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": null,
+    "insurance": [],
+    "insurance_count": 0,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [],
+    "debts_count": 0,
+    "debts_total_twd": 0,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "3041_1（補1）共20頁為完整重送版本，覆蓋原版3041_0。補1新增：汽車登記（取得）時間106.02.13（圈註）、建物取得價額47,550（圈註）。土地地段名與建物門牌為手寫，字跡不清，以?標示未確定字。土地與建物所有權人皆為林宇澤，無配偶與未成年子女填寫（表內配偶及子女欄空白）。存款、債券等項目總申報筆數為0，表上以圓圈/手寫0表示。"
+  }
+}

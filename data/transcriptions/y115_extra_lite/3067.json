@@ -1,0 +1,1 @@
+{"seq": "3067", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 4.9, "via": "gemini-api", "usage": {"in": 8790, "out": 85, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "申報人：許韶珍。申報日期：民國115年8月3日。申報項目包括現金4412元、存款1153元。"}}

@@ -1,0 +1,83 @@
+{"seq": "2927", "model": "claude-haiku", "data": {
+  "declarant": "宋麗華",
+  "declare_date": "民國111年8月29日",
+  "spouse": "鄭任祐",
+  "minor_children_count": 0,
+  "total_pages": 19,
+  "land": [],
+  "land_count": 0,
+  "buildings": [
+    {"location": "長治鄉復興段", "area_m2": 145.55, "share": "2分之1", "owner": "宋麗華", "acquired": "111/7/5", "reason": "買賣", "price": "150萬"}
+  ],
+  "building_count": 1,
+  "ships": [],
+  "vehicles": [
+    {"desc": "Mercedes-Benz(汽車) 1991cc", "owner": "宋麗華", "acquired": "109/06/02", "price": "2000000"},
+    {"desc": "VOLKSWAGEN 1968cc", "owner": "宋麗華", "acquired": "110/06/25", "price": "2500000"}
+  ],
+  "vehicle_count": 2,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": null,
+  "deposits": [
+    {"bank": "台灣銀行中屏分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 178703},
+    {"bank": "土地銀行中崙分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 100},
+    {"bank": "合庫商業銀行松江分行", "kind": "活期存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 14},
+    {"bank": "第一銀行營業部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 114},
+    {"bank": "第一銀行忠孝路分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 13618},
+    {"bank": "第一銀行城東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 111},
+    {"bank": "第一銀行建國分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 141},
+    {"bank": "第一銀行汐止分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 249},
+    {"bank": "華南銀行忠孝東路分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 251},
+    {"bank": "華南銀行民生分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 40},
+    {"bank": "台北富邦銀行松山分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 115},
+    {"bank": "兆豐國際商業銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 65},
+    {"bank": "兆豐國際商業銀行松山機場分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 17},
+    {"bank": "華泰銀行和平分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 457},
+    {"bank": "臺灣新光銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 219},
+    {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 3884},
+    {"bank": "元大銀行三民分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 49897},
+    {"bank": "永豐銀行南門分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 12},
+    {"bank": "永豐銀行城中分行", "kind": "活儲證券戶", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 1},
+    {"bank": "中信銀行中崙分行", "kind": "活期存款", "currency": "美元", "owner": "宋麗華", "foreign_amount": 1634.15, "twd": 45511},
+    {"bank": "中信銀行中崙分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "宋麗華", "foreign_amount": null, "twd": 41342}
+  ],
+  "deposit_count": 21,
+  "deposit_total_twd": 334861,
+  "securities_total_twd": null,
+  "stocks": [
+    {"code": "YY0027", "name": "臺鳳", "owner": "宋麗華", "shares": 168, "par": 10, "currency": null, "twd": 1680}
+  ],
+  "stock_count": 1,
+  "stock_total_twd": 1680,
+  "bonds": [],
+  "bond_total_twd": null,
+  "funds": [
+    {"name": "龍揚基金", "code": "T1108Y", "owner": "宋麗華", "units": 6191.3, "par": 50.16, "currency": null, "twd": 310556},
+    {"name": "東方科技", "code": "T1109Y", "owner": "宋麗華", "units": 3552.4, "par": 55.81, "currency": null, "twd": 198259},
+    {"name": "大歐洲基金", "code": "T1110Y", "owner": "宋麗華", "units": 6838.7, "par": 20.46, "currency": null, "twd": 139920}
+  ],
+  "fund_total_twd": 648735,
+  "other_securities": [],
+  "other_securities_total_twd": null,
+  "other_assets": [
+    {"desc": "珠寶", "owner": "宋麗華", "amount_twd": 1000000, "note": "5件"}
+  ],
+  "other_assets_total_twd": 1152100,
+  "insurance": [
+    {"desc": "英屬百慕達商友邦人壽保險公司 友邦人壽滿扶保利率變動型終身保險", "owner": "宋麗華", "amount_twd": 152100, "note": "儲蓄型壽險；保險金額3,000,000；契約期間原表載110/06/24~168/06/24"}
+  ],
+  "insurance_count": 1,
+  "debt_claims": [],
+  "debt_claims_total_twd": null,
+  "debts": [
+    {"desc": "公司借款（債權人欄未載明）", "owner": "鄭任祐", "amount_twd": 22500000, "note": "取得110/06/03起；債務人欄登載配偶鄭任祐"},
+    {"desc": "公司借款（債權人欄未載明）", "owner": "鄭任祐", "amount_twd": 2000000, "note": "取得110/11/19；債務人欄登載配偶鄭任祐"}
+  ],
+  "debts_count": 2,
+  "debts_total_twd": 24500000,
+  "business_investments": [],
+  "business_investments_total_twd": null,
+  "trust_items": [],
+  "notes": "原表為基本資料至備註共19頁；補正1、補正2（2927_1、2927_2）內容相同。債務欄：原表第17頁登載私人借貸200萬（110/11/19），補正後改為公司借款2250萬（110/06/03起）及200萬（110/11/19），以補正為準，總金額手寫2450萬。存款：表列總金額334861，但逐筆加總為334849（相差12元），依表上數字填寫，未更動。存款第二筆 土地銀行中崙分行金額為100。保險契約期間原表印製為「110/06/24~168/06/24」，照錄。債權人姓名於原表被遮蓋，未填。土地、船舶、航空器、現金、債券、其他有價證券、債權、事業投資筆數為0或空白，依表上填寫。有價證券總價額、債券總價額、現金總額、債權總額、事業投資總額原表空白，填null。已省略身分證號、電話、帳號、保單號碼與地址。"
+}}

@@ -1,0 +1,109 @@
+{
+  "seq": "2686",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "傅文鵬",
+    "declare_date": "民國111年8月25日",
+    "spouse": null,
+    "minor_children_count": 0,
+    "total_pages": 16,
+    "land": [
+      {
+        "location": "臺東縣臺東段",
+        "area_m2": 75,
+        "share": "1/1",
+        "owner": "傅文鵬",
+        "acquired": "104/10/19",
+        "reason": "買賣",
+        "price": "4600000"
+      }
+    ],
+    "land_count": 1,
+    "buildings": [
+      {
+        "location": "臺東縣臺東段",
+        "area_m2": 91.72,
+        "share": "1/1",
+        "owner": "傅文鵬",
+        "acquired": "104/10/19",
+        "reason": "買賣",
+        "price": "1200000"
+      }
+    ],
+    "building_count": 1,
+    "ships": [],
+    "vehicles": [
+      {
+        "desc": "福斯Tiguan（汽缸容量1390）",
+        "owner": "傅文鵬",
+        "acquired": "105/6/30",
+        "price": "1050000"
+      },
+      {
+        "desc": "寶馬X4（汽缸容量1998）",
+        "owner": "傅文鵬",
+        "acquired": "109/9/18",
+        "price": "2100000"
+      }
+    ],
+    "vehicle_count": 2,
+    "aircraft": [],
+    "cash": [
+      {
+        "currency": "新臺幣",
+        "owner": "傅文鵬",
+        "foreign_amount": null,
+        "twd": 360000
+      }
+    ],
+    "cash_total_twd": 360000,
+    "deposits": [
+      {
+        "bank": "連線商業銀行總行",
+        "kind": "定期存款",
+        "currency": "新臺幣",
+        "owner": "傅文鵬",
+        "foreign_amount": null,
+        "twd": 80000
+      }
+    ],
+    "deposit_count": 1,
+    "deposit_total_twd": 80000,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [],
+    "insurance_count": 0,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {
+        "desc": "信用借款／星展銀行總行",
+        "owner": "傅文鵬",
+        "amount_twd": 2350000,
+        "note": "取得時間111/7/1；原因個人資金調度"
+      },
+      {
+        "desc": "房屋貸款／第一銀行台東分行",
+        "owner": "傅文鵬",
+        "amount_twd": 3056000,
+        "note": "取得時間105/8/20；原因購置房屋"
+      }
+    ],
+    "debts_count": 2,
+    "debts_total_twd": 5406000,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "申報日表上印111年8月25日，申報人簽章交件日為111年9月1日。土地、建物坐落為手寫，僅記縣市與段名。建物與土地登記原因「買賣」。配偶及未成年子女欄空白，填null與0。"
+  }
+}

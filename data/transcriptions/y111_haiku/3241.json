@@ -1,0 +1,259 @@
+{
+ "seq": "3241",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "陳海山",
+  "declare_date": "民國111年08月31日",
+  "spouse": "陳碧華",
+  "minor_children_count": 0,
+  "total_pages": 18,
+  "land": [
+   {
+    "location": "澎湖縣馬公市山水北段",
+    "area_m2": 235.28,
+    "share": "1/5",
+    "owner": "陳海山",
+    "acquired": "060/04/16",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水北段",
+    "area_m2": 1070.12,
+    "share": "1/1",
+    "owner": "陳海山",
+    "acquired": "104/06/12",
+    "reason": "共有物分割",
+    "price": "1819204"
+   },
+   {
+    "location": "澎湖縣馬公市山水北段",
+    "area_m2": 863.6,
+    "share": "1/5",
+    "owner": "陳海山",
+    "acquired": "060/04/16",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水北段",
+    "area_m2": 334.01,
+    "share": "1/5",
+    "owner": "陳海山",
+    "acquired": "060/04/16",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水西段",
+    "area_m2": 116.58,
+    "share": "1/5",
+    "owner": "陳海山",
+    "acquired": "060/04/16",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水西段",
+    "area_m2": 669.71,
+    "share": "1/5",
+    "owner": "陳海山",
+    "acquired": "060/04/16",
+    "reason": "繼承",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水北段",
+    "area_m2": 92.76,
+    "share": "1/1",
+    "owner": "陳碧華",
+    "acquired": "087/09/10",
+    "reason": "買賣",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水北段",
+    "area_m2": 267.19,
+    "share": "1/2",
+    "owner": "陳碧華",
+    "acquired": "079/06/20",
+    "reason": "贈與",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水北段",
+    "area_m2": 89.99,
+    "share": "1/1",
+    "owner": "陳碧華",
+    "acquired": "101/08/17",
+    "reason": "買賣",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水西段",
+    "area_m2": 104.25,
+    "share": "1/2",
+    "owner": "陳碧華",
+    "acquired": "096/09/29",
+    "reason": "贈與",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水西段",
+    "area_m2": 70.41,
+    "share": "1/1",
+    "owner": "陳碧華",
+    "acquired": "081/07/08",
+    "reason": "買賣",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市山水西段",
+    "area_m2": 1363.62,
+    "share": "1/2",
+    "owner": "陳碧華",
+    "acquired": "079/06/20",
+    "reason": "贈與",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市埤東段",
+    "area_m2": 258.15,
+    "share": "1/1",
+    "owner": "陳碧華",
+    "acquired": "080/12/16",
+    "reason": "買賣",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 13,
+    "share": "1/1",
+    "owner": "陳碧華",
+    "acquired": "097/01/31",
+    "reason": "買賣",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 51,
+    "share": "1/1",
+    "owner": "陳碧華",
+    "acquired": "096/04/18",
+    "reason": "買賣",
+    "price": "超過五年"
+   },
+   {
+    "location": "澎湖縣馬公市鎮港西段",
+    "area_m2": 322.8,
+    "share": "1/1",
+    "owner": "陳碧華",
+    "acquired": "084/10/07",
+    "reason": "買賣",
+    "price": "超過五年"
+   }
+  ],
+  "land_count": 16,
+  "buildings": [
+   {
+    "location": "澎湖縣馬公市山水北段",
+    "area_m2": 143.91,
+    "share": "1/1",
+    "owner": "陳碧華",
+    "acquired": "079/11/19",
+    "reason": "第一次登記",
+    "price": "超過五年"
+   }
+  ],
+  "building_count": 1,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "BENZ E240(汽車)",
+    "owner": "陳海山",
+    "acquired": "092/10/03",
+    "price": "超過五年"
+   }
+  ],
+  "vehicle_count": 1,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": 0,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+   {
+    "desc": "國泰人壽保險公司 萬代福211 (保單號碼382471)",
+    "owner": "陳海山",
+    "amount_twd": 357600,
+    "note": "保險金額 300000；契約始日 079/07/25 終身"
+   },
+   {
+    "desc": "新光人壽保險公司 新光人壽安佳增值終身壽險(名稱後段表格模糊)",
+    "owner": "陳海山",
+    "amount_twd": 2591850,
+    "note": "保險金額 1000000；契約始日 085/01/15 終身；保單號碼 ARN694"
+   },
+   {
+    "desc": "新光人壽保險公司 新光人壽鑫利雙喜利",
+    "owner": "陳海山",
+    "amount_twd": 100302,
+    "note": "保險金額 100000；契約 104/12/09~149/12/0；保單號碼 106085"
+   },
+   {
+    "desc": "國泰人壽保險公司 保本101終身",
+    "owner": "陳碧華",
+    "amount_twd": 311422,
+    "note": "保險金額 1000000；契約 086/07/09~143/07/0；保單號碼 790290"
+   },
+   {
+    "desc": "國泰人壽保險公司 達康101終身",
+    "owner": "陳碧華",
+    "amount_twd": 34435,
+    "note": "保險金額 10000；契約 094/03/11~143/03/1；保單號碼 792240"
+   },
+   {
+    "desc": "國泰人壽保險公司 達康101終身",
+    "owner": "陳碧華",
+    "amount_twd": 31379,
+    "note": "保險金額 10000；契約 094/03/11~169/03/1；保單號碼 792240"
+   }
+  ],
+  "insurance_count": 6,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [],
+  "debts_count": 0,
+  "debts_total_twd": 0,
+  "business_investments": [
+   {
+    "desc": "海鵬建設有限公司",
+    "owner": "陳海山",
+    "amount_twd": 13000000,
+    "note": "取得時間 081/11/19；原因 個人投資；事業地址 澎湖縣馬公市西文里西文澳"
+   },
+   {
+    "desc": "澎湖第一信用合作社",
+    "owner": "陳海山",
+    "amount_twd": 5000,
+    "note": "取得時間 088/06/24；原因 個人投資"
+   }
+  ],
+  "business_investments_total_twd": 13005000,
+  "trust_items": [],
+  "notes": "1) PDF共18頁，表面頁碼為共8頁，逐頁讀取。2) 第1筆保險「新光人壽安佳增值終身壽險」名稱末段在掃描影像中被表格遮住，名稱僅依可見字串填寫。3) 保險表累積已繳保險費折合新臺幣總額3,426,988元與6筆加總相符；事業投資總金額13,005,000元與2筆加總相符。4) 存款、現金、有價證券、其他財產、債權、債務均為0，依表上手寫0。5) 土地第2列共有物分割取得價額為1,819,204元。6) 未成年子女為0人。身分證號、出生日期、住址、電話、帳號、門牌、地號、建號、保單要保人欄以外資訊均未輸出。"
+ }
+}

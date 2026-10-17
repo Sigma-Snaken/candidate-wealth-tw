@@ -1,0 +1,423 @@
+{
+ "seq": "3237",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "蘇陳綉色",
+  "declare_date": "民國111年8月25日",
+  "spouse": "蘇文佐",
+  "minor_children_count": 0,
+  "total_pages": 10,
+  "land": [
+   {
+    "location": "澎湖縣西嶼鄉外垵一段",
+    "area_m2": 211.63,
+    "share": "1/1",
+    "owner": "蘇陳綉色",
+    "acquired": "097/01/30",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣西嶼鄉外垵一段",
+    "area_m2": 203.66,
+    "share": "1/1",
+    "owner": "蘇陳綉色",
+    "acquired": "097/01/30",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣西嶼鄉外垵一段",
+    "area_m2": 315.01,
+    "share": "1/1",
+    "owner": "蘇陳綉色",
+    "acquired": "097/01/30",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣西嶼鄉外垵一段",
+    "area_m2": 514,
+    "share": "1/1",
+    "owner": "蘇陳綉色",
+    "acquired": "097/01/30",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣西嶼鄉外垵一段",
+    "area_m2": 786.17,
+    "share": "1/1",
+    "owner": "蘇陳綉色",
+    "acquired": "097/01/30",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 739,
+    "share": "398/10000",
+    "owner": "蘇陳綉色",
+    "acquired": "082/06/26",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣馬公市五福段",
+    "area_m2": 2535.47,
+    "share": "1/16",
+    "owner": "蘇文佐",
+    "acquired": "106/04/25",
+    "reason": "買賣",
+    "price": "665561(土地公告現值每平方公尺4200元)"
+   },
+   {
+    "location": "澎湖縣馬公市五福段",
+    "area_m2": 208.27,
+    "share": "1/16",
+    "owner": "蘇文佐",
+    "acquired": "106/04/25",
+    "reason": "買賣",
+    "price": "54671(土地公告現值每平方公尺4200元)"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 1249,
+    "share": "36/10000",
+    "owner": "蘇文佐",
+    "acquired": "106/08/29",
+    "reason": "更名",
+    "price": "139388(土地公告現值每平方公尺31000元)"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 1353,
+    "share": "24/10000",
+    "owner": "蘇文佐",
+    "acquired": "074/07/31",
+    "reason": "買賣",
+    "price": "超過5年"
+   }
+  ],
+  "land_count": 10,
+  "buildings": [
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 124.05,
+    "share": "1/1",
+    "owner": "蘇陳綉色",
+    "acquired": "082/07/13",
+    "reason": "第一次登記",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 647.12,
+    "share": "1/22",
+    "owner": "蘇陳綉色",
+    "acquired": "082/07/13",
+    "reason": "第一次登記",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 401.41,
+    "share": "550/10000",
+    "owner": "蘇陳綉色",
+    "acquired": "082/07/13",
+    "reason": "第一次登記",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 101,
+    "share": "36/10000",
+    "owner": "蘇文佐",
+    "acquired": "104/06/04",
+    "reason": "更名",
+    "price": "超過5年"
+   },
+   {
+    "location": "澎湖縣馬公市馬公段",
+    "area_m2": 97.87,
+    "share": "1/1",
+    "owner": "蘇文佐",
+    "acquired": "074/07/31",
+    "reason": "買賣",
+    "price": "超過5年"
+   }
+  ],
+  "building_count": 5,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "日產(汽車)",
+    "owner": "蘇文佐",
+    "acquired": "102/11/11",
+    "price": "超過5年"
+   }
+  ],
+  "vehicle_count": 1,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+   {
+    "bank": "土地銀行澎湖分行",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 693
+   },
+   {
+    "bank": "合作金庫",
+    "kind": "支票存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 4104
+   },
+   {
+    "bank": "合作金庫",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 556205
+   },
+   {
+    "bank": "第一銀行澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 22540
+   },
+   {
+    "bank": "澎湖縣第二信用合作社營業部",
+    "kind": "支票存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 71
+   },
+   {
+    "bank": "澎湖縣第二信用合作社營業部",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 628
+   },
+   {
+    "bank": "澎湖縣澎湖區漁會信用部",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 815
+   },
+   {
+    "bank": "澎湖縣農會信用部",
+    "kind": "支票存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 8826
+   },
+   {
+    "bank": "郵政儲金匯業局",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 515318
+   },
+   {
+    "bank": "玉山銀行澎湖分行",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "蘇陳綉色",
+    "foreign_amount": null,
+    "twd": 2778
+   },
+   {
+    "bank": "臺灣銀行澎湖分行",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 21780
+   },
+   {
+    "bank": "合作金庫",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 12251
+   },
+   {
+    "bank": "合作金庫",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 2222
+   },
+   {
+    "bank": "第一銀行澎湖分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 1249
+   },
+   {
+    "bank": "陽信銀行大公分行",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 3263
+   },
+   {
+    "bank": "基隆市第二信用合作社信義分社",
+    "kind": "活期證券戶",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 606
+   },
+   {
+    "bank": "澎湖縣第一信用合作社營業部",
+    "kind": "支票存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 9280.1
+   },
+   {
+    "bank": "澎湖縣第一信用合作社營業部",
+    "kind": "活期儲蓄存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 41501.8
+   },
+   {
+    "bank": "澎湖縣第二信用合作社陽明分社",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 81
+   },
+   {
+    "bank": "澎湖縣第二信用合作社陽明分社",
+    "kind": "活期證券戶",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 6496
+   },
+   {
+    "bank": "澎湖縣農會信用部",
+    "kind": "支票存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 5644
+   },
+   {
+    "bank": "澎湖縣農會信用部",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 4711
+   },
+   {
+    "bank": "郵政儲金匯業局",
+    "kind": "活期存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 24
+   },
+   {
+    "bank": "元大銀行右昌分行",
+    "kind": "綜合存款",
+    "currency": "新台幣",
+    "owner": "蘇文佐",
+    "foreign_amount": null,
+    "twd": 1360
+   }
+  ],
+  "deposit_count": 24,
+  "deposit_total_twd": 1222446.9,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+   {
+    "desc": "國泰人壽保險公司 美滿人生312",
+    "owner": "蘇陳綉色",
+    "amount_twd": 547637,
+    "note": "保險金額 500000；契約 085/08/12 終身；要保人欄空白，推定為申報人本人"
+   },
+   {
+    "desc": "國泰人壽保險公司 福本111終身",
+    "owner": "蘇陳綉色",
+    "amount_twd": 59961,
+    "note": "保險金額 500000；契約 089/10/03 至 165/10/02；要保人欄空白，推定為申報人本人"
+   },
+   {
+    "desc": "新光人壽保險公司 新光人壽吉祥如意終身壽險",
+    "owner": "蘇陳綉色",
+    "amount_twd": 442256,
+    "note": "保險金額 200000；契約 082/08/03 終身；要保人欄空白，推定為申報人本人"
+   },
+   {
+    "desc": "國泰人壽保險公司 美滿人生312",
+    "owner": "蘇文佐",
+    "amount_twd": 530144,
+    "note": "保險金額 500000；契約 085/08/12 終身"
+   }
+  ],
+  "insurance_count": 4,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "授信／澎湖縣第一信用合作社營業部",
+    "owner": "蘇陳綉色",
+    "amount_twd": 4629487,
+    "note": "取得時間 108/09/30；原因 購置不動產；債務人欄空白，推定為申報人本人"
+   }
+  ],
+  "debts_count": 1,
+  "debts_total_twd": 4629487,
+  "business_investments": [
+   {
+    "desc": "澎湖第一信用合作社",
+    "owner": "蘇文佐",
+    "amount_twd": 10000,
+    "note": "取得時間 110/11/01；原因 股金"
+   }
+  ],
+  "business_investments_total_twd": 10000,
+  "trust_items": [],
+  "notes": "1) 存款共24筆，逐筆加總與表上總金額1,222,446.9元相符。2) 保險表上累積已繳保險費總額印章遮蓋，依4筆加總為1,579,998元（與手寫數字相符）；保險表第1至3列要保人欄空白，依表推定為申報人本人。3) 第1列與第4列保單號碼相同（790103），皆依表上列出。4) 債務第1列債務人欄空白，推定為申報人本人。5) 存款金融機構代號已省略，僅保留機構名稱。6) 土地/建物地號、門牌、地址、身分證號、出生日期、電話、帳號均未輸出。7) 備註欄空白；申報人與配偶姓名依表列出，無未成年子女。"
+ }
+}

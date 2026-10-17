@@ -1,0 +1,424 @@
+{
+ "seq": "2910",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "張明達",
+  "declare_date": "民國111年8月25日",
+  "spouse": "黃瓊賢",
+  "minor_children_count": 0,
+  "total_pages": 18,
+  "land": [
+   {
+    "location": "嘉義縣番路鄉南下坑段",
+    "area_m2": 127.2,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "093/11/01",
+    "reason": "夫妻贈與",
+    "price": "(土地公告現值每平方公尺10300元)"
+   },
+   {
+    "location": "嘉義縣番路鄉南下坑段",
+    "area_m2": 97.17,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "088/10/01",
+    "reason": "夫妻贈與",
+    "price": "(土地公告現值每平方公尺10300元)"
+   },
+   {
+    "location": "嘉義縣番路鄉南下坑段",
+    "area_m2": 1098.55,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "098/08/05",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺860元)"
+   },
+   {
+    "location": "嘉義縣番路鄉南下坑段",
+    "area_m2": 37.35,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "098/08/05",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺10300元)"
+   },
+   {
+    "location": "嘉義縣番路鄉南下坑段",
+    "area_m2": 49.13,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "105/02/26",
+    "reason": "買賣",
+    "price": "1965(土地公告現值每平方公尺860元)"
+   },
+   {
+    "location": "嘉義縣番路鄉南下坑段",
+    "area_m2": 268.7,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "105/02/26",
+    "reason": "買賣",
+    "price": "10748(土地公告現值每平方公尺10300元)"
+   },
+   {
+    "location": "嘉義縣番路鄉南下坑段",
+    "area_m2": 5418.34,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "109/04/24",
+    "reason": "買賣",
+    "price": "4659772(土地公告現值每平方公尺860元)"
+   },
+   {
+    "location": "嘉義市盧厝段",
+    "area_m2": 94,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "093/07/13",
+    "reason": "買賣",
+    "price": "(土地公告現值每平方公尺24500元)"
+   }
+  ],
+  "land_count": 8,
+  "buildings": [
+   {
+    "location": "嘉義縣番路鄉南下坑段",
+    "area_m2": 165.84,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "088/10/01",
+    "reason": "夫妻贈與",
+    "price": "(含電梯樓梯間6.97平方公尺)"
+   },
+   {
+    "location": "嘉義縣番路鄉下坑村1鄰菜公店",
+    "area_m2": 122.8,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "096/11/09",
+    "reason": "買賣",
+    "price": "3700"
+   },
+   {
+    "location": "嘉義縣番路鄉下坑村1鄰菜公店",
+    "area_m2": 217.5,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "088/09/18",
+    "reason": "買賣",
+    "price": "337600"
+   },
+   {
+    "location": "嘉義市盧厝段",
+    "area_m2": 258.46,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "093/07/13",
+    "reason": "買賣",
+    "price": "(含陽台4.41平方公尺)"
+   },
+   {
+    "location": "嘉義市東區文雅里文雅街",
+    "area_m2": 243.8,
+    "share": "全部",
+    "owner": "黃瓊賢",
+    "acquired": "093/07/05",
+    "reason": "其他欄項更正",
+    "price": "573400"
+   }
+  ],
+  "building_count": 5,
+  "ships": [],
+  "vehicles": [],
+  "vehicle_count": 0,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+   {
+    "bank": "郵政儲金匯業局",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "張明達",
+    "foreign_amount": null,
+    "twd": 1631
+   },
+   {
+    "bank": "郵政儲金匯業局",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "黃瓊賢",
+    "foreign_amount": null,
+    "twd": 231065
+   },
+   {
+    "bank": "嘉義縣番路鄉農會信用部",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "張明達",
+    "foreign_amount": null,
+    "twd": 101
+   },
+   {
+    "bank": "嘉義縣番路鄉農會信用部",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "黃瓊賢",
+    "foreign_amount": null,
+    "twd": 811457
+   },
+   {
+    "bank": "嘉義縣番路鄉農會信用部",
+    "kind": "支票存款",
+    "currency": "新臺幣",
+    "owner": "黃瓊賢",
+    "foreign_amount": null,
+    "twd": 3800
+   },
+   {
+    "bank": "京城銀行",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "張明達",
+    "foreign_amount": null,
+    "twd": 9591
+   },
+   {
+    "bank": "國泰世華銀行嘉義分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "黃瓊賢",
+    "foreign_amount": null,
+    "twd": 116
+   },
+   {
+    "bank": "彰化銀行東嘉義分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "張明達",
+    "foreign_amount": null,
+    "twd": 21
+   },
+   {
+    "bank": "華南銀行嘉義分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "張明達",
+    "foreign_amount": null,
+    "twd": 1957
+   },
+   {
+    "bank": "華南銀行中和分行",
+    "kind": "活期儲蓄存款",
+    "currency": "新臺幣",
+    "owner": "黃瓊賢",
+    "foreign_amount": null,
+    "twd": 402
+   },
+   {
+    "bank": "合庫商業銀行東嘉義分行",
+    "kind": "活期存款",
+    "currency": "人民幣",
+    "owner": "黃瓊賢",
+    "foreign_amount": 28515.17,
+    "twd": 125124.56
+   },
+   {
+    "bank": "合庫商業銀行東嘉義分行",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "黃瓊賢",
+    "foreign_amount": null,
+    "twd": 53846
+   },
+   {
+    "bank": "合庫商業銀行東嘉義分行",
+    "kind": "定期存款",
+    "currency": "美元",
+    "owner": "黃瓊賢",
+    "foreign_amount": 3747.14,
+    "twd": 113238.57
+   },
+   {
+    "bank": "台灣銀行太保分行",
+    "kind": "綜合存款",
+    "currency": "新臺幣",
+    "owner": "張明達",
+    "foreign_amount": null,
+    "twd": 2383
+   },
+   {
+    "bank": "台灣銀行太保分行",
+    "kind": "綜合存款",
+    "currency": "新臺幣",
+    "owner": "黃瓊賢",
+    "foreign_amount": null,
+    "twd": 564277
+   },
+   {
+    "bank": "台灣銀行嘉義分行",
+    "kind": "綜合存款",
+    "currency": "美元",
+    "owner": "黃瓊賢",
+    "foreign_amount": 3999.44,
+    "twd": 120863.07
+   },
+   {
+    "bank": "台灣銀行嘉義分行",
+    "kind": "綜合存款",
+    "currency": "日圓",
+    "owner": "黃瓊賢",
+    "foreign_amount": 109010,
+    "twd": 23894.99
+   },
+   {
+    "bank": "台灣銀行嘉義分行",
+    "kind": "定期存款",
+    "currency": "美元",
+    "owner": "黃瓊賢",
+    "foreign_amount": 3470.27,
+    "twd": 104871.55
+   },
+   {
+    "bank": "台灣銀行嘉義分行",
+    "kind": "定期存款",
+    "currency": "美元",
+    "owner": "黃瓊賢",
+    "foreign_amount": 5149.32,
+    "twd": 155612.45
+   }
+  ],
+  "deposit_count": 19,
+  "deposit_total_twd": 2324252.19,
+  "securities_total_twd": null,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": null,
+  "bonds": [],
+  "bond_total_twd": null,
+  "funds": [],
+  "fund_total_twd": null,
+  "other_securities": [],
+  "other_securities_total_twd": null,
+  "other_assets": [
+   {
+    "desc": "東洋棕柜湖鄉村俱樂部會員",
+    "owner": "黃瓊賢",
+    "amount_twd": 500000,
+    "note": "件數1"
+   }
+  ],
+  "other_assets_total_twd": 500000,
+  "insurance": [
+   {
+    "desc": "國泰人壽保險公司 萬代福211",
+    "owner": "張明達",
+    "amount_twd": 1103600,
+    "note": "契約始日1992/05/05，契約終日2999/12/31；保險金額1000000"
+   },
+   {
+    "desc": "國泰人壽保險公司 國泰美滿人生101終身壽險",
+    "owner": "張明達",
+    "amount_twd": 1186280,
+    "note": "契約始日1995/11/17，契約終日終身；保險金額2000000"
+   },
+   {
+    "desc": "國泰人壽保險公司 21世紀終身",
+    "owner": "黃瓊賢",
+    "amount_twd": 227520,
+    "note": "契約始日1989/08/22，契約終日2999/12/31；保險金額200000"
+   },
+   {
+    "desc": "國泰人壽保險公司 美滿人312",
+    "owner": "黃瓊賢",
+    "amount_twd": 462320,
+    "note": "契約始日1997/01/24，契約終日2999/12/31；保險金額330000"
+   },
+   {
+    "desc": "英屬百慕達商友邦人壽保險公司 友邦人壽超友心終身保險",
+    "owner": "黃瓊賢",
+    "amount_twd": 202620,
+    "note": "契約始日2016/07/31，契約終日2077/07/31；保險金額600000"
+   },
+   {
+    "desc": "南山人壽保險股份有限公司 南山康寧終身壽險",
+    "owner": "張明達",
+    "amount_twd": 934060,
+    "note": "契約始日1997/12/18，契約終日終身；保險金額2000000"
+   },
+   {
+    "desc": "南山人壽保險股份有限公司 南山康寧終身壽險",
+    "owner": "黃瓊賢",
+    "amount_twd": 737120,
+    "note": "契約始日1997/12/18，契約終日終身；保險金額2000000"
+   },
+   {
+    "desc": "南山人壽保險股份有限公司 南山寶貝龍還本終身保險",
+    "owner": "黃瓊賢",
+    "amount_twd": 641000,
+    "note": "契約始日2000/12/21，契約終日2999/12/31；保險金額500000"
+   },
+   {
+    "desc": "南山人壽保險股份有限公司 南山寶貝龍還本終身保險",
+    "owner": "黃瓊賢",
+    "amount_twd": 669000,
+    "note": "契約始日2000/12/21，契約終日2999/12/31；保險金額500000"
+   },
+   {
+    "desc": "南山人壽保險股份有限公司 南山寶貝龍還本終身保險",
+    "owner": "黃瓊賢",
+    "amount_twd": 1270000,
+    "note": "契約始日2000/12/21，契約終日2999/12/31；保險金額1000000"
+   },
+   {
+    "desc": "安聯人壽保險股份有限公司 萬世福終身壽險",
+    "owner": "張明達",
+    "amount_twd": 235780,
+    "note": "契約始日2000/03/23，契約終日2066/03/23；保險金額100000"
+   },
+   {
+    "desc": "安聯人壽保險股份有限公司 家福510增值終身壽險(甲型)",
+    "owner": "張明達",
+    "amount_twd": 1668260,
+    "note": "契約始日1998/09/01，契約終日2066/09/01；保險金額1200000"
+   }
+  ],
+  "insurance_count": 12,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "授信 / 嘉義縣番路鄉農會信用部",
+    "owner": "黃瓊賢",
+    "amount_twd": 6123331,
+    "note": "取得時間109/05/08，原因購買其他不動產"
+   },
+   {
+    "desc": "信用貸款 / 債權人欄遮蓋未辨識",
+    "owner": "張明達",
+    "amount_twd": 9000000,
+    "note": "取得時間093/03/18，原因借款"
+   },
+   {
+    "desc": "擔保貸款 / 台灣中小企業銀行",
+    "owner": "張明達",
+    "amount_twd": 2500000,
+    "note": "取得時間084/06/28，原因保證人"
+   },
+   {
+    "desc": "保證債務 / 台灣土地銀行",
+    "owner": "張明達",
+    "amount_twd": 44114049,
+    "note": "取得時間083/08/04，原因保證人"
+   }
+  ],
+  "debts_count": 4,
+  "debts_total_twd": 61737380,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "以補1（2910_1，18頁，整份重新填寫）為主。原件第1–8頁（基本資料、土地、建物、船舶、汽車、航空器、現金、存款前段）讀圖失敗，未逐頁核對，其分項內容以補1為準。原件第9–16頁已讀取：珠寶500,000元、保險總額9,337,560元、債務總額61,737,380元，與補1一致。配偶黃瓊賢；未成年子女0人。存款逐筆加總2,324,252.19元與表上總金額相符。債務合計61,737,380元與逐筆加總相符。信用貸款債權人欄因印章遮蓋，無法辨識，記為空白（以空字串）。土地地號、建號、稅籍號碼、存款機構代碼、帳號、保單號碼、債權人地址及事業投資均省略。"
+ }
+}

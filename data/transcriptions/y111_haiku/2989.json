@@ -1,0 +1,52 @@
+{"seq": "2989", "model": "claude-haiku", "data": {
+"declarant": "陳秋豪",
+"declare_date": "民國111年8月31日",
+"spouse": "洪慈菱",
+"minor_children_count": 3,
+"total_pages": 11,
+"land": [
+{"location": "屏東縣九如鄉九如段", "area_m2": 1475, "share": "1/1", "owner": "陳秋豪", "acquired": "109/10/08", "reason": "買賣", "price": "3,097,500"},
+{"location": "屏東縣九如鄉九塊段", "area_m2": 124.01, "share": "1/1", "owner": "陳秋豪", "acquired": "103/01/15", "reason": "買賣", "price": "(超過5年)"},
+{"location": "屏東縣九如鄉九塊段", "area_m2": 103.79, "share": "1/1", "owner": "陳秋豪", "acquired": "104/10/19", "reason": "分割繼承", "price": "(超過5年)"}
+],
+"land_count": 3,
+"buildings": [
+{"location": "屏東縣九如鄉東林村", "area_m2": null, "share": null, "owner": "陳秋豪", "acquired": "104/10/19", "reason": "分割繼承", "price": "(超過5年)"}
+],
+"building_count": 1,
+"ships": [],
+"vehicles": [
+{"desc": "豐田 TOYOTA RAV4", "owner": "陳秋豪", "acquired": "106.10.20", "price": "1,600,000"},
+{"desc": "中華 CMC3MPW", "owner": "陳秋豪", "acquired": "107.09.21", "price": "500,000"}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [{"currency": "新臺幣", "owner": "陳秋豪", "foreign_amount": null, "twd": 2600}],
+"cash_total_twd": 69000,
+"deposits": [],
+"deposit_count": 14,
+"deposit_total_twd": 2580743,
+"securities_total_twd": 189720,
+"stocks": [],
+"stock_count": 18,
+"stock_total_twd": 189720,
+"bonds": [],
+"bond_total_twd": null,
+"funds": [],
+"fund_total_twd": null,
+"other_securities": [],
+"other_securities_total_twd": null,
+"other_assets": [],
+"other_assets_total_twd": null,
+"insurance": [],
+"insurance_count": 2,
+"debt_claims": [],
+"debt_claims_total_twd": null,
+"debts": [],
+"debts_count": 0,
+"debts_total_twd": null,
+"business_investments": [],
+"business_investments_total_twd": null,
+"trust_items": [],
+"notes": "依 110dpi 逐頁判讀（部分手寫與表格數字需再確認）。存款總計 14 筆，總金額由表上數字 2,580,743（以表格所印為準）；股票 18 筆、總價額 189,720（表上數字）；現金 2 筆 69,000 元；保險 2 筆（總額 530,543，表上數字）。土地第 1 筆價額 3,097,500 為取得價額，非總價。未成年子女人數 3 為判讀值，姓名未填。"
+}}

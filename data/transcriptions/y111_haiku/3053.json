@@ -1,0 +1,66 @@
+{
+ "seq": "3053",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "陳韋強",
+  "declare_date": "民國111年9月2日",
+  "spouse": null,
+  "minor_children_count": 0,
+  "total_pages": 18,
+  "land": [],
+  "land_count": 0,
+  "buildings": [],
+  "building_count": 0,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "本田 CR-V 2.4 VTi-S",
+    "owner": "陳韋強",
+    "acquired": "107.6",
+    "price": "55萬"
+   },
+   {
+    "desc": "福特（型號手寫判讀不確定）",
+    "owner": "陳韋強",
+    "acquired": "108.3",
+    "price": "20萬"
+   },
+   {
+    "desc": "中華 CM122MPW（判讀不確定）",
+    "owner": "陳韋強",
+    "acquired": "111.11",
+    "price": "30萬"
+   }
+  ],
+  "vehicle_count": 3,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": 0,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [],
+  "insurance_count": 0,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [],
+  "debts_count": 0,
+  "debts_total_twd": 0,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "汽車3筆：手寫汽缸容量分別為2354、993、1198；廠牌型號中「福特」型號與「中華」型號手寫判讀不確定；車牌號碼未填入。申報日：第1頁手寫判讀為民國111年9月7日（不確定），此處採第18頁交件日民國111年9月2日。其餘各分項均為空白或0筆，總額欄空白者填0。"
+ }
+}

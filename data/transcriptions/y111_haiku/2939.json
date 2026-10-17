@@ -1,0 +1,66 @@
+{"seq": "2939", "model": "claude-haiku", "data": {
+ "declarant": "陳建興",
+ "declare_date": "民國111年8月30日",
+ "spouse": "楊惟婷",
+ "minor_children_count": 2,
+ "total_pages": 16,
+ "land": [
+  {"location": "屏東縣琉球鄉本漁段", "area_m2": null, "share": "1/2", "owner": "陳建興", "acquired": "111/06/15", "reason": "繼承", "price": "12064"},
+  {"location": "屏東縣琉球鄉本漁段", "area_m2": 17.38, "share": "1/2", "owner": "陳建興", "acquired": "111/06/15", "reason": "繼承", "price": "1115"},
+  {"location": "屏東縣琉球鄉本漁段", "area_m2": 182.35, "share": "1/2", "owner": "陳建興", "acquired": "101/11/27", "reason": "買賣", "price": "738518"},
+  {"location": "屏東縣琉球鄉白沙段", "area_m2": 29.46, "share": "530/16200", "owner": "陳建興", "acquired": "111/6/15", "reason": "繼承", "price": "15362"},
+  {"location": "屏東縣琉球鄉白沙段", "area_m2": 46, "share": "1/4", "owner": "陳建興", "acquired": "111/6/15", "reason": "繼承", "price": "196650"}
+ ],
+ "land_count": 5,
+ "buildings": [
+  {"location": "屏東縣琉球鄉白沙段", "area_m2": 44.43, "share": "1/4", "owner": "陳建興", "acquired": "111/06/15", "reason": "繼承", "price": "48225"},
+  {"location": "屏東縣琉球鄉本漁段", "area_m2": 43.49, "share": "1/2", "owner": "陳建興", "acquired": "101/11/27", "reason": "買賣", "price": "73950"},
+  {"location": "屏東縣琉球鄉本漁段", "area_m2": 43.10, "share": "1/2", "owner": "陳建興", "acquired": "101/11/27", "reason": "買賣", "price": "73950"}
+ ],
+ "building_count": 3,
+ "ships": [],
+ "vehicles": [
+  {"desc": "福特（型號手寫判讀不清，排氣量1988cc）", "owner": "陳建興", "acquired": "105.12.02", "price": "100000"}
+ ],
+ "vehicle_count": 1,
+ "aircraft": [],
+ "cash": [],
+ "cash_total_twd": null,
+ "deposits": [
+  {"bank": "合作金庫東港分行", "kind": "活期存款", "currency": "新臺幣", "owner": "陳建興", "foreign_amount": null, "twd": 20769},
+  {"bank": "郵局新興郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "陳建興", "foreign_amount": null, "twd": 597967},
+  {"bank": "琉球鄉農會", "kind": "活期存款", "currency": "新臺幣", "owner": "陳建興", "foreign_amount": null, "twd": 26273},
+  {"bank": "琉球鄉農會", "kind": "活期存款", "currency": "新臺幣", "owner": "陳建興", "foreign_amount": null, "twd": 11103}
+ ],
+ "deposit_count": 4,
+ "deposit_total_twd": 656112,
+ "securities_total_twd": null,
+ "stocks": [],
+ "stock_count": 0,
+ "stock_total_twd": null,
+ "bonds": [],
+ "bond_total_twd": null,
+ "funds": [],
+ "fund_total_twd": null,
+ "other_securities": [],
+ "other_securities_total_twd": null,
+ "other_assets": [],
+ "other_assets_total_twd": null,
+ "insurance": [
+  {"desc": "台灣人壽 健康還本險（儲蓄型壽險）", "owner": "陳建興", "amount_twd": 436527, "note": "保險金額 324280；契約始日 97.8.30（手寫判讀），契約終日手寫難辨（約 139.8.30）；表頭折合新臺幣總金額手寫為 221928，與分項 436527 不符，以分項為準"}
+ ],
+ "insurance_count": 1,
+ "debt_claims": [],
+ "debt_claims_total_twd": null,
+ "debts": [
+  {"desc": "貸款（債權人欄已遮蓋）", "owner": "陳建興", "amount_twd": 318632, "note": "取得時間 109.6.5，原因 繼承"},
+  {"desc": "貸款（債權人欄已遮蓋）", "owner": "陳建興", "amount_twd": 428527, "note": "取得時間 110.1.22，原因 繼承"},
+  {"desc": "貸款（債權人欄已遮蓋）", "owner": "陳建興", "amount_twd": 6991912, "note": "取得時間 109.1.14，原因 房貸"}
+ ],
+ "debts_count": 3,
+ "debts_total_twd": null,
+ "business_investments": [],
+ "business_investments_total_twd": null,
+ "trust_items": [],
+ "notes": "本表無補正檔。頁碼欄「第 頁，共 頁」空白，total_pages 依 PDF 頁數記為 16。申報日取表上「申報日」民國111年8月30日（交件日亦為111年8月30日）。未成年子女2人，依規定僅記人數。土地第1筆面積欄被章遮蓋，area_m2 填 null。存款第3、4筆所有人欄為註記或延續寫法，依陳建興判讀；第3筆金額 26273 由存款總額反推判讀（手寫模糊）。土地與建物段名「本漁段」為手寫判讀（不確定）。保險表頭折合新臺幣總金額手寫為 221928，與分項 436527 不符，已於 note 註明。債務表債權人及地址欄遮蓋不可辨，desc 僅記種類；債務表總金額欄空白，填 null。股票、債券、基金等(八)各項總價額欄空白，填 null；現金總金額欄空白，填 null。"
+}}

@@ -1,0 +1,86 @@
+{
+ "seq": "3271",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "陳毓仁",
+  "declare_date": "民國111年9月2日",
+  "spouse": null,
+  "minor_children_count": 0,
+  "total_pages": 16,
+  "land": [],
+  "land_count": 0,
+  "buildings": [],
+  "building_count": 0,
+  "ships": [],
+  "vehicles": [],
+  "vehicle_count": 0,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": 0,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+   {
+    "desc": "新光人壽保險公司 新光人壽安佳增值終身壽險",
+    "owner": "陳毓仁",
+    "amount_twd": 726187,
+    "note": "保單號碼 YDE22(手寫模糊)；保險金額 300000；契約始日 108/06/12 終身；要保人欄字跡模糊，推定為申報人本人；累積已繳保險費折合新臺幣總額 726,18?，末位數字模糊，判讀為726187"
+   }
+  ],
+  "insurance_count": 1,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "抵押借款；債權人：合迅股份有限公司（前段印章遮蓋）",
+    "owner": "陳毓仁",
+    "amount_twd": 1187810,
+    "note": "取得時間 111/03/01；原因 購置汽車"
+   },
+   {
+    "desc": "信用貸款；債權人：中國信託商業銀行",
+    "owner": "陳毓仁",
+    "amount_twd": 456581,
+    "note": "取得時間 110/10/25；原因 公司週轉"
+   },
+   {
+    "desc": "青創貸款；債權人：合作金庫商業銀行",
+    "owner": "陳毓仁",
+    "amount_twd": 934851,
+    "note": "取得時間 110/07/15；原因 創業"
+   }
+  ],
+  "debts_count": 3,
+  "debts_total_twd": 2579242,
+  "business_investments": [
+   {
+    "desc": "富鼎管理顧問有限公司（名稱前段印章遮蓋，判讀）",
+    "owner": "陳毓仁",
+    "amount_twd": 20000000,
+    "note": "取得時間 108/03/11；原因 投資"
+   },
+   {
+    "desc": "海島旅遊社（名稱判讀，字跡潦草）",
+    "owner": "陳毓仁",
+    "amount_twd": 100000,
+    "note": "取得時間 110/07/21；原因 投資"
+   }
+  ],
+  "business_investments_total_twd": 20100000,
+  "trust_items": [],
+  "notes": "1) 申報日為民國111年9月1日，交件日為111年9月2日。2) 債務三筆合計2,579,242元，與表上總金額（手寫）相符；事業投資兩筆合計20,100,000元，與表上總金額相符。3) 保險累積已繳保險費折合新臺幣總額手寫為726,18?，末位數字模糊，依判讀填726187。4) 債務與事業投資的名稱多為手寫、印章遮蓋，依字形判讀，地址與帳號均未輸出。5) 配偶欄為空白，未成年子女0人；土地、建物、船舶、汽車、航空器、現金、存款、有價證券、其他財產、債權均為空白或0。"
+ }
+}

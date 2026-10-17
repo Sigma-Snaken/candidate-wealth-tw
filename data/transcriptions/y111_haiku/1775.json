@@ -1,0 +1,123 @@
+{
+  "seq": "1775",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "張國洲",
+    "declare_date": "民國111年09月02日",
+    "spouse": "張淑玲",
+    "minor_children_count": 1,
+    "total_pages": 11,
+    "land": [
+      {
+        "location": "臺東縣臺東市東海段",
+        "area_m2": 110.32,
+        "share": "全部",
+        "owner": "張淑玲",
+        "acquired": "081/01/14",
+        "reason": "贈與",
+        "price": "土地公告現值每平方公尺16600元"
+      }
+    ],
+    "land_count": 1,
+    "buildings": [
+      {
+        "location": "臺東縣臺東市豐盛里漢陽南路",
+        "area_m2": 168.6,
+        "share": "全部",
+        "owner": "張淑玲",
+        "acquired": "081/01/14",
+        "reason": "HC",
+        "price": "1305000"
+      },
+      {
+        "location": "臺東縣臺東市東海段",
+        "area_m2": 133.54,
+        "share": "全部",
+        "owner": "張淑玲",
+        "acquired": "081/01/14",
+        "reason": "贈與",
+        "price": null
+      }
+    ],
+    "building_count": 2,
+    "ships": [],
+    "vehicles": [
+      {
+        "desc": "LEXUS(汽車) 汽缸容量2494",
+        "owner": "張淑玲",
+        "acquired": "103/12/11",
+        "price": "1680000"
+      }
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {"bank": "星展台灣", "kind": "活期存款", "currency": "新臺幣", "owner": "張國洲", "foreign_amount": null, "twd": 400},
+      {"bank": "星展台灣", "kind": "支票存款", "currency": "新臺幣", "owner": "張國洲", "foreign_amount": null, "twd": 173},
+      {"bank": "元大銀行東信分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "張國洲", "foreign_amount": null, "twd": 11829},
+      {"bank": "元大銀行東信分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "張淑玲", "foreign_amount": null, "twd": 805801},
+      {"bank": "元大銀行東信分行", "kind": "支票存款", "currency": "新臺幣", "owner": "張國洲", "foreign_amount": null, "twd": 20041},
+      {"bank": "郵政儲金匯業", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "張芃", "foreign_amount": null, "twd": 141465},
+      {"bank": "郵政儲金匯業", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "張淑玲", "foreign_amount": null, "twd": 210365},
+      {"bank": "郵政儲金匯業", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "張國洲", "foreign_amount": null, "twd": 557475},
+      {"bank": "臺東縣臺東地區農會信用部臺東分部", "kind": "活期存款", "currency": "新臺幣", "owner": "張淑玲", "foreign_amount": null, "twd": 19413},
+      {"bank": "國泰世華銀行", "kind": "活期存款", "currency": "新臺幣", "owner": "張國洲", "foreign_amount": null, "twd": 1516834},
+      {"bank": "國泰世華銀行", "kind": "活期存款", "currency": "新臺幣", "owner": "張淑玲", "foreign_amount": null, "twd": 79151},
+      {"bank": "臺灣銀行臺東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "張國洲", "foreign_amount": null, "twd": 6541641},
+      {"bank": "臺灣銀行臺東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "張國洲", "foreign_amount": null, "twd": 921984}
+    ],
+    "deposit_count": 13,
+    "deposit_total_twd": 9916919,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [
+      {
+        "desc": "臺灣銀行受託信託財產專戶（金融機構：臺灣銀行）",
+        "owner": "張國洲",
+        "amount_twd": 901,
+        "note": "單位數0；單位淨值901；收盤價0；匯率1；原始交易金額0(TWD)"
+      }
+    ],
+    "other_assets_total_twd": 901,
+    "insurance": [
+      {"desc": "富邦人壽 富邦人壽新平準終身壽險", "owner": "張芃", "amount_twd": 44332, "note": "保險金額100000；要保人張芃；契約始日1090523；契約終日2030522；累積已繳保險費折合新臺幣"},
+      {"desc": "富邦人壽 富邦人壽新終身壽險(甲型)", "owner": "張淑玲", "amount_twd": 126758, "note": "保險金額100000；契約始日0960822；契約終日1880821；累積已繳保險費折合新臺幣"},
+      {"desc": "富邦人壽 富邦人壽新終身壽險(甲型)", "owner": "張淑玲", "amount_twd": 137282, "note": "保險金額100000；契約始日0960822；契約終日1820821；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 美滿人生312", "owner": "張國洲", "amount_twd": 315552, "note": "保險金額500000；契約始日0860225；契約終日終身；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 創世紀丙型", "owner": "張國洲", "amount_twd": 48000, "note": "保險金額1000000；契約始日0930810；契約終日1770809；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 富貴保本三福", "owner": "張國洲", "amount_twd": 628547, "note": "保險金額500000；契約始日0860225；契約終日1450224；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 達康101終身", "owner": "張國洲", "amount_twd": 271732, "note": "保險金額100000；契約始日0940329；契約終日1450328；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 美滿人生312", "owner": "張淑玲", "amount_twd": 458288, "note": "保險金額700000；契約始日0850325；契約終日終身；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 富貴保本三福", "owner": "張淑玲", "amount_twd": 608188, "note": "保險金額600000；契約始日0870804；契約終日1780806；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 富貴保本三福", "owner": "張淑玲", "amount_twd": 609282, "note": "保險金額600000；契約始日0870812；契約終日1770781；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 新鍾情終身壽險", "owner": "張淑玲", "amount_twd": 144157, "note": "保險金額100000；契約始日0970401；契約終日1770331；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 新鍾情終身壽險", "owner": "張淑玲", "amount_twd": 212685, "note": "保險金額100000；契約始日0970730；契約終日1780729；累積已繳保險費折合新臺幣"},
+      {"desc": "國泰人壽 達康101終身", "owner": "張淑玲", "amount_twd": 258388, "note": "保險金額100000；契約始日0921201；契約終日1531130；累積已繳保險費折合新臺幣"}
+    ],
+    "insurance_count": 13,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {"desc": "保單借款／國泰人壽保險公司", "owner": "張國洲", "amount_twd": 103000, "note": "取得時間092/10/20；原因富貴保本三福保單借款"},
+      {"desc": "保單借款／國泰人壽保險公司", "owner": "張淑玲", "amount_twd": 73000, "note": "取得時間093/01/13；原因富貴保本三福保單借款"},
+      {"desc": "保單借款／國泰人壽保險公司", "owner": "張淑玲", "amount_twd": 184934, "note": "取得時間093/01/13；原因富貴保本三福保單借款"},
+      {"desc": "保單借款／國泰人壽保險公司", "owner": "張淑玲", "amount_twd": 268296, "note": "取得時間090/12/27；原因美滿人生312保單借款"}
+    ],
+    "debts_count": 4,
+    "debts_total_twd": 629230,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "存款總金額表上印9,916,919元，逐筆加總為10,826,572元，兩者不符，依表上印刷數字填寫。土地與建物「所有權人」欄為張淑玲。建物第1項登記原因字跡不清，判讀為HC。未成年子女以1人計（張芃，民國92年生，申報時仍未成年）。保險僅列明保險公司、名稱、要保人、金額、契約日與累積已繳保險費，保單號碼省略。信託專戶列於（九）其他財產。"
+  }
+}

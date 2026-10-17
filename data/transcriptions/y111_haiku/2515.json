@@ -1,0 +1,390 @@
+{
+ "seq": "2515",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "鄭乾龍",
+  "declare_date": "民國111年9月2日",
+  "spouse": "游金盈",
+  "minor_children_count": 2,
+  "total_pages": 14,
+  "land": [
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 3919,
+    "share": "全部",
+    "owner": "鄭乾龍",
+    "acquired": "087/06/29",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 154,
+    "share": "5分之一",
+    "owner": "鄭乾龍",
+    "acquired": "088/10/11",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 767,
+    "share": "5分之一",
+    "owner": "鄭乾龍",
+    "acquired": "088/10/11",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 115,
+    "share": "5分之一",
+    "owner": "鄭乾龍",
+    "acquired": "088/10/11",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 278,
+    "share": "5分之一",
+    "owner": "鄭乾龍",
+    "acquired": "088/10/11",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 92,
+    "share": "全部",
+    "owner": "鄭乾龍",
+    "acquired": "088/10/11",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "花蓮縣吉安鄉永安段",
+    "area_m2": 550.21,
+    "share": "全部",
+    "owner": "鄭乾龍",
+    "acquired": "087/05/14",
+    "reason": "買賣",
+    "price": "超過5年"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 831,
+    "share": "全部",
+    "owner": "游金盈",
+    "acquired": "103/09/05",
+    "reason": "買賣",
+    "price": "3770000"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 831,
+    "share": "全部",
+    "owner": "游金盈",
+    "acquired": "103/09/05",
+    "reason": "買賣",
+    "price": "3770000"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 23,
+    "share": "7/18",
+    "owner": "游金盈",
+    "acquired": "103/10/30",
+    "reason": "買賣",
+    "price": "17491"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 33,
+    "share": "7738/18000",
+    "owner": "游金盈",
+    "acquired": "103/10/30",
+    "reason": "買賣",
+    "price": "65000"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 942,
+    "share": "47/144",
+    "owner": "游金盈",
+    "acquired": "103/10/30",
+    "reason": "買賣",
+    "price": "541138"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 53,
+    "share": "全部",
+    "owner": "游金盈",
+    "acquired": "105/10/24",
+    "reason": "買賣",
+    "price": "472700"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 205,
+    "share": "6/100",
+    "owner": "游金盈",
+    "acquired": "105/10/29",
+    "reason": "買賣",
+    "price": "246000"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 75,
+    "share": "全部",
+    "owner": "游金盈",
+    "acquired": "105/10/29",
+    "reason": "買賣",
+    "price": "4536000"
+   },
+   {
+    "location": "花蓮縣吉安鄉吉興段",
+    "area_m2": 112.49,
+    "share": "全部",
+    "owner": "游金盈",
+    "acquired": "106/12/22",
+    "reason": "買賣",
+    "price": "9520000"
+   }
+  ],
+  "land_count": 16,
+  "buildings": [
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 128.79,
+    "share": "全部",
+    "owner": "鄭乾龍",
+    "acquired": "085/05/17",
+    "reason": "第一次登記",
+    "price": "超過5年"
+   },
+   {
+    "location": "花蓮縣吉安鄉永安段",
+    "area_m2": 182.4,
+    "share": "全部",
+    "owner": "鄭乾龍",
+    "acquired": "106/06/13",
+    "reason": "第一次登記（自地自建）",
+    "price": "600萬，裝潢家電約150萬"
+   },
+   {
+    "location": "花蓮縣吉安鄉慶豐段",
+    "area_m2": 143.11,
+    "share": "全部",
+    "owner": "游金盈",
+    "acquired": "105/01/29",
+    "reason": "買賣",
+    "price": "1798000"
+   },
+   {
+    "location": "花蓮縣吉安鄉吉興段",
+    "area_m2": 315.75,
+    "share": "全部",
+    "owner": "游金盈",
+    "acquired": "106/12/22",
+    "reason": "買賣",
+    "price": "4280000"
+   }
+  ],
+  "building_count": 4,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "本田",
+    "owner": "游金盈",
+    "acquired": "102/05/31",
+    "price": "900000"
+   },
+   {
+    "desc": "TOYOTA",
+    "owner": "游金盈",
+    "acquired": "109/02/15",
+    "price": "600000"
+   }
+  ],
+  "vehicle_count": 2,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": 0,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 5990,
+  "insurance": [
+   {
+    "desc": "國泰人壽 美滿人生312終身壽險",
+    "owner": "鄭乾龍",
+    "amount_twd": null,
+    "note": "保險金額200000；契約85/06/07~105/06/07；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "國泰人壽 萬代福101終身壽險",
+    "owner": "游金盈",
+    "amount_twd": null,
+    "note": "保險金額1820000；契約77/06/01~97/06/01；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "國際紐約人壽（元大人壽） 終身醫療健康保險",
+    "owner": "游金盈",
+    "amount_twd": null,
+    "note": "保險金額500000；契約91/12/21~101/12/31；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "國泰人壽 防癌終身健康保險",
+    "owner": "游金盈",
+    "amount_twd": null,
+    "note": "保險金額3單位；契約88/05/05~108/05/05；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "國泰人壽 住院醫療終身健康保險",
+    "owner": "游金盈",
+    "amount_twd": null,
+    "note": "保險金額1000元；契約88/05/05~103/05/05；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "台灣人壽 重大疾病終身壽險",
+    "owner": "游金盈",
+    "amount_twd": null,
+    "note": "保險金額200000；契約90/02/06~110/02/06；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "台灣人壽 富貴一路發增額終身壽險",
+    "owner": "游金盈",
+    "amount_twd": null,
+    "note": "保險金額350000；契約90/02/06~110/02/06；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "台灣人壽 大滿貫養老保險",
+    "owner": "游金盈",
+    "amount_twd": null,
+    "note": "保險金額200000；契約90/02/06~154/02/06；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "和泰產物保險 時來運轉專案",
+    "owner": "游金盈",
+    "amount_twd": 2922,
+    "note": "意外險；保險金額3000000；契約110/11/27~111/11/27"
+   },
+   {
+    "desc": "國泰人壽 萬代福211終身壽險",
+    "owner": "鄭乾龍",
+    "amount_twd": null,
+    "note": "保險金額500000；契約81/11/09~101/11/09；要保人累計已繳保險費已期滿"
+   },
+   {
+    "desc": "中國人壽 心幸福終身壽險",
+    "owner": "游金盈",
+    "amount_twd": null,
+    "note": "保險金額230000；契約105/03/22~111/03/22；備註欄載累積364230"
+   },
+   {
+    "desc": "新安東京海上產物保險 新安東京海上產物保平安個人傷害AU閃耀人生計畫B",
+    "owner": "游金盈",
+    "amount_twd": 3068,
+    "note": "意外險；保額2000000，實支50000；契約2022/01/01~2023/01/01"
+   }
+  ],
+  "insurance_count": 12,
+  "debt_claims": [
+   {
+    "desc": "現金",
+    "owner": "鄭乾龍",
+    "amount_twd": 500000,
+    "note": "取得時間106/05/08；週轉金"
+   }
+  ],
+  "debt_claims_total_twd": 500000,
+  "debts": [
+   {
+    "desc": "抵押貸款 花蓮第一信用合作社",
+    "owner": "游金盈",
+    "amount_twd": 4220000,
+    "note": "取得時間111/02/17；購置房屋"
+   },
+   {
+    "desc": "抵押貸款 花蓮縣吉安鄉農會",
+    "owner": "鄭乾龍",
+    "amount_twd": 31000000,
+    "note": "取得時間106/11/01；資金週轉"
+   },
+   {
+    "desc": "抵押貸款 花蓮縣吉安鄉農會",
+    "owner": "鄭乾龍",
+    "amount_twd": 5000000,
+    "note": "取得時間109/04/27；資金週轉"
+   },
+   {
+    "desc": "農家綜合貸款 花蓮縣吉安鄉農會",
+    "owner": "鄭乾龍",
+    "amount_twd": 300000,
+    "note": "取得時間106/11/01；資金週轉"
+   },
+   {
+    "desc": "農家綜合貸款 花蓮縣吉安鄉農會",
+    "owner": "鄭乾龍",
+    "amount_twd": 400000,
+    "note": "取得時間110/07/02；資金週轉"
+   },
+   {
+    "desc": "抵押貸款 花蓮縣吉安鄉農會",
+    "owner": "游金盈",
+    "amount_twd": 8000000,
+    "note": "取得時間110/12/27；購置房屋"
+   },
+   {
+    "desc": "私人債務",
+    "owner": "鄭乾龍",
+    "amount_twd": 5000000,
+    "note": "取得時間108/11/15；資金週轉"
+   }
+  ],
+  "debts_count": 7,
+  "debts_total_twd": 53920000,
+  "business_investments": [
+   {
+    "desc": "馥麗旅店股份有限公司",
+    "owner": "游金盈",
+    "amount_twd": 14000000,
+    "note": "取得時間104/08/14；持股轉讓140萬股"
+   },
+   {
+    "desc": "永豐活海鮮餐廳股份有限公司",
+    "owner": "鄭乾龍",
+    "amount_twd": 1400000,
+    "note": "取得時間105/03/07；持股轉讓投資"
+   },
+   {
+    "desc": "堡陞建設股份有限公司",
+    "owner": "游金盈",
+    "amount_twd": 1500000,
+    "note": "取得時間109/04/08；個人投資"
+   },
+   {
+    "desc": "誠品茗茶",
+    "owner": "游金盈",
+    "amount_twd": 100000,
+    "note": "取得時間95/04/01；個人投資"
+   }
+  ],
+  "business_investments_total_twd": 17000000,
+  "trust_items": [],
+  "notes": "1)原表頁碼標示「共4頁」但PDF實為14頁，total_pages以PDF頁數14填寫。2)存款、現金、有價證券皆印「未達申報標準」，總額手寫0，依表照填，未列項目。3)(九)表頭總價額手寫5990,-，與保險合計（2922+3068）相同，珠寶細項小計0，依表照填5990，疑為誤寫。4)保險第1至8、10、11列累積已繳保險費欄為「備註：要保人累計已繳保險費已經期滿」，amount_twd 填 null；第11列備註載累積364230，未納入金額。5)備註欄聲明：長女已獨立自主工作，與本人自109年起分居，其財產恐無法完整申報；原表該子女列已劃除，未成年子女僅計次女、三女共2人，未填姓名。6)建物02價額為「600萬，裝潢家電約150萬」原文保留；建物位置去除門牌。7)車牌號碼、保單號碼、債權人/債務人地址、事業投資地址均未納入。8)交件日111年9月2日。"
+ }
+}

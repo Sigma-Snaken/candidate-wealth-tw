@@ -1,0 +1,1 @@
+{"seq": "2817", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 8.2, "via": "gemini-api", "usage": {"in": 16836, "out": 73, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本次申報包含原表及補正文件，未有船舶、汽車、航空器或外幣計價項目申報。"}}

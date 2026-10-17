@@ -1,0 +1,63 @@
+{"seq": "2996", "model": "claude-haiku", "data": {
+"declarant": "何長成",
+"declare_date": "民國111年8月29日",
+"spouse": null,
+"minor_children_count": 0,
+"total_pages": 18,
+"land": [
+{"location": "屏東縣枋山鄉西林段（段名字跡待確認）", "area_m2": 29230, "share": "1/1", "owner": "何長成", "acquired": "095.06.12", "reason": "買賣", "price": "800000"},
+{"location": "屏東縣枋山鄉四林段（段名字跡待確認）", "area_m2": 48040, "share": "1/1", "owner": "何長成", "acquired": "095.06.12", "reason": "買賣", "price": "1000000"},
+{"location": "屏東縣泰武鄉（段名字跡待確認）", "area_m2": 2280, "share": "1/1", "owner": "何長成", "acquired": "095.03.07", "reason": "買賣", "price": "700000"},
+{"location": "屏東縣泰武鄉（段名字跡待確認）", "area_m2": 5000, "share": "1/1", "owner": "何長成", "acquired": "110.09.23", "reason": "權利取得", "price": "350000"}
+],
+"land_count": 4,
+"buildings": [],
+"building_count": 0,
+"ships": [],
+"vehicles": [],
+"vehicle_count": 0,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "合作金庫東港分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 490025},
+{"bank": "土地銀行潮州分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 199},
+{"bank": "土地銀行枋寮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 113},
+{"bank": "高雄銀行建國分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 3205},
+{"bank": "臺灣銀行潮州分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 143},
+{"bank": "臺灣銀行三多分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 193},
+{"bank": "潮州鎮農會", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 7173},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 4736},
+{"bank": "內埔地區農會", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "何長成", "foreign_amount": null, "twd": 60}
+],
+"deposit_count": 9,
+"deposit_total_twd": 799905,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "國泰人壽保險公司 定期壽險（險種名稱字跡不清）", "owner": "何長成", "amount_twd": 15558, "note": "要保人何長成；契約109.12.22-138.12.21；保險金額1000000；契約類型字跡不清；金額15558為累積已繳保險費折合新臺幣總額（補正檔第19頁補列）"}
+],
+"insurance_count": 1,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "保單借款（全球人壽保險公司）", "owner": "何長成", "amount_twd": 199286, "note": "取得104.03.31；保單借款"},
+{"desc": "借信（潮州鎮農會信用部）", "owner": "何長成", "amount_twd": 1949999, "note": "取得110.07.13；取得原因字跡待確認（判讀為購置動產）；表上數字字跡不清，判讀為1,949,999，依債務總額2,149,285反推"}
+],
+"debts_count": 2,
+"debts_total_twd": 2149285,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "本案為補正案：原表(2996_0)與補正檔(2996_1)前18頁內容大致相同（補正檔為全表重新申報，頁首『與原本資料相符』），以補正為準；補正檔第19頁補列保險（國泰人壽，累積已繳保險費折合新臺幣15558）與保單借款細項，第20頁為補正後第14頁保險表的補充。申報日字跡判讀為8月29日（交件日111年9月1日）。配偶欄表上填『以下空白』，spouse 以null處理。土地段名、債權人與部分手寫數字字跡不清，已依最可能判讀。存款分項逐筆加總為505847，與表上手寫總額799905不符（差294058），表上總額以手寫為準，請複核各筆金額（特別是合作金庫東港分行490025）。債務第二筆金額表上手寫模糊，以債務總額2149285反推為1949999。土地坐落依表上只列鄉鎮，已省略地號；建物無；車輛與保單號碼未列入。現金、有價證券、其他財產、債權、事業投資之總額手寫為0。"
+}}

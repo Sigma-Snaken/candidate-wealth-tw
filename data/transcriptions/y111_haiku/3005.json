@@ -1,0 +1,81 @@
+{
+  "seq": "3005",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "王景山",
+    "declare_date": "民國111年8月26日",
+    "spouse": "朱幸環",
+    "minor_children_count": 0,
+    "total_pages": 21,
+    "land": [
+      {"location": "屏東縣九如鄉惠農段", "area_m2": 4817.52, "share": "1/1", "owner": "王景山", "acquired": "110/07/29", "reason": "買賣", "price": "11560000"},
+      {"location": "屏東縣里港鄉大港洋段", "area_m2": 194, "share": "1/1", "owner": "王景山", "acquired": "099/09/08", "reason": "買賣", "price": "6250000"},
+      {"location": "屏東縣里港鄉光明段", "area_m2": 918.2, "share": "1/1", "owner": "王景山", "acquired": "069/09/02", "reason": "繼承", "price": "超過五年"},
+      {"location": "屏東縣里港鄉潮厝段", "area_m2": 7, "share": "1/2", "owner": "王景山", "acquired": "069/09/02", "reason": "繼承", "price": "超過五年"},
+      {"location": "屏東縣里港鄉潮厝段", "area_m2": 59.06, "share": "1/1", "owner": "王景山", "acquired": "108/01/19", "reason": "買賣", "price": "100000"},
+      {"location": "屏東縣里港鄉潮厝段", "area_m2": 3554.55, "share": "1/2", "owner": "王景山", "acquired": "069/09/02", "reason": "繼承", "price": "超過五年"},
+      {"location": "屏東縣里港鄉潮厝段", "area_m2": 23.82, "share": "1/1", "owner": "王景山", "acquired": "108/01/19", "reason": "買賣", "price": "52000"},
+      {"location": "屏東縣里港鄉潮厝段", "area_m2": 1206.36, "share": "1/1", "owner": "王景山", "acquired": "069/09/02", "reason": "繼承", "price": "超過五年"},
+      {"location": "屏東縣里港鄉潮厝段", "area_m2": 87.42, "share": "1/1", "owner": "王景山", "acquired": "069/09/02", "reason": "繼承", "price": "超過五年"},
+      {"location": "屏東縣里港鄉大港洋段", "area_m2": 11, "share": "1/1", "owner": "王景山", "acquired": "111/05/06", "reason": "買賣", "price": "200000"}
+    ],
+    "land_count": 10,
+    "buildings": [
+      {"location": "屏東縣里港鄉春林村", "area_m2": 176, "share": "100000/10000", "owner": "王景山", "acquired": "099/09/08", "reason": "自建", "price": "272000"},
+      {"location": "屏東縣里港鄉潮厝村", "area_m2": 215.3, "share": "100000/10000", "owner": "王景山", "acquired": "094/10/26", "reason": "繼承", "price": "157400"}
+    ],
+    "building_count": 2,
+    "ships": [],
+    "vehicles": [
+      {"desc": "國瑞(汽車) 汽缸容量2494", "owner": "王景山", "acquired": "104/01/19", "price": "超過五年"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {"bank": "臺灣銀行屏東分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "王景山", "foreign_amount": null, "twd": 1882353},
+      {"bank": "屏東縣里港鄉農會信用部", "kind": "活期存款", "currency": "新臺幣", "owner": "王景山", "foreign_amount": null, "twd": 61300},
+      {"bank": "郵政儲金匯業局", "kind": "定期儲蓄存款", "currency": "新臺幣", "owner": "王景山", "foreign_amount": null, "twd": 1000000},
+      {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "王景山", "foreign_amount": null, "twd": 1003782},
+      {"bank": "玉山銀行屏東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "王景山", "foreign_amount": null, "twd": 945340}
+    ],
+    "deposit_count": 5,
+    "deposit_total_twd": 4892775,
+    "securities_total_twd": 106800,
+    "stocks": [
+      {"code": "9902", "name": "台火", "owner": "王景山", "shares": 4587, "par": 10, "currency": null, "twd": 45870},
+      {"code": "9911", "name": "櫻花", "owner": "王景山", "shares": 6093, "par": 10, "currency": null, "twd": 60930}
+    ],
+    "stock_count": 2,
+    "stock_total_twd": 106800,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {"desc": "中國人壽保險公司 中國人壽傳富一生終身壽險(定期給付型)", "owner": "王景山", "amount_twd": 106665, "note": "儲蓄型壽險；保險金額200000；契約107/12/20~終身"},
+      {"desc": "中國人壽保險公司 富貴增值還本終身壽險丙型", "owner": "王景山", "amount_twd": 772211, "note": "儲蓄型壽險；保險金額700000；契約081/06/27~終身"},
+      {"desc": "國泰人壽保險公司 創世紀丙型", "owner": "王景山", "amount_twd": 1430000, "note": "投資型壽險；保險金額2000000；契約094/05/09~181/05/08"},
+      {"desc": "新光人壽保險公司 新光人壽得意理財變額壽險", "owner": "王景山", "amount_twd": 1811000, "note": "投資型壽險；保險金額2000000；契約095/11/03~152/11/03"},
+      {"desc": "新光人壽保險公司 新光人壽千禧寶終身還本壽險", "owner": "王景山", "amount_twd": 897929, "note": "儲蓄型壽險；保險金額500000；契約090/05/25~終身"},
+      {"desc": "新光人壽保險公司 新光人壽千禧寶終身還本壽險", "owner": "王景山", "amount_twd": 871878, "note": "儲蓄型壽險；保險金額500000；契約090/05/25~終身"},
+      {"desc": "新光人壽保險公司 新光人壽活力安心手術醫療終身健康保險", "owner": "王景山", "amount_twd": 30938, "note": "儲蓄型壽險；保險金額1000；契約110/04/09~153/04/09"},
+      {"desc": "新光人壽保險公司 新光人壽新百齡終身壽險", "owner": "王景山", "amount_twd": 715456, "note": "儲蓄型壽險；保險金額400000；契約075/10/29~終身"}
+    ],
+    "insurance_count": 8,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [],
+    "debts_count": 0,
+    "debts_total_twd": 0,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 土地表標題「登記(取得)時間」與「登記(取得)原因」印刷位置與內容對調：欄位內容依序為買賣/繼承（原因）與日期（時間），本表已依內容對應填寫。2) 土地第3、4、6、8、9筆及汽車取得價額為手寫「超過五年」（第4、9筆為「〃」同上）。3) 土地第10筆取得價額手寫為200,000。4) 建物地址僅保留縣市鄉鎮村，門牌與地號/建號已省略。5) 配偶朱幸環；未成年子女欄空白，人數填0。6) 存款五筆合計4,892,775元，與總金額一致；保險八筆合計6,636,077元，與表上總金額一致。7) 股票代碼/名稱依「代碼/名稱」格式拆分，無外幣。8) 保單號碼、帳號、車牌等未輸出。"
+  }
+}

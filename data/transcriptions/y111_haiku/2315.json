@@ -1,0 +1,60 @@
+{
+  "seq": "2315",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "王國代",
+    "declare_date": "民國111年9月1日",
+    "spouse": "陳玉伶",
+    "minor_children_count": 2,
+    "total_pages": 16,
+    "land": [
+      {"location": "金門縣金沙鎮○○段地號（手寫判讀存疑）", "area_m2": 53.77, "share": "全部", "owner": "王國代", "acquired": "108.6.3", "reason": "繼承", "price": null},
+      {"location": "金門縣金沙鎮○○段地號（手寫判讀存疑）", "area_m2": 86, "share": "5分之1", "owner": "王國代", "acquired": "108.6.7", "reason": "繼承", "price": null}
+    ],
+    "land_count": 2,
+    "buildings": [
+      {"location": "金門縣○○鎮○○里（手寫判讀存疑）", "area_m2": 22.8, "share": "5分之1", "owner": "王國代", "acquired": "108.6.3", "reason": "繼承", "price": null},
+      {"location": "金門縣○○鎮○○里（手寫判讀存疑）", "area_m2": null, "share": "全部", "owner": "王國代", "acquired": "111.4.12", "reason": "買賣", "price": "900000"}
+    ],
+    "building_count": 2,
+    "ships": [],
+    "vehicles": [
+      {"desc": "賓士 S400 (LWB) 2986cc", "owner": "王國代", "acquired": "111.4.11", "price": "1600000"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": null,
+    "deposits": [
+      {"bank": "永豐銀行金門分行（手寫判讀存疑）", "kind": "活期存款", "currency": "新臺幣", "owner": "王國代", "foreign_amount": null, "twd": 124067}
+    ],
+    "deposit_count": 1,
+    "deposit_total_twd": 124067,
+    "securities_total_twd": null,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": null,
+    "bonds": [],
+    "bond_total_twd": null,
+    "funds": [],
+    "fund_total_twd": null,
+    "other_securities": [],
+    "other_securities_total_twd": null,
+    "other_assets": [],
+    "other_assets_total_twd": null,
+    "insurance": [
+      {"desc": "台新人壽 儲蓄型壽險（保單號碼 240613）", "owner": "王國代", "amount_twd": null, "note": "要保人王國代；保險金額 600000；契約始日/終日為手寫，判讀存疑；累積已繳保險費外幣欄空白，新臺幣欄手寫判讀存疑（更正頁）"},
+      {"desc": "台新人壽 投資型壽險（保單號碼 240613）", "owner": "王國代", "amount_twd": 9068, "note": "要保人王國代；保險金額 1800000（手寫判讀存疑）；契約始日/終日為手寫，判讀存疑；累積已繳保險費折合新臺幣 9068（手寫判讀存疑）（更正頁）"}
+    ],
+    "insurance_count": 2,
+    "debt_claims": [],
+    "debt_claims_total_twd": null,
+    "debts": [],
+    "debts_count": 0,
+    "debts_total_twd": null,
+    "business_investments": [],
+    "business_investments_total_twd": null,
+    "trust_items": [],
+    "notes": "原表第16頁（保險表）由補充頁2315_1取代。配偶與子女：長子（民國84年生，已成年，不計入）、次子（民國105年生）、長女（民國111年生）；未成年子女人數填 2。土地與建物坐落、建物面積、部分取得價額與股票欄為手寫，判讀存疑；建物取得價額 900000 與汽車取得價額 1600000 為手寫判讀。保險卡頭累積已繳保險費折合新臺幣總金額手寫判讀為 58860，逐列數字判讀不完全一致，未能確認，第一筆 amount_twd 設為 null。現金、股票、債券、基金、其他有價證券、珠寶、債權、債務、事業投資表格空白，總金額設為 null。"
+  }
+}

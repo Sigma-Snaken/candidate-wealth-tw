@@ -1,0 +1,30 @@
+{
+  "repo": "Sigma-Snaken/candidate-wealth-tw",
+  "pdf_release_tag": "pdfs-v1",
+  "years": {
+    "115": {
+      "label": "115 年地方公職人員選舉",
+      "main": ["y115_flash", "y115_pro"],
+      "extra": ["y115_extra_lite", "y115_extra_38"],
+      "prices": "prices_20261016.json",
+      "price_date": "2026-10-16",
+      "fx_date": "2026-10-16",
+      "fx_filing_date": "2026-08-31",
+      "pdf_url": "https://pdps-dec.cec.gov.tw/release/formal/files/{seq}.pdf",
+      "lvr_seasons": ["114S1", "114S2", "114S3", "114S4", "115S1", "115S2", "115S3"],
+      "lvr_file": "lvr_115.json"
+    },
+    "111": {
+      "label": "111 年地方公職人員選舉",
+      "main": ["y111_flash", "y111_haiku"],
+      "extra": ["y111_extra_lite", "y111_extra_38"],
+      "prices": "prices_20220902.json",
+      "price_date": "2022-09-02",
+      "fx_date": "2022-09-02",
+      "fx_filing_date": "2022-09-02",
+      "pdf_url": null,
+      "lvr_seasons": ["110S1", "110S2", "110S3", "110S4", "111S1", "111S2", "111S3"],
+      "lvr_file": "lvr_111.json"
+    }
+  }
+}

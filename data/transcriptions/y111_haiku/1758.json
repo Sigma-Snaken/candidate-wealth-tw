@@ -1,0 +1,548 @@
+{
+ "seq": "1758",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "簡維國",
+  "declare_date": "民國111年08月26日",
+  "spouse": null,
+  "minor_children_count": 0,
+  "total_pages": 12,
+  "land": [
+   {
+    "location": "板橋區江子翠段溪頭小段",
+    "area_m2": 1296.0,
+    "share": "10000分之87",
+    "owner": "簡維國",
+    "acquired": "107/07/30",
+    "reason": "買賣",
+    "price": "177000"
+   },
+   {
+    "location": "鼓山區鼓南段四小段",
+    "area_m2": 3045.0,
+    "share": "10000分之87",
+    "owner": "簡維國",
+    "acquired": "109/10/07",
+    "reason": "買賣",
+    "price": "28610"
+   },
+   {
+    "location": "太麻里鄉秀山段",
+    "area_m2": 11541.8,
+    "share": "10000分之9",
+    "owner": "簡維國",
+    "acquired": "86/12/27",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "綠島鄉公館西段",
+    "area_m2": 410.55,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "109/04/30",
+    "reason": "買賣",
+    "price": "570"
+   },
+   {
+    "location": "綠島鄉公館西段",
+    "area_m2": 5.5,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "109/5/18",
+    "reason": "買賣",
+    "price": "570"
+   },
+   {
+    "location": "綠島鄉下南寮段",
+    "area_m2": 157.55,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "98/01/13",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "綠島鄉下南寮段",
+    "area_m2": 173.91,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "108/12/17",
+    "reason": "買賣",
+    "price": "310"
+   },
+   {
+    "location": "綠島鄉下南寮段",
+    "area_m2": 68.03,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "108/12/30",
+    "reason": "買賣",
+    "price": "310"
+   },
+   {
+    "location": "綠島鄉下南寮段",
+    "area_m2": 5.96,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "108/12/30",
+    "reason": "買賣",
+    "price": "310"
+   },
+   {
+    "location": "綠島鄉下南寮段",
+    "area_m2": 12.74,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "108/12/30",
+    "reason": "買賣",
+    "price": "310"
+   },
+   {
+    "location": "綠島鄉下南寮段",
+    "area_m2": 199.7,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "108/12/30",
+    "reason": "買賣",
+    "price": "310"
+   },
+   {
+    "location": "綠島鄉下南寮段",
+    "area_m2": 17.14,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "108/12/30",
+    "reason": "買賣",
+    "price": "310"
+   },
+   {
+    "location": "綠島鄉下南寮段",
+    "area_m2": 33.63,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "108/12/30",
+    "reason": "買賣",
+    "price": "310"
+   },
+   {
+    "location": "綠島鄉新中寮段",
+    "area_m2": 174.94,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "107/8/13",
+    "reason": "買賣",
+    "price": "5600"
+   },
+   {
+    "location": "台東市台東段",
+    "area_m2": 73,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "95/03/15",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "台東市台東段",
+    "area_m2": 48,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "95/04/11",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "台東市台東段",
+    "area_m2": 29,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "95/04/11",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "台東市台東段",
+    "area_m2": 577,
+    "share": "10000分之970",
+    "owner": "簡維國",
+    "acquired": "111/4/21",
+    "reason": "買賣",
+    "price": "33700"
+   },
+   {
+    "location": "台東市台東段",
+    "area_m2": 79,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "95/05/15",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "台東市知本段",
+    "area_m2": 2500,
+    "share": "二分之一",
+    "owner": "簡維國",
+    "acquired": "103/10/31",
+    "reason": "共有物分割",
+    "price": null
+   },
+   {
+    "location": "台東市豐榮段",
+    "area_m2": 195,
+    "share": "二分之一",
+    "owner": "簡維國",
+    "acquired": "89/07/25",
+    "reason": "分割繼承",
+    "price": null
+   },
+   {
+    "location": "台東市豐榮段",
+    "area_m2": 562,
+    "share": "二分之一",
+    "owner": "簡維國",
+    "acquired": "89/07/25",
+    "reason": "分割繼承",
+    "price": null
+   },
+   {
+    "location": "台東市豐榮段",
+    "area_m2": 90,
+    "share": "二分之一",
+    "owner": "簡維國",
+    "acquired": "88/08/01",
+    "reason": "分割繼承",
+    "price": null
+   },
+   {
+    "location": "台東市豐榮段",
+    "area_m2": 49,
+    "share": "二分之一",
+    "owner": "簡維國",
+    "acquired": "89/07/25",
+    "reason": "分割繼承",
+    "price": null
+   },
+   {
+    "location": "台東市豐榮段",
+    "area_m2": 9,
+    "share": "二分之一",
+    "owner": "簡維國",
+    "acquired": "89/07/25",
+    "reason": "分割繼承",
+    "price": null
+   },
+   {
+    "location": "台東市常德段",
+    "area_m2": 95.39,
+    "share": "七分之一",
+    "owner": "簡維國",
+    "acquired": "89/07/25",
+    "reason": "分割繼承",
+    "price": null
+   }
+  ],
+  "land_count": 26,
+  "buildings": [
+   {
+    "location": "板橋區江子翠段溪頭小段",
+    "area_m2": 47.29,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "107/07/31",
+    "reason": "買賣",
+    "price": "13200000"
+   },
+   {
+    "location": "鼓山區鼓南段四小段",
+    "area_m2": 105.53,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "109/10/07",
+    "reason": "買賣",
+    "price": "6600000"
+   },
+   {
+    "location": "太麻里鄉秀山段",
+    "area_m2": 27.07,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "86/12/27",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "台東市台東段",
+    "area_m2": 142.1,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "95/4/11",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "台東市台東段",
+    "area_m2": 111.2,
+    "share": "一分之一",
+    "owner": "簡維國",
+    "acquired": "95/05/15",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "台東市知本段",
+    "area_m2": 178.35,
+    "share": "二分之一",
+    "owner": "簡維國",
+    "acquired": "103/10/31",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "台東市常德段",
+    "area_m2": 107.23,
+    "share": "七分之一",
+    "owner": "簡維國",
+    "acquired": "89/07/25",
+    "reason": "分割繼承",
+    "price": null
+   }
+  ],
+  "building_count": 7,
+  "ships": [],
+  "vehicles": [],
+  "vehicle_count": 0,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+   {
+    "bank": "合作金庫銀行台東分行",
+    "kind": "證券戶",
+    "currency": "新臺幣",
+    "owner": "簡維國",
+    "foreign_amount": null,
+    "twd": 1338877
+   }
+  ],
+  "deposit_count": 1,
+  "deposit_total_twd": 1338877,
+  "securities_total_twd": null,
+  "stocks": [
+   {
+    "code": "00915",
+    "name": "凱基優選高股息30",
+    "owner": "簡維國",
+    "shares": 130000,
+    "par": 15.17,
+    "currency": null,
+    "twd": 1972100
+   }
+  ],
+  "stock_count": 1,
+  "stock_total_twd": 1972100,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+   {
+    "desc": "國泰人壽 雙囍年年終身保險",
+    "owner": "簡維國",
+    "amount_twd": 1353000,
+    "note": "儲蓄型壽險；保險金額50萬；契約期間90/03/21-161/03/20"
+   },
+   {
+    "desc": "國泰人壽 富利年年終身保險",
+    "owner": "簡維國",
+    "amount_twd": 909440,
+    "note": "儲蓄型壽險；保險金額32萬；契約期間95/09/21-161/9/20"
+   },
+   {
+    "desc": "國泰人壽 增添采終身壽險",
+    "owner": "簡維國",
+    "amount_twd": 985434,
+    "note": "儲蓄型壽險；保險金額58萬；契約期間105/04/21-167/04/20"
+   },
+   {
+    "desc": "國泰人壽 樂添利多利率變動型壽險",
+    "owner": "簡維國",
+    "amount_twd": 805434,
+    "note": "儲蓄型壽險；保險金額105萬；契約期間106/08/04-167/08/03"
+   },
+   {
+    "desc": "新光人壽 得意理財變額壽險",
+    "owner": "簡維國",
+    "amount_twd": 4320000,
+    "note": "投資型壽險；保險金額300萬；契約期間90/08/16-162/8/16"
+   },
+   {
+    "desc": "宏泰人壽 宏泰人壽增額終身壽險",
+    "owner": "簡維國",
+    "amount_twd": 2429152,
+    "note": "儲蓄型壽險；保險金額78萬；契約期間96/08/09-172/08/09"
+   },
+   {
+    "desc": "宏泰人壽 宏泰人壽增額終身壽險",
+    "owner": "簡維國",
+    "amount_twd": 1518225,
+    "note": "儲蓄型壽險；保險金額52萬；契約期間96/11/30-172/11/30"
+   },
+   {
+    "desc": "中華郵政 郵政簡易人壽活利369",
+    "owner": "簡維國",
+    "amount_twd": 651000,
+    "note": "儲蓄型壽險；保險金額200萬；契約期間108/07/30-118/07/30"
+   },
+   {
+    "desc": "國泰人壽 月月得益變額年金",
+    "owner": "簡維國",
+    "amount_twd": 2000000,
+    "note": "年金型壽險；保險金額200萬；契約期間111/05/24-162/05/23"
+   },
+   {
+    "desc": "國泰人壽 珍鑫福終身壽險",
+    "owner": "簡維國",
+    "amount_twd": 909738,
+    "note": "儲蓄型壽險；保險金額51萬；契約期間104/11/16-167/11/15"
+   },
+   {
+    "desc": "遠雄人壽 遠雄人壽美滿鴻福增額終身壽險",
+    "owner": "簡維國",
+    "amount_twd": 1025232,
+    "note": "儲蓄型保險；保險金額52萬；契約期間105/04/30-173/04/30"
+   },
+   {
+    "desc": "臺銀人壽 富貴人生增額終身壽險",
+    "owner": "簡維國",
+    "amount_twd": 1080450,
+    "note": "儲蓄型保險；保險金額35萬；契約期間104/06/16-162/06/16"
+   },
+   {
+    "desc": "中國人壽 中國人壽享富增利利率變動型壽險",
+    "owner": "簡維國",
+    "amount_twd": 1115110,
+    "note": "儲蓄型保險；保險金額25萬；契約期間105/05/20-161/05/20"
+   },
+   {
+    "desc": "國泰人壽 新添采終身壽險",
+    "owner": "簡維國",
+    "amount_twd": 730824,
+    "note": "儲蓄型保險；保險金額74萬；契約期間102/08/13-167/08/12"
+   }
+  ],
+  "insurance_count": 14,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "融資／合作金庫台東分",
+    "owner": "簡維國",
+    "amount_twd": 4997268,
+    "note": "取得時間111/08/26；原因土地融資（依1758補正檔）"
+   },
+   {
+    "desc": "貸款／國泰世華銀行台東分",
+    "owner": "簡維國",
+    "amount_twd": 9052729,
+    "note": "取得時間111/08/26；原因房屋貸款（依1758補正檔）"
+   },
+   {
+    "desc": "貸款／國泰世華銀行台東分",
+    "owner": "簡維國",
+    "amount_twd": 4505775,
+    "note": "取得時間111/08/26；原因房屋貸款（依1758補正檔）"
+   },
+   {
+    "desc": "貸款／國泰世華銀行台東分",
+    "owner": "簡維國",
+    "amount_twd": 496195,
+    "note": "取得時間111/08/26；原因房屋貸款（依1758補正檔）"
+   },
+   {
+    "desc": "貸款／台灣銀行台東分",
+    "owner": "簡維國",
+    "amount_twd": 2710000,
+    "note": "取得時間111/08/26；原因房屋貸款（依1758補正檔）"
+   }
+  ],
+  "debts_count": 5,
+  "debts_total_twd": 21761967,
+  "business_investments": [
+   {
+    "desc": "台東液化石油氣企業有限公司",
+    "owner": "簡維國",
+    "amount_twd": 8000000,
+    "note": "取得時間86/04/12；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "幸福氣能源股份有限公司",
+    "owner": "簡維國",
+    "amount_twd": 10250000,
+    "note": "取得時間99/09/03；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "台東鋼瓶有限公司",
+    "owner": "簡維國",
+    "amount_twd": 1100000,
+    "note": "取得時間90/11/16；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "瑞鑫開發建設有限公司",
+    "owner": "簡維國",
+    "amount_twd": 2000000,
+    "note": "取得時間102/07/08；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "喜暉有限公司",
+    "owner": "簡維國",
+    "amount_twd": 1250000,
+    "note": "取得時間103/12/03；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "幸福陽光股份有限公司",
+    "owner": "簡維國",
+    "amount_twd": 3450000,
+    "note": "取得時間103/02/21；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "高雄幸福氣有限公司",
+    "owner": "簡維國",
+    "amount_twd": 3990000,
+    "note": "取得時間57/01/26；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "幸福氣健光瓦斯行",
+    "owner": "簡維國",
+    "amount_twd": 200000,
+    "note": "取得時間107/02/26；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "幸福氣雄海瓦斯行",
+    "owner": "簡維國",
+    "amount_twd": 200000,
+    "note": "取得時間108/03/28；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "豐宜實業股份有限公司",
+    "owner": "簡維國",
+    "amount_twd": 1800000,
+    "note": "取得時間111/1/1；個人投資（依1758補正檔）"
+   },
+   {
+    "desc": "豐信興實業有限公司",
+    "owner": "簡維國",
+    "amount_twd": 450000,
+    "note": "取得時間111/1/1；個人投資（依1758補正檔）"
+   }
+  ],
+  "business_investments_total_twd": 32690000,
+  "trust_items": [],
+  "notes": "依 1758_0.pdf（12頁，表格為打字）及 1758_1.pdf（補正2頁）判讀。(1) 補正檔第1頁：事業投資11筆補上取得時間（原表空白）。(2) 補正檔第2頁：原表第(十)債權5筆（合計21761967）改列為第(十一)債務，債權改為0筆；債務人欄為申報人簡維國，債權人名稱依表上截斷文字保留（如「合作金庫台東分」）。(3) 股票代碼與名稱依「代碼/名稱」格式拆分。(4) 第(八)有價證券總價額表頭空白，securities_total_twd 設為 null；股票小計 1972100 依表上數字。(5) 保險表上第9筆（月月得益變額年金）累積保費印為20000000，與表頭合計19833039不符，推定多一個0，依合計採2000000。(6) 原表無配偶與未成年子女資料，spouse 為 null。(7) 土地與建物之段名、地號、建號、門牌均未輸出。(8) 存款第1筆為證券戶，無外幣。"
+ }
+}

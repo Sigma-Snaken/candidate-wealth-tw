@@ -1,0 +1,1 @@
+{"seq": "1930", "model": "gemini-3.8-flash", "resolution": null, "elapsed": 18.2, "via": "gemini-api", "usage": {"in": 8790, "out": 72, "thought": 1121}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "第16頁備註欄載有：「1. 機車YAMAHA GTR 車牌8... (黑)」"}}

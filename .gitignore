@@ -1,0 +1,22 @@
+# built outputs
+dist/
+release/
+data/db/
+data/source_pdfs/
+data/lvr_raw/
+site/data.json
+site/detail/
+site/_preview.html
+# local working files that are not part of the dataset
+data/backup_*/
+data/ocr_claude/
+data/pdfs/
+data/new5_*.json
+.playwright-mcp/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+docs/plans/
+analysis/

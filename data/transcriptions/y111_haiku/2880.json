@@ -1,0 +1,88 @@
+{"seq": "2880", "model": "claude-haiku", "data": {
+"declarant": "胡仁順",
+"declare_date": "民國111年8月29日",
+"spouse": "周盈伶",
+"minor_children_count": 2,
+"total_pages": 12,
+"land": [
+ {"location": "花蓮縣花蓮市莊敬段", "area_m2": 52, "share": "1/1", "owner": "周盈伶", "acquired": "109/09/09", "reason": "買賣", "price": "10300000"},
+ {"location": "花蓮縣花蓮市莊敬段", "area_m2": 27, "share": "1/1", "owner": "周盈伶", "acquired": "109/09/09", "reason": "買賣", "price": "10300000"},
+ {"location": "花蓮縣壽豐鄉太平段", "area_m2": 3349.17, "share": "10/100", "owner": "周盈伶", "acquired": "106/12/21", "reason": "買賣", "price": "881800"},
+ {"location": "花蓮縣壽豐鄉太平段", "area_m2": 3350.62, "share": "10/100", "owner": "周盈伶", "acquired": "106/12/21", "reason": "買賣", "price": "881800"}
+],
+"land_count": 4,
+"buildings": [
+ {"location": "花蓮縣花蓮市莊敬段", "area_m2": 251.37, "share": "1/1", "owner": "周盈伶", "acquired": "109/09/09", "reason": "買賣", "price": "10300000"}
+],
+"building_count": 1,
+"ships": [],
+"vehicles": [
+ {"desc": "日產(汽車) 1598cc", "owner": "周盈伶", "acquired": "106/05/31", "price": "609000"}
+],
+"vehicle_count": 1,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+ {"bank": "花蓮第一信用合作社自強分社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "胡仁順", "foreign_amount": null, "twd": 846143},
+ {"bank": "花蓮第二信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "胡仁順", "foreign_amount": null, "twd": 26035},
+ {"bank": "花蓮第二信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "胡仁順", "foreign_amount": null, "twd": 13107},
+ {"bank": "花蓮第二信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "胡仁順", "foreign_amount": null, "twd": 207.5},
+ {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "胡仁順", "foreign_amount": null, "twd": 112255},
+ {"bank": "台北富邦銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "美元", "owner": "周盈伶", "foreign_amount": 4403.87, "twd": 133101.53},
+ {"bank": "台北富邦銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "周盈伶", "foreign_amount": null, "twd": 4853},
+ {"bank": "花蓮第一信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "周盈伶", "foreign_amount": null, "twd": 1889},
+ {"bank": "花蓮第一信用合作社國光分社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "周盈伶", "foreign_amount": null, "twd": 229419},
+ {"bank": "花蓮第二信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "周盈伶", "foreign_amount": null, "twd": 273987},
+ {"bank": "花蓮第二信用合作社", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "周盈伶", "foreign_amount": null, "twd": 214125},
+ {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "周盈伶", "foreign_amount": null, "twd": 215487},
+ {"bank": "中信銀行花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "周盈伶", "foreign_amount": null, "twd": 4611},
+ {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "未成年子女(1)", "foreign_amount": null, "twd": 123400},
+ {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "未成年子女(2)", "foreign_amount": null, "twd": 134915}
+],
+"deposit_count": 15,
+"deposit_total_twd": 2333535.03,
+"securities_total_twd": 461916,
+"stocks": [
+ {"code": "2303", "name": "聯電", "owner": "胡仁順", "shares": 4000, "par": 39.95, "currency": null, "twd": 159094},
+ {"code": "2317", "name": "鴻海", "owner": "胡仁順", "shares": 1600, "par": 108, "currency": null, "twd": 172037},
+ {"code": "3231", "name": "緯創", "owner": "胡仁順", "shares": 29, "par": 27.35, "currency": null, "twd": 790},
+ {"code": "3481", "name": "群創", "owner": "胡仁順", "shares": 4000, "par": 11.6, "currency": null, "twd": 46195},
+ {"code": "8925", "name": "偉盟", "owner": "胡仁順", "shares": 55000, "par": 0, "currency": null, "twd": 0}
+],
+"stock_count": 5,
+"stock_total_twd": 378116,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [
+ {"name": "LA03(基金名稱判讀不清)", "code": "LA03", "owner": "周盈伶", "units": 10000, "par": 8.38, "currency": null, "twd": 83800}
+],
+"fund_total_twd": 83800,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+ {"desc": "國泰人壽保險公司 終身保險(98)", "owner": "胡仁順", "amount_twd": 275570, "note": "儲蓄型壽險 保額10000 契約098/07/23~終身"},
+ {"desc": "全球人壽保險公司 儲蓄型壽險", "owner": "周盈伶", "amount_twd": 283178, "note": "儲蓄型壽險 保額100000 契約089/08/17~168/08/16（年份判讀存疑）"},
+ {"desc": "富邦人壽保險公司 投資型壽險", "owner": "周盈伶", "amount_twd": 300000, "note": "投資型壽險 保額300000 契約108/09/03~184/09/02（年份判讀存疑）"}
+],
+"insurance_count": 3,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+ {"desc": "授信/花蓮第一信用合作社", "owner": "胡仁順", "amount_twd": 803197, "note": "取得時間096/07/13；原因：週轉金"},
+ {"desc": "授信/花蓮地區信用合作社", "owner": "周盈伶", "amount_twd": 7132139, "note": "取得時間109/09/14；原因：購置不動產"}
+],
+"debts_count": 2,
+"debts_total_twd": 7935336,
+"business_investments": [
+ {"desc": "有限責任花蓮第一信用合作社", "owner": "胡仁順", "amount_twd": 2000, "note": "104/01/22 股金"},
+ {"desc": "花蓮第二信用合作社", "owner": "胡仁順", "amount_twd": 2000, "note": "96/07/10 股金"},
+ {"desc": "有限責任花蓮第一信用合作社", "owner": "周盈伶", "amount_twd": 2000, "note": "100/03/02 股金"},
+ {"desc": "花蓮第二信用合作社", "owner": "周盈伶", "amount_twd": 2000, "note": "98/01/15 股金"}
+],
+"business_investments_total_twd": 8000,
+"trust_items": [],
+"notes": "未成年子女僅填人數2，存款中子女姓名以「未成年子女(1)/(2)」代替。保險契約年份（第2、3筆）與基金名稱判讀存疑。配偶為周盈伶。存款15筆合計2,333,535.03，與原表總額一致；股票、基金、保險、債務、事業投資合計與原表總額一致。"
+}}

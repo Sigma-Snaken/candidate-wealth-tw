@@ -1,0 +1,103 @@
+{
+  "seq": "3017",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "潘連周",
+    "declare_date": "民國111年8月31日",
+    "spouse": "黃清裔",
+    "minor_children_count": 0,
+    "total_pages": 16,
+    "land": [
+      {"location": "屏東縣潮州鎮愛美段", "area_m2": 1176, "share": "全部", "owner": "潘連周", "acquired": "100.10.19", "reason": "分割繼承", "price": "公告現值每平方公尺1900元"},
+      {"location": "屏東縣潮州鎮愛美段", "area_m2": 3026, "share": "全部", "owner": "潘連周", "acquired": "100.10.19", "reason": "分割繼承", "price": "公告現值每平方公尺1900元"},
+      {"location": "屏東縣潮州鎮愛美段", "area_m2": 2126, "share": "全部", "owner": "潘連周", "acquired": "99.10.05", "reason": "贈與", "price": "公告現值(印章遮蔽)"},
+      {"location": "屏東縣潮州鎮愛國段", "area_m2": 121.3, "share": "全部", "owner": "潘連周", "acquired": "92.06.20", "reason": "買賣", "price": "公告現值每平方公尺2300元"},
+      {"location": "屏東縣潮州鎮富勝段", "area_m2": 4980.08, "share": "50/938", "owner": "潘連周", "acquired": "96.04.20", "reason": "買賣", "price": "公告現值每平方公尺1000元"},
+      {"location": "屏東縣潮州鎮富勝段", "area_m2": 3982.48, "share": "400/11919", "owner": "潘連周", "acquired": "96.04.20", "reason": "買賣", "price": "公告現值每平方公尺1000元"},
+      {"location": "屏東縣潮州鎮富勝段", "area_m2": 61.25, "share": "全部", "owner": "潘連周", "acquired": "103.05.06", "reason": "拍賣", "price": "公告現值每平方公尺1000元"},
+      {"location": "屏東縣潮州鎮富贊段", "area_m2": 62.09, "share": "全部", "owner": "黃清裔", "acquired": "110.12.03", "reason": "買賣", "price": "超過50萬"}
+    ],
+    "land_count": 8,
+    "buildings": [
+      {"location": "屏東縣潮州鎮愛美段", "area_m2": 1646.6, "share": "全部", "owner": "潘連周", "acquired": "93.07.19", "reason": "第一次登記", "price": "8306500"},
+      {"location": "屏東縣潮州鎮愛國段", "area_m2": 280.74, "share": "全部", "owner": "潘連周", "acquired": "93.06.20", "reason": "買賣", "price": null},
+      {"location": "屏東縣潮州鎮崙前段", "area_m2": 123.33, "share": "全部", "owner": "潘連周", "acquired": "103.05.06", "reason": "拍賣", "price": "448000"},
+      {"location": "屏東縣新埤鄉上萬安段", "area_m2": 1242.87, "share": "全部", "owner": "黃清裔", "acquired": "109.09.01", "reason": "第一次登記", "price": "8688996"},
+      {"location": "屏東縣新埤鄉上萬安段", "area_m2": 4932.12, "share": "全部", "owner": "黃清裔", "acquired": "99.09.01", "reason": "第一次登記", "price": "13087700"}
+    ],
+    "building_count": 5,
+    "ships": [],
+    "vehicles": [
+      {"desc": "Mercedes-Benz (汽車)", "owner": "黃清裔", "acquired": "108.11.11", "price": "800000"},
+      {"desc": "LEXUS (汽車)", "owner": "黃清裔", "acquired": "106.08", "price": "1500000"},
+      {"desc": "中華 (汽車)", "owner": "黃清裔", "acquired": "105.08.29", "price": "200000"}
+    ],
+    "vehicle_count": 3,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {"bank": "潮州鎮農會信用部", "kind": "活期存款", "currency": "新台幣", "owner": "黃清裔", "foreign_amount": null, "twd": 1314},
+      {"bank": "東港鎮農會", "kind": "綜合存款", "currency": "新台幣", "owner": "黃清裔", "foreign_amount": null, "twd": 165205},
+      {"bank": "東港鎮農會", "kind": "綜合存款", "currency": "新台幣", "owner": "潘連周", "foreign_amount": null, "twd": 242958},
+      {"bank": "第一銀行潮州分行", "kind": "活期儲蓄存款", "currency": "新台幣", "owner": "潘連周", "foreign_amount": null, "twd": 2633},
+      {"bank": "土地銀行", "kind": "定期存款", "currency": "新台幣", "owner": "黃清裔", "foreign_amount": null, "twd": 525656},
+      {"bank": "土地銀行", "kind": "活儲存款", "currency": "新台幣", "owner": "黃清裔", "foreign_amount": null, "twd": 3867},
+      {"bank": "土地銀行", "kind": "活期存款", "currency": "新台幣", "owner": "黃清裔", "foreign_amount": null, "twd": 33118},
+      {"bank": "土地銀行", "kind": "活期存款", "currency": "新台幣", "owner": "潘連周", "foreign_amount": null, "twd": 38108},
+      {"bank": "合庫銀行潮州分行", "kind": "綜合存款", "currency": "新台幣", "owner": "黃清裔", "foreign_amount": null, "twd": 152065},
+      {"bank": "中埔合行", "kind": "綜合存款", "currency": "新台幣", "owner": "潘連周", "foreign_amount": null, "twd": 10277}
+    ],
+    "deposit_count": 11,
+    "deposit_total_twd": 1180221,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {"desc": "富邦人壽保險公司 富邦人壽真安心醫療養老保險", "owner": "黃清秀", "amount_twd": 260753, "note": "契約始日/終日 0970821/1170820"},
+      {"desc": "富邦人壽保險公司 富邦人壽金來寶小額終身壽險", "owner": "潘連周", "amount_twd": 59295, "note": "契約始日/終日 1060805/1640804"},
+      {"desc": "國泰人壽保險公司 呵護久久殘廢照護", "owner": "黃清秀", "amount_twd": 135003, "note": "契約始日/終日 1040221/1770220"},
+      {"desc": "國泰人壽保險公司 呵護久久殘廢照護", "owner": "黃清秀", "amount_twd": 128954, "note": "契約始日/終日 1040221/1830220"},
+      {"desc": "國泰人壽保險公司 呵護久久殘廢照護", "owner": "黃清秀", "amount_twd": 243090, "note": "契約始日/終日 1040112/1540111"},
+      {"desc": "國泰人壽保險公司 美滿人生2.0.2終身", "owner": "黃清秀", "amount_twd": 46176, "note": "契約始日/終日 0870914/1530913"},
+      {"desc": "國泰人壽保險公司 微馨愛小額終身壽險", "owner": "黃清秀", "amount_twd": 31500, "note": "契約始日/終日 1061228/1821227"},
+      {"desc": "國泰人壽保險公司 平安保本終身保險", "owner": "潘連周", "amount_twd": 459063, "note": "契約始日/終日 0991014/1631013"},
+      {"desc": "國泰人壽保險公司 得意還本終身壽險", "owner": "潘連周", "amount_twd": 42300, "note": "契約始日/終日 0890510/1770509"},
+      {"desc": "國泰人壽保險公司 得意還本終身壽險", "owner": "潘連周", "amount_twd": 42750, "note": "契約始日/終日 0890510/1830509"},
+      {"desc": "國泰人壽保險公司 富貴年年終身壽險", "owner": "潘連周", "amount_twd": 121500, "note": "契約始日/終日 0890510/1770509"},
+      {"desc": "國泰人壽保險公司 富貴年年終身壽險", "owner": "潘連周", "amount_twd": 122175, "note": "契約始日/終日 0890510/1830509"},
+      {"desc": "宏泰人壽保險公司 多多利利率變動型終身壽險", "owner": "黃清秀", "amount_twd": 48429, "note": "契約始日/終日 1081023/1591023"},
+      {"desc": "宏泰人壽保險公司 多多利利率變動型終身壽險", "owner": "黃清秀", "amount_twd": 25328, "note": "契約始日/終日 1081108/1821108"}
+    ],
+    "insurance_count": 14,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {"desc": "借信/東港鎮農會", "owner": "潘連周", "amount_twd": 3472221, "note": "109.08.26 周轉金"},
+      {"desc": "借信/東港鎮農會", "owner": "黃清裔", "amount_twd": 2083331, "note": "108.11.11 周轉金"},
+      {"desc": "借信/東港鎮農會", "owner": "黃清裔", "amount_twd": 1049985, "note": "108.09.10 擴充設備"},
+      {"desc": "借款/土地銀行", "owner": "潘連周", "amount_twd": 1324603, "note": "92.06.24 購買住宅貸款"},
+      {"desc": "借款/土地銀行", "owner": "潘連周", "amount_twd": 997218, "note": "98.04.06 購買住宅貸款"},
+      {"desc": "借款/土地銀行", "owner": "潘連周", "amount_twd": 1031725, "note": "111.02.20 其他個人借款"},
+      {"desc": "借款/土地銀行", "owner": "黃清裔", "amount_twd": 3969166, "note": "109.08.31 其他個人借款"}
+    ],
+    "debts_count": 7,
+    "debts_total_twd": 2314279,
+    "business_investments": [
+      {"desc": "潘連周畜牧場", "owner": "潘連周", "amount_twd": 1000000, "note": "96.11.05 登記"},
+      {"desc": "連宏畜牧場", "owner": "黃清裔", "amount_twd": 100000, "note": "96.11.07 登記"}
+    ],
+    "business_investments_total_twd": 1100000,
+    "trust_items": [],
+    "notes": "補正檔(3017_1.pdf 第17、18頁)為整頁重送之存款與債務表，存款與債務以補正頁為準；其餘各頁與原本相同。存款表總金額手寫 1180221，但11筆金額加總為約 1175201，差額約 5020，請核對。債務表總金額手寫 2314279，但7筆加總為 13928249，數字不符，總金額判讀可能有誤。保險表總金額手寫 1987066，14筆加總為 1766316，數字不符。保險要保人於印刷表格中為「黃清秀」，其他頁配偶與持有人寫作「黃清裔」，兩者可能為同一人，請確認。申報日被印章遮蔽，以交件日 111年8月31日 代替。土地/建物段名字跡潦草，建物第一列段名、土地第一列段名為判讀（愛美段、崙前段等），請核對。土地第一筆價格欄印章遮蔽，記為公告現值(印章遮蔽)。債務種類「借信」字跡不清，判讀為借信。存款第4列「〃」承上列持有人潘連周，第6–7列承上列黃清裔。中埔合行為判讀，非確定之機構名稱。total_pages 為掃描 PDF 頁數 16。"
+  }
+}

@@ -1,0 +1,1 @@
+{"seq": "3411", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 7.6, "via": "gemini-api", "usage": {"in": 12048, "out": 87, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "第一份為原申報表，第二份為補正文件。補正內容主要修正了有價證券（股票與基金受益憑證）的申報內容與總價額。"}}

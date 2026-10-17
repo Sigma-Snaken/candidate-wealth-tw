@@ -1,0 +1,64 @@
+{"seq": "3242", "model": "claude-haiku", "data": {
+"declarant": "魏睿宏",
+"declare_date": "民國111年8月28日",
+"spouse": "白淑琴",
+"minor_children_count": 2,
+"total_pages": 9,
+"land": [],
+"land_count": 0,
+"buildings": [
+{"location": "澎湖縣白沙鄉赤崁西段", "area_m2": 205.2, "share": "全部", "owner": "魏睿宏", "acquired": "96.12.17", "reason": "自建", "price": "超過5年"},
+{"location": "澎湖縣白沙鄉赤崁村大赤崁", "area_m2": 36, "share": "全部", "owner": "魏睿宏", "acquired": "104.12.15", "reason": "贈與", "price": "超過5年"}
+],
+"building_count": 2,
+"ships": [],
+"vehicles": [
+{"desc": "國瑞 RH2GSD（排氣量 2694）", "owner": "魏睿宏", "acquired": "105.09.13", "price": "超過5年"},
+{"desc": "日產 LIVINA L11 GM（排氣量 1598）", "owner": "白淑琴", "acquired": "104.07.30", "price": "超過5年"}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "白沙郵局", "kind": "定期存款", "currency": "新臺幣", "owner": "白淑琴", "foreign_amount": null, "twd": 528237}
+],
+"deposit_count": 1,
+"deposit_total_twd": 528237,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "全球人壽 添富終身壽險", "owner": "白淑琴", "amount_twd": 80000, "note": "儲蓄型壽險；契約 97.12.12～117.12.12；累積已繳保險費折合新臺幣 342132"},
+{"desc": "全球人壽 添福增額終身壽險", "owner": "白淑琴", "amount_twd": 500000, "note": "儲蓄型壽險；契約 96.10.05～116.10.05；累積已繳保險費折合新臺幣 382290"},
+{"desc": "全球人壽 安家保本終身壽險", "owner": "魏睿宏", "amount_twd": 1000000, "note": "終身壽險；契約 89.08.04～109.08.04；累積已繳保險費折合新臺幣 580660"},
+{"desc": "國泰人壽 得意還本終身壽險", "owner": "白淑琴", "amount_twd": 200000, "note": "儲蓄型壽險；契約 89.05.12～109.05.12；累積已繳保險費折合新臺幣 302640"},
+{"desc": "國泰人壽 富貴年年終身壽險", "owner": "白淑琴", "amount_twd": 200000, "note": "儲蓄型壽險；契約 89.05.12～109.05.12；累積已繳保險費折合新臺幣 451360"},
+{"desc": "國泰人壽 常利年年利變", "owner": "白淑琴", "amount_twd": 200000, "note": "儲蓄型壽險；契約 106.12.27～116.12.27；累積已繳保險費折合新臺幣 192850"},
+{"desc": "國泰人壽 澳利優澳幣", "owner": "白淑琴", "amount_twd": 3000, "note": "儲蓄型壽險；外幣保額 澳幣 3000（澳幣）；累積已繳保險費外幣 澳幣 8567；折合新臺幣 214021；契約 102.06.14～108.06.14"},
+{"desc": "國泰人壽 澳利優澳幣", "owner": "白淑琴", "amount_twd": 3000, "note": "儲蓄型壽險；外幣保額 澳幣 3000（澳幣）；累積已繳保險費外幣 澳幣 10427；折合新臺幣 260488；契約 102.06.14～108.06.14"},
+{"desc": "國泰人壽 鍾情終身壽險", "owner": "白淑琴", "amount_twd": 100000, "note": "終身壽險；契約 93.10.19～113.10.19；累積已繳保險費折合新臺幣 152316"},
+{"desc": "國泰人壽 鍾愛一生313", "owner": "白淑琴", "amount_twd": 200000, "note": "壽險；契約 89.05.12～109.05.12；累積已繳保險費折合新臺幣 213020"}
+],
+"insurance_count": 10,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "房屋貸款／第一商業銀行澎湖分行", "owner": "魏睿宏", "amount_twd": 530027, "note": "取得時間 97.01.02；原因 自建貸款"}
+],
+"debts_count": 1,
+"debts_total_twd": 530027,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "表頭印刷「共9頁」，PDF 第10頁為空白頁；建物1面積欄附註「水箱2.24；貳層陽台6.25」，面積以主值205.20填入；保險契約日期取自表上數字，部分為機械字體，判讀為最可能值；申報人與配偶為打字，姓名清楚；未成年子女僅填人數；地址、帳號、身分證號均未輸出。"
+}}

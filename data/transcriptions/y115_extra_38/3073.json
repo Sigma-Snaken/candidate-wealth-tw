@@ -1,0 +1,1 @@
+{"seq": "3073", "model": "gemini-3.8-flash", "resolution": null, "elapsed": 20.5, "via": "gemini-api", "usage": {"in": 9322, "out": 115, "thought": 1066}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "第4頁汽車欄原填「裕隆 1995、1597cc、自學考試練車、取得價額28,000」全列已劃線刪除並蓋校對章，第5頁汽車總申報筆數載為0筆，依規定略過。"}}

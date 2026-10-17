@@ -1,0 +1,76 @@
+{"seq": "2980", "model": "claude-haiku", "data": {
+"declarant": "蘇資婷",
+"declare_date": "民國111年8月31日",
+"spouse": null,
+"minor_children_count": 0,
+"total_pages": 17,
+"land": [
+{"location": "屏東縣里港鄉裁興段", "area_m2": 60.37, "share": "1/12", "owner": "蘇資婷", "acquired": "107/04/30", "reason": "買賣", "price": "18,110(土地公告現值每平方公尺3600元)"},
+{"location": "屏東縣里港鄉裁興段", "area_m2": 672.54, "share": "1/6", "owner": "蘇資婷", "acquired": "107/04/30", "reason": "買賣", "price": "403,524(土地公告現值每平方公尺3600元)"},
+{"location": "屏東縣屏東市勝興段", "area_m2": 39.544, "share": "32/100000", "owner": "蘇資婷", "acquired": "94/12/19", "reason": "買賣", "price": "超過五年"}
+],
+"land_count": 3,
+"buildings": [
+{"location": "屏東縣屏東市勝興段", "area_m2": 67.06, "share": "1/1", "owner": "蘇資婷", "acquired": "94/12/19", "reason": "買賣", "price": "(含陽台6.40平方公尺，原文部分遮蓋)"},
+{"location": "屏東縣屏東市勝興段", "area_m2": 96026.53, "share": "46/100000", "owner": "蘇資婷", "acquired": "94/12/19", "reason": "買賣", "price": "(共同使用部分)"}
+],
+"building_count": 2,
+"ships": [],
+"vehicles": [
+{"desc": "NISSAN(汽車)", "owner": "蘇資婷", "acquired": "103/10/23", "price": "超過五年"}
+],
+"vehicle_count": 1,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "台灣銀行屏東分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 53708},
+{"bank": "土地銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 266},
+{"bank": "彰化銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 458},
+{"bank": "彰化銀行屏東分行", "kind": "活期證券戶", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 1},
+{"bank": "兆豐國際商業銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 340},
+{"bank": "台灣新光銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 2992},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 855045},
+{"bank": "元大銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 120874},
+{"bank": "元大銀行屏榮分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 1254},
+{"bank": "永豐銀行屏東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "蘇資婷", "foreign_amount": null, "twd": 3163}
+],
+"deposit_count": 10,
+"deposit_total_twd": 1038101,
+"securities_total_twd": 149932,
+"stocks": [
+{"code": "2317", "name": "鴻海", "owner": "蘇資婷", "shares": 100, "par": 10, "currency": null, "twd": 1000},
+{"code": "3016", "name": "嘉晶", "owner": "蘇資婷", "shares": 2000, "par": 10, "currency": null, "twd": 20000},
+{"code": "3228", "name": "金麗科", "owner": "蘇資婷", "shares": 30, "par": 10, "currency": null, "twd": 300},
+{"code": "3661", "name": "世芯-KY", "owner": "蘇資婷", "shares": 30, "par": 10, "currency": null, "twd": 300},
+{"code": "4968", "name": "立積", "owner": "蘇資婷", "shares": 30, "par": 10, "currency": null, "twd": 300},
+{"code": "6182", "name": "合晶", "owner": "蘇資婷", "shares": 5000, "par": 10, "currency": null, "twd": 50000},
+{"code": "6182", "name": "佳邦", "owner": "蘇資婷", "shares": 5000, "par": 10, "currency": null, "twd": 50000}
+],
+"stock_count": 7,
+"stock_total_twd": 121900,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [
+{"name": "元大台灣高股息優選基金(名稱部分不清)", "code": "760590444A", "owner": "蘇資婷", "units": 1939.9, "par": 15.45, "currency": null, "twd": 28032}
+],
+"fund_total_twd": 28032,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [],
+"insurance_count": 0,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "保單借款", "owner": "蘇資婷", "amount_twd": 85309, "note": "088/08/20; 十五年繳費終身壽險(壽型)保單借款，債權人三商美邦人壽保險公司"},
+{"desc": "投信", "owner": "蘇資婷", "amount_twd": 375647, "note": "094/12/22; 購置不動產，債權人台灣銀行屏東分行"}
+],
+"debts_count": 2,
+"debts_total_twd": 460956,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "基本資料頁無配偶與未成年子女。申報日111年8月31日，交件日111年8月31日。(一)土地第3筆取得價額「超過五年」、建物第1、2筆取得價額原文部分遮蓋；車輛取得價額以「超過五年」判讀（手寫遮蓋）。存款合計1038101與表上印數相符。股票合計121900與表上印數相符。基金名稱部分字跡不清。債券表第10頁手寫總申報筆數判讀為6，但表列無可見列，本檔以0列填寫(債券總額表上為0)，請再核對。保險表空白，表上總額0。債務人債權人名稱僅保留機構名，地址已略去。"
+}}

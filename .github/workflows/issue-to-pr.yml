@@ -1,0 +1,56 @@
+name: 更正 issue 轉成 PR
+# 維護者在「資料更正」issue 加上 accepted 標籤後執行。issue 內容只交給 Python 解析，不進 shell。
+on:
+  issues:
+    types: [labeled]
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+jobs:
+  convert:
+    if: github.event.label.name == 'accepted' && contains(github.event.issue.labels.*.name, 'correction')
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE: ${{ github.event.issue.number }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with: {python-version: "3.12", cache: pip}
+      - run: pip install -r requirements.txt
+      - name: 產生更正檔
+        id: conv
+        run: |
+          python pipeline/issue_to_correction.py --event "$GITHUB_EVENT_PATH" --out result.json || echo "failed=1" >> "$GITHUB_OUTPUT"
+      - name: 無法轉換時留言
+        if: steps.conv.outputs.failed == '1'
+        run: |
+          python -c "import json,os;r=json.load(open('result.json')) if os.path.exists('result.json') else {'message':'轉換程式沒有產生結果，請維護者查看 Actions 紀錄。'};open('msg.md','w').write('自動轉換失敗：'+r['message']+'\n\n請修改 issue 內容後，移除再重新加上 accepted 標籤。')"
+          gh issue comment "$ISSUE" --body-file msg.md
+      - name: 開 PR
+        if: steps.conv.outputs.failed != '1'
+        run: |
+          path=$(python -c "import json;print(json.load(open('result.json'))['path'])")
+          python -c "import json;print(json.load(open('result.json'))['title'])" > title.txt
+          if ! python pipeline/check_corrections.py "$path" --report report.md || ! python pipeline/build.py --strict --no-db --out /tmp/dist; then
+            { echo "自動轉換出的更正無法套用，沒有開 PR："; echo; cat report.md; } > msg.md
+            gh issue comment "$ISSUE" --body-file msg.md
+            exit 1
+          fi
+          python - <<'PY'
+          import json
+          r = json.load(open('result.json'))
+          body = open('report.md', encoding='utf-8').read()
+          warn = ''.join(f'\n> ⚠️ {w}' for w in r.get('warnings', []))
+          import os
+          open('body.md', 'w', encoding='utf-8').write(f"由 #{os.environ['ISSUE']} 自動產生。{warn}\n\n{body}\n\nCloses #{os.environ['ISSUE']}\n")
+          PY
+          branch="correction/issue-$ISSUE"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add "$path"
+          git commit -m "更正：$(cat title.txt)（#$ISSUE）"
+          git push -f origin "$branch"
+          gh pr create --head "$branch" --title "$(cat title.txt)" --body-file body.md || gh pr edit "$branch" --body-file body.md

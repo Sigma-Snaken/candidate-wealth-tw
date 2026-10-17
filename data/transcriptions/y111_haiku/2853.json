@@ -1,0 +1,328 @@
+{
+ "seq": "2853",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "金淑敏",
+  "declare_date": "民國111年9月1日",
+  "spouse": "葉保員",
+  "minor_children_count": 0,
+  "total_pages": 20,
+  "land": [
+   {
+    "location": "花蓮縣玉里鎮玉昌段",
+    "area_m2": 76,
+    "share": "全部",
+    "owner": "金淑敏",
+    "acquired": "58.11.03",
+    "reason": "分割繼承",
+    "price": "623200"
+   },
+   {
+    "location": "花蓮縣卓溪鄉（段名手寫不清）",
+    "area_m2": 32000,
+    "share": "全部",
+    "owner": "金淑敏",
+    "acquired": "94.06.08",
+    "reason": null,
+    "price": "2600000"
+   },
+   {
+    "location": "花蓮縣卓溪鄉（段名手寫不清）",
+    "area_m2": 5622,
+    "share": "全部",
+    "owner": "金淑敏",
+    "acquired": "94.06.08",
+    "reason": "贈與",
+    "price": "621660"
+   },
+   {
+    "location": "花蓮縣卓溪鄉吉園段",
+    "area_m2": 600,
+    "share": "100/169",
+    "owner": "金淑敏",
+    "acquired": "105.2.16",
+    "reason": "拍賣",
+    "price": "100500"
+   },
+   {
+    "location": "花蓮縣卓溪鄉（段名手寫不清）",
+    "area_m2": 43.95,
+    "share": "全部",
+    "owner": "金淑敏",
+    "acquired": "105.10.30",
+    "reason": "拍賣",
+    "price": "136265"
+   },
+   {
+    "location": "花蓮縣玉里鎮花北段",
+    "area_m2": 253.28,
+    "share": "全部",
+    "owner": "葉保員",
+    "acquired": "104.8.26",
+    "reason": "分割",
+    "price": "1901835"
+   },
+   {
+    "location": "花蓮縣玉里鎮民北段",
+    "area_m2": 281.18,
+    "share": "全部",
+    "owner": "葉保員",
+    "acquired": "105.3.30",
+    "reason": "贈與",
+    "price": "210893"
+   },
+   {
+    "location": "花蓮縣玉里鎮民北段",
+    "area_m2": 272.05,
+    "share": "全部",
+    "owner": "葉保員",
+    "acquired": "103.3.31",
+    "reason": "贈與",
+    "price": null
+   }
+  ],
+  "land_count": 8,
+  "buildings": [
+   {
+    "location": "花蓮縣玉里鎮玉昌段",
+    "area_m2": 82.68,
+    "share": "全部",
+    "owner": "金淑敏",
+    "acquired": "88.11.03",
+    "reason": "分割繼承",
+    "price": "468400"
+   }
+  ],
+  "building_count": 1,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "三菱 4WD（汽缸容量1488cc）",
+    "owner": "金淑敏",
+    "acquired": "2021.11",
+    "price": "550000"
+   },
+   {
+    "desc": "國瑞 YARIS（汽缸容量1496cc）",
+    "owner": "金淑敏",
+    "acquired": "2022.07.28",
+    "price": "607350"
+   },
+   {
+    "desc": "LEXUS ES350（汽缸容量3456cc）",
+    "owner": "金淑敏",
+    "acquired": "2008",
+    "price": "650000"
+   }
+  ],
+  "vehicle_count": 3,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+   {
+    "bank": "手寫不清（待確認）",
+    "kind": "定期存款",
+    "currency": "新臺幣",
+    "owner": "葉保員",
+    "foreign_amount": null,
+    "twd": 2628
+   },
+   {
+    "bank": "農會（手寫不清，待確認）",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "葉保員",
+    "foreign_amount": null,
+    "twd": 266455
+   },
+   {
+    "bank": "土地銀行玉里分行",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "葉保員",
+    "foreign_amount": null,
+    "twd": 1544
+   },
+   {
+    "bank": "彰化銀行花蓮分行",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "葉保員",
+    "foreign_amount": null,
+    "twd": 24006
+   },
+   {
+    "bank": "花蓮第二信用合作社玉里分行",
+    "kind": "定期存款",
+    "currency": "新臺幣",
+    "owner": "金淑敏",
+    "foreign_amount": null,
+    "twd": 155830
+   },
+   {
+    "bank": "玉里郵局",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "金淑敏",
+    "foreign_amount": null,
+    "twd": 389088
+   },
+   {
+    "bank": "玉里地區農會",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "金淑敏",
+    "foreign_amount": null,
+    "twd": 138177
+   },
+   {
+    "bank": "池上鄉農會",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "金淑敏",
+    "foreign_amount": null,
+    "twd": 6333
+   },
+   {
+    "bank": "富里鄉農會",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "金淑敏",
+    "foreign_amount": null,
+    "twd": 163528
+   },
+   {
+    "bank": "土地銀行玉里分行",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "金淑敏",
+    "foreign_amount": null,
+    "twd": 424133
+   },
+   {
+    "bank": "玉溪地區農會（手寫不清，待確認）",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "葉保員",
+    "foreign_amount": null,
+    "twd": 120512
+   },
+   {
+    "bank": "瑞穗鄉農會",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "葉保員",
+    "foreign_amount": null,
+    "twd": 1406
+   },
+   {
+    "bank": "富里鄉農會",
+    "kind": "活期存款",
+    "currency": "新臺幣",
+    "owner": "葉保員",
+    "foreign_amount": null,
+    "twd": 800
+   }
+  ],
+  "deposit_count": 13,
+  "deposit_total_twd": 1694440,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+   {
+    "desc": "全球人壽（保險名稱手寫不清）",
+    "owner": "葉保員",
+    "amount_twd": 61632,
+    "note": "保險金額300000；契約始日107.06.27；契約終日120.06.27；保單號碼略"
+   },
+   {
+    "desc": "全球人壽（保險名稱手寫不清）",
+    "owner": "葉保員",
+    "amount_twd": 301530,
+    "note": "保險金額220000；契約始日105.10.31；契約終日115.10.31"
+   },
+   {
+    "desc": "全球人壽（保險名稱手寫不清）",
+    "owner": "葉保員",
+    "amount_twd": 82268,
+    "note": "保險金額15000；契約始日105.10.31；契約終日120.10.31"
+   },
+   {
+    "desc": "全球人壽（保險名稱手寫不清）",
+    "owner": "金淑敏",
+    "amount_twd": 185044,
+    "note": "保險金額300000；契約始日107.06.27；契約終日127.06.27；第4列累積保費被印章遮蓋，依表頭合計302668與第5、6列金額推算，待確認"
+   },
+   {
+    "desc": "全球人壽（C型）",
+    "owner": "金淑敏",
+    "amount_twd": 94688,
+    "note": "保險金額100000；契約始日106.12.1x；契約終日126.12.1x"
+   },
+   {
+    "desc": "全球人壽（A型）",
+    "owner": "金淑敏",
+    "amount_twd": 22936,
+    "note": "保險金額20000；契約始日105.10.2x；契約終日125.10.2x"
+   }
+  ],
+  "insurance_count": 6,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "房屋貸款／土地銀行玉里分行",
+    "owner": "金淑敏",
+    "amount_twd": 454775,
+    "note": "取得時間108.3.28；原因購屋借款"
+   },
+   {
+    "desc": "信貸／池上鄉農會",
+    "owner": "金淑敏",
+    "amount_twd": 110593,
+    "note": "取得時間107.12.18；原因信用貸款"
+   },
+   {
+    "desc": "農地貸款／池上鄉農會",
+    "owner": "金淑敏",
+    "amount_twd": 952355,
+    "note": "取得時間110.01.25；原因購置農地"
+   },
+   {
+    "desc": "中古車貸款／汽車金融公司（名稱手寫不清）",
+    "owner": "金淑敏",
+    "amount_twd": 455000,
+    "note": "取得時間110.01；原因購車"
+   },
+   {
+    "desc": "國瑞汽車貸款／土地銀行股份有限公司",
+    "owner": "金淑敏",
+    "amount_twd": 550000,
+    "note": "取得時間111.7.27；原因購車"
+   },
+   {
+    "desc": "農地貸款／池上鄉農會",
+    "owner": "葉保員",
+    "amount_twd": 1836106,
+    "note": "取得時間110.9.15；原因農地資材、償還舊貸"
+   }
+  ],
+  "debts_count": 6,
+  "debts_total_twd": 4358829,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "依 pdf 2853_0.pdf（20頁，無補正檔）判讀。多處手寫潦草，以下欄位為最可能判讀，待人工確認：(1) 土地段名、面積、取得原因部分不清；第2列原因被印章遮蓋（null）；第8列取得價額被印章遮蓋（null）。(2) 存款第1列、第11列存放機構名稱不清；第11列金額被印章遮蓋，依表頭合計1694440減其餘12筆推算為120512元（已填入，待確認）；存款種類第1列判讀為定期存款。(3) 保險第4列累積保費被印章遮蓋，依表頭合計推算。(4) 債務列之債權人名稱已去除地址。(5) 各表總申報筆數與總金額依表上數字照填；表頭數字有手寫更正者以手寫為準。(6) 股票、債券、基金、其他有價證券、珠寶、債權、事業投資、信託均表列0筆。"
+ }
+}

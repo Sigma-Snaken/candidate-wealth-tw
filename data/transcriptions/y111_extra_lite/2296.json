@@ -1,0 +1,1 @@
+{"seq": "2296", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 8.5, "via": "gemini-api", "usage": {"in": 6196, "out": 82, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本申報表經補正（第二份 PDF），補正新增了事業投資資料，不動產、存款、保險、債務等項目與原表相同。"}}

@@ -1,0 +1,110 @@
+{
+  "seq": "2703",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "章正輝",
+    "declare_date": "民國111年8月30日",
+    "spouse": "黃秋珍",
+    "minor_children_count": 0,
+    "total_pages": 11,
+    "land": [
+      {"location": "臺東縣金峰鄉金灣段", "area_m2": 4684, "share": "全部", "owner": "黃秋珍", "acquired": "104/11/05", "reason": "買賣", "price": "936800"},
+      {"location": "臺東縣金峰鄉嘉新段", "area_m2": 3393.84, "share": "全部", "owner": "黃秋珍", "acquired": "108/03/07", "reason": "買賣", "price": "500000"},
+      {"location": "臺東縣金峰鄉嘉新段", "area_m2": 5742.91, "share": "全部", "owner": "黃秋珍", "acquired": "104/11/05", "reason": "買賣", "price": "861436"},
+      {"location": "臺東縣金峰鄉嘉新段", "area_m2": 2511.17, "share": "全部", "owner": "黃秋珍", "acquired": "111/02/11", "reason": "買賣", "price": "376675"},
+      {"location": "臺東縣金峰鄉壢坵段", "area_m2": 5275, "share": "全部", "owner": "章正輝", "acquired": "105/11/10", "reason": "地上權期間屆滿", "price": "316500"},
+      {"location": "臺東縣太麻里鄉金星段", "area_m2": 400, "share": "全部", "owner": "章正輝", "acquired": "099/07/27", "reason": "分割繼承", "price": "640000"},
+      {"location": "臺東縣太麻里鄉金星段", "area_m2": 2010, "share": "全部", "owner": "章正輝", "acquired": "100/01/26", "reason": "耕作權期間屆滿", "price": "198990"},
+      {"location": "臺東縣太麻里鄉金星段", "area_m2": 1100, "share": "全部", "owner": "章正輝", "acquired": "100/01/26", "reason": "耕作權期間屆滿", "price": "108900"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 69580, "share": "全部", "owner": "章正輝", "acquired": "099/07/27", "reason": "分割繼承", "price": "3826900"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 17661, "share": "1/5", "owner": "章正輝", "acquired": "110/06/07", "reason": "權利取得", "price": "194271"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 17661, "share": "1/5", "owner": "黃秋珍", "acquired": "110/06/08", "reason": "權利取得", "price": "194271"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 14999, "share": "1/5", "owner": "章正輝", "acquired": "110/06/07", "reason": "權利取得", "price": "164989"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 14999, "share": "1/5", "owner": "黃秋珍", "acquired": "110/06/08", "reason": "權利取得", "price": "164989"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 14113, "share": "1/5", "owner": "章正輝", "acquired": "110/06/07", "reason": "權利取得", "price": "155243"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 14113, "share": "1/5", "owner": "黃秋珍", "acquired": "110/06/08", "reason": "權利取得", "price": "155243"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 28789, "share": "1/5", "owner": "黃秋珍", "acquired": "110/06/08", "reason": "權利取得", "price": "316679"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 113366, "share": "1/2", "owner": "章正輝", "acquired": "099/07/27", "reason": "分割繼承", "price": "土地公告現值每平方公尺55元"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 32980, "share": "1/5", "owner": "章正輝", "acquired": "110/06/07", "reason": "權利取得", "price": "362780"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 32980, "share": "1/5", "owner": "黃秋珍", "acquired": "110/06/08", "reason": "權利取得", "price": "362780"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 5127, "share": "1/5", "owner": "章正輝", "acquired": "110/06/07", "reason": "權利取得", "price": "56397"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 5127, "share": "1/5", "owner": "黃秋珍", "acquired": "110/06/08", "reason": "權利取得", "price": "56397"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 1740, "share": "1/5", "owner": "章正輝", "acquired": "110/06/07", "reason": "權利取得", "price": "19140"},
+      {"location": "臺東縣金峰鄉馬武段", "area_m2": 1740, "share": "1/5", "owner": "黃秋珍", "acquired": "110/06/08", "reason": "權利取得", "price": "19140"}
+    ],
+    "land_count": 23,
+    "buildings": [
+      {"location": "臺東縣太麻里金星段", "area_m2": 274.86, "share": "全部", "owner": "章正輝", "acquired": "099/07/27", "reason": "繼承", "price": null}
+    ],
+    "building_count": 1,
+    "ships": [],
+    "vehicles": [
+      {"desc": "TOYOTA（汽車，汽缸容量2494cc）", "owner": "黃秋珍", "acquired": "103/12/19", "price": null},
+      {"desc": "日產（汽車，汽缸容量1598cc）", "owner": "黃秋珍", "acquired": "100/03/17", "price": null}
+    ],
+    "vehicle_count": 2,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {"bank": "星展台灣", "kind": "活期存款", "currency": "新臺幣", "owner": "章正輝", "foreign_amount": null, "twd": 1181},
+      {"bank": "星展台灣", "kind": "活期存款", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 1636},
+      {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 1851},
+      {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "章正輝", "foreign_amount": null, "twd": 64554},
+      {"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 76238},
+      {"bank": "臺東縣太麻里地區農會信用部", "kind": "活期存款", "currency": "新臺幣", "owner": "章正輝", "foreign_amount": null, "twd": 76781},
+      {"bank": "臺東縣太麻里地區農會信用部", "kind": "活期存款", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 7939},
+      {"bank": "高雄銀行草衙分行", "kind": null, "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 2632},
+      {"bank": "國泰世華銀行台東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 4950},
+      {"bank": "彰化銀行台東分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 5019},
+      {"bank": "華南銀行台東分行", "kind": "活儲證卷戶", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 102361},
+      {"bank": "華南銀行台東分行", "kind": "活儲證卷戶", "currency": "新臺幣", "owner": "章正輝", "foreign_amount": null, "twd": 9664},
+      {"bank": "合庫商業銀行台東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 332},
+      {"bank": "臺灣銀行北花蓮分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "章正輝", "foreign_amount": null, "twd": 7772},
+      {"bank": "臺灣銀行台東分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "章正輝", "foreign_amount": null, "twd": 749},
+      {"bank": "臺灣銀行台東分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "黃秋珍", "foreign_amount": null, "twd": 560533}
+    ],
+    "deposit_count": 16,
+    "deposit_total_twd": 924192,
+    "securities_total_twd": 264400,
+    "stocks": [
+      {"code": "2609", "name": "陽明", "owner": "黃秋珍", "shares": 2000, "par": 10, "currency": null, "twd": 20000},
+      {"code": "2603", "name": "長榮", "owner": "黃秋珍", "shares": 2000, "par": 10, "currency": null, "twd": 20000},
+      {"code": "2330", "name": "台積電", "owner": "黃秋珍", "shares": 2000, "par": 10, "currency": null, "twd": 20000},
+      {"code": "2317", "name": "鴻海", "owner": "黃秋珍", "shares": 5000, "par": 10, "currency": null, "twd": 50000}
+    ],
+    "stock_count": 4,
+    "stock_total_twd": 110000,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [
+      {"name": "富邦美國特別股", "code": "00717", "owner": "黃秋珍", "units": 10000, "par": 15.44, "currency": null, "twd": 154400}
+    ],
+    "fund_total_twd": 154400,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 2206399,
+    "insurance": [
+      {"desc": "國泰人壽保險公司／全福101終身", "owner": "章正輝", "amount_twd": 622150, "note": "儲蓄型壽險；保險金額300000；契約期間091/11/22～151/11/21"},
+      {"desc": "國泰人壽保險公司／創世紀丁型", "owner": "章正輝", "amount_twd": 543000, "note": "投資型壽險；保險金額1000000；契約期間096/08/21～151/08/20"},
+      {"desc": "國泰人壽保險公司／鍾美重大疾病", "owner": "章正輝", "amount_twd": 183900, "note": "儲蓄型壽險；保險金額200000；契約期間094/04/07～151/04/06"},
+      {"desc": "國泰人壽保險公司／鍾意終身壽險", "owner": "章正輝", "amount_twd": 249936, "note": "儲蓄型壽險；保險金額500000；契約期間091/03/14～186/03/13"},
+      {"desc": "國泰人壽保險公司／鍾意終身壽險", "owner": "黃秋珍", "amount_twd": 127280, "note": "儲蓄型壽險；保險金額500000；契約期間091/04/10～188/04/09"},
+      {"desc": "國泰人壽保險公司／鍾愛終身", "owner": "黃秋珍", "amount_twd": 480133, "note": "儲蓄型壽險；保險金額300000；契約期間089/08/24～154/08/23"}
+    ],
+    "insurance_count": 6,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {"desc": "授信／臺東縣太麻里地區農會信用部", "owner": "章正輝", "amount_twd": 2569081, "note": "取得（發生）時間108/08/16；原因：其他週轉金"},
+      {"desc": "授信／臺東縣太麻里地區農會信用部", "owner": "章正輝", "amount_twd": 3000000, "note": "取得（發生）時間108/09/12；原因：其他週轉金"}
+    ],
+    "debts_count": 2,
+    "debts_total_twd": 5569081,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 配偶欄為黃秋珍；未成年子女欄空白。2) 第1頁申報日為民國111年8月30日，第11頁交件日為111年8月31日。3) 土地第23列取得日原表寫作「110/06/087」，判讀為110/06/08。4) 第8頁「（九）珠寶、古董、字畫及其他具有相當價值之財產」總價額印為2,206,399元，即其下子項合計：1.珠寶、古董、字畫及其他具有相當價值之財產為0元（0筆）加上第9頁「2.保險」累積已繳保險費折合新臺幣總額2,206,399元；other_assets_total_twd依表頭數字填入，若只計珠寶子項則為0。5) 股票「2609 陽明」「2603 長榮」名稱欄無斜線，代碼與名稱已分開；台積電、鴻海為「代碼/名稱」格式。6) 汽車取得原因皆為買賣（VehicleItem無原因欄，未另列）。7) 現金總金額欄空白，總申報筆數0，cash_total_twd填0。8) 保險欄amount_twd為累積已繳保險費折合新臺幣總額，保險金額與契約期間列於note。9) 保單號碼、存款帳號與銀行代碼、債權人／債務人地址、土地地號與建號、汽車牌照號碼均已省略。10) 基金「00717/富邦美國特別股」票面價額欄填15.44，為單位淨值。11) 表上共11頁，掃描檔共12頁，第12頁為空白頁。"
+  }
+}

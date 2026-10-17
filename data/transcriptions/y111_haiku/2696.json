@@ -1,0 +1,68 @@
+{"seq": "2696", "model": "claude-haiku", "data": {
+"declarant": "陽昇宏",
+"declare_date": "民國111年8月29日",
+"spouse": null,
+"minor_children_count": 0,
+"total_pages": 10,
+"land": [
+{"location": "臺東縣臺東市光明段", "area_m2": 1432.58, "share": "109900分之71629", "owner": "陽昇宏", "acquired": "85.10.29", "reason": "繼承", "price": null},
+{"location": "臺東縣臺東市光明段", "area_m2": 215.92, "share": "27475分之2699", "owner": "陽昇宏", "acquired": "85.10.29", "reason": "繼承", "price": null},
+{"location": "臺東縣臺東市中心段", "area_m2": 373, "share": "公同共有", "owner": "陽昇宏", "acquired": "84.10.03", "reason": "繼承", "price": null},
+{"location": "臺東縣臺東市中心段", "area_m2": 468, "share": "公同共有", "owner": "陽昇宏", "acquired": "84.10.03", "reason": "繼承", "price": null},
+{"location": "臺東縣臺東市中心段", "area_m2": 146, "share": "公同共有", "owner": "陽昇宏", "acquired": "84.10.03", "reason": "繼承", "price": null},
+{"location": "臺東縣臺東市豐谷段", "area_m2": 43.85, "share": "所有權全部", "owner": "陽昇宏", "acquired": "87.03.18", "reason": "買賣", "price": null},
+{"location": "臺東縣臺東市豐谷段", "area_m2": 85, "share": "所有權全部", "owner": "陽昇宏", "acquired": "76.02.20", "reason": "買賣", "price": null},
+{"location": "臺東縣臺東市豐谷段", "area_m2": 51, "share": "所有權全部", "owner": "陽昇宏", "acquired": "76.02.20", "reason": "買賣", "price": null}
+],
+"land_count": 8,
+"buildings": [
+{"location": "臺東縣臺東市", "area_m2": 76, "share": "所有權全部", "owner": "陽昇宏", "acquired": "84.1.29", "reason": "繼承", "price": null},
+{"location": "臺東縣臺東市", "area_m2": 173.5, "share": "所有權全部", "owner": "陽昇宏", "acquired": "76.2.20", "reason": "買賣", "price": null},
+{"location": "臺東縣臺東市", "area_m2": 42, "share": "4分之3", "owner": "陽昇宏", "acquired": "68.5.26", "reason": "自建", "price": "200000"}
+],
+"building_count": 3,
+"ships": [],
+"vehicles": [],
+"vehicle_count": 0,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "臺灣銀行臺東分行", "kind": "優惠存款", "currency": "新臺幣", "owner": "陽昇宏", "foreign_amount": null, "twd": 400100}
+],
+"deposit_count": 1,
+"deposit_total_twd": 400100,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "國泰人壽 創世紀丙型", "owner": "陽昇宏", "amount_twd": 9778, "note": "投資型；契約1998.11.18起終身；保險金額2000000（原文有斜線塗改）"}
+],
+"insurance_count": 1,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "房屋貸款／臺灣銀行臺東分行", "owner": "陽昇宏", "amount_twd": 1453612, "note": "取得時間97.?（印章遮蓋，判讀不清）；原因：購屋（判讀）"},
+{"desc": "消費性貸款／玉山銀行臺東分行", "owner": "陽昇宏", "amount_twd": 85338, "note": "取得時間107.?（印章遮蓋，判讀不清）；原因：消費"},
+{"desc": "消費性貸款／玉山銀行臺東分行", "owner": "陽昇宏", "amount_twd": 176605, "note": "取得時間110.3；原因：修繕"},
+{"desc": "消費性貸款／合作金庫銀行臺東分行", "owner": "陽昇宏", "amount_twd": 150000, "note": "取得時間110.2；原因：消費"},
+{"desc": "消費性貸款／國泰世華銀行", "owner": "陽昇宏", "amount_twd": 610000, "note": "取得時間110.2；原因：消費"},
+{"desc": "消費性貸款／臺灣銀行臺東分行", "owner": "陽昇宏", "amount_twd": 316119, "note": "取得時間109.4；原因：修繕"},
+{"desc": "消費性貸款／臺灣銀行臺東分行", "owner": "陽昇宏", "amount_twd": 809748, "note": "取得時間109.4；原因：修繕"}
+],
+"debts_count": 7,
+"debts_total_twd": 3601422,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "土地第1、2列權利範圍依表上分數填寫。建物欄手寫『取得時間』與『取得原因』位置對調，已依語意校正（時間欄為原因、原因欄為時間）。建物標示含門牌，依規定僅保留縣市區。保險表第2至第8列被斜線劃除，依規則略過，僅列第1列；表上總筆數被印章遮蓋，依未劃除列數填1。(九)珠寶總額欄手寫9778，與(二)保險累積已繳總額相符，視為誤植，珠寶表總額依表上0填寫。債務第1、2列取得時間被印章遮蓋，判讀不清。"
+}}

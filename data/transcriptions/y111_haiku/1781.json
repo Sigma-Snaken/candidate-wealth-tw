@@ -1,0 +1,78 @@
+{
+  "seq": "1781",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "黃治維",
+    "declare_date": "民國111年08月30日",
+    "spouse": "王銘薇",
+    "minor_children_count": 2,
+    "total_pages": 17,
+    "land": [
+      {"location": "臺東縣臺東市新生段", "area_m2": 300, "share": "100%", "owner": "黃治維", "acquired": "106/02/18", "reason": "贈與", "price": "超過五年"},
+      {"location": "臺東縣臺東市新生段", "area_m2": 8, "share": "100%", "owner": "黃治維", "acquired": "106/02/18", "reason": "贈與", "price": "超過五年"},
+      {"location": "臺東縣臺東市新生段", "area_m2": 80, "share": "100%", "owner": "黃治維", "acquired": "106/06/02", "reason": "買賣", "price": "超過五年"},
+      {"location": "臺東縣臺東市新生段", "area_m2": 394, "share": "100%", "owner": "黃治維", "acquired": "104/03/18", "reason": "買賣", "price": "超過五年"},
+      {"location": "臺東縣臺東市新生段", "area_m2": 3933, "share": "33.3%", "owner": "黃治維", "acquired": "101/05/24", "reason": "贈與", "price": "超過五年"},
+      {"location": "臺東縣臺東市知本段", "area_m2": 5000, "share": "100%", "owner": "王銘薇", "acquired": "104/01/16", "reason": "法拍", "price": "超過五年"},
+      {"location": "臺東縣臺東市豐工段", "area_m2": 1840.02, "share": "100%", "owner": "王銘薇", "acquired": "105/05/11", "reason": "買賣", "price": "超過五年"},
+      {"location": "臺東縣臺東市豐工段", "area_m2": 25.47, "share": "100%", "owner": "王銘薇", "acquired": "105/05/11", "reason": "分割", "price": "超過五年"}
+    ],
+    "land_count": 8,
+    "buildings": [
+      {"location": "臺東縣臺東市南榮里", "area_m2": 21.1, "share": "100%", "owner": "黃治維", "acquired": "104/03/18", "reason": "買賣", "price": "超過五年"},
+      {"location": "臺東縣臺東市南榮里013鄰", "area_m2": 66.4, "share": "100%", "owner": "黃治維", "acquired": "104/03/18", "reason": "買賣", "price": "超過五年"},
+      {"location": "臺東縣臺東市新生里", "area_m2": 561, "share": "100%", "owner": "黃治維", "acquired": "110/04/08", "reason": "自建", "price": "2893000"}
+    ],
+    "building_count": 3,
+    "ships": [],
+    "vehicles": [
+      {"desc": "LEXUS NX-450+（汽缸容量2487CC）", "owner": "王銘薇", "acquired": "2022年", "price": "2690000"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {"bank": "台灣銀行台東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "黃治維", "foreign_amount": null, "twd": 766429},
+      {"bank": "台灣銀行台東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "王銘薇", "foreign_amount": null, "twd": 460009},
+      {"bank": "台東縣台東地區農會", "kind": "活期存款", "currency": "新臺幣", "owner": "黃治維", "foreign_amount": null, "twd": 221866},
+      {"bank": "台東縣台東地區農會", "kind": "活期存款", "currency": "新臺幣", "owner": "王銘薇", "foreign_amount": null, "twd": 1398734},
+      {"bank": "台灣銀行台東分行", "kind": "外幣活期存款", "currency": "日幣", "owner": "黃治維", "foreign_amount": 225887, "twd": 49243},
+      {"bank": "高雄二苓郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "王銘薇", "foreign_amount": null, "twd": 60035}
+    ],
+    "deposit_count": 6,
+    "deposit_total_twd": 2956316,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {"desc": "國泰人壽 滿添鑫利利率變動型終身壽險", "owner": "王銘薇", "amount_twd": 1017060, "note": "保單號碼省略；儲蓄型壽險；保險金額1100000（補正頁手寫110萬）；契約始日106/04/13；契約終日終身；依補正頁填入累積已繳保險費折合新臺幣"},
+      {"desc": "富邦人壽 鑫富利增額終身壽險", "owner": "王銘薇", "amount_twd": 1008720, "note": "保單號碼省略；儲蓄型壽險；保險金額760000（補正頁手寫76萬，字跡不清）；契約始日105/01/08；契約終日終身；依補正頁填入累積已繳保險費折合新臺幣，金額字跡模糊"}
+    ],
+    "insurance_count": 2,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {"desc": "企業創業貸款／台灣銀行台東分行", "owner": "王銘薇", "amount_twd": 871288, "note": "取得時間109/12/11；原因企業創業貸款"},
+      {"desc": "抵押借款／台東縣台東地區農會", "owner": "王銘薇", "amount_twd": 2400000, "note": "取得時間111/08/22；原因企業週轉金"},
+      {"desc": "抵押借款／花蓮一信台東分行", "owner": "王銘薇", "amount_twd": 11260000, "note": "取得時間105/07/20；原因購置廠房土地"},
+      {"desc": "抵押借款／台東縣台東地區農會", "owner": "黃治維", "amount_twd": 29700000, "note": "取得時間110/05/31；原因新建房屋貸款"},
+      {"desc": "消費性貸款／台新銀行", "owner": "王銘薇", "amount_twd": 2370000, "note": "取得時間111/05/17；原因購置汽車"}
+    ],
+    "debts_count": 5,
+    "debts_total_twd": 46601288,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "補正（011補正，1781_1.pdf）僅更正（二）保險一項：原表2筆保險補上累積已繳保險費折合新臺幣金額，覆蓋原表無金額之欄位。補正頁保險總額手寫字跡模糊，未採用。第二筆保險金額與累積保險費折合金額字跡模糊，已註明。建物地址中門牌與巷弄號已省略，僅保留區段與鄰。配偶王銘薇；未成年子女2人（長女民國98年生、次女民國100年生），僅填人數。申報日表上印111年08月30日，交件日字跡不清。"
+  }
+}

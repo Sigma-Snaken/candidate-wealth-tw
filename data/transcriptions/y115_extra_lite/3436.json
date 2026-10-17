@@ -1,0 +1,1 @@
+{"seq": "3436", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 10.2, "via": "gemini-api", "usage": {"in": 5066, "out": 45, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": null}}

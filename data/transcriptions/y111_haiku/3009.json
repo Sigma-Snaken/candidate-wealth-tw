@@ -1,0 +1,83 @@
+{
+  "seq": "3009",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "呂少麒",
+    "declare_date": "民國111年9月1日",
+    "spouse": null,
+    "minor_children_count": 0,
+    "total_pages": 18,
+    "land": [
+      {"location": "高雄市岡山區嘉興段", "area_m2": 1146, "share": "1", "owner": "呂少麒", "acquired": "109.05.05", "reason": "買賣", "price": "7,670,000元"},
+      {"location": "高雄市永安區永華段", "area_m2": 1033.61, "share": "1", "owner": "呂少麒", "acquired": "109.10.24", "reason": "買賣", "price": "1,200,000元"},
+      {"location": "高雄市永安區永華段", "area_m2": 1656.1, "share": "1", "owner": "呂少麒", "acquired": "110.02.19", "reason": "買賣", "price": "2,000,000元"},
+      {"location": "高雄市岡山區岡山段", "area_m2": 117, "share": "1", "owner": "呂少麒", "acquired": "108.05.31", "reason": "買賣", "price": "17,695,000元"},
+      {"location": "高雄市岡山區嘉興段", "area_m2": 2761, "share": "1", "owner": "呂少麒", "acquired": "99.12.28", "reason": "買賣", "price": "超過5年"},
+      {"location": "高雄市岡區灣裡里西段", "area_m2": 143.66, "share": "1", "owner": "呂少麒", "acquired": "102.01.10", "reason": "贈與", "price": "超過5年"}
+    ],
+    "land_count": 6,
+    "buildings": [
+      {"location": "高雄市岡區嘉興路信中街379巷", "area_m2": 1730, "share": "1", "owner": "呂少麒", "acquired": "99.12.28", "reason": "買賣", "price": "超過5年"},
+      {"location": "高雄市岡山區平安里文賢路", "area_m2": 243.3, "share": "1", "owner": "呂少麒", "acquired": "108.05.31", "reason": "買賣", "price": "3,805,000元"},
+      {"location": "高雄市岡山區灣裡里育才路38巷3弄", "area_m2": 198.9, "share": "1", "owner": "呂少麒", "acquired": "102.01.11", "reason": "贈與", "price": "超過5年"}
+    ],
+    "building_count": 3,
+    "ships": [],
+    "vehicles": [
+      {"desc": "中華2014", "owner": "呂少麒", "acquired": "106.06.12", "price": "超過5年"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": null,
+    "deposits": [],
+    "deposit_count": null,
+    "deposit_total_twd": null,
+    "securities_total_twd": null,
+    "stocks": [
+      {"code": null, "name": "華立捷(下市)", "owner": "呂少麒", "shares": 4000, "par": 10, "currency": null, "twd": 40000},
+      {"code": null, "name": "春日(興櫃)", "owner": "呂少麒", "shares": 243244, "par": 10, "currency": null, "twd": 2432440},
+      {"code": null, "name": "長榮海運(上市)", "owner": "呂少麒", "shares": 7000, "par": 10, "currency": null, "twd": 70000},
+      {"code": null, "name": "陽明(上市)", "owner": "呂少麒", "shares": 3000, "par": 10, "currency": null, "twd": 30000},
+      {"code": null, "name": "健喬(上櫃)", "owner": "呂少麒", "shares": 25000, "par": 10, "currency": null, "twd": 250000},
+      {"code": null, "name": "浩鼎(上櫃)", "owner": "呂少麒", "shares": 5000, "par": 10, "currency": null, "twd": 50000},
+      {"code": null, "name": "北極星藥業-KY(上櫃)", "owner": "呂少麒", "shares": 2000, "par": 10, "currency": null, "twd": 20000},
+      {"code": null, "name": "越峰(上櫃)", "owner": "呂少麒", "shares": 5000, "par": 10, "currency": null, "twd": 50000}
+    ],
+    "stock_count": 8,
+    "stock_total_twd": 2942440,
+    "bonds": [],
+    "bond_total_twd": null,
+    "funds": [
+      {"name": "兆豐中國A", "code": null, "owner": "呂少麒", "units": null, "par": null, "currency": null, "twd": 350000}
+    ],
+    "fund_total_twd": 350000,
+    "other_securities": [],
+    "other_securities_total_twd": null,
+    "other_assets": [],
+    "other_assets_total_twd": null,
+    "insurance": [
+      {"desc": "國泰人壽 儲蓄型保險(名稱手寫，部分字跡不清)", "owner": "呂少麒", "amount_twd": null, "note": "保險金額50萬；契約始日約2018年(手寫不清)；累積已繳保險費折合新臺幣數字手寫不清，未確定"},
+      {"desc": "國泰人壽 儲蓄型保險(名稱手寫，部分字跡不清)", "owner": "呂少麒", "amount_twd": null, "note": "保險金額100萬；契約始日手寫不清；累積已繳保險費折合新臺幣數字手寫不清，未確定"}
+    ],
+    "insurance_count": 2,
+    "debt_claims": [],
+    "debt_claims_total_twd": null,
+    "debts": [
+      {"desc": "房屋貸款/高雄市阿蓮區農會本會", "owner": "呂少麒", "amount_twd": 15687294, "note": "108.06.03 購置房屋"},
+      {"desc": "土地貸款/高雄市阿蓮區農會本會", "owner": "呂少麒", "amount_twd": 4729084, "note": "109.05.06 購置土地"},
+      {"desc": "房屋貸款/高雄市岡山區農會本會", "owner": "呂少麒", "amount_twd": 1590894, "note": "102.01.11 購置房屋"}
+    ],
+    "debts_count": 3,
+    "debts_total_twd": 22007272,
+    "business_investments": [
+      {"desc": "台營實業股份有限公司", "owner": "呂少麒", "amount_twd": 1700000, "note": "105.03 個人投資"},
+      {"desc": "聖堡實業股份有限公司", "owner": "呂少麒", "amount_twd": 510000, "note": "105.03 個人投資"},
+      {"desc": "燁民實業股份有限公司", "owner": "呂少麒", "amount_twd": 3150000, "note": "101.03 個人投資"},
+      {"desc": "第崴實業股份有限公司", "owner": "呂少麒", "amount_twd": 1800000, "note": "109.12 贈與"}
+    ],
+    "business_investments_total_twd": 7160000,
+    "trust_items": [],
+    "notes": "僅有原始申報表 (3009_0)，18頁，無補正檔。存款、現金、債券、其他有價證券、債權各項總申報筆數與總額欄空白，以null表示。第14頁保險為手寫，保單號碼與契約日期、累積已繳保險費數字辨識不確定，故金額未填。股票名稱欄無斜線代碼，code皆為null。備註欄空白。"
+  }
+}

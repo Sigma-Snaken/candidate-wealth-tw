@@ -1,0 +1,88 @@
+{"seq": "1671", "model": "claude-haiku", "data": {
+"declarant": "陳佩真",
+"declare_date": "民國111年8月30日",
+"spouse": "許義丑",
+"minor_children_count": 2,
+"total_pages": 16,
+"land": [
+{"location": "澎湖縣望安鄉（段名待判讀）", "area_m2": 146.58, "share": "456/10000", "owner": "陳佩真", "acquired": "095/07/24", "reason": "拍賣", "price": "土地公告現值每平方公尺4300元"},
+{"location": "澎湖縣望安鄉（段名待判讀）", "area_m2": 534.25, "share": "456/10000", "owner": "陳佩真", "acquired": "095/07/24", "reason": "拍賣", "price": "同上"},
+{"location": "澎湖縣望安鄉南寮段（判讀）", "area_m2": 1805.66, "share": "1/2", "owner": "許義丑", "acquired": "094/06/02", "reason": "贈與（判讀）", "price": "土地公告現值每平方公尺1700元"},
+{"location": "澎湖縣望安鄉南寮段（判讀）", "area_m2": 381.04, "share": "1/3", "owner": "許義丑", "acquired": "094/06/02", "reason": "同上", "price": "同上"}
+],
+"land_count": 4,
+"buildings": [
+{"location": "澎湖縣望安鄉（段名待判讀）", "area_m2": 126.5, "share": "1/1", "owner": "陳佩真", "acquired": "095/07/24", "reason": "拍賣", "price": "免其他登記手續10.33（判讀）"},
+{"location": "澎湖縣望安鄉（段名待判讀）", "area_m2": 436.84, "share": "504/10000", "owner": "陳佩真", "acquired": "095/07/24", "reason": "拍賣", "price": "同房屋使用部位"},
+{"location": "澎湖縣望安鄉（段名待判讀）", "area_m2": 124.29, "share": "306/10000", "owner": "陳佩真", "acquired": "095/07/24", "reason": "拍賣", "price": "同上"},
+{"location": "澎湖縣望安鄉（段名待判讀）", "area_m2": 143.5, "share": "600000/100000（手寫，判讀）", "owner": "陳佩真", "acquired": "095/9/21", "reason": "法拍", "price": "310600（判讀）"},
+{"location": "澎湖縣望安鄉（段名待判讀）", "area_m2": 135.5, "share": "100000/100000", "owner": "許義丑", "acquired": "099/10/20", "reason": "二等親贈與（判讀）", "price": "18900"}
+],
+"building_count": 5,
+"ships": [],
+"vehicles": [
+{"desc": "廠牌待判讀（汽車）排氣量2378", "owner": "許義丑", "acquired": "106/8/8", "price": "160000"}
+],
+"vehicle_count": 1,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "台灣銀行澎湖分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 150613},
+{"bank": "第一銀行澎湖分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 325},
+{"bank": "澎湖縣第二信用合作社信用部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 369},
+{"bank": "澎湖縣農會信用部", "kind": "活期存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 2172},
+{"bank": "澎湖縣農會信用部西嶼分部", "kind": "活期存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 959},
+{"bank": "郵政儲金匯業局", "kind": "定期存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 11278},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 34802},
+{"bank": "合作金庫", "kind": "活期存款", "currency": "澳幣", "owner": "許義丑", "foreign_amount": 14.62, "twd": 304.8},
+{"bank": "合作金庫", "kind": "綜合存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 19597},
+{"bank": "第一銀行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 990},
+{"bank": "華南銀行中山分行（判讀）", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "許義丑", "foreign_amount": null, "twd": 12},
+{"bank": "彰化銀行（判讀）", "kind": "支票存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 6593},
+{"bank": "彰化銀行（判讀）", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 365},
+{"bank": "澎湖縣第一信用合作社信用部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "許義丑", "foreign_amount": null, "twd": 99},
+{"bank": "澎湖縣農會信用部西嶼分部", "kind": "活期存款", "currency": "新臺幣", "owner": "許義丑", "foreign_amount": null, "twd": 47},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "許義丑", "foreign_amount": null, "twd": 5506},
+{"bank": "玉山銀行（判讀）", "kind": "綜合存款", "currency": "新臺幣", "owner": "陳佩真", "foreign_amount": null, "twd": 169},
+{"bank": "中信銀行中山分行（判讀）", "kind": "支票存款", "currency": "新臺幣", "owner": "許義丑", "foreign_amount": null, "twd": 3350},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "未成年子女", "foreign_amount": null, "twd": 233469},
+{"bank": "郵政儲金匯業局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "未成年子女", "foreign_amount": null, "twd": 9041},
+{"bank": "台灣銀行（判讀）", "kind": "綜合存款", "currency": "新臺幣", "owner": "未成年子女", "foreign_amount": null, "twd": 5000}
+],
+"deposit_count": null,
+"deposit_total_twd": 687040,
+"securities_total_twd": null,
+"stocks": [
+{"code": "2421", "name": "建準", "owner": "陳佩真", "shares": 1000, "par": 52.4, "currency": null, "twd": 54976},
+{"code": "2601", "name": "益航", "owner": "陳佩真", "shares": 2000, "par": 13.2, "currency": null, "twd": 26437},
+{"code": "4530", "name": "竞易", "owner": "陳佩真", "shares": 2000, "par": 12.2, "currency": null, "twd": 24434},
+{"code": "5457", "name": "優宸（判讀）", "owner": "陳佩真", "shares": 7000, "par": 0.98, "currency": null, "twd": 6935},
+{"code": "6682", "name": "福鑽（判讀）", "owner": "陳佩真", "shares": 1000, "par": 6.79, "currency": null, "twd": 6792}
+],
+"stock_count": 5,
+"stock_total_twd": 171092,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "國泰人壽保險 仕誠人壽福經典壽險(96)（判讀）", "owner": "陳佩真", "amount_twd": 500000, "note": "儲蓄型壽險；契約始日 096/03/16；累積已繳保險費折合新臺幣 157168"}
+],
+"insurance_count": 1,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "授信／合作金庫", "owner": "陳佩真", "amount_twd": 149654, "note": "取得時間 099/10/15；取得原因 購置不動產"}
+],
+"debts_count": 1,
+"debts_total_twd": 149654,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "表頭印刷「共16頁」，表內各分頁均為手寫；股票總價額表上手寫為 171,092，但五筆股票新臺幣總額加總為 119,574，兩者不符，依表上數字填寫；存款總金額手寫 687,040，但逐筆加總與之不符（逐筆判讀可能有誤），存款筆數表上未印總申報筆數，填 null；存款第19至21列原持有人為未成年子女，依規定僅列『未成年子女』不填姓名；存款第1、2列銀行分行名、部分存款種類與金額為手寫判讀，字跡模糊處以最可能值填入；建準的票面價額 52.4 與 優宸 的票面價額 0.98 為手寫判讀，不確定；汽車廠牌字跡無法辨識，以『廠牌待判讀』表示；土地與建物坐落段名字跡模糊，僅填縣鄉；建物第4筆持分與價額為手寫；地號、帳號、身分證號、保單號碼、戶籍與通訊地址、電話均未輸出。"
+}}

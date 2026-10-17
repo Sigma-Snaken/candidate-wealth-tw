@@ -1,0 +1,7 @@
+year: '115'
+seq: '3229'
+name: 林政賢
+base: y115_pro
+note: 股票「台嘉碩」1,000 股、面額 10 元，原表金額欄誤植為 1,000,010,000 元，AI 又多讀一個 0。依股數 × 面額更正為 10,000 元。
+changes:
+  - {target: stocks, row: 55, match: {name: 台嘉碩}, field: twd, old: 10000010000, new: 10000, page: 15, reason: 原表誤植且轉錄多讀一位, source: 人工核對 2026-10-17}

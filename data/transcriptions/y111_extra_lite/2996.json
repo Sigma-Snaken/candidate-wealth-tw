@@ -1,0 +1,1 @@
+{"seq": "2996", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 9.2, "via": "gemini-api", "usage": {"in": 20560, "out": 93, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "第一份為原申報表，第二份為補正文件（第14頁保險欄位及第19頁保險補充）。本次申報無船舶、汽車、航空器及外幣資產。"}}

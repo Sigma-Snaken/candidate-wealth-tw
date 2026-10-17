@@ -1,0 +1,65 @@
+{
+  "seq": "2691",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "楊秋珍",
+    "declare_date": "民國111年8月30日",
+    "spouse": null,
+    "minor_children_count": 0,
+    "total_pages": 9,
+    "land": [
+      {"location": "臺東縣成功鎮新港段八邊小段", "area_m2": 190, "share": "全部", "owner": "楊秋珍", "acquired": "093/11/15", "reason": "拍賣", "price": "70400"},
+      {"location": "臺東縣成功鎮新都威段", "area_m2": 1007.19, "share": "全部", "owner": "楊秋珍", "acquired": "101/01/19", "reason": "贈與", "price": "197066"},
+      {"location": "臺東縣成功鎮美山段", "area_m2": 2362.44, "share": "全部", "owner": "楊秋珍", "acquired": "102/09/23", "reason": "買賣", "price": "3000000"},
+      {"location": "臺東縣成功鎮忠勇段", "area_m2": 97.73, "share": "全部", "owner": "楊秋珍", "acquired": "100/03/09", "reason": "拍賣", "price": "1323000"},
+      {"location": "臺東縣成功鎮小湊段石傘小段", "area_m2": 3140, "share": "全部", "owner": "楊秋珍", "acquired": "101/01/19", "reason": "贈與", "price": "185260"},
+      {"location": "臺東縣成功鎮小湊段石傘小段", "area_m2": 155, "share": "全部", "owner": "楊秋珍", "acquired": "077/02/10", "reason": "贈與", "price": "31000"},
+      {"location": "臺東縣成功鎮小湊段石傘小段", "area_m2": 498, "share": "全部", "owner": "楊秋珍", "acquired": "103/07/22", "reason": "贈與", "price": "99600"},
+      {"location": "臺東縣成功鎮小湊段石傘小段", "area_m2": 1751, "share": "3173/43775", "owner": "楊秋珍", "acquired": "103/07/22", "reason": "贈與", "price": "25384"},
+      {"location": "臺東縣成功鎮小湊段石傘小段", "area_m2": 1751, "share": "74859/175110", "owner": "楊秋珍", "acquired": "103/07/22", "reason": "贈與", "price": "149718"},
+      {"location": "臺東縣成功鎮小湊段石傘小段", "area_m2": 1358, "share": "全部", "owner": "楊秋珍", "acquired": "093/12/24", "reason": "贈與", "price": "271600"}
+    ],
+    "land_count": 10,
+    "buildings": [
+      {"location": "臺東縣成功鎮忠勇段", "area_m2": 315.3, "share": "全部", "owner": "楊秋珍", "acquired": "100/03/09", "reason": "拍賣", "price": "1930000"}
+    ],
+    "building_count": 1,
+    "ships": [],
+    "vehicles": [
+      {"desc": "豐田 RAV4", "owner": "楊秋珍", "acquired": "104/05/14", "price": "967000"},
+      {"desc": "SUZUKE", "owner": "楊秋珍", "acquired": "109/06/24", "price": "150000"}
+    ],
+    "vehicle_count": 2,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": 0,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [],
+    "insurance_count": 0,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {"desc": "小額信用貸款／長濱鄉農會", "owner": "楊秋珍", "amount_twd": 300000, "note": "取得（發生）時間 111/06/02；原因：個人資金周轉"}
+    ],
+    "debts_count": 1,
+    "debts_total_twd": 300000,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 配偶欄空白；配偶及未成年子女欄僅列一名長女（已成年，非未成年子女），依規定不列入。2) 土地與建物欄位坐落僅填縣市鄉鎮區段，地號與建號已省略。3) 債權人地址已省略。4) 第9頁為受理單位與申報人簽章頁，並無財產項目。5) 掃描檔共10頁，表上標示共9頁，末頁為空白頁。"
+  }
+}

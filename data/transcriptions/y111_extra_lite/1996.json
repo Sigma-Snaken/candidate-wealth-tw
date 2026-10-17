@@ -1,0 +1,1 @@
+{"seq": "1996", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 10.5, "via": "gemini-api", "usage": {"in": 12048, "out": 90, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "本案包含原申報表及後續補正文件（補正林口區力行段、林口區文化三路之土地與建物取得價額、抵押貸款金額等項目）。"}}

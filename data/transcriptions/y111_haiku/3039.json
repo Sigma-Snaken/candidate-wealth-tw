@@ -1,0 +1,75 @@
+{"seq": "3039", "model": "claude-haiku", "data": {
+ "declarant": "潘芳泉",
+ "declare_date": "民國111年8月31日",
+ "spouse": "林泳竹",
+ "minor_children_count": 0,
+ "total_pages": 6,
+ "land": [
+  {"location": "屏東縣恆春鎮（段名手寫難辨）水段", "area_m2": 2506.00, "share": "15分之1", "owner": "潘芳泉", "acquired": "104.01.23", "reason": "買賣", "price": "3200000"},
+  {"location": "屏東縣恆春鎮（段名手寫難辨）水段", "area_m2": 242.00, "share": "所有權全部", "owner": "潘芳泉", "acquired": "104.01.23", "reason": "買賣", "price": "4000000"},
+  {"location": "屏東縣車城鄉田中段", "area_m2": 32821.77, "share": "38322分之11676", "owner": "潘芳泉", "acquired": "103.07.30", "reason": "買賣", "price": "6000000"},
+  {"location": "屏東縣車城鄉興安段", "area_m2": 5949.33, "share": "所有權全部", "owner": "潘芳泉", "acquired": "102.3.21", "reason": "繼承", "price": "超過五年"},
+  {"location": "屏東縣車城鄉興安段", "area_m2": 6382.86, "share": "所有權全部", "owner": "潘芳泉", "acquired": "102.3.21", "reason": "繼承", "price": "同上"}
+ ],
+ "land_count": 5,
+ "buildings": [
+  {"location": "屏東縣車城鄉福安村", "area_m2": 216.6, "share": "所有權全部", "owner": "潘芳泉", "acquired": "102.3.21", "reason": "繼承", "price": "超過五年"},
+  {"location": "屏東縣車城鄉福安村", "area_m2": 356.2, "share": "所有權全部", "owner": "潘芳泉", "acquired": "102.3.21", "reason": "繼承", "price": "同上"}
+ ],
+ "building_count": 2,
+ "ships": [],
+ "vehicles": [
+  {"desc": "中華 CM122NPW", "owner": "潘芳泉", "acquired": "2017.5.19", "price": "300000"},
+  {"desc": "JEEP", "owner": "潘芳泉", "acquired": "2005", "price": "超過五年"},
+  {"desc": "日產 TEANA J32L", "owner": "潘芳泉", "acquired": "2012.11.15", "price": "90000"},
+  {"desc": "VOLKSWAGEN", "owner": "潘芳泉", "acquired": "1985", "price": "超過五年"}
+ ],
+ "vehicle_count": 4,
+ "aircraft": [],
+ "cash": [],
+ "cash_total_twd": null,
+ "deposits": [
+  {"bank": "車城郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "潘芳泉", "foreign_amount": null, "twd": 43051},
+  {"bank": "彰化銀行恆春分行", "kind": "活期存款", "currency": "新臺幣", "owner": "潘芳泉", "foreign_amount": null, "twd": 129116},
+  {"bank": "屏東縣恆春農會", "kind": "活期存款", "currency": "新臺幣", "owner": "潘芳泉", "foreign_amount": null, "twd": 811732},
+  {"bank": "第一銀行恆春分行", "kind": "綜合管理帳戶", "currency": "新臺幣", "owner": "潘芳泉", "foreign_amount": null, "twd": 200143},
+  {"bank": "車城地區農會", "kind": "活期存款", "currency": "新臺幣", "owner": "潘芳泉", "foreign_amount": null, "twd": 692},
+  {"bank": "合作金庫銀行枋寮分行", "kind": "活期存款", "currency": "新臺幣", "owner": "潘芳泉", "foreign_amount": null, "twd": 587815}
+ ],
+ "deposit_count": 6,
+ "deposit_total_twd": 1772549,
+ "securities_total_twd": null,
+ "stocks": [
+  {"code": null, "name": "富邦特選高股息30", "owner": "林泳竹", "shares": 8000, "par": 10.91, "currency": null, "twd": 87280},
+  {"code": null, "name": "第一銅", "owner": "林泳竹", "shares": 1000, "par": 27.8, "currency": null, "twd": 27800},
+  {"code": null, "name": "台積電", "owner": "林泳竹", "shares": 200, "par": 505, "currency": null, "twd": 101000},
+  {"code": null, "name": "聯發科", "owner": "林泳竹", "shares": 30, "par": 667, "currency": null, "twd": 20010},
+  {"code": null, "name": "欣興", "owner": "林泳竹", "shares": 640, "par": 151.5, "currency": null, "twd": 96960},
+  {"code": null, "name": "博智", "owner": "林泳竹", "shares": 52, "par": 124, "currency": null, "twd": 6448}
+ ],
+ "stock_count": 6,
+ "stock_total_twd": 339498,
+ "bonds": [],
+ "bond_total_twd": null,
+ "funds": [],
+ "fund_total_twd": null,
+ "other_securities": [],
+ "other_securities_total_twd": null,
+ "other_assets": [],
+ "other_assets_total_twd": null,
+ "insurance": [
+  {"desc": "南山人壽 美元計價利率變動型終身保險（險名手寫難辨）", "owner": "潘芳泉", "amount_twd": 238308, "note": "外幣保單，累積已繳保險費外幣總額 7852 美元；契約始日 110.01.04，契約終日手寫難辨（約 151.01.04）；保險金額 30000 美元"},
+  {"desc": "南山人壽-金鑽（險名手寫難辨）利率變動型保險", "owner": "林泳竹", "amount_twd": 325638, "note": "契約始日 108.01.02，契約終日手寫難辨（約 109.01.02）；保險金額 200000"},
+  {"desc": "富邦人壽-（險名手寫難辨）利率變動型保險", "owner": "林泳竹", "amount_twd": 182911, "note": "契約始日 108.06.4?（手寫難辨），保險金額 270000"}
+ ],
+ "insurance_count": 3,
+ "debt_claims": [],
+ "debt_claims_total_twd": null,
+ "debts": [],
+ "debts_count": 0,
+ "debts_total_twd": null,
+ "business_investments": [],
+ "business_investments_total_twd": null,
+ "trust_items": [],
+ "notes": "本表無補正檔。申報日取表上「申報日」民國111年8月31日，申報人交件日為111年9月2日。土地第1、2列段名手寫難辨，已依可辨識字填寫。土地第3列面積與權利範圍為手寫判讀值。股票第3列名稱手寫判讀為「台積電」。配偶姓名手寫判讀為林泳竹。保險名稱與契約日期多為手寫難辨，已盡力判讀，詳見各列 note。保險表頭折合新臺幣總額手寫模糊，表中無對應欄位而未填。(六)現金、(八)有價證券、(九)、(十)、(十一)、(十二)之總金額欄於表上空白，填 null；現金總金額欄空白。"
+}}

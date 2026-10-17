@@ -1,0 +1,62 @@
+{"seq": "1667", "model": "claude-haiku", "data": {
+"declarant": "宋昀芝",
+"declare_date": "民國111年8月31日",
+"spouse": "侯鈺凱",
+"minor_children_count": 2,
+"total_pages": 16,
+"land": [
+{"location": "澎湖縣白沙鄉赤嵌西段", "area_m2": 24.1, "share": "2分之1", "owner": "宋昀芝", "acquired": "109.7.29", "reason": "繼承", "price": "21330"},
+{"location": "澎湖縣白沙鄉赤嵌西段", "area_m2": 395.4, "share": "所有權全部", "owner": "宋昀芝", "acquired": "109.7.29", "reason": "繼承", "price": "358020"},
+{"location": "澎湖縣白沙鄉赤嵌西段", "area_m2": 840.98, "share": "2分之1", "owner": "宋昀芝", "acquired": "109.7.29", "reason": "繼承", "price": "1093014"},
+{"location": "澎湖縣白沙鄉下瓦硐段", "area_m2": 145.65, "share": "2分之1", "owner": "宋昀芝", "acquired": "109.7.29", "reason": "繼承", "price": "189345"},
+{"location": "澎湖縣白沙鄉下瓦硐段", "area_m2": 121.22, "share": "2分之1", "owner": "宋昀芝", "acquired": "109.7.29", "reason": "繼承", "price": "152580"},
+{"location": "澎湖縣白沙鄉赤嵌西段", "area_m2": 122.5, "share": "所有權全部", "owner": "宋昀芝", "acquired": "109.7.29", "reason": "繼承", "price": "639000"},
+{"location": "澎湖縣白沙鄉赤嵌西段", "area_m2": 83.25, "share": "2分之1", "owner": "宋昀芝", "acquired": "109.7.29", "reason": "繼承", "price": "432900"}
+],
+"land_count": 7,
+"buildings": [
+{"location": "澎湖縣白沙鄉赤嵌西段", "area_m2": 196.38, "share": "所有權全部", "owner": "宋昀芝", "acquired": "109.7.29", "reason": "繼承", "price": "480000"}
+],
+"building_count": 1,
+"ships": [],
+"vehicles": [
+{"desc": "AUDI A4 AVANT 2.0T", "owner": "宋昀芝", "acquired": "107.10.01", "price": "500000"},
+{"desc": "國瑞 ACVUHL-JEPNKR", "owner": "宋昀芝", "acquired": "109.8.19", "price": "100000"}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [],
+"deposit_count": 0,
+"deposit_total_twd": 0,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "新光人壽 金鑽意變額萬能壽險", "owner": "宋昀芝", "amount_twd": 1000000, "note": "投資型；契約始日 96.08.30；累積已繳保險費折合新臺幣 75000"}
+],
+"insurance_count": 1,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "房屋貸款／澎湖縣農會白沙分部", "owner": "宋昀芝", "amount_twd": 1249992, "note": "取得時間 109.7.29；原因 繼承"},
+{"desc": "信用貸款／玉山銀行民權分行", "owner": "宋昀芝", "amount_twd": 1148293, "note": "取得時間 109.11.20；原因 個人資金調度"},
+{"desc": "信用貸款／全國農業金庫嘉義分行", "owner": "宋昀芝", "amount_twd": 22286, "note": "取得時間 108.8.29；原因 個人資金調度"}
+],
+"debts_count": 3,
+"debts_total_twd": 2420571,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "申報人姓名與手寫字跡難辨，依檔名採「宋昀芝」；配偶姓名（侯鈺凱）為手寫判讀，字跡模糊；保險名稱「金鑽意變額萬能壽險」部分字跡不確定；債務總額表上手寫為 2,420,571，與三筆合計相符；汽車總申報筆數 2 筆為手寫且被印章遮蓋，依列表判讀；未成年子女僅填人數；地址、帳號、保單號碼、身分證號均未輸出。"
+}}

@@ -1,0 +1,59 @@
+{"seq": "1854", "model": "claude-haiku", "data": {
+"declarant": "許月里",
+"declare_date": "民國111年8月31日",
+"spouse": "劉登才",
+"minor_children_count": 0,
+"total_pages": 11,
+"land": [
+{"location": "澎湖縣西嶼鄉大池段", "area_m2": 1402.02, "share": "3分之1", "owner": "許月里", "acquired": "88.08.02", "reason": "買賣", "price": "10餘萬"},
+{"location": "澎湖縣西嶼鄉外垵二段", "area_m2": 904.26, "share": "4分之1", "owner": "劉登才", "acquired": "98.07.15", "reason": "繼承", "price": null},
+{"location": "澎湖縣西嶼鄉外垵二段", "area_m2": 508.23, "share": "80分之5", "owner": "劉登才", "acquired": "98.07.15", "reason": "繼承", "price": null},
+{"location": "澎湖縣西嶼鄉外垵二段", "area_m2": 86.4, "share": "40分之5", "owner": "劉登才", "acquired": "98.07.15", "reason": "繼承", "price": null},
+{"location": "澎湖縣西嶼鄉外垵二段", "area_m2": 600.93, "share": "40分之5", "owner": "劉登才", "acquired": "98.07.15", "reason": "繼承", "price": null}
+],
+"land_count": 5,
+"buildings": [],
+"building_count": 0,
+"ships": [],
+"vehicles": [
+{"desc": "光陽(KYMCO) many（排氣量 111）", "owner": "許月里", "acquired": "108.11.13", "price": "8萬"}
+],
+"vehicle_count": 1,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "澎湖西嶼郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "許月里", "foreign_amount": null, "twd": 12000},
+{"bank": "澎湖區漁會西嶼分部", "kind": "活期存款", "currency": "新臺幣", "owner": "劉登才", "foreign_amount": null, "twd": 10000},
+{"bank": "澎湖第一信用合作社西嶼分社", "kind": "活期存款", "currency": "新臺幣", "owner": "劉登才", "foreign_amount": null, "twd": 8500}
+],
+"deposit_count": 3,
+"deposit_total_twd": 30500,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+{"desc": "國泰人壽 新守護平安終身保險", "owner": "許月里", "amount_twd": 500000, "note": "意外儲蓄型；契約 102.06.11～121.06.10；累積已繳保險費折合新臺幣 142363（手寫）"},
+{"desc": "新光人壽 吉祥如意終身壽險", "owner": "許月里", "amount_twd": 200000, "note": "儲蓄型；契約 81.04.06～終身；累積已繳保險費折合新臺幣 150000（手寫）"},
+{"desc": "新光人壽 新百齡終身壽險", "owner": "劉登才", "amount_twd": 300000, "note": "儲蓄型；契約 75.11.03～終身；累積已繳保險費折合新臺幣 14000（手寫，旁註疑為副約）"}
+],
+"insurance_count": 3,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [],
+"debts_count": 0,
+"debts_total_twd": 0,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "保險累積已繳保險費表上總額 306363 為手寫，為三筆合計（142363+150000+14000）；第3筆 14000 旁註字跡難辨，疑為副約；土地第1筆價額「10餘萬」原文照錄；申報人與配偶以表上打字為準；未成年子女無填寫；頁面中有多頁空白頁（已略過），表頭印刷共11頁；地址、帳號、身分證號、保單號碼均未輸出。"
+}}

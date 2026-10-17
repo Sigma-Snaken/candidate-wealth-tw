@@ -1,0 +1,82 @@
+{"seq": "2847", "model": "claude-haiku", "data": {
+  "declarant": "詹金富",
+  "declare_date": "民國111年9月1日",
+  "spouse": "劉美貞",
+  "minor_children_count": 0,
+  "total_pages": 20,
+  "land": [
+    {"location": "花蓮縣壽豐鄉壽豐段", "area_m2": 111.05, "share": "1/1", "owner": "詹金富", "acquired": "110.8.18", "reason": "贈與", "price": "699615"},
+    {"location": "花蓮縣壽豐鄉壽豐段", "area_m2": 158.88, "share": "1/1", "owner": "詹金富", "acquired": "92.1.25", "reason": "贈與", "price": "1515339"},
+    {"location": "花蓮縣壽豐鄉中平段", "area_m2": 119.6, "share": "1/1", "owner": "詹金富", "acquired": "90.6.8", "reason": "買賣", "price": "57245"},
+    {"location": "花蓮縣壽豐鄉中平段", "area_m2": 3452.14, "share": "1/1", "owner": "詹金富", "acquired": "100.1.12", "reason": "買賣", "price": "1657027"},
+    {"location": "花蓮縣壽豐鄉中平段", "area_m2": 2505.14, "share": "1/1", "owner": "詹金富", "acquired": "100.1.12", "reason": "買賣", "price": "1202467"},
+    {"location": "花蓮縣壽豐鄉鯉溪段", "area_m2": 7241.06, "share": "1/1", "owner": "詹金富", "acquired": "93.7.23", "reason": "贈與", "price": "3403298"},
+    {"location": "花蓮縣壽豐鄉鯉溪段", "area_m2": 4303.03, "share": "1/1", "owner": "詹金富", "acquired": "100.1.12", "reason": "贈與", "price": "2402410"},
+    {"location": "花蓮縣壽豐鄉鯉溪段", "area_m2": 450.71, "share": "1/1", "owner": "詹金富", "acquired": "110.10.19", "reason": "贈與", "price": "303888"}
+  ],
+  "land_count": 8,
+  "buildings": [
+    {"location": "花蓮縣壽豐鄉壽豐村", "area_m2": 355.8, "share": "1/1", "owner": "詹金富", "acquired": null, "reason": "贈與", "price": "334200"}
+  ],
+  "building_count": 1,
+  "ships": [],
+  "vehicles": [
+    {"desc": "MERCEDES-BENZ", "owner": "詹金富", "acquired": null, "price": null},
+    {"desc": "日產", "owner": "詹金富", "acquired": null, "price": null}
+  ],
+  "vehicle_count": 2,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+    {"bank": "花蓮縣壽豐鄉農會", "kind": "活期存款", "currency": "新臺幣", "owner": "詹金富", "foreign_amount": null, "twd": 33713},
+    {"bank": "台灣土地銀行五里分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "詹金富", "foreign_amount": null, "twd": 211423},
+    {"bank": "郵政 (儲金簿)", "kind": "儲金簿", "currency": "新臺幣", "owner": "詹金富", "foreign_amount": null, "twd": 65637}
+  ],
+  "deposit_count": 3,
+  "deposit_total_twd": 310773,
+  "securities_total_twd": 2098003,
+  "stocks": [
+    {"code": null, "name": "耀華", "owner": "詹金富", "shares": 645, "par": 22.35, "currency": null, "twd": 14415},
+    {"code": null, "name": "台積電", "owner": "詹金富", "shares": 2000, "par": 516, "currency": null, "twd": 1032544},
+    {"code": null, "name": "長榮", "owner": "詹金富", "shares": 3000, "par": 120.5, "currency": null, "twd": 361680},
+    {"code": null, "name": "巨鑽精密", "owner": "詹金富", "shares": 4000, "par": 172.25, "currency": null, "twd": 689364}
+  ],
+  "stock_count": 4,
+  "stock_total_twd": 2098003,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [
+    {"desc": "新光人壽傳家寶終身還本保險", "owner": "劉美貞", "amount_twd": null, "note": null},
+    {"desc": "國泰人壽21世紀終身保險", "owner": "詹金富", "amount_twd": null, "note": null},
+    {"desc": "國泰人壽好運年年終身保險", "owner": "詹金富", "amount_twd": 2874240, "note": "依補1（補正本）累積已繳保險費"},
+    {"desc": "國泰人壽美滿人生312", "owner": "詹金富", "amount_twd": null, "note": null},
+    {"desc": "南山人壽快活人生變額年金保險", "owner": "劉美貞", "amount_twd": null, "note": null},
+    {"desc": "南山人壽快活人生變額年金保險", "owner": "劉美貞", "amount_twd": null, "note": null},
+    {"desc": "南山人壽快活人生變額年金保險", "owner": "劉美貞", "amount_twd": null, "note": null},
+    {"desc": "南山人壽快活人生變額年金保險", "owner": "劉美貞", "amount_twd": null, "note": null},
+    {"desc": "新光人壽新雷寶(保單一)", "owner": "劉美貞", "amount_twd": 139660, "note": "依補1（補正本）"},
+    {"desc": "新光人壽新雷寶(保單二)", "owner": "劉美貞", "amount_twd": 2789080, "note": "依補1（補正本）"},
+    {"desc": "中國人壽新樂活終身醫療健康保險", "owner": "劉美貞", "amount_twd": 31290, "note": "依補1（補正本）"}
+  ],
+  "insurance_count": 22,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+    {"desc": "授信/農會信用部（債權人名稱判讀模糊）", "owner": "詹金富", "amount_twd": 2000000, "note": "106/6/17 購置房地"}
+  ],
+  "debts_count": 1,
+  "debts_total_twd": 2000000,
+  "business_investments": [
+    {"desc": "事業名稱判讀存疑（手寫模糊）", "owner": "詹金富", "amount_twd": 800000, "note": "取得時間判讀存疑；原因：設立"}
+  ],
+  "business_investments_total_twd": 800000,
+  "trust_items": [],
+  "notes": "依 2847_0.pdf 原表為主，2847_1.pdf（補1）僅更正保險分項（4筆）。保險總筆數 22 筆，但原表第14頁至第19頁多數列僅有保險公司與商品名稱、金額欄空白，本次僅轉錄可辨識之項目（共11筆），其餘未完整轉錄，需人工補齊。土地第2至8筆之坐落、取得時間及價額，以及建物、車輛、股票、存款、債務、事業投資等數字與名稱為手寫判讀，若有出入以原表為準。股票 耀華 TWD 原判讀為 104415，依股數×票面價額推算取 14415。存款中郵政儲金簿之機構名稱與金額判讀存疑。未成年子女人數 0，配偶姓名依表上判讀。"
+}}

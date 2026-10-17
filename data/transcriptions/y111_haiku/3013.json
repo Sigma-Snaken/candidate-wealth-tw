@@ -1,0 +1,71 @@
+{
+  "seq": "3013",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "李世斌",
+    "declare_date": "民國111年8月31日",
+    "spouse": "邱君如",
+    "minor_children_count": 0,
+    "total_pages": 18,
+    "land": [
+      {"location": "屏東縣屏東市豐田段", "area_m2": 150, "share": "全部", "owner": "邱君如", "acquired": "78.09.16", "reason": "買賣", "price": "超過五年"},
+      {"location": "屏東縣屏東市豐田段", "area_m2": 102, "share": "柒分之一", "owner": "邱君如", "acquired": "78.09.16", "reason": "買賣", "price": "超過五年"},
+      {"location": "屏東縣屏東市明正段", "area_m2": 68, "share": "全部", "owner": "李世斌", "acquired": "94.09.02", "reason": "買賣", "price": "超過五年"},
+      {"location": "屏東縣屏東市明正段", "area_m2": 18, "share": "全部", "owner": "李世斌", "acquired": "94.09.02", "reason": "買賣", "price": "超過五年"}
+    ],
+    "land_count": 4,
+    "buildings": [
+      {"location": "屏東縣屏東市豐田段", "area_m2": 155.7, "share": "全部", "owner": "邱君如", "acquired": "78.11.01", "reason": "買賣", "price": "超過五年"},
+      {"location": "屏東縣屏東市明正段", "area_m2": 116.8, "share": "全部", "owner": "李世斌", "acquired": "94.09.02", "reason": "買賣", "price": "超過五年"}
+    ],
+    "building_count": 2,
+    "ships": [],
+    "vehicles": [
+      {"desc": "休旅車 LEXUS 3300CC", "owner": "邱君如", "acquired": "095.09.21", "price": "2310000"},
+      {"desc": "休旅車 TOYOTA 2500CC", "owner": "李世斌", "acquired": "109.10.07", "price": "860000"}
+    ],
+    "vehicle_count": 2,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {"bank": "台灣銀行", "kind": "定期存款", "currency": "新臺幣", "owner": "邱君如", "foreign_amount": null, "twd": 2000000},
+      {"bank": "台灣銀行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "邱君如", "foreign_amount": null, "twd": 921407},
+      {"bank": "台灣銀行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "李世斌", "foreign_amount": null, "twd": 43337},
+      {"bank": "屏東林森路郵局", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "邱君如", "foreign_amount": null, "twd": 50343}
+    ],
+    "deposit_count": 4,
+    "deposit_total_twd": 3015087,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {"desc": "國泰人壽 新鍾情終身壽險", "owner": "李世斌", "amount_twd": 830844, "note": "儲蓄型壽險；保險金額59346；契約96年12月21日起至終身(99歲)；保單號碼未輸出"},
+      {"desc": "國泰人壽 鍾愛一生313終身壽險", "owner": "邱君如", "amount_twd": 610880, "note": "儲蓄型壽險；保險金額30544；契約88年7月26日起至終身；保單號碼未輸出"},
+      {"desc": "國泰人壽 新呵護久久失能照護終身保險", "owner": "邱君如", "amount_twd": 101480, "note": "儲蓄型壽險；保險金額25370；契約108年7月1日起至終身；保單號碼未輸出"}
+    ],
+    "insurance_count": 3,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {"desc": "購屋貸款（債權人：金融機構，地址略）", "owner": "李世斌", "amount_twd": 3656082, "note": "取得時間102.04；原因購屋貸款"},
+      {"desc": "信用貸款（債權人：金融機構，地址略）", "owner": "邱君如", "amount_twd": 938620, "note": "取得時間105.05；原因住宅整修貸款"},
+      {"desc": "信用貸款（債權人：金融機構，地址略）", "owner": "邱君如", "amount_twd": 480962, "note": "取得時間100.02；原因住宅整修貸款"}
+    ],
+    "debts_count": 3,
+    "debts_total_twd": 5075664,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "(1) 本筆以 3013_1（補1）為準：補1 共18頁，第1-13頁與原本（3013_0）內容相同，逐頁核對無差異；第14頁保險改以補1第14頁（手寫頁碼 14/14 之更正頁）為準，原本第14頁列出10筆保險但無金額，已由補1之3筆取代。(2) 保險補1 3筆加總 1543204 與表上「累積已繳保險費折合新臺幣總金額 1,543,204」相符，保險筆數依表上總申報筆數3。(3) 存款4筆加總 3015087 與表上總額相符。(4) 債務3筆加總 5075664 與表上總額相符；債權人名稱與地址在表上已遮蔽，未輸出。(5) 土地第2項持分原文為「柒分之一」。(6) 土地、建物坐落僅記縣市鄉鎮區段，地號與建號未記。(7) 汽車僅記廠牌、排氣量、持有人、取得時間與價額，牌照號碼未記。(8) 配偶邱君如；表上未列未成年子女，minor_children_count 填0。(9) 有價證券、珠寶、事業投資、債權等各項筆數皆為0或「無」。"
+  }
+}

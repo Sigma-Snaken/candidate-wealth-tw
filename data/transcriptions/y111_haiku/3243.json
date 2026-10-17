@@ -1,0 +1,73 @@
+{
+  "seq": "3243",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "廖璟華",
+    "declare_date": "民國111年09月02日",
+    "spouse": "張弘光",
+    "minor_children_count": 1,
+    "total_pages": 9,
+    "land": [
+      {"location": "台南市仁德區炭腳北段", "area_m2": 86.89, "share": "1/1", "owner": "廖璟華", "acquired": "102.09.27", "reason": "買賣", "price": "7100000"},
+      {"location": "台南市仁德區炭腳北段", "area_m2": 10.49, "share": "1/1", "owner": "廖璟華", "acquired": "102.09.27", "reason": "買賣", "price": "與一地號一併購買"},
+      {"location": "澎湖縣馬公市鎖港西段", "area_m2": 1086.03, "share": "1/1", "owner": "廖璟華", "acquired": "103.12.29", "reason": "買賣", "price": "2629000"},
+      {"location": "澎湖縣馬公市埕東段", "area_m2": 87.76, "share": "1/1", "owner": "廖璟華", "acquired": "108.02.26", "reason": "買賣", "price": "12260000"}
+    ],
+    "land_count": 4,
+    "buildings": [
+      {"location": "台南市仁德區炭腳段", "area_m2": 186.3, "share": "1/1", "owner": "廖璟華", "acquired": "102.09.27", "reason": "買賣", "price": "與一地號一併購買"},
+      {"location": "澎湖縣馬公市埕東段", "area_m2": 195.7, "share": "1/1", "owner": "廖璟華", "acquired": "108.02.26", "reason": "買賣", "price": "與一地號一併購買"}
+    ],
+    "building_count": 2,
+    "ships": [],
+    "vehicles": [
+      {"desc": "福特六和 汽缸2261", "owner": "廖璟華", "acquired": "100.3.30", "price": "700000"}
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [],
+    "deposit_count": 0,
+    "deposit_total_twd": 0,
+    "securities_total_twd": 1404959.06,
+    "stocks": [
+      {"code": null, "name": "力士科技", "owner": "廖璟華", "shares": 1000, "par": 59, "currency": null, "twd": 59000}
+    ],
+    "stock_count": 1,
+    "stock_total_twd": 59000,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [
+      {"name": "聯博全球非投等債EA美穩", "code": null, "owner": "廖璟華", "units": 4359.198, "par": 11.47, "currency": "USD", "twd": 1345959.06}
+    ],
+    "fund_total_twd": 1345959.06,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {"desc": "中國人壽 台灣人壽金得利增額終身壽險", "owner": "廖璟華", "amount_twd": 362592, "note": "保險金額370000；契約始日094/06/08；契約終日167/06/08；amount_twd為累積已繳保險費折合新臺幣總額；保險公司欄印為中國人壽，保險名稱為台灣人壽，依表照錄"},
+      {"desc": "全球人壽 全球人壽安心360利率變動型美元增額終身壽險", "owner": "廖璟華", "amount_twd": 1432200, "note": "保險金額12000（美元）；契約始日101/12/18；契約終日166/12/17；amount_twd為累積已繳保險費折合新臺幣總額"},
+      {"desc": "全球人壽 國華人壽雙雙還本終身保險", "owner": "廖璟華", "amount_twd": 294648, "note": "保險金額100000；契約始日100/04/29；契約終日2086/04/28；amount_twd為累積已繳保險費折合新臺幣總額"},
+      {"desc": "全球人壽 國華人壽盈盈還本終身保險", "owner": "廖璟華", "amount_twd": 184032, "note": "保險金額100000；契約始日100/04/29；契約終日終身；amount_twd為累積已繳保險費折合新臺幣總額"},
+      {"desc": "南山人壽 佳多利利率變動型還本終身保險", "owner": "廖璟華", "amount_twd": 485992, "note": "保險金額130000；契約始日108/03/07；契約終日167/03/07；amount_twd為累積已繳保險費折合新臺幣總額"},
+      {"desc": "三商人壽 20年繳費終身壽險（祿）型", "owner": "廖璟華", "amount_twd": 180192, "note": "保險金額85333；契約始日083/10/05；契約終日161/10/05；amount_twd為累積已繳保險費折合新臺幣總額"}
+    ],
+    "insurance_count": 6,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [],
+    "debts_count": 0,
+    "debts_total_twd": 0,
+    "business_investments": [
+      {"desc": "微農香(股)公司", "owner": "廖璟華", "amount_twd": 700000, "note": "取得時間103/05/23"},
+      {"desc": "華平科技(股)公司", "owner": "廖璟華", "amount_twd": 400000, "note": "取得時間106/11/25"},
+      {"desc": "美麗海灣(股)公司", "owner": "廖璟華", "amount_twd": 146500, "note": "取得時間104/04/13"},
+      {"desc": "貝傳媒", "owner": "廖璟華", "amount_twd": 249999, "note": "取得時間108/03/26"}
+    ],
+    "business_investments_total_twd": 1496499,
+    "trust_items": [],
+    "notes": "(七)存款為0筆，總金額手寫0元。(八)有價證券總價額印章遮住部分數字，依股票59000加基金1345959.06合計為1404959.06轉錄。保險公司欄與保險名稱第一筆不一致，依表照錄。子女1人（姓名不填）。事業投資四筆合計1496499與表上總額一致。備註欄空白。交件日為2022年9月2日。證號、保單號、地址、車牌已省略。"
+  }
+}

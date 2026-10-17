@@ -1,0 +1,80 @@
+{"seq": "2992", "model": "claude-haiku", "data": {
+  "declarant": "林則葹",
+  "declare_date": "民國111年8月31日",
+  "spouse": null,
+  "minor_children_count": 0,
+  "total_pages": 13,
+  "land": [
+    {"location": "花蓮縣花蓮市民德段", "area_m2": 366.0, "share": "1000分之144", "owner": "林則葹", "acquired": "106/08/25", "reason": "買賣", "price": "與建號一併購買"},
+    {"location": "花蓮縣鳳林鎮北林段", "area_m2": 2546.36, "share": "1分之1", "owner": "林則葹", "acquired": "104/02/03", "reason": "買賣", "price": "3000000"}
+  ],
+  "land_count": 2,
+  "buildings": [
+    {"location": "花蓮縣花蓮市民德段", "area_m2": 71.84, "share": "1分之1", "owner": "林則葹", "acquired": "106/08/25", "reason": "買賣", "price": "11500000"},
+    {"location": "花蓮縣花蓮市民德段", "area_m2": 107.13, "share": "1分之1", "owner": "林則葹", "acquired": "106/08/25", "reason": "買賣", "price": "與建號一併購買"},
+    {"location": "花蓮縣花蓮市民德段", "area_m2": 32.23, "share": "1分之1", "owner": "林則葹", "acquired": "106/08/25", "reason": "買賣", "price": "與建號一併購買"},
+    {"location": "花蓮縣花蓮市民德段", "area_m2": 4.07, "share": "1分之1", "owner": "林則葹", "acquired": "106/08/25", "reason": "買賣", "price": "與建號一併購買"},
+    {"location": "花蓮縣花蓮市民德段", "area_m2": 416.81, "share": "1000分之144", "owner": "林則葹", "acquired": "106/08/25", "reason": "買賣", "price": "與建號一併購買"}
+  ],
+  "building_count": 5,
+  "ships": [],
+  "vehicles": [
+    {"desc": "本田 FIT 1498cc", "owner": "林則葹", "acquired": "111/5/5", "price": "804520"}
+  ],
+  "vehicle_count": 1,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [
+    {"bank": "台新銀行花蓮分行", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 2460550},
+    {"bank": "台新銀行敦南Richart一般帳戶", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 90099},
+    {"bank": "台新銀行敦南Richart外幣綜存", "kind": "外幣活期存款", "currency": "美金", "owner": "林則葹", "foreign_amount": 10593.62, "twd": 319874},
+    {"bank": "台新銀行敦南Richart外幣綜存", "kind": "外幣活期存款", "currency": "日幣", "owner": "林則葹", "foreign_amount": 8427600, "twd": 748931},
+    {"bank": "中國信託銀行員林分行", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 181114},
+    {"bank": "土地銀行花蓮分行", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 85955},
+    {"bank": "郵局花蓮國安郵局", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 17507},
+    {"bank": "花蓮第二信用合作社中山分社", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 65464},
+    {"bank": "花蓮市農會花商分部", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 27876},
+    {"bank": "鳳梨地區農會", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 2000},
+    {"bank": "華南銀行", "kind": "活期存款", "currency": "新台幣", "owner": "林則葹", "foreign_amount": null, "twd": 180636}
+  ],
+  "deposit_count": 11,
+  "deposit_total_twd": 4180006,
+  "securities_total_twd": 1728136,
+  "stocks": [],
+  "stock_count": 7,
+  "stock_total_twd": 1523159,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [
+    {"name": "伯恩特別股息收益基金N(新台幣)", "code": "IA02", "owner": "林則葹", "units": 10515.2, "par": null, "currency": "TWD", "twd": 82229},
+    {"name": "富蘭克林坦伯頓全球投資系列-新興國家固定收益基金A(Mdis)股", "code": "IT6076", "owner": "林則葹", "units": 1032.03, "par": null, "currency": "USD", "twd": 122748}
+  ],
+  "fund_total_twd": 204977,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": null,
+  "insurance": [
+    {"desc": "新光人壽美元添旺外幣利率變動型終身壽險", "owner": "林則葹", "amount_twd": 92382, "note": "外幣保費3000美元；契約始日1081009"},
+    {"desc": "元大人壽三富增利利率變動型終身壽險", "owner": "林則葹", "amount_twd": 926970, "note": "契約始日1071022；終身"},
+    {"desc": "富邦人壽富利旺終身壽險", "owner": "林則葹", "amount_twd": 281817, "note": "契約始日1030824；終身"},
+    {"desc": "富邦人壽新平安福保本保險", "owner": "林則葹", "amount_twd": 346500, "note": "契約始日1030409；終身"},
+    {"desc": "郵局簡易人壽安心小額終身保險", "owner": "林則葹", "amount_twd": 17879, "note": "契約始日1110318"},
+    {"desc": "郵局簡易人壽帝鑽增額保險", "owner": "林則葹", "amount_twd": 24528, "note": "契約始日1110318"},
+    {"desc": "郵局簡易人壽送本保險", "owner": "林則葹", "amount_twd": 372900, "note": "契約始日1020804"}
+  ],
+  "insurance_count": 7,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+    {"desc": "房屋貸款/華南銀行花蓮分行", "owner": "林則葹", "amount_twd": 2222585, "note": "106.8.31 購置房屋"},
+    {"desc": "投資及消費貸款/華南銀行花蓮分行", "owner": "林則葹", "amount_twd": 3451763, "note": "111.4.20 購置汽車及選舉費用"}
+  ],
+  "debts_count": 2,
+  "debts_total_twd": 5674348,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "依 2992_0.pdf 轉錄（無補正檔）。股票欄位為 股數/市價(每股)/新臺幣金額，表上無票面價額，故 par 填 null；股票無代碼，code 填 null；台開 40000 股折合 0。基金代碼與名稱手寫略模糊，依最可能判讀。(九)珠寶區總價額手寫為 2,082,976（但筆數 0），判讀存疑，other_assets_total_twd 填 null。保險總額 2,062,976 與七筆加總一致。申報人姓名依檔名判定為林則葹，表上字跡判讀可能有出入。保單號碼未輸出。"
+}}

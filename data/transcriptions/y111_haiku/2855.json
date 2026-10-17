@@ -1,0 +1,67 @@
+{"seq": "2855", "model": "claude-haiku", "data": {
+"declarant": "徐子芳",
+"declare_date": "民國111年9月1日",
+"spouse": "楊文值",
+"minor_children_count": 0,
+"total_pages": 17,
+"land": [
+ {"location": "花蓮市北濱段", "area_m2": 85, "share": "全部", "owner": "楊文值", "acquired": "69/07/16", "reason": "(世居)贈與", "price": null},
+ {"location": "花蓮市北濱段", "area_m2": 1, "share": "全部", "owner": "楊文值", "acquired": "75/08/28", "reason": "(世居)贈與", "price": null},
+ {"location": "花蓮市北濱街", "area_m2": 89, "share": "全部", "owner": "楊文值", "acquired": "97/03/06", "reason": "買賣", "price": "2690000"}
+],
+"land_count": 3,
+"buildings": [
+ {"location": "花蓮市北濱段", "area_m2": 146.12, "share": "全部", "owner": "楊文值", "acquired": "76/08/27", "reason": "(世居)贈與", "price": null},
+ {"location": "花蓮市北濱段", "area_m2": 75.2, "share": "全部", "owner": "楊文值", "acquired": "97/03/06", "reason": "買賣", "price": null}
+],
+"building_count": 2,
+"ships": [],
+"vehicles": [
+ {"desc": "MITSUBISHI 1499cc", "owner": "徐子芳", "acquired": "109.11.9", "price": null}
+],
+"vehicle_count": 1,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+ {"bank": "花蓮第一信用合作社營業部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "楊文值", "foreign_amount": null, "twd": 1994305},
+ {"bank": "花蓮第二信用合作社營業部", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "楊文值", "foreign_amount": null, "twd": 1584035},
+ {"bank": "郵局(花蓮車站)", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "楊文值", "foreign_amount": null, "twd": 1087432}
+],
+"deposit_count": 3,
+"deposit_total_twd": 4665772,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [
+ {"desc": "新光人壽 吉祥如意", "owner": "楊文值", "amount_twd": 1120000, "note": "終身遞本 保額50萬 契約終身；累積已繳保險費取自補正檔2855_1"},
+ {"desc": "中國人壽 新松允乙型", "owner": "徐子芳", "amount_twd": 949400, "note": "終身 保額50萬；累積已繳保險費取自補正檔2855_1"}
+],
+"insurance_count": 2,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+ {"desc": "個人理財貸款/台灣中小企銀", "owner": "楊文值", "amount_twd": 4000000, "note": "取得時間99/12/24；原因：貸款"},
+ {"desc": "抵押貸款/花蓮一信", "owner": "楊文值", "amount_twd": 6000000, "note": "取得時間110/11/26；原因：貸款"},
+ {"desc": "小額貸款/中國信託", "owner": "徐子芳", "amount_twd": 1457054, "note": "取得時間110/08/05；原因：貸款"}
+],
+"debts_count": 3,
+"debts_total_twd": 11457054,
+"business_investments": [
+ {"desc": "傳喜投資有限公司", "owner": "楊文值", "amount_twd": 300000, "note": "97/10/08 投資（事業名稱判讀存疑）"},
+ {"desc": "傳喜投資有限公司", "owner": "徐子芳", "amount_twd": 300000, "note": "97/10/28 投資（事業名稱判讀存疑）"},
+ {"desc": "自性生化科技股份有限公司", "owner": "楊文值", "amount_twd": 4455000, "note": "投資"}
+],
+"business_investments_total_twd": 5055000,
+"trust_items": [],
+"notes": "補正檔2855_1覆蓋保險累積已繳保險費欄位（2855_0原件該欄空白）；其他項目以原件為準。土地第3筆坐落「北濱街」與建物「北濱段」字樣判讀不完全確定；事業投資名稱「傳喜投資」判讀存疑；存款總額4,665,772與三筆相加一致。總頁數依原件17頁。"
+}}

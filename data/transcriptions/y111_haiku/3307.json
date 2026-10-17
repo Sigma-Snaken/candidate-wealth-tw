@@ -1,0 +1,61 @@
+{"seq": "3307", "model": "claude-haiku", "data": {
+"declarant": "林詩穎",
+"declare_date": "民國111年8月31日",
+"spouse": null,
+"minor_children_count": 0,
+"total_pages": 9,
+"land": [
+{"location": "宜蘭縣頭城鎮金面一段", "area_m2": 224250.73, "share": "4991/226335", "owner": "林詩穎", "acquired": "109.07.15", "reason": "贈與", "price": "890104.00"},
+{"location": "宜蘭縣頭城鎮金面一段", "area_m2": 3456.04, "share": "4991/226335", "owner": "林詩穎", "acquired": "109.07.15", "reason": "贈與", "price": "13717.00"}
+],
+"land_count": 2,
+"buildings": [],
+"building_count": 0,
+"ships": [],
+"vehicles": [
+{"desc": "TOYOTA", "owner": "林詩穎", "acquired": "104.07.30", "price": "超過5年"}
+],
+"vehicle_count": 1,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": null,
+"deposits": [
+{"bank": "臺灣銀行宜蘭分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "林詩穎", "foreign_amount": null, "twd": 1602},
+{"bank": "台北富邦銀行中和分行", "kind": "活期存款", "currency": "新臺幣", "owner": "林詩穎", "foreign_amount": null, "twd": 1011},
+{"bank": "臺灣企銀宜蘭分行", "kind": "活期存款", "currency": "新臺幣", "owner": "林詩穎", "foreign_amount": null, "twd": 168},
+{"bank": "頭城農會", "kind": "活期存款", "currency": "新臺幣", "owner": "林詩穎", "foreign_amount": null, "twd": 82983},
+{"bank": "郵政儲金匯業局", "kind": "活期存款", "currency": "新臺幣", "owner": "林詩穎", "foreign_amount": null, "twd": 96968},
+{"bank": "中信銀行城東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "林詩穎", "foreign_amount": null, "twd": 277}
+],
+"deposit_count": 6,
+"deposit_total_twd": 183009,
+"securities_total_twd": null,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": null,
+"bonds": [],
+"bond_total_twd": null,
+"funds": [],
+"fund_total_twd": null,
+"other_securities": [],
+"other_securities_total_twd": null,
+"other_assets": [
+{"desc": "黃金存摺（臺灣銀行城中分行）", "owner": "林詩穎", "amount_twd": 15791, "note": "單位數10；原始交易金額15791(TWD)"}
+],
+"other_assets_total_twd": 67339,
+"insurance": [
+{"desc": "南山人壽保險公司 安心手術醫療終身保險", "owner": "林詩穎", "amount_twd": 84798, "note": "保險金額1000；102/01/23起終身；累積已繳保險費新臺幣84798.00元"},
+{"desc": "南山人壽保險公司 終身醫療保險", "owner": "林詩穎", "amount_twd": 127008, "note": "保險金額1000；102/01/23起終身；累積已繳保險費新臺幣127008.00元"},
+{"desc": "國泰人壽保險公司 好事年年終身保險", "owner": "林詩穎", "amount_twd": 445794, "note": "保險金額50000；105/04/25起16/04/24（契約終止日如表）；累積已繳保險費新臺幣445794.00元"}
+],
+"insurance_count": 3,
+"debt_claims": [],
+"debt_claims_total_twd": null,
+"debts": [],
+"debts_count": 0,
+"debts_total_twd": null,
+"business_investments": [],
+"business_investments_total_twd": null,
+"trust_items": [],
+"notes": "(九)其他財產總價值表上為手寫67339，但列出之黃金存摺原始交易金額為15791，兩者不一致，已依表上手寫數字填 other_assets_total_twd=67339，請核對。保險保單號碼與要保人地址未記。(五)航空器與(三)船舶各0筆。(六)現金0筆、(八)有價證券各項0筆，其總額欄未填，故 null。申報日與交件日均為111年8月31日。"
+}}

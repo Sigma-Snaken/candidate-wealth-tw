@@ -1,0 +1,226 @@
+{
+  "seq": "2689",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "林東滿",
+    "declare_date": "民國111年8月29日",
+    "spouse": "蔡旻真",
+    "minor_children_count": 0,
+    "total_pages": 16,
+    "land": [
+      {
+        "location": "台東縣東河鄉北都蘭段",
+        "area_m2": 1005.633,
+        "share": "全",
+        "owner": "林東滿",
+        "acquired": "87年1月6日",
+        "reason": "買賣",
+        "price": null
+      },
+      {
+        "location": "台東縣東河鄉北都蘭段",
+        "area_m2": 4313.15,
+        "share": "全",
+        "owner": "林東滿",
+        "acquired": "87年3月19日",
+        "reason": "贈與",
+        "price": null
+      },
+      {
+        "location": "台東縣東河鄉阿都蘭段",
+        "area_m2": 3041.63,
+        "share": "全",
+        "owner": "林東滿",
+        "acquired": "60年4月20日",
+        "reason": "買賣",
+        "price": null
+      },
+      {
+        "location": "台東縣東河鄉阿都蘭段",
+        "area_m2": 5713.11,
+        "share": "全",
+        "owner": "林東滿",
+        "acquired": "69年1月15日",
+        "reason": "買賣",
+        "price": null
+      },
+      {
+        "location": "台東縣東河鄉藍寶段",
+        "area_m2": 7877.04,
+        "share": "全",
+        "owner": "林東滿",
+        "acquired": "69年1月15日",
+        "reason": "買賣",
+        "price": null
+      },
+      {
+        "location": "台東縣東河鄉藍寶段",
+        "area_m2": 7234.27,
+        "share": "全",
+        "owner": "林東滿",
+        "acquired": "86年7月24日",
+        "reason": "買賣",
+        "price": null
+      }
+    ],
+    "land_count": 6,
+    "buildings": [
+      {
+        "location": "台東縣東河鄉北都蘭段",
+        "area_m2": 243.46,
+        "share": "全",
+        "owner": "林東滿",
+        "acquired": "78年10月19日",
+        "reason": "第一次登記",
+        "price": null
+      },
+      {
+        "location": "台東縣東河鄉都蘭村",
+        "area_m2": 275.4,
+        "share": "全",
+        "owner": "林東滿",
+        "acquired": "108年3月20日",
+        "reason": "增建",
+        "price": "239000"
+      }
+    ],
+    "building_count": 2,
+    "ships": [],
+    "vehicles": [
+      {
+        "desc": "VOLVO 1498CC",
+        "owner": "林東滿",
+        "acquired": "108年6月10日",
+        "price": "1070000"
+      },
+      {
+        "desc": "VOLVO 1969CC",
+        "owner": "林東滿",
+        "acquired": "110年1月7日",
+        "price": "2250000"
+      },
+      {
+        "desc": "國瑞 1497CC",
+        "owner": "蔡旻真",
+        "acquired": "85年12月18日",
+        "price": null
+      }
+    ],
+    "vehicle_count": 3,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {
+        "bank": "台東縣長濱鄉農會信用部",
+        "kind": "定期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "蔡旻真",
+        "foreign_amount": null,
+        "twd": 10000000
+      },
+      {
+        "bank": "台東縣長濱鄉農會",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "蔡旻真",
+        "foreign_amount": null,
+        "twd": 81740
+      },
+      {
+        "bank": "台東縣東河鄉農會",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "蔡旻真",
+        "foreign_amount": null,
+        "twd": 321924
+      },
+      {
+        "bank": "東河都蘭郵局",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "蔡旻真",
+        "foreign_amount": null,
+        "twd": 1417305
+      },
+      {
+        "bank": "臺灣銀行臺東分行",
+        "kind": "優惠存款",
+        "currency": "新臺幣",
+        "owner": "林東滿",
+        "foreign_amount": null,
+        "twd": 270000
+      },
+      {
+        "bank": "臺灣銀行臺東分行",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "林東滿",
+        "foreign_amount": null,
+        "twd": 69869
+      },
+      {
+        "bank": "合作金庫東台東分行",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "林東滿",
+        "foreign_amount": null,
+        "twd": 367657
+      },
+      {
+        "bank": "台東縣東河鄉農會信用部",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "林東滿",
+        "foreign_amount": null,
+        "twd": 258557
+      },
+      {
+        "bank": "東河都蘭郵局",
+        "kind": "活期存款",
+        "currency": "新臺幣",
+        "owner": "林東滿",
+        "foreign_amount": null,
+        "twd": 132087
+      }
+    ],
+    "deposit_count": 9,
+    "deposit_total_twd": 12919139,
+    "securities_total_twd": 0,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [],
+    "fund_total_twd": 0,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [],
+    "insurance_count": 0,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {
+        "desc": "農家綜合貸款－台東縣東河鄉農會",
+        "owner": "林東滿",
+        "amount_twd": 353331,
+        "note": "取得時間 110年12月30日；原因 貸款"
+      },
+      {
+        "desc": "農家綜合貸款－台東縣東河鄉農會",
+        "owner": "蔡旻真",
+        "amount_twd": 353331,
+        "note": "取得時間 110年12月30日；原因 貸款"
+      }
+    ],
+    "debts_count": 2,
+    "debts_total_twd": 706662,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 土地及建物權利範圍皆為「全」；土地取得價額欄空白。2) 第7頁存款合計 12919139 與九筆逐筆加總一致。3) 第5頁 航空器 0 筆；第6頁 現金 0。4) 債權人地址、門牌（都蘭村43鄰都蘭路）、稅籍號碼、帳號均未輸出，建物 location 僅保留到村。5) 申報日 民國111年8月29日；交件日 111年9月2日。"
+  }
+}

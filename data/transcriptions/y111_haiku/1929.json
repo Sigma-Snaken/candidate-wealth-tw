@@ -1,0 +1,263 @@
+{
+  "seq": "1929",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "周瑞國",
+    "declare_date": "民國111年8月29日",
+    "spouse": "陳秀萍",
+    "minor_children_count": 2,
+    "total_pages": null,
+    "land": [
+      {
+        "location": "連江縣北竿鄉塘岐段",
+        "area_m2": 86.35,
+        "share": "1/1",
+        "owner": "周瑞國",
+        "acquired": "107/05/14",
+        "reason": "買賣",
+        "price": "215875（土地公告現值每平方公尺12300元）"
+      },
+      {
+        "location": "連江縣北竿鄉里段",
+        "area_m2": 213.56,
+        "share": "1/2",
+        "owner": "陳秀萍",
+        "acquired": "109/06/10",
+        "reason": "買賣",
+        "price": "128136（土地公告現值每平方公尺1200元）"
+      },
+      {
+        "location": "連江縣北竿鄉里段",
+        "area_m2": 62.19,
+        "share": "1/2",
+        "owner": "陳秀萍",
+        "acquired": "109/06/10",
+        "reason": "買賣",
+        "price": "37314（土地公告現值每平方公尺1200元）"
+      }
+    ],
+    "land_count": 3,
+    "buildings": [
+      {
+        "location": "連江縣北竿鄉塘岐村",
+        "area_m2": 172.5,
+        "share": "1000000/1000000",
+        "owner": "周瑞國",
+        "acquired": "107/05/14",
+        "reason": "65",
+        "price": "140900"
+      }
+    ],
+    "building_count": 1,
+    "ships": [],
+    "vehicles": [
+      {
+        "desc": "國瑞（汽車）汽缸容量1998c.c.",
+        "owner": "周瑞國",
+        "acquired": "104/01/29",
+        "price": null
+      }
+    ],
+    "vehicle_count": 1,
+    "aircraft": [],
+    "cash": [],
+    "cash_total_twd": 0,
+    "deposits": [
+      {
+        "bank": "華南銀行雙和分行",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "周瑞國",
+        "foreign_amount": null,
+        "twd": 463
+      },
+      {
+        "bank": "國泰世華銀行中和分行",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "周瑞國",
+        "foreign_amount": null,
+        "twd": 299
+      },
+      {
+        "bank": "郵政儲金匯業局",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "周瑞國",
+        "foreign_amount": null,
+        "twd": 1005732
+      },
+      {
+        "bank": "永豐銀行積穗分行",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "周瑞國",
+        "foreign_amount": null,
+        "twd": 152
+      },
+      {
+        "bank": "日盛國際銀行北桃園分行",
+        "kind": "活儲證券戶",
+        "currency": "新臺幣",
+        "owner": "周瑞國",
+        "foreign_amount": null,
+        "twd": 106
+      },
+      {
+        "bank": "第一銀行連城分行",
+        "kind": "綜合存款",
+        "currency": "新臺幣",
+        "owner": "陳秀萍",
+        "foreign_amount": null,
+        "twd": 6798
+      },
+      {
+        "bank": "郵政儲金匯業局",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "陳秀萍",
+        "foreign_amount": null,
+        "twd": 51227
+      },
+      {
+        "bank": "新北市鶯歌區農會信用部",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "陳秀萍",
+        "foreign_amount": null,
+        "twd": 1151
+      },
+      {
+        "bank": "郵政儲金匯業局",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "未成年子女",
+        "foreign_amount": null,
+        "twd": 14634
+      },
+      {
+        "bank": "郵政儲金匯業局",
+        "kind": "活期儲蓄存款",
+        "currency": "新臺幣",
+        "owner": "未成年子女",
+        "foreign_amount": null,
+        "twd": 159924
+      }
+    ],
+    "deposit_count": 10,
+    "deposit_total_twd": 1240486,
+    "securities_total_twd": 200847,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": 0,
+    "bonds": [],
+    "bond_total_twd": 0,
+    "funds": [
+      {
+        "name": "富達新興市場一美元",
+        "code": "FA201500",
+        "owner": "陳秀萍",
+        "units": 210.63,
+        "par": 33.41,
+        "currency": "美元",
+        "twd": 200847
+      }
+    ],
+    "fund_total_twd": 200847,
+    "other_securities": [],
+    "other_securities_total_twd": 0,
+    "other_assets": [],
+    "other_assets_total_twd": 0,
+    "insurance": [
+      {
+        "desc": "國泰人壽保險公司／新兒童終身",
+        "owner": "周瑞國",
+        "amount_twd": 434000,
+        "note": "保單號碼與要保人地址未記錄；保險金額434000；契約始日090/05/16，契約終日終身"
+      },
+      {
+        "desc": "國泰人壽保險公司／鍾情終身壽險",
+        "owner": "周瑞國",
+        "amount_twd": 93600,
+        "note": "保險金額93600；契約始日094/04/20，契約終日終身"
+      },
+      {
+        "desc": "富邦人壽保險公司／富邦人壽安富久久失能照護終身壽險",
+        "owner": "周瑞國",
+        "amount_twd": 98316,
+        "note": "保險金額98316；契約始日106/04/23，契約終日終身"
+      },
+      {
+        "desc": "新光人壽保險公司／新光人壽安佳增值終身還本壽險",
+        "owner": "周瑞國",
+        "amount_twd": 839370,
+        "note": "保險金額839370；契約始日082/06/11，契約終日終身"
+      },
+      {
+        "desc": "新光人壽保險公司／新光人壽金寶貝終身還本壽險",
+        "owner": "周瑞國",
+        "amount_twd": 507866,
+        "note": "保險金額507866；契約始日099/06/13，契約終日終身"
+      },
+      {
+        "desc": "新光人壽保險公司／新光人壽新百齡終身壽險",
+        "owner": "周瑞國",
+        "amount_twd": 567320,
+        "note": "保險金額567320；契約始日076/04/21，契約終日終身"
+      },
+      {
+        "desc": "三商美邦人壽保險公司／二十年繳費終身壽險（福型）",
+        "owner": "陳秀萍",
+        "amount_twd": 713190,
+        "note": "保險金額713190；契約始日087/11/18，契約終日終身"
+      },
+      {
+        "desc": "台灣人壽保險公司／富加寶保險",
+        "owner": "陳秀萍",
+        "amount_twd": 160940,
+        "note": "保險金額160940；契約始日101/10/30，契約終日126/10/30"
+      },
+      {
+        "desc": "南山人壽保險公司／南山人壽圓滿人生長期照顧終身保險",
+        "owner": "陳秀萍",
+        "amount_twd": 82125,
+        "note": "保險金額82125；契約始日105/06/08，契約終日終身"
+      },
+      {
+        "desc": "南山人壽保險公司／南山人壽鑫利年年2增額終身壽險",
+        "owner": "陳秀萍",
+        "amount_twd": 232632,
+        "note": "保險金額232632；契約始日103/07/01，契約終日終身"
+      },
+      {
+        "desc": "南山人壽保險公司／南山人壽鑫利年年2增額終身壽險",
+        "owner": "陳秀萍",
+        "amount_twd": 232740,
+        "note": "保險金額232740；契約始日103/07/01，契約終日終身；保單號碼同前一筆，判讀存疑"
+      }
+    ],
+    "insurance_count": 11,
+    "debt_claims": [],
+    "debt_claims_total_twd": 0,
+    "debts": [
+      {
+        "desc": "保單借款／新光人壽保險公司",
+        "owner": "周瑞國",
+        "amount_twd": 300000,
+        "note": "取得時間090/10/15；取得原因：新光人壽安佳增值終身還本壽險（保單借款）"
+      },
+      {
+        "desc": "保單借款／新光人壽保險公司",
+        "owner": "周瑞國",
+        "amount_twd": 124000,
+        "note": "取得時間090/10/17；取得原因：新光人壽新百齡終身壽險（保單借款）"
+      }
+    ],
+    "debts_count": 2,
+    "debts_total_twd": 424000,
+    "business_investments": [],
+    "business_investments_total_twd": 0,
+    "trust_items": [],
+    "notes": "1) 原件單份（1929_0），無補正檔。2) 申報日111年8月29日，交件日手寫為111年8月31日，日期個位數判讀存疑。3) 存款10筆加總1,240,486元，與表上總額相符；周賢、周臻兩筆owner依規定記為未成年子女。4) 有價證券：基金1筆200,847元（匯率28.5410），與表上總額相符。5) 保險11筆加總3,962,099元，段標題手寫金額亦為3,962,099。第10、11筆南山鑫利年年2保單號碼同為N27825，判讀可能有誤。6) (九)段表頭手寫金額3,962,099元（與保險合計相同，非珠寶），珠寶子項目為0筆，other_assets_total_twd依珠寶子項目填0。7) 債務2筆（保單借款）合計424,000元，與表上總額手寫判讀一致。8) (十二)事業投資表格無明細資料，總金額0元，總申報筆數判讀為0筆，business_investments為空。9) 未成年子女2人僅填人數；身分證字號、帳號、地址、電話、保單號碼未記錄。10) 第12頁備註欄（十三）空白。"
+  }
+}

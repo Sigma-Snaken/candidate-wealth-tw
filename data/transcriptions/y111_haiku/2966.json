@@ -1,0 +1,77 @@
+{
+  "seq": "2966",
+  "model": "claude-haiku",
+  "data": {
+    "declarant": "鐘詔元",
+    "declare_date": "民國111年8月31日",
+    "spouse": "王亞尹",
+    "minor_children_count": 1,
+    "total_pages": 18,
+    "land": [
+      {"location": "屏東縣屏東市萬年段", "area_m2": 977, "share": "0.00791", "owner": "王亞尹", "acquired": "110/04/22", "reason": "繼承", "price": "166860"},
+      {"location": "屏東縣麟洛鄉麟平段", "area_m2": 448.01, "share": "0.1", "owner": "王亞尹", "acquired": "109/04/27", "reason": "買賣", "price": "9700000 (與建號一併購買)"},
+      {"location": "屏東縣麟洛鄉麟平段", "area_m2": 94.86, "share": "1", "owner": "王亞尹", "acquired": "109/04/27", "reason": "買賣", "price": "與建號一併購買"},
+      {"location": "屏東縣麟洛鄉麟平段", "area_m2": 2.83, "share": "0.1", "owner": "王亞尹", "acquired": "109/04/27", "reason": "買賣", "price": "與建號一併購買"}
+    ],
+    "land_count": 4,
+    "buildings": [
+      {"location": "屏東縣屏東市萬年段", "area_m2": 125.8, "share": "0.25", "owner": "王亞尹", "acquired": "110/04/22", "reason": "繼承", "price": "66325"},
+      {"location": "屏東縣麟洛鄉麟平段", "area_m2": 169.1, "share": "1", "owner": "王亞尹", "acquired": "109/04/27", "reason": "買賣", "price": "9700000"}
+    ],
+    "building_count": 2,
+    "ships": [],
+    "vehicles": [],
+    "vehicle_count": 0,
+    "aircraft": [],
+    "cash": [
+      {"currency": "新臺幣", "owner": "鐘詔元", "foreign_amount": null, "twd": 266566},
+      {"currency": "新臺幣", "owner": "王亞尹", "foreign_amount": null, "twd": 21597}
+    ],
+    "cash_total_twd": 288163,
+    "deposits": [
+      {"bank": "台灣銀行屏東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "王亞尹", "foreign_amount": null, "twd": 798479},
+      {"bank": "台灣銀行屏東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "鐘詔元", "foreign_amount": null, "twd": 254295},
+      {"bank": "屏東民生路郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "王亞尹", "foreign_amount": null, "twd": 2334}
+    ],
+    "deposit_count": 3,
+    "deposit_total_twd": 1055108,
+    "securities_total_twd": null,
+    "stocks": [],
+    "stock_count": 0,
+    "stock_total_twd": null,
+    "bonds": [],
+    "bond_total_twd": null,
+    "funds": [
+      {"name": "統一全球智聯網Alot基金", "code": null, "owner": "王亞尹", "units": 1228.68, "par": 20000, "currency": null, "twd": 20900}
+    ],
+    "fund_total_twd": 20900,
+    "other_securities": [],
+    "other_securities_total_twd": null,
+    "other_assets": [],
+    "other_assets_total_twd": null,
+    "insurance": [
+      {"desc": "富邦人壽 鑫優利利率變動型增額終身壽險", "owner": "王亞尹", "amount_twd": 356628, "note": "保險金額22萬；契約始日/終日 105/03/26"},
+      {"desc": "富邦人壽 安康久久殘廢照護終身壽險", "owner": "王亞尹", "amount_twd": 74634, "note": "保險金額3萬；契約始日 105/05/14"},
+      {"desc": "富邦人壽 安康久久殘廢照護終身壽險", "owner": "王亞尹", "amount_twd": 172956, "note": "保險金額2萬；契約始日 105/05/14"},
+      {"desc": "富邦人壽 富貴吉祥變額萬能壽險（乙型）", "owner": "王亞尹", "amount_twd": 10000, "note": "保險金額50萬；契約始日 111/03/07"},
+      {"desc": "富邦人壽 守護一生終身健康保險", "owner": "王亞尹", "amount_twd": 161160, "note": "健康保險，保險金額1千；契約始日 101/05/04"},
+      {"desc": "富邦人壽 增值分紅終身壽險", "owner": "王亞尹", "amount_twd": 110000, "note": "保險金額50萬；契約始日 86/02/01"},
+      {"desc": "富邦人壽 重大疾病終身保險", "owner": "王亞尹", "amount_twd": 170000, "note": "保險金額100萬；契約始日 86/02/01"},
+      {"desc": "富邦人壽 關懷一生重大疾病暨特定傷病終身壽險", "owner": "王亞尹", "amount_twd": 21500, "note": "保險金額10萬；契約始日 102/02/20"},
+      {"desc": "富邦人壽 關懷一生重大疾病暨特定傷病終身壽險", "owner": "鐘詔元", "amount_twd": 61050, "note": "保險金額10萬；契約始日 101/01/23"}
+    ],
+    "insurance_count": 9,
+    "debt_claims": [],
+    "debt_claims_total_twd": null,
+    "debts": [
+      {"desc": "房屋貸款", "owner": "王亞尹", "amount_twd": 7751528, "note": "債權人：全國農業金庫；取得時間 109/04/30；原因 購置房屋"},
+      {"desc": "信用貸款", "owner": "王亞尹", "amount_twd": 368397, "note": "債權人：全國農業金庫；取得時間 109/07/07；原因 房屋裝潢"}
+    ],
+    "debts_count": 2,
+    "debts_total_twd": 8119925,
+    "business_investments": [],
+    "business_investments_total_twd": null,
+    "trust_items": [],
+    "notes": "1) 掃描為橫向旋轉頁面，已旋轉後逐頁判讀。2) 現金區總申報筆數印為2筆（與表上列數相符）；存款區總申報筆數印為3筆，三列合計1,055,108元與總金額相符。3) 土地/建物坐落僅抄至縣市鄉鎮段，地號、建號與門牌未填。4) 土地第1筆權利範圍原字樣為0.00791；第2至4筆取得價額欄多為『與建號一併購買』，第2筆價額為9,700,000。5) 建物欄『取得價額』依表上所示，與土地第2筆共同購買。6) 保險欄為富邦人壽9筆，合計1,137,928元，與表上總金額相符；保單號碼未列入。7) 基金欄：票面價額欄印20,000，單位淨值17.01，總價額20,900（依原表）；par 填票面價額20000。8) 債務欄合計8,119,925元，與表上總金額相符。9) 有價證券、債權、事業投資、其他財產等區段無填寫；有價證券總價額欄空白，以null表示。10) 未成年子女1人（長女），僅列人數。"
+  }
+}

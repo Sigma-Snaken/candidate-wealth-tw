@@ -1,0 +1,1 @@
+{"seq": "2149", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 4.9, "via": "gemini-api", "usage": {"in": 8790, "out": 62, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "配偶不同意本人參選，不願提供相關之財產資料。"}}

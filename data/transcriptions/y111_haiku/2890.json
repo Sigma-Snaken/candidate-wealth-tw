@@ -1,0 +1,54 @@
+{"seq": "2890", "model": "claude-haiku", "data": {
+"declarant": "鍾素政",
+"declare_date": "民國111年8月31日",
+"spouse": null,
+"minor_children_count": 0,
+"total_pages": 18,
+"land": [
+{"location": "玉里鎮玉璞段", "area_m2": 107.0, "share": "全部", "owner": "鍾素政", "acquired": "094/09/27", "reason": "贈與", "price": "567100"}
+],
+"land_count": 1,
+"buildings": [
+{"location": "玉里鎮玉璞段", "area_m2": 133.48, "share": "全部", "owner": "鍾素政", "acquired": "094/09/27", "reason": "贈與", "price": "384400"}
+],
+"building_count": 1,
+"ships": [],
+"vehicles": [
+{"desc": "SUZUKI JIMNY JLX", "owner": "鍾素政", "acquired": "104/02/05", "price": "616000"},
+{"desc": "本田 HR-V 1.8S", "owner": "鍾素政", "acquired": "106/03/07", "price": "868000"}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "花蓮二信 玉里分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "鍾素政", "foreign_amount": null, "twd": 712989},
+{"bank": "花蓮二信 玉里分行", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "鍾素政", "foreign_amount": null, "twd": 61915},
+{"bank": "玉溪地區農會", "kind": "活期儲蓄存款", "currency": "新臺幣", "owner": "鍾素政", "foreign_amount": null, "twd": 419862}
+],
+"deposit_count": 3,
+"deposit_total_twd": 1194766,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 0,
+"insurance": [],
+"insurance_count": 0,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [],
+"debts_count": 0,
+"debts_total_twd": 0,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "交件日 111年8月31日。存款三筆幣別欄空白，依外幣欄空白判為新臺幣。存款總額手寫 1194766，與三筆合計相符。土地與建物坐落依表上寫法僅記「玉里鎮玉璞段」，未加縣名。有價證券、其他財產、保險、債權、債務、事業投資皆為 0 筆。"
+}}

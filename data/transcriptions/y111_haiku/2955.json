@@ -1,0 +1,81 @@
+{"seq": "2955", "model": "claude-haiku", "data": {
+"declarant": "方華雄",
+"declare_date": "民國111年8月26日",
+"spouse": "張雅婷",
+"minor_children_count": 2,
+"total_pages": 18,
+"land": [
+{"location": "屏東市新生段", "area_m2": 91, "share": "1/2", "owner": "方華雄", "acquired": "106/8/17", "reason": "買賣", "price": "71,435(土地公告現值每平方公尺1570元)"},
+{"location": "屏東市新生段", "area_m2": 91, "share": "1/2", "owner": "張雅婷", "acquired": "106/8/17", "reason": "買賣", "price": "71,435(土地公告現值每平方公尺1570元)"},
+{"location": "屏東縣枋寮鄉新能段", "area_m2": 32.54, "share": "20/153", "owner": "方華雄", "acquired": "93/10/22", "reason": "贈與", "price": "超過五年"}
+],
+"land_count": 3,
+"buildings": [
+{"location": "屏東市新生段", "area_m2": 92, "share": "1/2", "owner": "方華雄", "acquired": "106/8/17", "reason": "買賣", "price": "2208400"},
+{"location": "屏東市新生段", "area_m2": 92, "share": "1/2", "owner": "張雅婷", "acquired": "106/8/17", "reason": "買賣", "price": "2208400"}
+],
+"building_count": 2,
+"ships": [],
+"vehicles": [
+{"desc": "蜂(汽車)", "owner": "方華雄", "acquired": "09/7/30", "price": "100000"},
+{"desc": "日產(汽車)", "owner": "方華雄", "acquired": "103/12/13", "price": "550000"}
+],
+"vehicle_count": 2,
+"aircraft": [],
+"cash": [],
+"cash_total_twd": 0,
+"deposits": [
+{"bank": "郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "張雅婷", "foreign_amount": null, "twd": 2429},
+{"bank": "郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "未成年子女", "foreign_amount": null, "twd": 45459},
+{"bank": "郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "未成年子女", "foreign_amount": null, "twd": 58103},
+{"bank": "東港區漁會信用部", "kind": "活期存款", "currency": "新臺幣", "owner": "方華雄", "foreign_amount": null, "twd": 16867},
+{"bank": "國泰世華銀行屏東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "方華雄", "foreign_amount": null, "twd": 1000},
+{"bank": "合作金庫銀行", "kind": "活期存款", "currency": "新臺幣", "owner": "方華雄", "foreign_amount": null, "twd": 1645},
+{"bank": "合作金庫銀行九如分行", "kind": "活期存款", "currency": "新臺幣", "owner": "張雅婷", "foreign_amount": null, "twd": 65},
+{"bank": "臺灣銀行中屏分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "方華雄", "foreign_amount": null, "twd": 674761},
+{"bank": "上海商業銀行前金分行", "kind": "活期存款", "currency": "新臺幣", "owner": "張雅婷", "foreign_amount": null, "twd": 182},
+{"bank": "元大銀行十全分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "方華雄", "foreign_amount": null, "twd": 131},
+{"bank": "中信銀行屏東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "方華雄", "foreign_amount": null, "twd": 97},
+{"bank": "臺灣銀行屏中分行", "kind": "綜合存款", "currency": "新臺幣", "owner": "張雅婷", "foreign_amount": null, "twd": 165},
+{"bank": "陽信銀行屏東分行", "kind": "活期存款", "currency": "新臺幣", "owner": "方華雄", "foreign_amount": null, "twd": 96}
+],
+"deposit_count": 13,
+"deposit_total_twd": 801000,
+"securities_total_twd": 0,
+"stocks": [],
+"stock_count": 0,
+"stock_total_twd": 0,
+"bonds": [],
+"bond_total_twd": 0,
+"funds": [],
+"fund_total_twd": 0,
+"other_securities": [],
+"other_securities_total_twd": 0,
+"other_assets": [],
+"other_assets_total_twd": 1120197,
+"insurance": [
+{"desc": "國泰人壽保險公司 幸福百年增額", "owner": "方華雄", "amount_twd": 41853, "note": "儲蓄型; 契約期間1021001/1789 30(原文手寫難辨)"},
+{"desc": "南山人壽保險公司 (保險名稱手寫不清)", "owner": "方華雄", "amount_twd": 55898, "note": "契約始日1010706, 終身"},
+{"desc": "南山人壽保險公司 真安心手術", "owner": "方華雄", "amount_twd": 35834, "note": "契約始日1010706, 終身"},
+{"desc": "南山人壽保險公司 健康端百", "owner": "方華雄", "amount_twd": 28462, "note": "契約始日1010706, 終身"},
+{"desc": "南山人壽保險公司 新終身", "owner": "方華雄", "amount_twd": 81432, "note": "契約始日0980322, 終身"},
+{"desc": "南山人壽保險公司 真安心手術", "owner": "張雅婷", "amount_twd": 79320, "note": "契約始日0990118, 終身"},
+{"desc": "中國人壽保險公司 享富增利", "owner": "方華雄", "amount_twd": 272462, "note": "契約始日1050224, 終身"},
+{"desc": "三商美邦人壽保險公司 金富利終身", "owner": "方華雄", "amount_twd": 524936, "note": "契約始日0900470, 終身"}
+],
+"insurance_count": 8,
+"debt_claims": [],
+"debt_claims_total_twd": 0,
+"debts": [
+{"desc": "投信", "owner": "方華雄", "amount_twd": 3749000, "note": "106/8/21; 購買自用住宅"},
+{"desc": "投信", "owner": "方華雄", "amount_twd": 287754, "note": "110/9/22; 週轉金"},
+{"desc": "投信", "owner": "方華雄", "amount_twd": 296079, "note": "110/9/22; 週轉金"},
+{"desc": "保單借款", "owner": "方華雄", "amount_twd": 201730, "note": "092/6/6; 保險保單借款"}
+],
+"debts_count": 4,
+"debts_total_twd": 4534563,
+"business_investments": [],
+"business_investments_total_twd": 0,
+"trust_items": [],
+"notes": "手寫表單，判讀不確定處: 土地第3筆坐落與面積(枋寮新能段, 32.54)、車輛第1筆廠牌與取得時間(蜂(汽車), 09/7/30)、保險第2筆名稱、保險契約期間多處；存款第1列銀行名稱以'郵局'填寫(帳號已略)。未成年子女2人，依規定僅填人數，表內子女名下存款以'未成年子女'代稱。(九)珠寶表列0筆，但表上總價額印1120197元，與保險合計相同，依表照填。存款合計801000元，與表上手寫總金額相符。申報日民國111年8月26日，交件日111年8月31日。地址、門牌與地號已略去。"
+}}

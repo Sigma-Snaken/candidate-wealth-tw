@@ -1,0 +1,245 @@
+{
+ "seq": "1761",
+ "model": "claude-haiku",
+ "data": {
+  "declarant": "王文怡",
+  "declare_date": "民國111年9月1日",
+  "spouse": "蕭弘毅",
+  "minor_children_count": 1,
+  "total_pages": 12,
+  "land": [
+   {
+    "location": "臺東縣臺東市建本段",
+    "area_m2": 44.43,
+    "share": "1/2",
+    "owner": "王文怡",
+    "acquired": "110/03/19",
+    "reason": "分割繼承",
+    "price": "131069"
+   },
+   {
+    "location": "臺東縣臺東市建本段",
+    "area_m2": 111.66,
+    "share": "1/2",
+    "owner": "王文怡",
+    "acquired": "110/03/19",
+    "reason": "分割繼承",
+    "price": "329397"
+   },
+   {
+    "location": "臺東縣臺東市建本段",
+    "area_m2": 113.69,
+    "share": "1/2",
+    "owner": "王文怡",
+    "acquired": "110/03/19",
+    "reason": "分割繼承",
+    "price": "335385"
+   },
+   {
+    "location": "臺東縣臺東市建本段",
+    "area_m2": 41.95,
+    "share": "1/2",
+    "owner": "王文怡",
+    "acquired": "110/03/19",
+    "reason": "分割繼承",
+    "price": "123753"
+   },
+   {
+    "location": "臺東縣臺東市建本段",
+    "area_m2": 92.5,
+    "share": "1/2",
+    "owner": "王文怡",
+    "acquired": "110/03/19",
+    "reason": "分割繼承",
+    "price": "272875"
+   },
+   {
+    "location": "臺東縣臺東市建本段",
+    "area_m2": 34.89,
+    "share": "1/2",
+    "owner": "王文怡",
+    "acquired": "110/03/19",
+    "reason": "分割繼承",
+    "price": "102926"
+   },
+   {
+    "location": "臺東縣臺東市建成段",
+    "area_m2": 98.66,
+    "share": "1/1",
+    "owner": "王文怡",
+    "acquired": "93/04/06",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "臺東縣臺東市中山段",
+    "area_m2": 82,
+    "share": "1/1",
+    "owner": "王文怡",
+    "acquired": "111/01/17",
+    "reason": "買賣",
+    "price": "6600000"
+   },
+   {
+    "location": "高雄市楠梓區右昌段六小段",
+    "area_m2": 13,
+    "share": "1/1",
+    "owner": "蕭弘毅",
+    "acquired": "109/12/08",
+    "reason": "分割繼承",
+    "price": "351000"
+   },
+   {
+    "location": "高雄市楠梓區右昌段六小段",
+    "area_m2": 97,
+    "share": "1/1",
+    "owner": "蕭弘毅",
+    "acquired": "109/12/08",
+    "reason": "分割繼承",
+    "price": "2619000"
+   }
+  ],
+  "land_count": 10,
+  "buildings": [
+   {
+    "location": "臺東縣臺東市建本段",
+    "area_m2": 111.15,
+    "share": "1/2",
+    "owner": "王文怡",
+    "acquired": "110/03/19",
+    "reason": "分割繼承",
+    "price": "327893"
+   },
+   {
+    "location": "臺東縣臺東市建成段",
+    "area_m2": 207.14,
+    "share": "1/1",
+    "owner": "王文怡",
+    "acquired": "93/04/06",
+    "reason": "買賣",
+    "price": null
+   },
+   {
+    "location": "臺東縣臺東市中山段",
+    "area_m2": 110.7,
+    "share": "1/1",
+    "owner": "王文怡",
+    "acquired": "111/01/17",
+    "reason": "買賣",
+    "price": "6600000"
+   },
+   {
+    "location": "高雄市楠梓區右昌段六小段",
+    "area_m2": 81.19,
+    "share": "1/1",
+    "owner": "蕭弘毅",
+    "acquired": "109/12/08",
+    "reason": "分割繼承",
+    "price": "2192130"
+   }
+  ],
+  "building_count": 4,
+  "ships": [],
+  "vehicles": [
+   {
+    "desc": "TOYOTA（汽缸容量1987cc）",
+    "owner": "王文怡",
+    "acquired": "104/07/22",
+    "price": "950000"
+   },
+   {
+    "desc": "國瑞（汽缸容量1798cc）",
+    "owner": "王文怡",
+    "acquired": "106/06/15",
+    "price": "700000"
+   }
+  ],
+  "vehicle_count": 2,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": 0,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [
+   {
+    "desc": "黃金存摺",
+    "owner": "王文怡",
+    "amount_twd": 210806,
+    "note": "1項"
+   }
+  ],
+  "other_assets_total_twd": 210806,
+  "insurance": [
+   {
+    "desc": "台灣人壽保險公司 台灣人壽美年旺外幣還本終身保險",
+    "owner": "王文怡",
+    "amount_twd": 719078,
+    "note": "儲蓄型壽險；保險金額美元8000；契約期間101/12/25-203/12/25；外幣累積已繳23664美元"
+   },
+   {
+    "desc": "台灣人壽保險公司 台灣人壽真愛終身壽險",
+    "owner": "王文怡",
+    "amount_twd": 343235,
+    "note": "儲蓄型壽險；保險金額500000；契約期間92/12/25-189/12/25"
+   },
+   {
+    "desc": "台灣人壽保險公司 台灣人壽歲歲長泰還本終身壽險",
+    "owner": "王文怡",
+    "amount_twd": 434178,
+    "note": "儲蓄型壽險；保險金額500000；契約期間83/10/20-終身"
+   },
+   {
+    "desc": "台灣人壽保險公司 台灣人壽鑫美樂外幣保險",
+    "owner": "王文怡",
+    "amount_twd": 93714,
+    "note": "儲蓄型壽險；保險金額美元2000；契約期間101/12/25-182/12/25；外幣累積已繳3084美元"
+   },
+   {
+    "desc": "富邦人壽保險公司 富邦人壽吉祥變額萬能終身壽險",
+    "owner": "王文怡",
+    "amount_twd": 1085000,
+    "note": "投資型壽險；保險金額244125；契約期間92/08/29-160/08/28"
+   },
+   {
+    "desc": "富邦人壽保險公司 富邦人壽美利富外幣增額終身壽險",
+    "owner": "王文怡",
+    "amount_twd": 330550,
+    "note": "儲蓄型壽險；保險金額美元9000；契約期間101/12/27-176/12/26；外幣累積已繳10878美元"
+   },
+   {
+    "desc": "新光人壽保險公司 美滿富貴外幣利率變動型終身壽險",
+    "owner": "王文怡",
+    "amount_twd": 134203,
+    "note": "儲蓄型壽險；保險金額美元70000；契約期間111/11/30-121/11/30；外幣累積已繳4508美元"
+   }
+  ],
+  "insurance_count": 7,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [
+   {
+    "desc": "房屋貸款／花蓮第一信用合作社",
+    "owner": "王文怡",
+    "amount_twd": 4877865,
+    "note": "取得時間111/01/19；原因購買房屋"
+   }
+  ],
+  "debts_count": 1,
+  "debts_total_twd": 4877865,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "依 1761_0.pdf（12頁，表格為打字）判讀，無補正檔。第12頁為空白頁。保險累積已繳保險費折合新臺幣合計3139958，與7筆加總一致。保險金額欄為外幣者，已於note註明美元金額。股票、債券、基金、存款、現金、航空器、船舶、債權、事業投資均為0筆。配偶為蕭弘毅；未成年子女1人（長女，依表上只填人數，不輸出姓名）。土地與建物之地號、建號、門牌均未輸出。"
+ }
+}

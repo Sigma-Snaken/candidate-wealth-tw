@@ -1,0 +1,1 @@
+{"seq": "1598", "model": "gemini-3.5-flash-lite", "resolution": null, "elapsed": 5.4, "via": "gemini-api", "usage": {"in": 4534, "out": 86, "thought": 0}, "data": {"vehicles": [], "vehicle_count": 0, "ships": [], "aircraft": [], "fx_rows": [], "notes": "此申報表申報人為陳嘉弘，申報日為民國115年8月27日，無車輛、船舶、航空器及外幣資產。"}}

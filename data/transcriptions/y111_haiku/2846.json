@@ -1,0 +1,52 @@
+{"seq": "2846", "model": "claude-haiku", "data": {
+  "declarant": "吳建志",
+  "declare_date": "民國111年8月29日",
+  "spouse": null,
+  "minor_children_count": 0,
+  "total_pages": 16,
+  "land": [
+    {"location": "花蓮縣吉安鄉大昌段", "area_m2": 1965, "share": "1/1", "owner": "吳建志", "acquired": "91年12月20日", "reason": "買賣", "price": null},
+    {"location": "花蓮縣吉安鄉大昌段", "area_m2": 105, "share": "1/1", "owner": "吳建志", "acquired": "91年12月20日", "reason": "買賣", "price": null},
+    {"location": "花蓮縣吉安鄉慶豐段", "area_m2": 693, "share": "1/2830", "owner": "吳建志", "acquired": "92年11月13日", "reason": "繼承", "price": null}
+  ],
+  "land_count": 3,
+  "buildings": [
+    {"location": "花蓮縣吉安鄉慶豐村", "area_m2": 1550, "share": "1/1", "owner": "吳建志", "acquired": "91年12月20日", "reason": "繼承", "price": null},
+    {"location": "花蓮縣吉安鄉永安村", "area_m2": 2048, "share": "1/1", "owner": "吳建志", "acquired": "91年12月20日", "reason": "買賣", "price": null}
+  ],
+  "building_count": 2,
+  "ships": [],
+  "vehicles": [
+    {"desc": "MERCEDES-BENZ 2298cc", "owner": "吳建志", "acquired": "108年3月31日", "price": "貳佰捌拾萬元"}
+  ],
+  "vehicle_count": 1,
+  "aircraft": [],
+  "cash": [],
+  "cash_total_twd": 0,
+  "deposits": [],
+  "deposit_count": 0,
+  "deposit_total_twd": 0,
+  "securities_total_twd": 0,
+  "stocks": [],
+  "stock_count": 0,
+  "stock_total_twd": 0,
+  "bonds": [],
+  "bond_total_twd": 0,
+  "funds": [],
+  "fund_total_twd": 0,
+  "other_securities": [],
+  "other_securities_total_twd": 0,
+  "other_assets": [],
+  "other_assets_total_twd": 0,
+  "insurance": [],
+  "insurance_count": 0,
+  "debt_claims": [],
+  "debt_claims_total_twd": 0,
+  "debts": [],
+  "debts_count": 0,
+  "debts_total_twd": 0,
+  "business_investments": [],
+  "business_investments_total_twd": 0,
+  "trust_items": [],
+  "notes": "依 2846_1.pdf（補1，補正本）轉錄，原表（2846_0.pdf）各分項皆空白。土地第3筆持分與建物坐落地址細節手寫模糊，已取最可能判讀；車輛價額文字判讀存疑（判讀為貳佰捌拾萬元）。建物 location 已去除門牌。"
+}}

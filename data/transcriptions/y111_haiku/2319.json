@@ -1,0 +1,80 @@
+{"seq": "2319", "model": "claude-haiku", "data": {
+ "declarant": "吳佩雯",
+ "declare_date": "民國111年8月29日",
+ "spouse": "陳志斌",
+ "minor_children_count": 0,
+ "total_pages": 10,
+ "land": [
+  {"location": "花蓮縣吉安鄉仁和段", "area_m2": 113.00, "share": "1/3", "owner": "吳佩雯", "acquired": "108.04.09", "reason": "繼承", "price": "依公告地價"},
+  {"location": "花蓮縣吉安鄉仁和段", "area_m2": 904.92, "share": "1/3", "owner": "吳佩雯", "acquired": "108.04.09", "reason": "繼承", "price": "依公告地價"},
+  {"location": "花蓮縣吉安鄉仁和段", "area_m2": 349.85, "share": "1/3", "owner": "吳佩雯", "acquired": "108.04.09", "reason": "繼承", "price": "依公告地價"},
+  {"location": "臺北市大安區通化段四小段", "area_m2": 1697.00, "share": "210/10000", "owner": "吳佩雯", "acquired": "109.12.17", "reason": "買賣", "price": "11747933"}
+ ],
+ "land_count": 4,
+ "buildings": [
+  {"location": "花蓮縣吉安鄉仁和段", "area_m2": 146.12, "share": "1/3", "owner": "吳佩雯", "acquired": "108.04.09", "reason": "繼承", "price": "依公告地價"},
+  {"location": "臺北市大安區通化段四小段", "area_m2": 69.04, "share": "1/1", "owner": "吳佩雯", "acquired": "109.12.17", "reason": "買賣", "price": "1514900"}
+ ],
+ "building_count": 2,
+ "ships": [],
+ "vehicles": [
+  {"desc": "BMW X5 XDRIVE25D", "owner": "吳佩雯", "acquired": "111.01.11", "price": "1000000"}
+ ],
+ "vehicle_count": 1,
+ "aircraft": [],
+ "cash": [
+  {"currency": "新臺幣", "owner": "吳佩雯", "foreign_amount": null, "twd": 500000}
+ ],
+ "cash_total_twd": 500000,
+ "deposits": [
+  {"bank": "中國信託銀行敦北分行", "kind": "活期存款", "currency": "新臺幣", "owner": "吳佩雯", "foreign_amount": null, "twd": 1570184},
+  {"bank": "第一銀行復興分行", "kind": "活期存款", "currency": "新臺幣", "owner": "吳佩雯", "foreign_amount": null, "twd": 462098},
+  {"bank": "第一銀行復興分行", "kind": "活期存款", "currency": "美金", "owner": "吳佩雯", "foreign_amount": 5683.90, "twd": 171653.78},
+  {"bank": "第一銀行復興分行", "kind": "活期存款", "currency": "澳幣", "owner": "吳佩雯", "foreign_amount": 3002.03, "twd": 61541},
+  {"bank": "第一銀行復興分行", "kind": "活期存款", "currency": "日圓", "owner": "吳佩雯", "foreign_amount": 300002.00, "twd": 65400},
+  {"bank": "永豐銀行松江分行", "kind": "活期存款", "currency": "新臺幣", "owner": "吳佩雯", "foreign_amount": null, "twd": 604422},
+  {"bank": "吉安仁里郵局", "kind": "活期存款", "currency": "新臺幣", "owner": "吳佩雯", "foreign_amount": null, "twd": 175666},
+  {"bank": "中國信託銀行永和分行", "kind": "活期存款", "currency": "新臺幣", "owner": "陳志斌", "foreign_amount": null, "twd": 9857},
+  {"bank": "國泰世華銀行臨沂分行", "kind": "活期存款", "currency": "新臺幣", "owner": "陳志斌", "foreign_amount": null, "twd": 2976},
+  {"bank": "土地銀行金門分行", "kind": "活期存款", "currency": "新臺幣", "owner": "陳志斌", "foreign_amount": null, "twd": 20032}
+ ],
+ "deposit_count": 10,
+ "deposit_total_twd": 3143830,
+ "securities_total_twd": 4630524,
+ "stocks": [
+  {"code": null, "name": "台積電", "owner": "吳佩雯", "shares": 3000, "par": 498.5, "currency": null, "twd": 1488885},
+  {"code": null, "name": "玉晶光", "owner": "吳佩雯", "shares": 5000, "par": 410, "currency": null, "twd": 2040930},
+  {"code": null, "name": "浩鼎", "owner": "吳佩雯", "shares": 2000, "par": 81.8, "currency": null, "twd": 162877},
+  {"code": null, "name": "環球晶", "owner": "吳佩雯", "shares": 2000, "par": 471, "currency": null, "twd": 937832}
+ ],
+ "stock_count": 4,
+ "stock_total_twd": 4630524,
+ "bonds": [],
+ "bond_total_twd": 0,
+ "funds": [],
+ "fund_total_twd": 0,
+ "other_securities": [],
+ "other_securities_total_twd": 0,
+ "other_assets": [],
+ "other_assets_total_twd": 0,
+ "insurance": [
+  {"desc": "富邦人壽保險股份有限公司 富邦人壽得意一生分紅還本終身保險", "owner": "吳佩雯", "amount_twd": 227630, "note": "還本型；保險金額10000元；契約始日990205，契約終日終身"},
+  {"desc": "富邦人壽保險股份有限公司 富邦人壽金美利外幣利率變動型增額終身壽險", "owner": "吳佩雯", "amount_twd": 688860, "note": "儲蓄型；保險金額美金20000元；累積已繳保險費外幣22962元（美金）；契約始日1040430，契約終日終身"},
+  {"desc": "南山人壽保險股份有限公司 南山人壽伴我一生變額壽險", "owner": "吳佩雯", "amount_twd": 54000, "note": "儲蓄型；保險金額2000000元；契約始日960830，契約終日終身"}
+ ],
+ "insurance_count": 3,
+ "debt_claims": [],
+ "debt_claims_total_twd": 0,
+ "debts": [
+  {"desc": "房屋貸款／臺灣銀行士林分行", "owner": "吳佩雯", "amount_twd": 6000000, "note": "取得時間109.12.24，原因抵押"},
+  {"desc": "房屋貸款／臺灣銀行士林分行", "owner": "陳志斌", "amount_twd": 24000000, "note": "取得時間109.12.24，原因抵押"},
+  {"desc": "信用貸款／中國信託銀行永和分行", "owner": "陳志斌", "amount_twd": 704793, "note": "取得時間空白，原因借款"},
+  {"desc": "信用卡帳務／中國信託銀行永和分行", "owner": "陳志斌", "amount_twd": 48723, "note": "取得時間111.08.29，原因信用卡"}
+ ],
+ "debts_count": 3,
+ "debts_total_twd": 30753462,
+ "business_investments": [],
+ "business_investments_total_twd": 0,
+ "trust_items": [],
+ "notes": "債務表實列4筆，但表上總申報筆數印3；4筆金額加總為30753516，與表上總金額30753462相差54元。依表上印字填寫筆數與總額，各筆依列出內容填寫。備註欄空白。保險單號碼未填。"
+}}
