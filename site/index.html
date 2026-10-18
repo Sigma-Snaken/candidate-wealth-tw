@@ -7,7 +7,7 @@
 :root{
   --bg:#f6f7f8; --paper:#ffffff; --ink:#15191f; --ink2:#4a525c; --ink3:#77808b; --rule:#dde1e6; --rule2:#eceff2;
   --seal:#c23a2b; --seal-soft:#f7e3df; --focus:#2a78d6;
-  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --debt:#8a919a;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#8b5fbf; --debt:#8a919a;
   --warn-bg:#fff4d6; --warn-ink:#7a5200;
   --f-display:"Noto Serif TC","Songti TC","PMingLiU",serif;
   --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
@@ -16,12 +16,12 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --bg:#121417; --paper:#1a1d21; --ink:#eef0f2; --ink2:#b9c0c8; --ink3:#8a929b; --rule:#2e333a; --rule2:#23272c;
   --seal:#e5604f; --seal-soft:#3a201c; --focus:#3987e5;
-  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --debt:#6d747d;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#9d74d0; --debt:#6d747d;
   --warn-bg:#3a2f12; --warn-ink:#f2cf7a; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#121417; --paper:#1a1d21; --ink:#eef0f2; --ink2:#b9c0c8; --ink3:#8a929b; --rule:#2e333a; --rule2:#23272c;
   --seal:#e5604f; --seal-soft:#3a201c; --focus:#3987e5;
-  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --debt:#6d747d;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#9d74d0; --debt:#6d747d;
   --warn-bg:#3a2f12; --warn-ink:#f2cf7a; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -115,9 +115,11 @@ dialog::backdrop{background:rgb(10 12 15 / .55)}
 .kv dd small{white-space:nowrap}
 .kv div.wide{grid-column:1/-1}
 .kv div.wide dd small{white-space:normal}
+.reov{margin:8px 0 0;padding:0;list-style:none;font-family:var(--f-body);font-size:13px;line-height:1.7;color:var(--ink2)}
+.reov b{font-family:var(--f-num);font-weight:500;color:var(--ink)}
 @media (max-width:560px){.kv{grid-template-columns:repeat(2,minmax(0,1fr))}.kv div.ins{grid-column:1/-1}}
 .kv .hl dd{color:var(--seal);font-weight:500}
-h3{font-size:18px;font-weight:600;display:flex;gap:10px;align-items:baseline}
+h3{font-size:18px;font-weight:600;display:flex;flex-wrap:wrap;gap:2px 10px;align-items:baseline}
 h3 small{font-family:var(--f-body);font-size:13px;color:var(--ink3);font-weight:400}
 .tbl{overflow-x:auto;border:1px solid var(--rule);border-radius:8px}
 table{border-collapse:collapse;width:100%;font-size:13px}
@@ -185,11 +187,13 @@ a.rep:hover{color:var(--seal);border-color:var(--seal)}
       <option value="debt">債務</option>
       <option value="land">土地持分面積</option>
       <option value="bldg">建物筆數</option>
+      <option value="re_est">不動產估值（實價登錄）</option>
       <option value="chg">與 111 年相比增加最多</option>
       <option value="chg_asc">與 111 年相比減少最多</option>
       <option value="net_asc">淨資產由少到多</option>
     </select></label>
     <label class="fld chk"><span>&nbsp;</span><span><input type="checkbox" id="fPrev"> 只看有 111 年資料</span></label>
+    <label class="fld chk"><span>&nbsp;</span><span><input type="checkbox" id="fRe" autocomplete="off"> 含不動產估值</span></label>
     <span class="count" id="count"></span>
   </nav>
 
@@ -198,8 +202,9 @@ a.rep:hover{color:var(--seal);border-color:var(--seal)}
     <span><i class="sw" style="background:var(--s2)"></i>股票（市值）</span>
     <span><i class="sw" style="background:var(--s3)"></i>基金・債券・其他證券</span>
     <span><i class="sw" style="background:var(--s4)"></i>事業投資・債權・其他財產</span>
+    <span id="lgRe" style="display:none"><i class="sw" style="background:var(--s5)"></i>不動產估值（實價登錄）</span>
     <span><i class="sw debt"></i>債務</span>
-    <span class="muted">不動產沒有申報價值，只列筆數與面積。</span>
+    <span class="muted" id="lgNote">不動產另以實價登錄估值，單獨列出，不計入長條與淨資產。</span>
   </div>
 
   <section class="roll" id="roll" aria-live="polite"><div class="row"><span></span><span class="muted">載入申報資料中…</span></div></section>
@@ -214,7 +219,9 @@ a.rep:hover{color:var(--seal);border-color:var(--seal)}
       <li><b>匯率</b>：候選人各自用不同銀行、不同日期的匯率，同一天申報的美元就有上百種。本站「市值」一律改用臺灣銀行牌告即期買入與賣出的中價，115 年用 10 月 16 日、111 年用 9 月 2 日，和股價同一天。表上沒寫幣別的外幣證券，依金額反推的匯率判斷幣別。候選人自己寫的匯率與換算金額都保留，列在明細，「申報」淨資產照用他們自己的數字。</li>
       <li><b>111 年（2022）比較</b>：111 年的申報公告只上網一年，官方網站已下架。這裡用網際網路檔案館保存的 111declaration.cec.gov.tw 存檔（2,063 份 PDF），以「同縣市、同姓名」對到 872 位 115 年候選人，連同補正文件一起轉錄：705 份用 Gemini 3.5 Flash，166 份改由 Claude Haiku 逐頁判讀，兩者都經過同樣的加總核對；另有 1 份字跡無法完整判讀，未列入比較。111 年的股票以 111 年 9 月 2 日（週五）收盤價計，上次與這次的「申報面額」可以直接相比。同名不同人、跨縣市參選、存檔缺漏的情況都可能存在。</li>
       <li><b>政黨</b>：依中選會公告的候選人登記名冊上的「推薦之政黨」。財產申報系統上的政黨欄多數空白，也有填錯的，所以不採用。</li>
-      <li><b>沒有算進去的</b>：土地、建物只有面積與取得原因，法規不要求申報價值，因此不列入金額；保險只列件數；汽車列出廠牌、汽缸容量與取得資料，但沒有估價。</li>
+      <li><b>沒有算進去的</b>：土地、建物法規不要求申報價值，本站另外用實價登錄估一個參考值，單獨列出，不加進淨資產；保險只列件數；汽車列出廠牌、汽缸容量與取得資料，但沒有估價。</li>
+      <li><b>不動產估值</b>：取內政部不動產交易實價查詢服務網的<a href="https://plvr.land.moi.gov.tw/DownloadOpenData" target="_blank" rel="noopener">開放資料</a>（只用不動產買賣，不含預售屋與租賃）。115 年用 <span data-lvr="115">114 年第 1 季至 115 年第 3 季</span>、111 年用 <span data-lvr="111">110 年第 1 季至 111 年第 3 季</span>發布的資料，交易日期從第一季的前一年 1 月 1 日到股價基準日。排除備註為親友或特殊關係、協議價購、政府機關標讓售、急買急賣、債權債務、瑕疵、畸零地、公共設施保留地、合建、含未來興建房屋成本、地上權、重建或重劃、都更等特殊交易，土地另排除土地與建物分件登記、含未登記建物、農作物或農業設施者；單價離譜（土地每平方公尺 10 元以下、房地 1,000 元以下或超過 1,000 萬元）的也排除。土地單價＝總價÷土地移轉面積；建物用房地交易，單價＝（總價−車位總價）÷（建物面積−車位面積），車位沒有單獨標價的直接用 總價÷建物面積。土地以成交的地號組合辨識，同一組地號在同一個彙總單位裡只算一次（多次成交取單價中位數）；房地則是同一個彙總單位裡同一天、同單價的多筆成交（常見於分割出售）只算一次。每筆申報的坐落先對到同一個段（小段），至少 3 筆成交才用它的單價中位數乘上持分面積；不夠就依序退到不分小段的段（5 筆）、路名（只限建物，3 筆）、整個鄉鎮市區（5 筆）；土地單價第 25 與第 75 百分位數幾乎相同（多半是同一賣方分割出售）的也視為成交不足。持分面積 1,000 m² 以上的土地只和移轉面積同樣 1,000 m² 以上的成交比，依序用段、不分小段的段、鄉鎮市區，找不到就不估。區間用第 25 與第 75 百分位數。建物對到段、不分小段的段、路名或鄉鎮市區都計入合計；土地只有對到段或不分小段的段（含大面積），而且該段成交單價的第 75 百分位數不超過第 25 百分位數的 5 倍時才計入，只對到鄉鎮市區行情、或同段成交價差異過大（多半是農地與建地混雜）的土地，估值僅供參考、不計入合計。建物單價已經包含土地，所以與一筆計入合計的建物同一天取得、在同一段（建物沒寫段時看同一鄉鎮市區）的土地視為建物的基地，不另外計價；取得原因為自建、新建、第一次登記、建造的建物，同段在建物取得日當天或之前取得的土地也視為基地。土地依持分面積由小到大併入，每筆建物最多併入其持分面積 1.5 倍的土地（兩種情形共用這個額度），放不下的土地不視為基地。以下幾種列出但不計入合計，明細以灰字標示原因：基地、持分面積超過 1,000 m² 的建物（多半是廠房或持分有誤）、權利範圍疑似是整個共用部分（車位比例或共同使用部分）而重複或遠大於本人房屋者、公同共有（持分不明，含寫成公開共有、共同共有或所有人欄寫公同者）、權利範圍疑似寫反（如 3/1）、權利範圍無法判讀、對不到實價資料或鄉鎮無法確定、只對到鄉鎮市區行情或同段成交價差異過大的土地、沒有可比成交的大面積土地。這只是依地段行情的粗估，沒有考慮樓層、屋齡、地形、使用分區，不是鑑價。與 598 組近 3 年買賣、各列都計入合計（或併入建物）的申報取得價額比對，同段建物估值中位數為申報價的 1.01 倍、61% 落在 0.67–1.5 倍間；土地較差（1.16 倍、40%），一半的土地估值與申報價相差 1.75 倍以上。前一版校準中退到鄉鎮市區的土地只有 24% 落在區間內，所以現在土地只計入對到段的估值。請只當量級參考。</li>
+      <li><b>房貸</b>：依每筆債務的種類與取得原因判斷用途：原因寫購置不動產、購屋、自用住宅、建屋等，或種類是房屋貸款、土地貸款的歸為「房貸」；以不動產擔保但用途是週轉、理財、二胎增貸的歸為「不動產擔保週轉」。只看關鍵字，原因空白時依債務種類判斷，都看不出來才歸「其他／未說明」，僅供參考。</li>
     </ul>
     <div class="formula">淨資產 = 現金 + 存款 + 股票 + 基金 + 債券 + 其他有價證券 + 其他財產 + 債權 + 事業投資 − 債務<br>「市值」版本把可比對到收盤價的股票與 ETF 換成 股數 × 10/16 收盤價，其餘不變。</div>
     <div class="dl" id="dl"></div>
@@ -241,10 +248,13 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 let DATA=[],view=[],shown=0,PAGE=60,cmp=[];const SHARD={};
 async function full_(c){if(!c.stocks){if(!SHARD[c.shard])SHARD[c.shard]=fetch(`detail/${c.shard}.json`).then(r=>r.json());const d=(await SHARD[c.shard])[c.id];Object.assign(c,d)}return c}
 const SEGS=[['dep','存款＋現金','--s1'],['stk','股票（市值）','--s2'],['fund','基金・債券・其他證券','--s3'],['oth','事業投資・債權・其他財產','--s4']];
-function derive(c){const s=c.sum;c.seg={dep:(s.cash_std??s.cash)+(s.deposit_std??s.deposit),stk:Math.max(0,s.stock_mkt),fund:s.fund_mkt+s.bond+s.other_sec,oth:s.other_assets+s.claims+s.biz};
-  c.gross=Object.values(c.seg).reduce((a,b)=>a+b,0);c.gain=(s.stock_mkt+s.fund_mkt)-(s.stock_decl+s.fund_decl);
+const SEG_RE=['re','不動產估值（實價登錄）','--s5'];let RE=false;
+const RX=c=>RE?(c.sum.re_est||0):0;   // 不動產估值 added to the market net worth while the toggle is on; 申報 figures stay as written
+const segList=()=>RE?[...SEGS,SEG_RE]:SEGS,gross=c=>segList().reduce((a,[k])=>a+c.seg[k],0);
+function derive(c){const s=c.sum;c.seg={dep:(s.cash_std??s.cash)+(s.deposit_std??s.deposit),stk:Math.max(0,s.stock_mkt),fund:s.fund_mkt+s.bond+s.other_sec,oth:s.other_assets+s.claims+s.biz,re:s.re_est||0};
+  c.gain=(s.stock_mkt+s.fund_mkt)-(s.stock_decl+s.fund_decl);
   c.warn=c.issues.some(i=>i.kind==='sum mismatch'&&Math.abs(i.items-(i.declared||0))>Math.max(1e4,0.01*Math.abs(i.declared||0)));if(c.sum.suspect_n)c.warn=true;c.chg=c.prev?c.sum.net_decl-c.prev.sum.net_decl:null;return c}
-const SORTS={net_mkt:c=>c.sum.net_mkt,net_decl:c=>c.sum.net_decl,deposit:c=>c.seg.dep,sec_mkt:c=>c.sum.stock_mkt+c.sum.fund_mkt,gain:c=>c.gain,debt:c=>c.sum.debt,land:c=>c.sum.land_area,bldg:c=>c.sum.bldg_n,net_asc:c=>-c.sum.net_mkt,chg:c=>c.chg??-Infinity,chg_asc:c=>c.chg==null?-Infinity:-c.chg};
+const SORTS={net_mkt:c=>c.sum.net_mkt+RX(c),net_decl:c=>c.sum.net_decl,deposit:c=>c.seg.dep,sec_mkt:c=>c.sum.stock_mkt+c.sum.fund_mkt,gain:c=>c.gain,debt:c=>c.sum.debt,land:c=>c.sum.land_area,bldg:c=>c.sum.bldg_n,re_est:c=>c.sum.re_est??0,net_asc:c=>-c.sum.net_mkt-RX(c),chg:c=>c.chg??-Infinity,chg_asc:c=>c.chg==null?-Infinity:-c.chg};
 function opts(sel,vals){const cur=sel.value;sel.length=1;vals.forEach(v=>sel.add(new Option(v,v)));if(vals.includes(cur))sel.value=cur}
 const TYPE_ORDER=['直轄市長','縣（市）長','直轄市議員','縣（市）議員'];
 function refreshOpts(){const t=$('#fType').value,ci=$('#fCity').value;
@@ -259,15 +269,15 @@ function apply(){const q=$('#q').value.trim(),t=$('#fType').value,ci=$('#fCity')
   if(!view.length){$('#roll').innerHTML='<div class="row" style="cursor:default"><span></span><span class="muted">沒有符合條件的候選人，請放寬篩選。</span></div>'}
   more()}
 function barHTML(c,max){if(max<=0)max=1;
-  const segs=SEGS.map(([k,l,v])=>c.seg[k]>0?`<i style="flex:0 0 ${(c.seg[k]/max*100).toFixed(3)}%;background:var(${v})" data-t="${l}　${fmt(c.seg[k])}"></i>`:'').join('');
+  const segs=segList().map(([k,l,v])=>c.seg[k]>0?`<i style="flex:0 0 ${(c.seg[k]/max*100).toFixed(3)}%;background:var(${v})" data-t="${l}　${fmt(c.seg[k])}"></i>`:'').join('');
   const d=c.sum.debt>0?`<div class="dbar"><i style="width:${Math.min(100,c.sum.debt/max*100).toFixed(3)}%" data-t="債務　${fmt(c.sum.debt)}"></i></div>`:'';
   return `<div class="bar">${segs}</div>${d}`}
-function more(){const max=Math.max(1,...view.map(c=>Math.max(c.gross,c.sum.debt)));
+function more(){const max=Math.max(1,...view.map(c=>Math.max(gross(c),c.sum.debt)));
   const frag=view.slice(shown,shown+PAGE).map((c,i)=>`<div class="row" data-id="${c.id}" tabindex="0" role="button" aria-label="${esc(c.name)} 明細">
    <span class="rank">${shown+i+1}</span>
    <div class="who"><div class="n">${esc(c.name)}${c.warn?'<span class="chip">需核對</span>':''}</div><div class="m">${esc(c.party)}・${esc(c.type)}・${esc(c.dist)}</div></div>
    <div class="bars">${barHTML(c,max)}</div>
-   <div class="val"><b>${fmt(c.sum.net_mkt)}</b><small>申報 ${fmt(c.sum.net_decl)}</small>${c.prev?`<small class="prv">111年 ${fmt(c.prev.sum.net_decl)}<em class="${c.chg>=0?'up':'dn'}">${c.chg>=0?'＋':'－'}${fmt(Math.abs(c.chg))}</em></small>`:''}</div>
+   <div class="val"><b>${fmt(c.sum.net_mkt+RX(c))}</b><small>申報 ${fmt(c.sum.net_decl)}</small>${$('#fSort').value==='re_est'?`<small>不動產估值 ${c.sum.re_valued_n?fmt(c.sum.re_est):'—'}</small>`:''}${c.prev?`<small class="prv">111年 ${fmt(c.prev.sum.net_decl)}<em class="${c.chg>=0?'up':'dn'}">${c.chg>=0?'＋':'－'}${fmt(Math.abs(c.chg))}</em></small>`:''}</div>
    <label class="cmpbox" onclick="event.stopPropagation()" title="加入比較"><input type="checkbox" data-c="${c.id}" ${cmp.includes(c.id)?'checked':''} aria-label="把 ${esc(c.name)} 加入比較"></label></div>`).join('');
   $('#roll').insertAdjacentHTML('beforeend',frag);shown+=PAGE;$('#more').hidden=shown>=view.length}
 function tray(){$('#tray').hidden=!cmp.length;$('#tags').innerHTML=cmp.map(id=>{const c=DATA.find(x=>x.id===id);return `<span class="tag">${esc(c.name)}<button data-rm="${id}" aria-label="移除 ${esc(c.name)}">×</button></span>`}).join('');
@@ -276,15 +286,39 @@ function toggle(id,on){cmp=cmp.filter(x=>x!==id);if(on){if(cmp.length>=6){cmp.sh
 function prevHTML(c){if(!c.prev)return '<h3>與 111 年（2022）比較</h3><p class="muted">在 111 年地方選舉的候選人申報存檔中，找不到同縣市、同姓名的申報表。可能是上次沒有參選、參選其他縣市，或存檔缺漏。</p>';
   const a=c.prev.sum,b=c.sum,P=c.prev;
   const L=[['存款＋現金',a.cash+a.deposit,b.cash+b.deposit],['股票與基金（申報面額）',a.stock_decl+a.fund_decl,b.stock_decl+b.fund_decl],['股票與基金（各自當時收盤市值）',a.stock_mkt+a.fund_mkt,b.stock_mkt+b.fund_mkt],
-    ['事業投資・債權・其他',a.biz+a.claims+a.other_assets+a.bond+a.other_sec,b.biz+b.claims+b.other_assets+b.bond+b.other_sec],['債務',a.debt,b.debt],['淨資產（申報）',a.net_decl,b.net_decl],['淨資產（市值）',a.net_mkt,b.net_mkt]];
-  const rows=L.map(([l,x,y])=>`<tr><td>${l}</td><td class="r">${full(x)}</td><td class="r">${full(y)}</td><td class="r ${y-x>=0?'up':'dn'}">${y-x>=0?'＋':'－'}${full(Math.abs(y-x))}</td></tr>`).join('')+
+    ['事業投資・債權・其他',a.biz+a.claims+a.other_assets+a.bond+a.other_sec,b.biz+b.claims+b.other_assets+b.bond+b.other_sec],['債務',a.debt,b.debt],['其中房貸',a.mortgage,b.mortgage],['淨資產（申報）',a.net_decl,b.net_decl],['淨資產（市值'+(RE?'＋不動產':'')+'）',a.net_mkt+(RE?a.re_est||0:0),b.net_mkt+(RE?b.re_est||0:0)],
+    ['不動產估值（各自當年實價登錄'+(RE?'':'，不計入淨資產')+'）',a.re_valued_n?a.re_est:null,b.re_valued_n?b.re_est:null]];
+  const rows=L.map(([l,x,y])=>`<tr><td>${l}</td><td class="r">${full(x)}</td><td class="r">${full(y)}</td><td class="r ${y-x>=0?'up':'dn'}">${x==null||y==null?'':(y-x>=0?'＋':'－')+full(Math.abs(y-x))}</td></tr>`).join('')+
    `<tr><td>土地（筆／持分 m²）</td><td class="r">${a.land_n}／${a.land_area.toLocaleString()}</td><td class="r">${b.land_n}／${b.land_area.toLocaleString()}</td><td class="r">${b.land_n-a.land_n>=0?'＋':'－'}${Math.abs(b.land_n-a.land_n)} 筆</td></tr>
     <tr><td>建物（筆／持分 m²）</td><td class="r">${a.bldg_n}／${a.bldg_area.toLocaleString()}</td><td class="r">${b.bldg_n}／${b.bldg_area.toLocaleString()}</td><td class="r">${b.bldg_n-a.bldg_n>=0?'＋':'－'}${Math.abs(b.bldg_n-a.bldg_n)} 筆</td></tr>`;
   const pi=(P.issues||[]).filter(i=>i.kind!=='no declared total');
-  return `<h3>與 111 年（2022）比較 <small>111 年申報日 ${esc(P.date||'—')}；111 年股票以 111/9/2 收盤價計</small></h3>
+  return `<h3>與 111 年（2022）比較 <small>111 年申報日 ${esc(P.date||'—')}；111 年股票以 111/9/2 收盤價計${LVR['111']?`，不動產依 ${seasons('111')} 實價登錄`:''}</small></h3>
    ${pi.length?'<div class="note"><b>111 年申報表需核對</b>：明細加總與表上總額不一致，請點開存檔核對。</div>':''}
    <div class="tbl"><table><thead><tr><th>項目</th><th class="r">111 年</th><th class="r">115 年</th><th class="r">增減</th></tr></thead><tbody>${rows}</tbody></table></div>
    <p class="muted">依同縣市、同姓名比對：${esc(P.folder)}。${P.n_files>1?`含 ${P.n_files-1} 份補正。`:''}111 年原始申報表可在 GitHub Release 的 PDF 壓縮檔下載，對照表見 data/pdf_manifest.csv。</p>`}
+const reEst=s=>{const m=(s.re_flagged_n||0)+(s.re_unvalued_n||0),k=s.re_base_n?`（含 ${s.re_base_n} 筆併入建物）`:'';return s.re_valued_n==null?'—':!s.re_valued_n?(m?`— <small>${m} 筆未計入${k}</small>`:'—'):`${fmt(s.re_est)} <small>區間 ${fmt(s.re_lo)}–${fmt(s.re_hi)}・${s.re_valued_n} 筆估值／${m} 筆未計入${k}</small>`};
+const LVR=(window.SITE_CONFIG&&window.SITE_CONFIG.lvr)||{},BIG=(window.SITE_CONFIG&&window.SITE_CONFIG.big)||1000;
+const season=x=>x.replace(/^0*(\d+)S(\d)$/,'$1 年第 $2 季'),seasons=y=>LVR[y]&&LVR[y].length?`${season(LVR[y][0])}至 ${season(LVR[y][LVR[y].length-1])}`:'';
+const REASON={base:'併入建物','large-land':'大面積，未估','large-bldg':'大面積建物，僅供參考，未計入','garage-share':'疑似共用部分持分偏大，未計入','town-only':'只對到鄉鎮市區行情，僅供參考，未計入','mixed-zone':'同段成交價差異過大（農地與建地混雜），僅供參考，未計入',joint:'公同共有，持分不明，未計入','share-check':'持分疑似寫反，未計入','no-share':'持分無法判讀','no-match':'查無實價資料','ambiguous-town':'鄉鎮無法確定'};
+const reCell=x=>x.cnt?full(x.est):`<span class="muted">${x.est!=null?full(x.est)+'<br>':''}${x.flag==='large-land'&&x.est!=null?'大面積，僅供參考，未計入':REASON[x.flag]||'—'}</span>`;
+const SAME=x=>x.lvl&&x.lvl.startsWith('段'),ping=a=>`${(+a).toLocaleString()} m²（${(a*0.3025).toLocaleString('zh-TW',{maximumFractionDigits:1})} 坪）`;
+const reSrc=x=>x.lvl?`${SAME(x)?'可查到實價登錄':'用區段推估'}<br><small class="muted">${esc(x.src||x.lvl)} ${x.n} 筆成交${SAME(x)?'':`（${x.lvl.replace(/\(.*\)/,'')}行情）`}</small>`:'';
+function reOv(c){const s=c.sum;if(!c.land.length&&!c.bldg.length)return '';
+  const why=x=>(x.flag==='large-land'&&x.est!=null?'大面積，僅供參考':REASON[x.flag]||'—').replace(/，(僅供參考，)?未計入$/,'');
+  const how=xs=>{const c=xs.filter(x=>x.cnt),u=xs.filter(x=>!x.cnt),ref=u.reduce((a,x)=>a+(x.est||0),0),k=xs.length>1;
+    const lab=c.every(SAME)?'實價登錄同段行情':c.some(SAME)?'實價登錄＋區段推估':'用區段推估';
+    return [c.length?`${k&&u.length?`${c.length} 筆`:''}${lab} <b>${fmt(c.reduce((a,x)=>a+x.est,0))}</b>`:'',
+      u.length?`<span class="muted">${k&&c.length?`${u.length} 筆`:''}未計入：${[...new Set(u.map(why))].join('、')}${ref?`（參考 ${fmt(ref)}）`:''}</span>`:''].filter(Boolean).join('；')};
+  const top=(xs,k)=>xs.length>k?xs.slice(0,k).concat([`<li class="muted">其餘 ${xs.length-k} 處</li>`]):xs;
+  const B=[...c.bldg].sort((a,b)=>(b.cnt?b.est:0)-(a.cnt?a.est:0)).map(x=>`<li>建物　${esc(x.loc)}${x.own_area!=null?' '+ping(x.own_area):''}：${how([x])}</li>`);
+  const base=c.land.filter(x=>x.flag==='base'),own=c.land.filter(x=>x.flag!=='base'),G={};
+  own.forEach(x=>{const g=G[x.loc]||(G[x.loc]={loc:x.loc,a:0,est:0,rows:[]});g.a+=x.own_area||0;g.rows.push(x);if(x.cnt)g.est+=x.est});
+  const L=Object.values(G).sort((a,b)=>b.est-a.est||b.a-a.a).map(g=>`<li>土地　${esc(g.loc)}${g.rows.length>1?` ${g.rows.length} 筆`:''} ${ping(Math.round(g.a*100)/100)}：${how(g.rows)}</li>`);
+  const ba=base.reduce((a,x)=>a+(x.own_area||0),0);
+  return `<ul class="reov">${top(B,10).join('')}
+    ${base.length?`<li>併入建物的土地 ${base.length} 筆${ba?` ${ping(Math.round(ba*100)/100)}`:''}<span class="muted">（已含在建物估值內）</span></li>`:''}
+    ${own.length?`<li>獨立持有的土地 ${own.length} 筆</li>${top(L,10).join('')}`:''}
+    <li>剩餘房貸 <b>${fmt(s.mortgage||0)}</b>${s.re_secured>0?`　以不動產擔保的週轉借款 <b>${fmt(s.re_secured)}</b>`:''}</li></ul>`}
 const ROLE_NOTE='持有人：本人／配偶／子女';
 const REPO=(window.SITE_CONFIG&&window.SITE_CONFIG.repo)||'Sigma-Snaken/candidate-wealth-tw';
 const SECZH={deposits:'存款',cash:'現金',stocks:'股票',funds:'基金',bonds:'債券',other_securities:'其他有價證券',land:'土地',buildings:'建物',vehicles:'汽車',insurance:'保險',debt_claims:'債權',debts:'債務',business_investments:'事業投資',other_assets:'其他財產',form:'表頭或總額'};
@@ -301,15 +335,16 @@ async function detail(c0){const c=await full_(c0);const s=c.sum;
   const fx2=v=>v==null?'—':(+v).toLocaleString('zh-TW',{maximumFractionDigits:4});
   const dep=c.deposits.map(x=>{const f=x.cur&&x.cur!=='TWD';return `<tr><td>${esc(x.bank)}</td><td>${f?esc(x.cur):'新臺幣'}</td><td>${x.role}</td><td class="r">${f&&x.fx!=null?fx2(x.fx):''}</td><td class="r">${f?fx2(x.rate)+(x.rate_src==='stated'?'':'*'):''}</td><td class="r">${x.twd?full(x.twd):(x.twd_filled?'（空白）':full(x.twd))}</td><td class="r">${f?fx2(x.std_rate):''}</td><td class="r">${full(x.std_twd??x.twd)}</td>${rl(c,{sec:'deposits',i:x.i,field:'金額',cur:x.twd})}</tr>`});
   const cars=(c.cars||[]).map(v=>`<tr><td>${esc(v.model||'')}</td><td>${esc(v.brand||'')}</td><td class="r">${v.cc!=null?full(v.cc):esc(v.cc_raw||'—')}</td><td>${v.role}</td><td>${esc(v.acq||'')}</td><td>${esc(v.reason||'')}</td><td>${esc(v.price||'')}</td>${rl(c,{sec:'vehicles',i:v.i,field:'廠牌型號',cur:v.model})}</tr>`);
-  const re=[...c.land.map(x=>['土地',x,'land']),...c.bldg.map(x=>['建物',x,'buildings'])].map(([k,x,sec])=>`<tr><td>${k}</td><td>${esc(x.loc)}</td><td>${x.role}</td><td class="r">${x.area??'—'}</td><td>${esc(x.share||'')}</td><td class="r">${x.own_area??'—'}</td><td>${esc(x.acq||'')}</td><td>${esc(x.reason||'')}</td>${rl(c,{sec,i:x.i,field:'面積',cur:x.area})}</tr>`);
-  const oth=[...c.biz.map(x=>['事業投資',x]),...c.other.map(x=>['其他財產／債權',x]),...c.bonds.map(x=>['債券／其他證券',{desc:x.name,twd:x.twd,role:x.role,sec:x.sec,i:x.i}]),...c.debts.map(x=>['債務',x])].map(([k,x])=>`<tr><td>${k}</td><td>${esc(x.desc)}</td><td>${x.role}</td><td class="r">${full(x.twd)}</td>${rl(c,{sec:x.sec,i:x.i,field:'金額',cur:x.twd})}</tr>`);
+  const re=[...c.land.map(x=>['土地',x,'land']),...c.bldg.map(x=>['建物',x,'buildings'])].map(([k,x,sec])=>`<tr><td>${k}</td><td>${esc(x.loc)}</td><td>${x.role}</td><td class="r">${x.area??'—'}</td><td>${esc(x.share||'')}</td><td class="r">${x.own_area??'—'}</td><td class="r">${reCell(x)}</td><td class="r${x.cnt?'':' muted'}">${x.unit!=null?full(x.unit):''}</td><td>${reSrc(x)}</td><td>${esc(x.acq||'')}</td><td>${esc(x.reason||'')}</td>${rl(c,{sec,i:x.i,field:'面積',cur:x.area})}</tr>`);
+  const oth=[...c.biz.map(x=>['事業投資',x]),...c.other.map(x=>['其他財產／債權',x]),...c.bonds.map(x=>['債券／其他證券',{desc:x.name,twd:x.twd,role:x.role,sec:x.sec,i:x.i}]),...c.debts.map(x=>['債務'+(x.purpose?'・'+x.purpose:''),x])].map(([k,x])=>`<tr><td>${k}</td><td>${esc(x.desc)}</td><td>${x.role}</td><td class="r">${full(x.twd)}</td>${rl(c,{sec:x.sec,i:x.i,field:'金額',cur:x.twd})}</tr>`);
   const role=Object.entries(c.by_role).map(([r,v])=>`${r} ${fmt((v.deposit||0)+(v.cash||0)+(v.sec_market||0)-(v.debt||0))}`).join('・');
   const sus=s.suspect_n?`<div class="note"><b>疑似申報填寫錯誤</b>：有 ${s.suspect_n} 筆證券的申報金額合計 ${fmt(s.suspect_amt)}，每單位價值超過 5 萬元，明顯不合理（常見原因是淨值欄位小數點錯位）。這些項目不計入本站的兩種淨資產，請以原始申報表判斷實際金額。</div>`:'';
   $('#sheet').innerHTML=`<header><div><h2>${esc(c.name)}</h2><div class="sub">${esc(c.party)}・${esc(c.type)}・${esc(c.dist)}・申報日 ${esc(c.date||'—')}${c.has_spouse?'・有配偶':''}${c.kids?`・未成年子女 ${c.kids} 人`:''}</div></div><button class="x" onclick="dlg.close()" aria-label="關閉">×</button></header>
    ${c.manual_note?`<div class="note ok"><b>人工核對</b>：${esc(c.manual_note.replace(/^人工核對（[^）]*）：/,''))}</div>`:''}${iss}${sus}
-   <dl class="kv"><div class="hl"><dt>淨資產（股票市值）</dt><dd>${fmt(s.net_mkt)}</dd></div><div><dt>淨資產（申報面額）</dt><dd>${fmt(s.net_decl)}</dd></div>
+   <dl class="kv"><div class="hl"><dt>淨資產（股票市值${RE?'＋不動產估值':''}）</dt><dd>${fmt(s.net_mkt+RX(c))}</dd></div><div><dt>淨資產（申報面額）</dt><dd>${fmt(s.net_decl)}</dd></div>
    <div><dt>存款＋現金（統一匯率）</dt><dd>${fmt((s.deposit_std??s.deposit)+(s.cash_std??s.cash))}${s.fx_n?` <small>申報 ${fmt(s.deposit+s.cash)}</small>`:''}</dd></div><div><dt>股票與基金 市值</dt><dd>${fmt(s.stock_mkt+s.fund_mkt)} <small>申報 ${fmt(s.stock_decl+s.fund_decl)}</small></dd></div>
-   <div><dt>事業投資・債權・其他</dt><dd>${fmt(s.biz+s.claims+s.other_assets+s.bond+s.other_sec)}</dd></div><div><dt>債務</dt><dd>${fmt(s.debt)}</dd></div>
+   <div><dt>事業投資・債權・其他</dt><dd>${fmt(s.biz+s.claims+s.other_assets+s.bond+s.other_sec)}</dd></div><div><dt>債務</dt><dd>${fmt(s.debt)}${s.mortgage>0?` <small>其中房貸 ${fmt(s.mortgage)}</small>`:''}</dd></div>
+   <div class="wide"><dt>不動產估值（實價登錄，${RE?'已加進上方淨資產':'不計入淨資產'}）</dt><dd>${reEst(s)}${reOv(c)}</dd></div>
    <div><dt>土地</dt><dd>${s.land_n} 筆 <small>持分 ${s.land_area.toLocaleString()} m²</small></dd></div><div><dt>建物</dt><dd>${s.bldg_n} 筆 <small>持分 ${s.bldg_area.toLocaleString()} m²</small></dd></div>
    <div class="ins"><dt>保險</dt><dd>${s.ins_n} 件</dd></div><div class="wide"><dt>汽車</dt><dd>${s.car_n} 輛${(s.car_brands||[]).length?` <small>${s.car_brands.map(([b,n])=>esc(b)+(n>1?' ×'+n:'')).join('、')}</small>`:''}</dd></div></dl>
    <p class="muted">依持有人（不含不動產、事業投資）：${role||'—'}。<a href="${c.pdf}" target="_blank" rel="noopener">開啟中選會原始申報表 PDF</a>。發現轉錄錯誤？每列最右邊可以直接<a href="${issueUrl(c)}" target="_blank" rel="noopener">回報</a>，經審核後更正。</p>
@@ -322,26 +357,26 @@ async function detail(c0){const c=await full_(c0);const s=c.sum;
    ${rowsTbl([['廠牌型號'],['廠牌'],['汽缸容量 cc','r'],['所有人'],['取得時間'],['取得原因'],['取得價額'],['']],cars)}
    ${(c.ships||[]).length?rowsTbl([['船舶種類'],['噸數／長度'],['所有人'],['取得時間'],['取得價額']],c.ships.map(x=>`<tr><td>${esc(x.kind)}</td><td>${esc(x.size||'')}</td><td>${x.role}</td><td>${esc(x.acq||'')}</td><td>${esc(x.price||'')}</td></tr>`)):''}
    ${(c.aircraft||[]).length?rowsTbl([['航空器型式'],['製造廠'],['所有人'],['取得時間'],['取得價額']],c.aircraft.map(x=>`<tr><td>${esc(x.model)}</td><td>${esc(x.maker||'')}</td><td>${x.role}</td><td>${esc(x.acq||'')}</td><td>${esc(x.price||'')}</td></tr>`)):''}
-   <h3>不動產 <small>只有面積，沒有申報價值</small></h3>
-   ${rowsTbl([['類別'],['坐落'],['所有人'],['面積 m²','r'],['權利範圍'],['持分面積 m²','r'],['取得時間'],['取得原因'],['']],re)}
+   <h3>不動產 <small>依${seasons('115')?' '+seasons('115')+' ':''}實價登錄成交單價中位數 × 持分面積，層級依序退到 段→段(不分小段)→路（建物）→鄉鎮市區；持分面積 ${BIG.toLocaleString()} m² 以上的土地只用移轉面積同樣大的成交；土地只計入對到段且同段行情一致者，只對到鄉鎮市區行情或農地建地混雜的段僅供參考；建物用房地單價（已含土地），同日取得、或自建當天或之前取得的同段土地在建物持分面積 1.5 倍內視為基地不另計；灰字未計入合計；僅供參考，不計入淨資產</small></h3>
+   ${rowsTbl([['類別'],['坐落'],['所有人'],['面積 m²','r'],['權利範圍'],['持分面積 m²','r'],['估值','r'],['單價 元/m²','r'],['依據'],['取得時間'],['取得原因'],['']],re)}
    <h3>事業投資、其他財產與債務</h3>
    ${rowsTbl([['類別'],['名稱'],['持有人'],['金額','r'],['']],oth)}
    ${c.notes?`<p class="muted">轉錄備註：${esc(c.notes)}</p>`:''}`;
   dlg.showModal();$('#sheet').scrollTop=0}
-async function compare(){const cs=await Promise.all(cmp.map(id=>full_(DATA.find(x=>x.id===id))));const max=Math.max(1,...cs.map(c=>Math.max(c.gross,c.sum.debt)));
-  const col=c=>{const s=c.sum;const vb=SEGS.map(([k,l,v])=>c.seg[k]>0?`<i style="height:${(c.seg[k]/max*100).toFixed(2)}%;background:var(${v})" data-t="${l}　${fmt(c.seg[k])}"></i>`:'').join('');
+async function compare(){const cs=await Promise.all(cmp.map(id=>full_(DATA.find(x=>x.id===id))));const max=Math.max(1,...cs.map(c=>Math.max(gross(c),c.sum.debt)));
+  const col=c=>{const s=c.sum;const vb=segList().map(([k,l,v])=>c.seg[k]>0?`<i style="height:${(c.seg[k]/max*100).toFixed(2)}%;background:var(${v})" data-t="${l}　${fmt(c.seg[k])}"></i>`:'').join('');
    const top=[...c.stocks,...c.funds].sort((a,b)=>b.market-a.market).slice(0,5).map(x=>`<div class="crow"><span>${esc(x.name)}</span><b>${fmt(x.market)}</b></div>`).join('');
    return `<div class="ccol"><div><h4>${esc(c.name)}${c.warn?'<span class="chip">需核對</span>':''}</h4><div class="m">${esc(c.party)}・${esc(c.dist)}</div></div>
    <div class="vbar" aria-hidden="true">${vb}</div>
-   <div class="crow"><span>淨資產（市值）</span><b>${fmt(s.net_mkt)}</b></div><div class="crow"><span>淨資產（申報）</span><b>${fmt(s.net_decl)}</b></div>
+   <div class="crow"><span>淨資產（市值${RE?'＋不動產':''}）</span><b>${fmt(s.net_mkt+RX(c))}</b></div><div class="crow"><span>淨資產（申報）</span><b>${fmt(s.net_decl)}</b></div>
    <div class="crow"><span>存款＋現金</span><b>${fmt(s.deposit+s.cash)}</b></div><div class="crow"><span>股票與基金市值</span><b>${fmt(s.stock_mkt+s.fund_mkt)}</b></div>
-   <div class="crow"><span>事業投資等</span><b>${fmt(s.biz+s.claims+s.other_assets+s.bond+s.other_sec)}</b></div><div class="crow"><span>債務</span><b>${fmt(s.debt)}</b></div>
+   <div class="crow"><span>事業投資等</span><b>${fmt(s.biz+s.claims+s.other_assets+s.bond+s.other_sec)}</b></div><div class="crow"><span>債務</span><b>${fmt(s.debt)}</b></div><div class="crow"><span>其中房貸</span><b>${fmt(s.mortgage)}</b></div>
    <div class="crow"><span>111 年淨資產（申報）</span><b>${c.prev?fmt(c.prev.sum.net_decl):'—'}</b></div>
-   <div class="crow"><span>土地／建物</span><b>${s.land_n}／${s.bldg_n} 筆</b></div><div class="crow"><span>土地持分面積</span><b>${s.land_area.toLocaleString()} m²</b></div>
+   <div class="crow"><span>土地／建物</span><b>${s.land_n}／${s.bldg_n} 筆</b></div><div class="crow"><span>土地持分面積</span><b>${s.land_area.toLocaleString()} m²</b></div><div class="crow"><span>不動產估值（實價登錄）</span><b>${s.re_valued_n?fmt(s.re_est):'—'}</b></div>
    ${top?`<div class="m" style="margin-top:6px">持股市值前五</div>${top}`:''}
    <button class="btn" data-open="${c.id}">看完整明細</button></div>`};
   $('#sheet').innerHTML=`<header><div><h2>並排比較</h2><div class="sub">直條高度用同一比例尺；股票以 10/16 收盤價計。</div></div><button class="x" onclick="dlg.close()" aria-label="關閉">×</button></header>
-   <div class="legend">${SEGS.map(([k,l,v])=>`<span><i class="sw" style="background:var(${v})"></i>${l}</span>`).join('')}</div>
+   <div class="legend">${segList().map(([k,l,v])=>`<span><i class="sw" style="background:var(${v})"></i>${l}</span>`).join('')}</div>
    <div class="cgrid" style="--n:${cs.length}">${cs.map(col).join('')}</div>`;dlg.showModal()}
 const dlg=$('#dlg');
 dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close();const o=e.target.closest('[data-open]');if(o)detail(DATA.find(x=>x.id===o.dataset.open))});
@@ -353,8 +388,11 @@ $('#clr').onclick=()=>{cmp=[];tray()};$('#go').onclick=compare;$('#more').onclic
 let qt;$('#q').addEventListener('input',()=>{clearTimeout(qt);qt=setTimeout(apply,150)});
 $('#fType').onchange=()=>{refreshOpts();apply()};$('#fCity').onchange=()=>{refreshOpts();apply()};
 ['#fDist','#fParty','#fSort','#fPrev'].forEach(s=>$(s).onchange=apply);
+$('#fRe').onchange=e=>{RE=e.target.checked;$('#lgRe').style.display=RE?'':'none';
+  $('#lgNote').textContent=RE?'長條與淨資產（市值）已加上不動產估值（實價登錄，只算計入的列）；「申報」數字維持候選人自己寫的。':'不動產另以實價登錄估值，單獨列出，不計入長條與淨資產。';apply()};
 const tip=$('#tip');document.addEventListener('mousemove',e=>{const t=e.target.closest&&e.target.closest('[data-t]');if(!t){tip.hidden=true;return}
   tip.textContent=t.dataset.t;tip.hidden=false;tip.style.left=Math.min(innerWidth-250,e.clientX+12)+'px';tip.style.top=(e.clientY+14)+'px'});
+document.querySelectorAll('[data-lvr]').forEach(e=>{const t=seasons(e.dataset.lvr);if(t)e.textContent=t});
 (()=>{const d=$('#dl');if(!d)return;const dl=window.SITE_CONFIG&&window.SITE_CONFIG.download;
   d.innerHTML=(dl?`<a class="btn" href="download/candidate_wealth.sqlite">下載資料庫（SQLite）</a><a class="btn" href="download/csv/summary.csv">下載摘要（CSV）</a>`:'')+`<a href="https://github.com/${REPO}" target="_blank" rel="noopener">原始資料、程式與更正紀錄（GitHub）</a><a href="https://github.com/${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">如何協助更正</a>`})();
 fetch('data.json').then(r=>r.json()).then(d=>{DATA=d.map(derive);

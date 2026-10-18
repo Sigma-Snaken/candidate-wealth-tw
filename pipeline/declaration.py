@@ -5,18 +5,42 @@ import paths
 import fx as FX
 from pricing import num
 from validate import check
+from debts import purposes
 from collections import Counter
 
 PARTIES = paths.parties_115()
 
 
-def frac(s):
-    if not s: return None
-    s = str(s).replace(' ', '').replace('／', '/')
-    if '全部' in s or s in ('1', '1/1'): return 1.0
-    m = re.search(r'(\d+(?:\.\d+)?)/(\d+(?:\.\d+)?)', s)
-    if m and float(m.group(2)) > 0: return min(1.0, float(m.group(1)) / float(m.group(2)))
-    return None
+def frac(s, detail=False):
+    """Share as written -> fraction: a/b, 'N分之M' (denominator first, digits or 一…萬/壹…拾), 全/全部/100%, a trailing 0<x≤1.
+    Several fractions with one denominator separated by ,、 or spaces are summed (a repeated full share counts once). A reversed 'N/1' reads as 1/N;
+    any other numerator above the denominator is None. detail=True returns (fraction, reversed)."""
+    def cnum(x):
+        t = u = n = 0
+        for c in re.findall(r'\d+(?:\.\d+)?|.', x):
+            if c[0] in '0123456789０１２３４５６７８９': n = float(c)
+            elif c in '零〇一壹二貳兩三參四肆五伍六陸七柒八捌九玖': n = int('001122233445566778899'['零〇一壹二貳兩三參四肆五伍六陸七柒八捌九玖'.index(c)])
+            elif c in '十拾百佰千仟': u += (n or 1) * 10 ** ('十拾百佰千仟'.index(c) // 2 + 1); n = 0
+            elif c == '萬': t += (u + n or 1) * 10000; u = n = 0
+        return t + u + n
+    out = lambda v, rev=False: (v, rev) if detail else v
+    if not s: return out(None)
+    s = re.sub(r'\s+', ' ', str(s)).strip().replace('／', '/')
+    s = re.sub(r'(?<![\d.])\d{1,3}(?:[,，]\d{3})+(?!\d)', lambda m: m.group() if s[:m.start()].rstrip().endswith('/') and re.match(r' ?/', s[m.end():])
+               else re.sub('[,，]', '', m.group()), s)                     # 1/2,100/1000: a denominator then a list comma, not 2100
+    N = r'([\d.０-９零〇一二三四五六七八九壹貳參肆伍陸柒捌玖兩十拾百佰千仟萬]+)'
+    ms = list(re.finditer(N + ' ?(?:分之|之|分) ?' + N + r'|(\d+(?:\.\d+)?) ?/ ?(\d+(?:\.\d+)?)', s))
+    if ms:
+        nd = [(cnum(m.group(2)), cnum(m.group(1))) if m.group(1) else (float(m.group(3)), float(m.group(4))) for m in ms]
+        (n, d), k = nd[0], 1
+        while k < len(ms) and nd[k][1] == d and re.fullmatch(r'[ ,，、]+', s[ms[k - 1].end():ms[k].start()]): n += nd[k][0]; k += 1
+        if n > d and all(nd[j] == (d, d) for j in range(k)): n = d                 # 1/1,1/1: the full share repeated
+    elif m := re.search(r'(\d+(?:\.\d+)?)[%％]', s): n, d = float(m.group(1)), 100
+    elif '全' in s: return out(1.0)
+    elif (m := re.search(r'(?:^|[^\d./])(\d*\.?\d+)$', s)) and 0 < float(m.group(1)) <= 1: return out(float(m.group(1)))
+    else: return out(None)
+    if not (n > 0 and d > 0) or n > d and d != 1: return out(None)
+    return out(1 / n, True) if n > d else out(n / d)
 
 def role(owner, d):
     o = (owner or '').replace(' ', '')
@@ -53,7 +77,8 @@ def load_extra(seq, d, year):
             if best is None or sc < best[0]: best = (sc, e)
     return best[1] if best else None
 
-def summarize(rec, meta, year, extra, pricer):
+def summarize(rec, meta, year, extra, pricer, est=None):
+    """est: a realestate.Estimator for the year (None skips the 實價登錄 estimates)."""
     d = rec['data']; R = lambda o: role(o, d)
     ST = stated_lookup(extra)
     st = lambda sec, x: ST.get((sec, round(num(x.get('twd'))))) or ST.get((sec, round(num(x.get('twd'))) + 1)) or ST.get((sec, round(num(x.get('twd'))) - 1))
@@ -77,6 +102,15 @@ def summarize(rec, meta, year, extra, pricer):
     assets_mkt = cash_std + dep_std + bonds_std - bonds - other_sec + stock_mkt + fund_mkt + bonds + other_sec + other_assets + claims + biz
     land = [{'loc': l['location'][:20], 'area': l['area_m2'], 'share': l['share'], 'own_area': round((l['area_m2'] or 0) * (frac(l['share']) or 0), 2) if frac(l['share']) else None, 'role': R(l['owner']), 'acq': l['acquired'], 'reason': l['reason'], 'i': i} for i, l in enumerate(d['land'])]
     bldg = [{'loc': b['location'][:20], 'area': b['area_m2'], 'share': b['share'], 'own_area': round((b['area_m2'] or 0) * (frac(b['share']) or 0), 2) if frac(b['share']) else None, 'role': R(b['owner']), 'acq': b['acquired'], 'reason': b['reason'], 'i': i} for i, b in enumerate(d['buildings'])]
+    lv, bv = est.candidate(d['land'], d['buildings'], meta['City_ID_NM']) if est else ([{} for _ in land], [{} for _ in bldg])
+    for x, v in zip(land + bldg, lv + bv):
+        x.update(est=v.get('est_twd'), lo=v.get('est_low'), hi=v.get('est_high'), unit=v.get('unit_median'), lvl=v.get('lvr_level'), n=v.get('lvr_n'),
+                 src=''.join(v['lvr_key'].split('|')[2:]) if v.get('lvr_key') else None,
+                 flag=v.get('flag'), cnt=int(bool(v.get('counted'))))
+    ct = [x for x in land + bldg if x['cnt']]
+    re_sum = lambda xs, k: round(sum(x[k] or 0 for x in xs))
+    purp = purposes([(x['desc'], x['note']) for x in d['debts']])
+    dsum = lambda p: round(sum(num(x['amount_twd']) for x, q in zip(d['debts'], purp) if q == p), 2)
     by_role = {}
     def addr(r, k, v):
         by_role.setdefault(r, {}); by_role[r][k] = round(by_role[r].get(k, 0) + v, 2)
@@ -94,6 +128,9 @@ def summarize(rec, meta, year, extra, pricer):
                 'net_decl': round(assets_decl - debts - sum(x['declared'] for x in stocks + funds if x['suspect']), 2), 'net_mkt': round(assets_mkt - debts, 2),
                 'land_n': len(land), 'land_area': round(sum(x['own_area'] or 0 for x in land), 2),
                 'bldg_n': len(bldg), 'bldg_area': round(sum(x['own_area'] or 0 for x in bldg), 2),
+                'land_est': re_sum([x for x in land if x['cnt']], 'est'), 'bldg_est': re_sum([x for x in bldg if x['cnt']], 'est'), 're_est': re_sum(ct, 'est'), 're_lo': re_sum(ct, 'lo'), 're_hi': re_sum(ct, 'hi'),
+                're_valued_n': len(ct), 're_flagged_n': sum(1 for x in land + bldg if x['est'] is not None and not x['cnt']), 're_unvalued_n': sum(1 for x in land + bldg if x['est'] is None), 're_base_n': sum(1 for x in land if x['flag'] == 'base'),
+                'mortgage': dsum('房貸'), 're_secured': dsum('不動產擔保週轉'),
                 'car_n': len(extra['vehicles']) if extra else len(d['vehicles']), 'car_brands': [[b, n] for b, n in Counter((v.get('brand') or v.get('brand_model') or '').strip() or '未註明' for v in (extra or {}).get('vehicles', [])).most_common()], 'car_cc': round(sum(v.get('displacement_cc') or 0 for v in (extra or {}).get('vehicles', []))), 'ins_n': len(d['insurance']),
                 'unpriced_n': sum(1 for x in stocks if not x['priced']), 'suspect_n': sum(1 for x in stocks + funds if x['suspect']), 'suspect_amt': round(sum(x['declared'] for x in stocks + funds if x['suspect']), 2)},
         'declared_totals': {'deposit': d['deposit_total_twd'], 'securities': d['securities_total_twd'], 'debt': d['debts_total_twd']},
@@ -101,7 +138,7 @@ def summarize(rec, meta, year, extra, pricer):
         'deposits': [{'bank': x['bank'][:30], 'cur': x['currency'], 'cur_raw': x['currency_raw'], 'fx': x['foreign_amount'], 'twd': x['declared_twd'], 'twd_filled': x.get('declared_twd_filled'),
                       'rate': x['declared_rate'], 'rate_src': x['rate_source'], 'std_rate': x['std_rate'], 'std_twd': x['std_twd'], 'role': R(x['owner']), 'i': i} for i, x in enumerate(deps)],
         'cash_items': [{'cur': x['currency'], 'fx': x['foreign_amount'], 'twd': x['declared_twd'], 'rate': x['declared_rate'], 'std_twd': x['std_twd'], 'role': R(x['owner'])} for x in cashes],
-        'debts': [{'desc': (x['desc'] or '')[:40], 'twd': x['amount_twd'], 'role': R(x['owner']), 'sec': 'debts', 'i': i} for i, x in enumerate(d['debts'])],
+        'debts': [{'desc': (x['desc'] or '')[:40], 'twd': x['amount_twd'], 'role': R(x['owner']), 'purpose': purp[i], 'sec': 'debts', 'i': i} for i, x in enumerate(d['debts'])],
         'biz': [{'desc': (x['desc'] or '')[:40], 'twd': x['amount_twd'], 'role': R(x['owner']), 'sec': 'business_investments', 'i': i} for i, x in enumerate(d['business_investments'])],
         'other': [{'desc': (x['desc'] or '')[:40], 'twd': x['amount_twd'], 'role': R(x['owner']), 'sec': sec, 'i': i} for sec in ('other_assets', 'debt_claims') for i, x in enumerate(d[sec])],
         'cars': ([{'brand': v.get('brand'), 'model': v['brand_model'], 'cc': v.get('displacement_cc'), 'cc_raw': v.get('displacement_raw'), 'role': R(v['owner']),
@@ -110,7 +147,7 @@ def summarize(rec, meta, year, extra, pricer):
         'ships': [{'kind': x['kind'], 'size': x.get('size'), 'role': R(x['owner']), 'acq': x.get('acquired'), 'price': x.get('price_raw')} for x in (extra or {}).get('ships', [])],
         'aircraft': [{'model': x['model'], 'maker': x.get('maker'), 'role': R(x['owner']), 'acq': x.get('acquired'), 'price': x.get('price_raw')} for x in (extra or {}).get('aircraft', [])],
         'bonds': [{'name': x['name'], 'twd': x['twd'], 'role': R(x['owner']), 'sec': sec, 'i': i} for sec in ('bonds', 'other_securities') for i, x in enumerate(d[sec])],
-        'issues': issues, 'notes': d['notes'],
+        'issues': issues, 'notes': d['notes'], '_re': {'land': lv, 'bldg': bv},
     }
 
 def real(iss): return [i for i in iss if i[1] != 'no declared total']
