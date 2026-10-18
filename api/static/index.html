@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>看板財產透視</title>
+<title>2026 大選候選人財富雷達</title>
 <meta name="description" content="拍一張街上的候選人看板，對照中選會 115 年候選人財產申報。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -82,7 +82,8 @@ button,select,input{font:inherit;color:inherit}
 .cta .b2{background:transparent;color:#F5F0E8;border-color:#4A7BC8}
 .cta .b2:hover,.cta .b1:hover{filter:brightness(1.1)}
 .share{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px}
-.share .btn{background:var(--seal);color:#fff;border-color:var(--seal)}
+.share #share{background:var(--seal);color:#fff;border-color:var(--seal)}
+.share #dl{border-color:var(--ink3)}
 .credit{font-size:12px;color:var(--ink3)}
 .credit a{color:var(--ink2)}
 </style>
@@ -90,7 +91,7 @@ button,select,input{font:inherit;color:inherit}
 <body>
 <div class="wrap">
   <header class="mast">
-    <h1>看板財產透視<span class="seal">115 年</span></h1>
+    <h1>2026 大選候選人財富雷達<span class="seal">115 年</span></h1>
     <p>拍下街上的候選人看板，自動辨識姓名並對照中選會 115 年候選人財產申報：淨資產、名下不動產、房貸與有價證券。</p>
   </header>
 
@@ -106,7 +107,7 @@ button,select,input{font:inherit;color:inherit}
 
   <section id="result" class="result" hidden>
     <img id="overlay" alt="看板疊上候選人財產摘要的照片">
-    <div class="actions"><a id="dl" class="btn" download="看板財產透視.jpg">下載圖片</a><span id="elapsed" class="hint"></span></div>
+    <div class="actions"><span id="elapsed" class="hint"></span></div>
     <div id="cards" class="cards"></div>
     <div id="missWrap" hidden>
       <h2 style="font-size:16px">未在 115 年候選人名單</h2>
@@ -115,6 +116,7 @@ button,select,input{font:inherit;color:inherit}
     <div class="share" id="shareWrap" hidden>
       <span>覺得有梗？把這張圖傳給朋友，連結會一起帶過去。</span>
       <button id="share" class="btn" type="button">分享這張圖</button>
+      <a id="dl" class="btn" download="2026大選候選人財富雷達.jpg">下載圖片</a>
       <span id="shareDone" class="hint" hidden>已複製連結</span>
     </div>
     <aside class="cta" aria-label="Sigma Robotics">
@@ -258,11 +260,11 @@ $("share").addEventListener("click", async () => {
   const url = location.origin + location.pathname;
   const text = `路上看到 ${lastNames.join("、")} 的看板，拍一張就看到申報財產。你也試試：`;
   try {
-    if (lastBlob && navigator.canShare && navigator.canShare({ files: [new File([lastBlob], "看板財產透視.jpg", { type: "image/jpeg" })] })) {
-      await navigator.share({ title: "看板財產透視", text, url, files: [new File([lastBlob], "看板財產透視.jpg", { type: "image/jpeg" })] });
+    if (lastBlob && navigator.canShare && navigator.canShare({ files: [new File([lastBlob], "2026大選候選人財富雷達.jpg", { type: "image/jpeg" })] })) {
+      await navigator.share({ title: "2026 大選候選人財富雷達", text, url, files: [new File([lastBlob], "2026大選候選人財富雷達.jpg", { type: "image/jpeg" })] });
       return;
     }
-    if (navigator.share) { await navigator.share({ title: "看板財產透視", text, url }); return; }
+    if (navigator.share) { await navigator.share({ title: "2026 大選候選人財富雷達", text, url }); return; }
     await navigator.clipboard.writeText(`${text} ${url}`);
     $("shareDone").hidden = false;
   } catch (e) { /* 使用者取消 */ }

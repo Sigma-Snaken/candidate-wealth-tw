@@ -29,7 +29,7 @@ logging.getLogger("uvicorn.access").disabled = True  # access log 會印 client 
 for _name in ("httpx", "google_genai"):
     logging.getLogger(_name).setLevel(logging.WARNING)
 
-app = FastAPI(title="看板財產透視", docs_url=None, redoc_url=None, openapi_url=None)
+app = FastAPI(title="2026 大選候選人財富雷達", docs_url=None, redoc_url=None, openapi_url=None)
 app.add_middleware(CORSMiddleware, allow_origins=["https://sigma-snaken.github.io"], allow_methods=["GET", "POST"], allow_headers=["*"], expose_headers=["Retry-After"])
 
 
