@@ -312,7 +312,7 @@ def card_lines(f):
     return lines
 
 
-SIZES = {"title": 54, "sub": 26, "big": 34, "h": 28, "b": 27, "note": 25, "gap": 10}
+SIZES = {"title": 54, "sub": 26, "big": 50, "h": 28, "b": 27, "note": 25, "gap": 10}  # big＝淨資產數字，醒目標記
 COLORS = {"title": (255, 255, 255), "sub": (200, 200, 200), "big": (255, 214, 10), "h": (255, 196, 0),
           "b": (240, 240, 240), "note": (255, 140, 140), "gap": (0, 0, 0)}
 FOOT = "中選會 115 年候選人財產申報 · 淨資產含不動產實價登錄參考估值（非鑑價）· 股票 2026-10-16 收盤價 · 看板財產透視 by 西格瑪機器人 Sigma Robotics · sigmabot.com.tw"
@@ -329,8 +329,18 @@ def _fonts(S, scale=1.0):
     return fonts
 
 
+BIG_LABEL = "淨資產（含房產估值）"
+HILITE = (255, 214, 10)  # 醒目標記底色，字用深色
+
+
+def _line_w(d, t, k, fonts, S):
+    if k == "big":  # 標籤（h 字級）＋數字（big 字級）＋標記左右留白
+        return d.textlength(BIG_LABEL, font=fonts["h"]) + int(12 * S) + d.textlength(t[len(BIG_LABEL):], font=fonts["big"]) + int(28 * S)
+    return d.textlength(t, font=fonts[k])
+
+
 def _card_metrics(d, lines, fonts, pad, S):
-    cw = int(max(d.textlength(t, font=fonts[k]) for t, k in lines) + 2 * pad)
+    cw = int(max(_line_w(d, t, k, fonts, S) for t, k in lines) + 2 * pad)
     lh = {k: int(fonts[k].size * 1.35) for k in fonts}
     ch = sum(lh[k] + (int(10 * S) if k in ("title", "h", "big") else 0) for _, k in lines) + 2 * pad
     return cw, ch, lh
@@ -343,7 +353,15 @@ def _draw_card(d, cx, cy, cw, ch, lines, fonts, lh, pad, S, bg=True):
     for t, k in lines:
         if k in ("h", "big"):
             ty += int(10 * S)
-        if t:
+        if k == "big" and t.startswith(BIG_LABEL):  # 醒目標記：黃底深字，數字放大、標籤靠底線對齊
+            num = t[len(BIG_LABEL):]
+            lw = d.textlength(BIG_LABEL, font=fonts["h"]); nw = d.textlength(num, font=fonts["big"])
+            w = lw + int(12 * S) + nw + int(28 * S); h = lh["big"]
+            d.rounded_rectangle([cx + pad, ty, cx + pad + w, ty + h], radius=int(8 * S), fill=HILITE + (255,))
+            base = ty + h - int(10 * S)
+            d.text((cx + pad + int(14 * S), base), BIG_LABEL, font=fonts["h"], fill=(18, 23, 32, 255), anchor="ls")
+            d.text((cx + pad + int(14 * S) + lw + int(12 * S), base), num, font=fonts["big"], fill=(18, 23, 32, 255), anchor="ls")
+        elif t:
             d.text((cx + pad, ty), t, font=fonts[k], fill=COLORS[k] + (255,))
         ty += lh[k]
 
