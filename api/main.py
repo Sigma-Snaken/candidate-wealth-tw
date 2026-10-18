@@ -135,7 +135,7 @@ def analyze(request: Request, photo: UploadFile = File(...)):
         raise ApiError(504, "辨識逾時，請再試一次")
     except Exception as e:
         log.warning("gemini failed: %s", type(e).__name__)
-        raise ApiError(502, "Gemini 辨識失敗，請稍後再試")
+        raise ApiError(502, "AI 判讀失敗，請稍後再試")
     results = billboard.facts_for_detections(detections)
     buf = io.BytesIO()
     billboard.compose(im, results).save(buf, "JPEG", quality=88)

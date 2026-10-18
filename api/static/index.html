@@ -216,7 +216,7 @@ function show(data) {
 let lastFd = null;
 async function analyze(fd) {
   lastFd = fd; $("retry").hidden = true;
-  setStatus("Gemini 辨識中，約 10 秒…");
+  setStatus("AI 判讀中，約 10 秒…");
   try {
     const r = await fetch(API + "/api/analyze", {method: "POST", body: fd});
     const data = await r.json().catch(() => ({}));
