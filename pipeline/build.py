@@ -44,6 +44,7 @@ def db_rows(T, year, seq, meta, rec, agree, extra, site, dd, cf, source):
     T.add('candidates', **key, name=meta['NAME'], elect_type=meta['ElectType_NM'] if year == '115' else None, city=meta['City_ID_NM'],
           district=meta['Dist_NM'] if year == '115' else None, party=(paths.parties_115().get(seq, {}).get('party') if year == '115' else None), party_on_declaration_site=(meta['Party_NM'] or '').strip() if year == '115' else None,
           declarant_as_written=d['declarant'], declare_date=d['declare_date'], spouse=d['spouse'], minor_children=d['minor_children_count'],
+          birth_year=site['born'], age=int(year) + 1911 - site['born'] if site['born'] else None,
           total_pages=d['total_pages'], transcription=dd, transcribed_by=rec['model'], form_inconsistent=int(bool(agree)),
           manual_note=cf.note if cf else None, corrections=len(cf.changes) if cf else 0, source=source)
     for sec, val, cnt in (('cash', d['cash_total_twd'], None), ('deposits', d['deposit_total_twd'], d['deposit_count']),

@@ -87,6 +87,8 @@ candidates、summary、declared_totals、deposits、cash、securities（股票�
 ## 政黨
 `candidates.party` 取自中選會「115 年地方公職人員選舉候選人登記名冊」（製表日期 115/09/07，`data/raw/cec_roster_115.json`，由 Gemini 3.5 Flash-Lite 轉錄），比對結果在 `data/parties_115.json`。`party_on_declaration_site` 是財產申報系統上的政黨欄，多數空白且有錯，只供參照。
 
+`candidates.birth_year`（西元年）取自 115 年申報表第 1 頁的「申報人出生年月日」，多數表只填年，所以 `age`（= 2026 − 出生年）可能差 1 歲。轉錄方式：Claude Haiku 兩次獨立判讀，一致才採用；不一致的再以高解析度重讀，仍不一致的 31 份人工判讀；4 份表上空白或無法辨識，留空。逐筆來源與疑點在 `data/birth_years_115.json`（`method`、`note`）。111 年資料不填。
+
 ## 轉錄來源
 - 115 年主表：Gemini 3.5 Flash，加總不符者以 Gemini 3.1 Pro 重讀，取加總較一致的版本（`candidates.transcribed_by`）。
 - 111 年主表：Gemini 3.5 Flash 705 份、Claude Haiku 166 份。

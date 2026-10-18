@@ -27,5 +27,9 @@ def parties_115():
     p = os.path.join(DATA, 'parties_115.json')
     return load(p) if os.path.exists(p) else {}
 
+def birth_years_115():
+    p = os.path.join(DATA, 'birth_years_115.json')
+    return load(p)['rows'] if os.path.exists(p) else {}
+
 def groups_111():
     return load(os.path.join(RAW, 'groups.json'))

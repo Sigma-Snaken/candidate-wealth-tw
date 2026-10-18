@@ -275,7 +275,7 @@ function barHTML(c,max){if(max<=0)max=1;
 function more(){const max=Math.max(1,...view.map(c=>Math.max(gross(c),c.sum.debt)));
   const frag=view.slice(shown,shown+PAGE).map((c,i)=>`<div class="row" data-id="${c.id}" tabindex="0" role="button" aria-label="${esc(c.name)} 明細">
    <span class="rank">${shown+i+1}</span>
-   <div class="who"><div class="n">${esc(c.name)}${c.warn?'<span class="chip">需核對</span>':''}</div><div class="m">${esc(c.party)}・${esc(c.type)}・${esc(c.dist)}</div></div>
+   <div class="who"><div class="n">${esc(c.name)}${c.warn?'<span class="chip">需核對</span>':''}</div><div class="m">${esc(c.party)}${c.born?`・${2026-c.born} 歲`:''}・${esc(c.type)}・${esc(c.dist)}</div></div>
    <div class="bars">${barHTML(c,max)}</div>
    <div class="val"><b>${fmt(c.sum.net_mkt+RX(c))}</b><small>申報 ${fmt(c.sum.net_decl)}</small>${$('#fSort').value==='re_est'?`<small>不動產估值 ${c.sum.re_valued_n?fmt(c.sum.re_est):'—'}</small>`:''}${c.prev?`<small class="prv">111年 ${fmt(c.prev.sum.net_decl)}<em class="${c.chg>=0?'up':'dn'}">${c.chg>=0?'＋':'－'}${fmt(Math.abs(c.chg))}</em></small>`:''}</div>
    <label class="cmpbox" onclick="event.stopPropagation()" title="加入比較"><input type="checkbox" data-c="${c.id}" ${cmp.includes(c.id)?'checked':''} aria-label="把 ${esc(c.name)} 加入比較"></label></div>`).join('');
@@ -339,7 +339,7 @@ async function detail(c0){const c=await full_(c0);const s=c.sum;
   const oth=[...c.biz.map(x=>['事業投資',x]),...c.other.map(x=>['其他財產／債權',x]),...c.bonds.map(x=>['債券／其他證券',{desc:x.name,twd:x.twd,role:x.role,sec:x.sec,i:x.i}]),...c.debts.map(x=>['債務'+(x.purpose?'・'+x.purpose:''),x])].map(([k,x])=>`<tr><td>${k}</td><td>${esc(x.desc)}</td><td>${x.role}</td><td class="r">${full(x.twd)}</td>${rl(c,{sec:x.sec,i:x.i,field:'金額',cur:x.twd})}</tr>`);
   const role=Object.entries(c.by_role).map(([r,v])=>`${r} ${fmt((v.deposit||0)+(v.cash||0)+(v.sec_market||0)-(v.debt||0))}`).join('・');
   const sus=s.suspect_n?`<div class="note"><b>疑似申報填寫錯誤</b>：有 ${s.suspect_n} 筆證券的申報金額合計 ${fmt(s.suspect_amt)}，每單位價值超過 5 萬元，明顯不合理（常見原因是淨值欄位小數點錯位）。這些項目不計入本站的兩種淨資產，請以原始申報表判斷實際金額。</div>`:'';
-  $('#sheet').innerHTML=`<header><div><h2>${esc(c.name)}</h2><div class="sub">${esc(c.party)}・${esc(c.type)}・${esc(c.dist)}・申報日 ${esc(c.date||'—')}${c.has_spouse?'・有配偶':''}${c.kids?`・未成年子女 ${c.kids} 人`:''}</div></div><button class="x" onclick="dlg.close()" aria-label="關閉">×</button></header>
+  $('#sheet').innerHTML=`<header><div><h2>${esc(c.name)}</h2><div class="sub">${esc(c.party)}・${esc(c.type)}・${esc(c.dist)}${c.born?`・${c.born} 年生（${2026-c.born} 歲）`:''}・申報日 ${esc(c.date||'—')}${c.has_spouse?'・有配偶':''}${c.kids?`・未成年子女 ${c.kids} 人`:''}</div></div><button class="x" onclick="dlg.close()" aria-label="關閉">×</button></header>
    ${c.manual_note?`<div class="note ok"><b>人工核對</b>：${esc(c.manual_note.replace(/^人工核對（[^）]*）：/,''))}</div>`:''}${iss}${sus}
    <dl class="kv"><div class="hl"><dt>淨資產（股票市值${RE?'＋不動產估值':''}）</dt><dd>${fmt(s.net_mkt+RX(c))}</dd></div><div><dt>淨資產（申報面額）</dt><dd>${fmt(s.net_decl)}</dd></div>
    <div><dt>存款＋現金（統一匯率）</dt><dd>${fmt((s.deposit_std??s.deposit)+(s.cash_std??s.cash))}${s.fx_n?` <small>申報 ${fmt(s.deposit+s.cash)}</small>`:''}</dd></div><div><dt>股票與基金 市值</dt><dd>${fmt(s.stock_mkt+s.fund_mkt)} <small>申報 ${fmt(s.stock_decl+s.fund_decl)}</small></dd></div>

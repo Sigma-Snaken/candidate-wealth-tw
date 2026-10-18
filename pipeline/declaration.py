@@ -9,6 +9,7 @@ from debts import purposes
 from collections import Counter
 
 PARTIES = paths.parties_115()
+BIRTH = paths.birth_years_115()
 
 
 def frac(s, detail=False):
@@ -123,6 +124,7 @@ def summarize(rec, meta, year, extra, pricer, est=None):
         'id': rec['seq'], 'name': meta['NAME'], 'type': meta['ElectType_NM'], 'city': meta['City_ID_NM'], 'dist': meta['Dist_NM'],
         'party': (PARTIES.get(rec['seq'], {}).get('party', (meta['Party_NM'] or '').strip()) or '無黨籍'), 'pdf': paths.YEARS[year]['pdf_url'].format(seq=rec['seq']) if paths.YEARS[year]['pdf_url'] else None,
         'date': d['declare_date'], 'has_spouse': bool(d['spouse']), 'kids': d['minor_children_count'],
+        'born': BIRTH.get(rec['seq'], {}).get('birth_year') if year == '115' else None,
         'sum': {'cash': cash, 'deposit': dep, 'cash_std': cash_std, 'deposit_std': dep_std, 'fx_n': sum(1 for x in deps + cashes if x['currency'] != 'TWD') + sum(1 for x in stocks + funds if x.get('fx')), 'stock_decl': stock_decl, 'stock_mkt': stock_mkt, 'fund_decl': fund_decl, 'fund_mkt': fund_mkt,
                 'bond': bonds, 'other_sec': other_sec, 'other_assets': other_assets, 'claims': claims, 'biz': biz, 'debt': debts,
                 'net_decl': round(assets_decl - debts - sum(x['declared'] for x in stocks + funds if x['suspect']), 2), 'net_mkt': round(assets_mkt - debts, 2),
