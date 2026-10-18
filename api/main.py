@@ -100,6 +100,20 @@ def index():
     return FileResponse(INDEX, media_type="text/html; charset=utf-8")
 
 
+@app.post("/api/report")
+def report(request: Request, hours: int = 24, quiet: int = 0):
+    """Cloud Scheduler 觸發：統計 log 送 Telegram。quiet=1 時該時段沒人用就不送。"""
+    token = os.environ.get("BILLBOARD_REPORT_TOKEN")
+    if not token or request.headers.get("X-Report-Token") != token:
+        raise ApiError(404, "找不到這個網址")
+    from api import report as rpt
+    text, recent = rpt.build(max(1, min(hours, 24 * 30)))
+    if quiet and not (recent["pages"] or recent["reqs"]):
+        return {"sent": False}
+    rpt.send_telegram(text)
+    return {"sent": True}
+
+
 @app.get("/healthz")
 def healthz():
     return {"ok": True}

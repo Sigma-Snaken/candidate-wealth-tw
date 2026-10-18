@@ -8,5 +8,6 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 : "${GEMINI_API_KEY:?GEMINI_API_KEY 未設定}"
+: "${TELEGRAM_BOT_TOKEN:?}" "${TELEGRAM_CHAT_ID:?}" "${BILLBOARD_REPORT_TOKEN:?}"  # 使用量摘要送 Telegram、/api/report 的共享密鑰（dev.env）
 
-gcloud run deploy candidate-billboard --source . --project sigma-snaken-dev --region asia-east1 --allow-unauthenticated --no-invoker-iam-check --memory 1Gi --cpu 1 --concurrency 4 --max-instances 2 --min-instances 0 --timeout 60 --set-env-vars GEMINI_API_KEY="$GEMINI_API_KEY",DAILY_CAP=500
+gcloud run deploy candidate-billboard --source . --project sigma-snaken-dev --region asia-east1 --allow-unauthenticated --no-invoker-iam-check --memory 1Gi --cpu 1 --concurrency 4 --max-instances 2 --min-instances 0 --timeout 60 --set-env-vars GEMINI_API_KEY="$GEMINI_API_KEY",DAILY_CAP=500,TELEGRAM_BOT_TOKEN="$TELEGRAM_BOT_TOKEN",TELEGRAM_CHAT_ID="$TELEGRAM_CHAT_ID",BILLBOARD_REPORT_TOKEN="$BILLBOARD_REPORT_TOKEN"
