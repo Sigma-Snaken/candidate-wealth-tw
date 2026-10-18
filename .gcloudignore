@@ -1,0 +1,17 @@
+# 白名單：只送服務需要的檔案進 gcloud run deploy --source . 的上傳內容（repo 的 data/ 有數 GB 圖磚與 PDF）
+/*
+!/api
+!/pipeline
+!/Dockerfile
+!/requirements.txt
+!/dist
+/dist/*
+!/dist/data.json
+!/dist/detail
+!/data
+/data/*
+!/data/db
+/data/db/*
+!/data/db/candidate_wealth.sqlite
+**/__pycache__
+**/*.pyc

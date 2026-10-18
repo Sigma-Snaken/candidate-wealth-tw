@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="zh-Hant-TW" data-api="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>看板財產透視</title>
+<meta name="description" content="拍一張街上的候選人看板，對照中選會 115 年候選人財產申報。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&family=Noto+Sans+TC:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --bg:#f6f7f8; --paper:#ffffff; --ink:#15191f; --ink2:#4a525c; --ink3:#77808b; --rule:#dde1e6; --rule2:#eceff2;
+  --seal:#c23a2b; --seal-soft:#f7e3df; --focus:#2a78d6;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#8b5fbf; --debt:#8a919a;
+  --warn-bg:#fff4d6; --warn-ink:#7a5200;
+  --f-display:"Noto Serif TC","Songti TC","PMingLiU",serif;
+  --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --f-num:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121417; --paper:#1a1d21; --ink:#eef0f2; --ink2:#b9c0c8; --ink3:#8a929b; --rule:#2e333a; --rule2:#23272c;
+  --seal:#e5604f; --seal-soft:#3a201c; --focus:#3987e5;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#9d74d0; --debt:#6d747d;
+  --warn-bg:#3a2f12; --warn-ink:#f2cf7a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121417; --paper:#1a1d21; --ink:#eef0f2; --ink2:#b9c0c8; --ink3:#8a929b; --rule:#2e333a; --rule2:#23272c;
+  --seal:#e5604f; --seal-soft:#3a201c; --focus:#3987e5;
+  --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#9d74d0; --debt:#6d747d;
+  --warn-bg:#3a2f12; --warn-ink:#f2cf7a; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6;overflow-wrap:anywhere;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:860px;margin:0 auto;padding-block:28px 64px;display:grid;gap:24px;min-width:0}
+.num{font-family:var(--f-num);font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;margin:0;letter-spacing:.02em}
+a{color:var(--focus)}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+.mast{display:grid;gap:8px;border-bottom:3px double var(--rule);padding-bottom:20px}
+.mast h1{font-size:clamp(30px,7vw,46px);font-weight:900;line-height:1.15}
+.mast h1 .seal{display:inline-block;border:2px solid var(--seal);color:var(--seal);font-size:.36em;padding:.15em .4em;vertical-align:.55em;margin-left:.5em;transform:rotate(-4deg);letter-spacing:.1em}
+.mast p{margin:0;color:var(--ink2);max-width:62ch}
+
+.drop{display:grid;gap:12px;justify-items:start;background:var(--paper);border:1px dashed var(--rule);border-radius:10px;padding:20px}
+.pick{display:inline-flex;align-items:center;gap:8px;background:var(--seal);color:#fff;border-radius:8px;padding:10px 18px;font-weight:700;cursor:pointer}
+.pick:focus-within{outline:2px solid var(--focus);outline-offset:2px}
+.pick input{position:absolute;width:1px;height:1px;opacity:0}
+.hint{font-size:13px;color:var(--ink3);margin:0}
+.status{margin:0;color:var(--ink2)}
+.status.err{color:var(--warn-ink);background:var(--warn-bg);padding:8px 12px;border-radius:6px}
+
+.result{display:grid;gap:16px;min-width:0}
+.result img{display:block;width:100%;height:auto;border-radius:8px;border:1px solid var(--rule)}
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{display:inline-block;border:1px solid var(--rule);background:var(--paper);border-radius:8px;padding:8px 16px;text-decoration:none;color:var(--ink);font-weight:500}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+.card{background:var(--paper);border:1px solid var(--rule);border-top:3px solid var(--seal);border-radius:8px;padding:14px 16px;display:grid;gap:6px;min-width:0}
+.card h3{font-size:22px;font-weight:900}
+.card .sub{font-size:13px;color:var(--ink3)}
+.card .net{font-size:13px;color:var(--ink2)}
+.card .net b{display:block;font-family:var(--f-num);font-size:22px;font-weight:500;color:var(--ink)}
+.card dl{margin:0;display:grid;gap:4px;font-size:14px}
+.card dt{font-size:12px;color:var(--ink3);margin-top:4px}
+.card dd{margin:0;color:var(--ink2)}
+.card .note{color:var(--seal)}
+.miss{font-size:14px;color:var(--ink2);margin:0;padding-left:1.2em}
+.foot{border-top:1px solid var(--rule);padding-top:16px;font-size:12px;color:var(--ink3);display:grid;gap:4px}
+.foot p{margin:0}
+/* Sigma Robotics CTA — brand tokens #121720 / #F5F0E8 / #E60012 / #001B5E */
+.cta{background:#121720;color:#F5F0E8;border-radius:10px;padding:22px 20px;display:grid;gap:12px;font-family:"Noto Sans TC",system-ui,sans-serif}
+.cta .eyebrow{font-size:12px;letter-spacing:.14em;color:#4A7BC8;text-transform:uppercase}
+.cta h2{font-family:"Noto Sans TC",system-ui,sans-serif;font-size:clamp(18px,3vw,22px);font-weight:700;color:#F5F0E8;line-height:1.4}
+.cta p{margin:0;font-size:14px;color:#cfd3d8;max-width:60ch}
+.cta .row{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.cta .b1,.cta .b2{display:inline-block;padding:10px 16px;border-radius:6px;font-size:14px;font-weight:700;text-decoration:none;border:1px solid transparent}
+.cta .b1{background:#E60012;color:#fff}
+.cta .b2{background:transparent;color:#F5F0E8;border-color:#4A7BC8}
+.cta .b2:hover,.cta .b1:hover{filter:brightness(1.1)}
+.share{background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:12px 14px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-size:14px}
+.share .btn{background:var(--seal);color:#fff;border-color:var(--seal)}
+.credit{font-size:12px;color:var(--ink3)}
+.credit a{color:var(--ink2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <h1>看板財產透視<span class="seal">115 年</span></h1>
+    <p>拍下街上的候選人看板，自動辨識姓名並對照中選會 115 年候選人財產申報：淨資產、名下不動產、房貸與有價證券。</p>
+  </header>
+
+  <section class="drop" aria-label="上傳照片">
+    <label class="pick">拍照或選擇照片<input id="file" type="file" accept="image/*" capture="environment"></label>
+    <p class="hint">照片會先在手機上縮小到長邊 2000 px 再上傳。</p>
+    <p id="status" class="status" role="status" aria-live="polite" hidden></p>
+    <button id="retry" class="btn" type="button" hidden>再試一次</button>
+  </section>
+
+  <section id="result" class="result" hidden>
+    <img id="overlay" alt="看板疊上候選人財產摘要的照片">
+    <div class="actions"><a id="dl" class="btn" download="看板財產透視.jpg">下載圖片</a><span id="elapsed" class="hint"></span></div>
+    <div id="cards" class="cards"></div>
+    <div id="missWrap" hidden>
+      <h2 style="font-size:16px">未在 115 年候選人名單</h2>
+      <ul id="miss" class="miss"></ul>
+    </div>
+    <div class="share" id="shareWrap" hidden>
+      <span>覺得有梗？把這張圖傳給朋友，連結會一起帶過去。</span>
+      <button id="share" class="btn" type="button">分享這張圖</button>
+      <span id="shareDone" class="hint" hidden>已複製連結</span>
+    </div>
+    <aside class="cta" aria-label="Sigma Robotics">
+      <div class="eyebrow">Made by Sigma Robotics 西格瑪機器人</div>
+      <h2>你剛用的這套 AI 視覺辨識，我們平常裝在機器人上跑。</h2>
+      <p>西格瑪機器人把 Gemini 視覺模型整合進巡檢、送物與導覽機器人，在醫院、園區與飯店實際值班：看懂現場、判斷狀況、自己去處理。看板辨識只是順手做的小玩具。</p>
+      <div class="row">
+        <a class="b1" href="https://sigmabot.com.tw/?utm_source=billboard&amp;utm_medium=web&amp;utm_campaign=candidate-wealth" target="_blank" rel="noopener">看我們的機器人在做什麼</a>
+        <a class="b2" href="https://line.me/R/ti/p/@853vsnfe" target="_blank" rel="noopener">加 LINE 聊聊你的場域</a>
+      </div>
+    </aside>
+  </section>
+
+  <footer class="foot">
+    <p>中選會 115 年候選人財產申報（2026-08-31）· 淨資產＝申報資產負債按市價換算，加計不動產實價登錄參考估值（非鑑價）· 股票＝2026-10-16 收盤價</p>
+    <p>照片只在記憶體處理，不儲存。</p>
+    <p><a href="https://sigma-snaken.github.io/candidate-wealth-tw/">回候選人財產透視主站</a></p>
+    <p class="credit">本頁由 <a href="https://sigmabot.com.tw/?utm_source=billboard&amp;utm_medium=web&amp;utm_campaign=candidate-wealth-footer" target="_blank" rel="noopener">西格瑪機器人 Sigma Robotics</a> 製作與維運。</p>
+  </footer>
+</div>
+<script>
+const API = document.documentElement.dataset.api || "";
+const MAX_EDGE = 2000, MAX_BYTES = 10 * 1024 * 1024;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const wan = v => Math.round(v / 1e4).toLocaleString("zh-TW") + " 萬";
+
+function setStatus(text, err) {
+  const s = $("status"); s.hidden = !text; s.textContent = text || ""; s.classList.toggle("err", !!err);
+}
+
+// 長邊縮到 2000 px 再上傳；canvas 讀不了的（如 HEIC）直接傳原檔
+async function shrink(file) {
+  const url = URL.createObjectURL(file);
+  try {
+    const img = new Image(); img.src = url; await img.decode();
+    const w = img.naturalWidth, h = img.naturalHeight, s = Math.min(1, MAX_EDGE / Math.max(w, h));
+    if (s === 1 && file.size <= MAX_BYTES && /^image\/(jpeg|png|webp)$/.test(file.type)) return file;
+    const c = document.createElement("canvas"); c.width = Math.round(w * s); c.height = Math.round(h * s);
+    c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+    const blob = await new Promise(r => c.toBlob(r, "image/jpeg", 0.9));
+    return blob || file;
+  } catch (e) {
+    return file;
+  } finally {
+    URL.revokeObjectURL(url);
+  }
+}
+
+function placeLine(g, f) {
+  const parts = [];
+  if (g.units) parts.push(`${g.units} 戶`);
+  if (g.land_rows && !g.units) parts.push(`土地 ${g.land_rows} 筆 ${g.land_m2 < 1 ? g.land_m2.toFixed(2) : Math.round(g.land_m2)} m²`);
+  const where = g.home ? g.county + g.town : g.county + g.towns.filter(Boolean).join("／");
+  let s = `${where}：` + parts.join("、");
+  if (g.est >= 1e4) s += `，估 ${wan(g.est)}`;
+  if (g.home && f.elect_towns && f.elect_towns.includes(g.town)) s += "（選區內）";
+  return s;
+}
+
+function card(f) {
+  const home = f.realestate.filter(g => g.home), away = f.realestate.filter(g => !g.home);
+  const list = gs => gs.length ? gs.map(g => `<dd>${esc(placeLine(g, f))}</dd>`).join("") : "<dd>無不動產</dd>";
+  let sub = `${f.elect_type}候選人 · ${f.district}`;
+  if (f.elect_towns) sub += `（${f.elect_towns.join("、")}）`;
+  const noneInDistrict = home.length && f.elect_towns && !home.some(g => f.elect_towns.includes(g.town));
+  let sec = f.securities >= 1e4 ? `有價證券 ${wan(f.securities)}` : "無有價證券";
+  if (f.securities >= 1e4 && f.securities - f.stock_mkt >= 1e4) sec += `（股票 ${wan(f.stock_mkt)}）`;
+  return `<article class="card">
+    <h3>${esc(f.name)}</h3>
+    <div class="sub">${esc(sub)}</div>
+    <div class="net">淨資產（含房產估值）<b>${esc(wan(f.net_with_re))}</b></div>
+    <dl>
+      <dt>所在縣市（${esc(f.home)}）</dt>${list(home)}
+      ${noneInDistrict ? `<dd class="note">選區（${esc(f.elect_towns.join("、"))}）內無不動產</dd>` : ""}
+      <dt>外縣市</dt>${list(away)}
+      <dt>負債與投資</dt>
+      <dd>${f.mortgage ? `房貸餘額 ${esc(wan(f.mortgage))}` : "無房貸"}</dd>
+      <dd>${esc(sec)}</dd>
+    </dl>
+  </article>`;
+}
+
+function show(data) {
+  $("overlay").src = data.image;
+  $("dl").href = data.image;
+  $("elapsed").textContent = `耗時 ${(data.elapsed_ms / 1000).toFixed(1)} 秒`;
+  $("cards").innerHTML = data.candidates.length ? data.candidates.map(card).join("")
+    : `<p class="hint">照片中沒有對到 115 年候選人的看板。</p>`;
+  const miss = data.detections.filter(d => !d.matched);
+  $("missWrap").hidden = !miss.length;
+  $("miss").innerHTML = miss.map(d => `<li>${esc(d.name || "（姓名不清）")}${d.office ? `（${esc(d.office)}）` : ""}${d.how === "ambiguous" ? "：同名多人，無法確認" : ""}</li>`).join("");
+  $("result").hidden = false;
+  lastNames = data.candidates.map(c => c.name);
+  $("shareWrap").hidden = false; $("shareDone").hidden = true;
+  lastBlob = null; fetch(data.image).then(r => r.blob()).then(b => { lastBlob = b; }).catch(() => {});
+}
+
+let lastFd = null;
+async function analyze(fd) {
+  lastFd = fd; $("retry").hidden = true;
+  setStatus("Gemini 辨識中，約 10 秒…");
+  try {
+    const r = await fetch(API + "/api/analyze", {method: "POST", body: fd});
+    const data = await r.json().catch(() => ({}));
+    if (!r.ok) {
+      let msg = data.error || `伺服器回應 ${r.status}`;
+      const ra = r.headers.get("Retry-After");
+      if (r.status === 429 && ra) msg += `（約 ${Math.ceil(ra / 60) > 1 ? Math.ceil(ra / 60) + " 分鐘" : ra + " 秒"}後）`;
+      setStatus(msg, true);
+      if (r.status === 504 || r.status === 502 || r.status >= 500) $("retry").hidden = false;
+    } else {
+      setStatus("");
+      show(data);
+    }
+  } catch (err) {
+    setStatus("連線失敗，請檢查網路後再試", true);
+    $("retry").hidden = false;
+  }
+}
+$("retry").addEventListener("click", () => { if (lastFd) analyze(lastFd); });
+
+$("file").addEventListener("change", async e => {
+  const file = e.target.files[0];
+  if (!file) return;
+  $("result").hidden = true; $("retry").hidden = true;
+  setStatus("準備照片中…");
+  const blob = await shrink(file);
+  if (blob.size > MAX_BYTES) { setStatus("照片超過 10 MB，請縮小後再上傳", true); e.target.value = ""; return; }
+  const fd = new FormData();
+  fd.append("photo", blob, blob === file ? file.name : "photo.jpg");
+  e.target.value = "";
+  await analyze(fd);
+});
+
+// 分享：Web Share API 帶圖＋連結；不支援時複製連結
+let lastBlob = null, lastNames = [];
+$("share").addEventListener("click", async () => {
+  const url = location.origin + location.pathname;
+  const text = `路上看到 ${lastNames.join("、")} 的看板，拍一張就看到申報財產。你也試試：`;
+  try {
+    if (lastBlob && navigator.canShare && navigator.canShare({ files: [new File([lastBlob], "看板財產透視.jpg", { type: "image/jpeg" })] })) {
+      await navigator.share({ title: "看板財產透視", text, url, files: [new File([lastBlob], "看板財產透視.jpg", { type: "image/jpeg" })] });
+      return;
+    }
+    if (navigator.share) { await navigator.share({ title: "看板財產透視", text, url }); return; }
+    await navigator.clipboard.writeText(`${text} ${url}`);
+    $("shareDone").hidden = false;
+  } catch (e) { /* 使用者取消 */ }
+});
+</script>
+</body>
+</html>
