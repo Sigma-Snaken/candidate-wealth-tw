@@ -312,7 +312,7 @@ def card_lines(f):
     return lines
 
 
-SIZES = {"title": 96, "sub": 44, "big": 64, "h": 50, "b": 54, "note": 48, "gap": 16}  # 以 2000 px 寬為基準；手機全寬看 2000 px 圖約縮 5 倍，內文 54 px → 螢幕上約 11 px
+SIZES = {"title": 54, "sub": 26, "big": 34, "h": 28, "b": 27, "note": 25, "gap": 10}
 COLORS = {"title": (255, 255, 255), "sub": (200, 200, 200), "big": (255, 214, 10), "h": (255, 196, 0),
           "b": (240, 240, 240), "note": (255, 140, 140), "gap": (0, 0, 0)}
 FOOT = "中選會 115 年候選人財產申報 · 淨資產含不動產實價登錄參考估值（非鑑價）· 股票 2026-10-16 收盤價 · 看板財產透視 by 西格瑪機器人 Sigma Robotics · sigmabot.com.tw"
@@ -348,45 +348,33 @@ def _draw_card(d, cx, cy, cw, ch, lines, fonts, lh, pad, S, bg=True):
         ty += lh[k]
 
 
-FOOT_H = 70
-
-
 def _draw_footer(d, W, y, S):
-    ff = font(int(26 * S))
-    d.rectangle([0, y, W, y + int(FOOT_H * S)], fill=(0, 0, 0, 170))
-    tw = d.textlength(FOOT, font=ff)
-    if tw > W - int(40 * S):  # 太寬就拆兩行
-        a, b_ = FOOT.split(" · 看板財產透視")
-        for i, line in enumerate((a, "看板財產透視" + b_)):
-            d.text(((W - d.textlength(line, font=ff)) / 2, y + int((6 + 32 * i) * S)), line, font=ff, fill=(230, 230, 230, 255))
-    else:
-        d.text(((W - tw) / 2, y + int(20 * S)), FOOT, font=ff, fill=(230, 230, 230, 255))
-
-
-CIRCLED = "①②③④⑤⑥⑦⑧⑨⑩"
+    ff = font(int(20 * S))
+    d.rectangle([0, y, W, y + int(50 * S)], fill=(0, 0, 0, 170))
+    d.text(((W - d.textlength(FOOT, font=ff)) / 2, y + int(10 * S)), FOOT, font=ff, fill=(230, 230, 230, 255))
 
 
 def compose(im, results):
-    """prepare() 後的圖＋facts_for_detections() 結果 → 疊圖（PIL Image，不存檔）。框位一律由 box_2d 依此圖尺寸換算。
-    版面：單一廣告佔圖 ≥ 40% → 海報模式（整圖彩色、卡片在下方面板）；卡片疊得上圖就疊；疊不下（互相遮蓋）→ 圖上只放編號標籤，卡片排下方面板。"""
+    """prepare() 後的圖＋facts_for_detections() 結果 → 疊圖（PIL Image，不存檔）。框位一律由 box_2d 依此圖尺寸換算。"""
     W, H = im.size
     px = [box_px(r["detection"], W, H) for r in results]
     matched = [(r, b) for r, b in zip(results, px) if r.get("facts")]
     if any((b[2] - b[0]) * (b[3] - b[1]) >= POSTER_AREA * W * H for _, b in matched):
-        return _panel(im.convert("RGBA"), matched, numbered=False)
+        return _compose_poster(im, matched)
     gray = ImageOps.grayscale(im).convert("RGB")
     for (x0, y0, x1, y1) in {tuple(b) for _, b in matched}:  # 只有對到候選人的廣告留彩色；多人同框只貼一次
         gray.paste(im.crop((x0, y0, x1, y1)), (x0, y0))
     canvas = gray.convert("RGBA")
+    overlay = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(overlay)
     S = W / 2000
     fonts = _fonts(S)
     pad = int(22 * S)
-    probe = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     boxes = [tuple(b) for b in px]
-    placed, plan = [], []
+    placed = []
     for e, (x0, y0, x1, y1) in matched:
         lines = card_lines(e["facts"])
-        cw, ch, lh = _card_metrics(probe, lines, fonts, pad, S)
+        cw, ch, lh = _card_metrics(d, lines, fonts, pad, S)
         gap = int(30 * S)
         cands = [(x0, y1 + gap), (x1 - cw, y1 + gap), (x0, y0 - ch - gap), (x1 - cw, y0 - ch - gap), (x1 + gap, y0), (x0 - cw - gap, y0)]
         obstacles = boxes + placed
@@ -396,60 +384,37 @@ def compose(im, results):
 
         best = None
         for cx, cy in cands:
-            cx, cy = min(max(cx, pad), W - cw - pad), min(max(cy, pad), H - ch - int((FOOT_H + 10) * S))
+            cx, cy = min(max(cx, pad), W - cw - pad), min(max(cy, pad), H - ch - int(60 * S))
             ov = overlap(cx, cy)
             if best is None or ov < best[0]:
                 best = (ov, cx, cy)
         ov, cx, cy = best
-        while ov > 0 and cy + ch < H - int((FOOT_H + 10) * S):
+        while ov > 0 and cy + ch < H - int(60 * S):
             cy += int(20 * S); ov = overlap(cx, cy)
         placed.append((cx, cy, cx + cw, cy + ch))
-        plan.append((ov, cx, cy, cw, ch, lines, lh, (x0, y0, x1, y1)))
-    if cw > W - 2 * pad or any(p[0] > 0 for p in plan):  # 疊不下 → 編號標籤＋下方面板
-        return _panel(canvas, matched, numbered=True)
-    overlay = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
-    d = ImageDraw.Draw(overlay)
-    for ov, cx, cy, cw, ch, lines, lh, (x0, y0, x1, y1) in plan:
         _draw_card(d, cx, cy, cw, ch, lines, fonts, lh, pad, S)
         below = cy > y1
         ax, ay = (x0 + x1) // 2, (y1 if below else y0)
         bx, by = cx + cw // 2, (cy if below else cy + ch)
         d.line([(ax, ay), (bx, by)], fill=(255, 255, 255, 200), width=int(4 * S))
         d.ellipse([ax - 8 * S, ay - 8 * S, ax + 8 * S, ay + 8 * S], fill=(255, 255, 255, 230))
-    _draw_footer(d, W, H - int(FOOT_H * S), S)
+    _draw_footer(d, W, H - int(50 * S), S)
     return Image.alpha_composite(canvas, overlay).convert("RGB")
 
 
-def _panel(base, matched, numbered):
-    """卡片排在圖下方的深色面板（每列最多 2 張，字才夠大）。numbered=True 時圖上每面廣告貼「① 姓名」標籤，卡片標題同號。"""
-    W, H = base.size
+def _compose_poster(im, matched):
+    """海報模式：整張圖保留彩色，卡片排在圖下方的深色面板（每列最多 3 張），不畫連接線。"""
+    if im.size[0] < 2000:  # 小圖放大到 2000 寬，讓卡片字夠大
+        im = im.resize((2000, round(im.size[1] * 2000 / im.size[0])), Image.LANCZOS)
+    W, H = im.size
     S = W / 2000
-    if numbered:
-        d0 = ImageDraw.Draw(base)
-        tag_font = font(int(60 * S), bold=True)
-        tags = []  # 已放的標籤矩形；同框多人或相鄰看板的標籤互撞就往下疊
-        th, step = int(78 * S), int(84 * S)
-        for i, (e, (x0, y0, x1, y1)) in enumerate(matched):
-            label = f"{CIRCLED[i]} {e['facts']['cand']['name']}"
-            tw = int(d0.textlength(label, font=tag_font) + 32 * S)
-            tx, ty = min(x0, W - tw), y0
-            while any(tx < ox1 and tx + tw > ox0 and ty < oy1 and ty + th > oy0 for ox0, oy0, ox1, oy1 in tags):
-                ty += step
-            tags.append((tx, ty, tx + tw, ty + th))
-            d0.rounded_rectangle([tx, ty, tx + tw, ty + th], radius=int(12 * S), fill=(18, 23, 32, 235))
-            d0.text((tx + int(16 * S), ty + int(6 * S)), label, font=tag_font, fill=(255, 214, 10, 255))
-    if W < 2000:  # 小圖放大到 2000 寬，讓卡片字夠大
-        base = base.resize((2000, round(H * 2000 / W)), Image.LANCZOS)
-        W, H = base.size; S = 1.0
     pad = int(22 * S)
-    n = len(matched); cols = 1; rows = n  # 單欄：手機全寬才讀得到
+    n = len(matched); cols = min(n, 3); rows = -(-n // cols)
     colw = (W - pad * (cols + 1)) // cols
     probe = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
     cards = []
-    for i, (e, _) in enumerate(matched):
+    for e, _ in matched:
         lines = card_lines(e["facts"])
-        if numbered:
-            lines[0] = (f"{CIRCLED[i]} {lines[0][0]}", "title")
         fonts = _fonts(S)
         cw, ch, lh = _card_metrics(probe, lines, fonts, pad, S)
         if cw > colw:  # 文字太寬就等比縮字
@@ -458,9 +423,9 @@ def _panel(base, matched, numbered):
         cards.append((lines, fonts, lh, ch))
     row_h = [max(cards[i][3] for i in range(r * cols, min(n, (r + 1) * cols))) for r in range(rows)]
     panel_h = sum(row_h) + pad * (rows + 1)
-    foot_h = int(FOOT_H * S)
+    foot_h = int(50 * S)
     canvas = Image.new("RGBA", (W, H + panel_h + foot_h), (18, 23, 32, 255))
-    canvas.paste(base, (0, 0))
+    canvas.paste(im.convert("RGBA"), (0, 0))
     d = ImageDraw.Draw(canvas)
     y = H + pad
     for r in range(rows):
