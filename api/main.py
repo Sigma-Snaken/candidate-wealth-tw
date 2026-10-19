@@ -148,7 +148,7 @@ def analyze(request: Request, photo: UploadFile = File(...)):
         log.warning("gemini timeout after retry")
         raise ApiError(504, "辨識逾時，請再試一次")
     except Exception as e:
-        log.warning("gemini failed: %s", type(e).__name__)
+        log.warning("gemini failed: %s code=%s status=%s msg=%s", type(e).__name__, getattr(e, "code", None), getattr(e, "status", None), str(getattr(e, "message", e))[:300])
         raise ApiError(502, "AI 判讀失敗，請稍後再試")
     results = billboard.facts_for_detections(detections)
     buf = io.BytesIO()
