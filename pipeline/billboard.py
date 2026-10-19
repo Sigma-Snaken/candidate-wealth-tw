@@ -372,7 +372,6 @@ SIZES = {"title": 54, "sub": 26, "big": 50, "h": 28, "b": 27, "note": 25, "gap":
 COLORS = {"title": (255, 255, 255), "sub": (200, 200, 200), "big": (255, 214, 10), "h": (255, 196, 0),
           "b": (240, 240, 240), "note": (255, 140, 140), "gap": (0, 0, 0)}
 FOOT = "中選會 115 年候選人財產申報 · 淨資產含不動產實價登錄參考估值（非鑑價）· 股票 2026-10-16 收盤價 · 看板財產透視 by 西格瑪機器人 Sigma Robotics · sigmabot.com.tw"
-POSTER_AREA = 0.4  # 單一廣告框佔圖面 ≥ 40%（整張就是海報）→ 卡片改排在圖下方的面板，不蓋在人臉上
 
 
 def _fonts(S, scale=1.0):
@@ -428,19 +427,21 @@ def _draw_footer(d, W, y, S):
     d.text(((W - d.textlength(FOOT, font=ff)) / 2, y + int(10 * S)), FOOT, font=ff, fill=(230, 230, 230, 255))
 
 
+def _gray_except(im, boxes):
+    gray = ImageOps.grayscale(im).convert("RGB")
+    for (x0, y0, x1, y1) in boxes:
+        gray.paste(im.crop((x0, y0, x1, y1)), (x0, y0))
+    return gray
+
+
 def compose(im, results):
     """prepare() 後的圖＋facts_for_detections() 結果 → 疊圖（PIL Image，不存檔）。框位一律由 box_2d 依此圖尺寸換算。"""
     W, H = im.size
     px = [box_px(r["detection"], W, H) for r in results]
     matched = [(r, b) for r, b in zip(results, px) if r.get("facts")]
-    if any((b[2] - b[0]) * (b[3] - b[1]) >= POSTER_AREA * W * H for _, b in matched):
-        return _compose_poster(im, matched)
-    gray = ImageOps.grayscale(im).convert("RGB")
     # 只有對到候選人的廣告留彩色；多人同框只貼一次。同一人多面看板：其餘框以 color_only=True 傳入，留彩色但不另出卡片
     colored = {tuple(b) for _, b in matched} | {tuple(b) for r, b in zip(results, px) if r.get("color_only")}
-    for (x0, y0, x1, y1) in colored:
-        gray.paste(im.crop((x0, y0, x1, y1)), (x0, y0))
-    canvas = gray.convert("RGBA")
+    canvas = _gray_except(im, colored).convert("RGBA")
     overlay = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
     d = ImageDraw.Draw(overlay)
     S = W / 2000
@@ -467,6 +468,10 @@ def compose(im, results):
         ov, cx, cy = best
         while ov > 0 and cy + ch < H - int(60 * S):
             cy += int(20 * S); ov = overlap(cx, cy)
+        # 卡片蓋到自己的廣告（滿版海報沒有框外空間）或疊到別張卡片（多人同框會互相遮住）→ 改海報模式
+        obstacles = [(x0, y0, x1, y1)] + placed
+        if overlap(cx, cy) > 0:
+            return _compose_poster(_gray_except(im, colored), matched)
         placed.append((cx, cy, cx + cw, cy + ch))
         _draw_card(d, cx, cy, cw, ch, lines, fonts, lh, pad, S)
         below = cy > y1
@@ -479,7 +484,8 @@ def compose(im, results):
 
 
 def _compose_poster(im, matched):
-    """海報模式：整張圖保留彩色，卡片排在圖下方的深色面板（每列最多 3 張），不畫連接線。"""
+    """海報模式：卡片排在圖下方的深色面板（每列最多 3 張），不畫連接線。只在一般模式排不下卡片時用；
+    框外黑白由 compose 先做。以前用「框佔畫面 ≥ 40%」判斷，IMG_1730 競選總部背板 43% 但框外有空間，整張留彩色像整張照片被框起來。"""
     if im.size[0] < 2000:  # 小圖放大到 2000 寬，讓卡片字夠大
         im = im.resize((2000, round(im.size[1] * 2000 / im.size[0])), Image.LANCZOS)
     W, H = im.size
