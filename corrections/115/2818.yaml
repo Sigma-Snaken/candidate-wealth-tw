@@ -1,0 +1,6 @@
+year: '115'
+seq: '2818'
+name: 詹為元
+base: y115_flash
+changes:
+  - {target: stocks, row: 6, match: {name: 億傑}, field: name, old: 億傑, new: 億杰, page: 7, reason: 原表寫「億杰」，轉錄誤為「億傑」, source: '#129 @x0988567802x'}
