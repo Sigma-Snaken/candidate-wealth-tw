@@ -119,9 +119,11 @@ def detect_image(im):
             break
         except Exception as e:
             import httpx
+            from google.genai import errors as gerr
             # httpx.TimeoutException（ReadTimeout 等）與 ConnectError 都是 TransportError：暫時性，重試一次後以逾時回報
+            # Gemini 端 5xx（errors.ServerError）同樣先重試一次，仍失敗才往上丟（API 回 502）
             transient = isinstance(e, httpx.TransportError)
-            if transient and attempt == 0:
+            if (transient or isinstance(e, gerr.ServerError)) and attempt == 0:
                 continue
             raise DetectTimeout(f"{type(e).__name__}: {e}") if transient else e
     items = json.loads(r.text)
@@ -216,8 +218,9 @@ def facts_for(cand):
     groups = {}
     for kind, rows in (("bldg", det.get("bldg", [])), ("land", det.get("land", []))):
         for r in rows:
-            c = county_of(r["loc"])
-            town = r["loc"][len(c):len(c) + 3] if c in COUNTIES else ""
+            loc = r["loc"].replace("台", "臺")  # 申報寫「台北市」會被當外縣市
+            c = county_of(loc)
+            town = loc[len(c):len(c) + 3] if c in COUNTIES else ""
             key = (c, town) if c == home else (c, "")  # 所在縣市分到區；外縣市只到縣市
             g = groups.setdefault(key, {"county": c, "town": town if c == home else "", "home": c == home, "units": 0,
                                         "land_rows": 0, "land_m2": 0.0, "est": 0, "lo": 0, "hi": 0, "towns": set(), "roles": set()})
@@ -226,7 +229,7 @@ def facts_for(cand):
                 if "共同使用" not in notes.get(r["i"], ""):  # 公設列不算一戶
                     g["units"] += 1
             else:
-                g["land_rows"] += 1; g["land_m2"] += r["own_area"]
+                g["land_rows"] += 1; g["land_m2"] += r["own_area"] or 0  # 22 人的土地列 own_area 為 None（申報未填面積）
             if r.get("cnt"):
                 g["est"] += r["est"]; g["lo"] += r["lo"]; g["hi"] += r["hi"]
     for g in groups.values():
@@ -286,7 +289,7 @@ def card_lines(f):
             parts.append(f"{g['units']} 戶")
         if g["land_rows"] and not g["units"]:
             m2 = g["land_m2"]
-            parts.append(f"土地 {g['land_rows']} 筆 {m2:.2f} m²" if m2 < 1 else f"土地 {g['land_rows']} 筆 {m2:.0f} m²")
+            parts.append(f"土地 {g['land_rows']} 筆" if not m2 else f"土地 {g['land_rows']} 筆 {m2:.2f} m²" if m2 < 1 else f"土地 {g['land_rows']} 筆 {m2:.0f} m²")
         where = g["county"] + g["town"] if g["home"] else g["county"] + "／".join(t for t in g["towns"] if t)
         s = f"{where}：" + "、".join(parts)
         if g["est"] >= 1e4:
