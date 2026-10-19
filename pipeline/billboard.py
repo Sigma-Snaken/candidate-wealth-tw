@@ -182,19 +182,55 @@ def candidates_for(con, name):
     return [dict(zip(COLS, r)) for r in rows]
 
 
+@functools.lru_cache(maxsize=1)
+def _all_candidates():
+    con = sqlite3.connect(DB)
+    rows = [dict(zip(COLS, r)) for r in con.execute(f"select {','.join(COLS)} from candidates where year=115")]
+    # 字的罕見度：用整個申報 DB 的文字欄（地址、公司名、債權人…約 81 萬格）算字頻；漍=0、名=470、國=17,894
+    freq = Counter()
+    for (t,) in con.execute("select name from sqlite_master where type='table'"):
+        for c in con.execute(f"pragma table_info({t})"):
+            if c[2].upper() in ("TEXT", "") and c[1] != "name":
+                for (v,) in con.execute(f"select {c[1]} from {t} where {c[1]} is not null"):
+                    if isinstance(v, str):
+                        freq.update(ch for ch in v if "一" <= ch <= "鿿")
+    return rows, freq
+
+
+def fuzzy_for(name):
+    """罕見字被 OCR 讀成常見字（蕭漍華→蕭國華）：找只差一個字、且那個字在申報全文裡是罕見字（字頻 ≤5）的候選人。
+    常見字不放寬，免得沒參選的站台政治人物被對到同縣市只差一字的候選人。"""
+    name = re.sub(r"[^一-鿿]", "", name)
+    if len(name) < 3:
+        return []
+    rows, freq = _all_candidates()
+    out = []
+    for r in rows:
+        if len(r["name"]) != len(name):
+            continue
+        diff = [(a, b_) for a, b_ in zip(r["name"], name) if a != b_]
+        if len(diff) == 1 and freq[diff[0][0]] <= 5:
+            out.append(r)
+    return out
+
+
 def match_all(con, detections):
-    """兩輪：先收唯一命中者，取其縣市當照片所在地；再用廣告職務文字或照片縣市解同名多人。"""
+    """兩輪：先收唯一命中者，取其縣市當照片所在地；再用廣告職務文字或照片縣市解同名多人。對不到再試罕見字模糊比對。"""
     pools = [candidates_for(con, d["name"]) for d in detections]
     photo_city = Counter(p[0]["city"] for p in pools if len(p) == 1).most_common(1)
     photo_city = photo_city[0][0] if photo_city else None
     out = []
     for d, pool in zip(detections, pools):
         how = "unique"
+        if not pool:
+            pool = fuzzy_for(d["name"])
+            if pool:
+                how = f"fuzzy {d['name']}→{'/'.join(p['name'] for p in pool)}"
         if len(pool) > 1:
             city = city_in_text(d.get("office", "")) or photo_city
             narrowed = [p for p in pool if p["city"] == city] if city else []
             if len(narrowed) == 1:
-                pool, how = narrowed, f"narrowed by city {city}"
+                pool, how = narrowed, f"{how}; narrowed by city {city}" if how.startswith("fuzzy") else f"narrowed by city {city}"
         if len(pool) == 1:
             out.append({"match": pool[0], "how": how})
         elif pool:
