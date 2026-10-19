@@ -52,8 +52,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .fld input{width:160px}
 .fld.chk span:last-child{display:flex;align-items:center;gap:6px;color:var(--ink2);font-size:13px;padding-block:7px}
 .fld.chk input{width:16px;height:16px;accent-color:var(--seal)}
-.rail .count{margin-left:auto;font-size:13px;color:var(--ink2);align-self:center}
-@media (max-width:720px){.fld{flex:1 1 140px}.fld input,.fld select{width:100%}.rail{position:static}.rail .count{margin-left:0;flex-basis:100%}}
+@media (max-width:720px){.fld{flex:1 1 140px}.fld input,.fld select{width:100%}.rail{position:static}}
 
 /* legend */
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--ink2)}
@@ -194,7 +193,6 @@ a.rep:hover{color:var(--seal);border-color:var(--seal)}
     </select></label>
     <label class="fld chk"><span>&nbsp;</span><span><input type="checkbox" id="fPrev"> 只看有 111 年資料</span></label>
     <label class="fld chk"><span>&nbsp;</span><span><input type="checkbox" id="fRe" autocomplete="off"> 不計入不動產估值</span></label>
-    <span class="count" id="count"></span>
   </nav>
 
   <div class="legend" aria-label="圖例">
@@ -265,7 +263,7 @@ function refreshOpts(){const t=$('#fType').value,ci=$('#fCity').value;
 function apply(){const q=$('#q').value.trim(),t=$('#fType').value,ci=$('#fCity').value,d=$('#fDist').value,p=$('#fParty').value,k=SORTS[$('#fSort').value],pv=$('#fPrev').checked||$('#fSort').value.startsWith('chg');
   view=DATA.filter(c=>(!q||c.name.includes(q))&&(!t||c.type===t)&&(!ci||c.city===ci)&&(!d||c.dist===d)&&(!p||c.party===p)&&(!pv||c.prev)).sort((a,b)=>k(b)-k(a));
   shown=0;$('#roll').innerHTML='';
-  $('#count').textContent=view.length?`${view.length.toLocaleString()} 位`+(d?`・${d}`:''):'';
+  $('#fN').textContent=(view.length<DATA.length?view.length.toLocaleString()+'／':'')+DATA.length.toLocaleString();   // 篩選後顯示 符合／全部
   if(!view.length){$('#roll').innerHTML='<div class="row" style="cursor:default"><span></span><span class="muted">沒有符合條件的候選人，請放寬篩選。</span></div>'}
   more()}
 function barHTML(c,max){if(max<=0)max=1;
