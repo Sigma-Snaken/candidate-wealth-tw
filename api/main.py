@@ -154,7 +154,7 @@ def analyze(request: Request, photo: UploadFile = File(...)):
     buf = io.BytesIO()
     billboard.compose(im, results).save(buf, "JPEG", quality=88)
     elapsed = int((time.time() - t0) * 1000)
-    log.info("analyze %s elapsed_ms=%d", [(r["person"], bool(r.get("facts"))) for r in results], elapsed)
+    log.info("analyze %s elapsed_ms=%d model=%s", [(r["person"], bool(r.get("facts"))) for r in results], elapsed, billboard.LAST_MODEL)
     return {
         "image": "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode(),
         "candidates": [candidate_summary(r["facts"]) for r in results if r.get("facts")],

@@ -23,6 +23,8 @@ FONT_INDEX = int(os.environ.get("BILLBOARD_FONT_INDEX", "0"))
 FONT_BOLD = os.environ.get("BILLBOARD_FONT_BOLD")
 MAX_EDGE = 2000
 ER_MODEL = "gemini-robotics-er-2-preview"
+FALLBACK_MODEL = "gemini-3.5-flash"  # ER 2 失敗時的備援；IMG_1698／poster4 實測框與姓名都對、約 7 s
+LAST_MODEL = ER_MODEL  # 最近一次成功用的模型（API log 用）
 COUNTIES = ["臺北市", "新北市", "桃園市", "臺中市", "臺南市", "高雄市", "基隆市", "新竹市", "嘉義市",
             "新竹縣", "苗栗縣", "彰化縣", "南投縣", "雲林縣", "嘉義縣", "屏東縣", "宜蘭縣", "花蓮縣",
             "臺東縣", "澎湖縣", "金門縣", "連江縣"]
@@ -107,23 +109,25 @@ def detect_image(im):
     """prepare() 後的圖 → Gemini ER 2 偵測結果（含此圖座標系的 box_px）。"""
     from google.genai import types
 
+    global LAST_MODEL
     buf = io.BytesIO(); im.save(buf, "JPEG", quality=90)
     r = None
-    for attempt in range(2):  # 逾時重試一次
+    for i, model in enumerate((ER_MODEL, FALLBACK_MODEL)):  # ER 2 逾時或 Google 端 5xx → 換 Flash 再試一次
         try:
             r = _get_client().models.generate_content(
-                model=ER_MODEL,
+                model=model,
                 contents=[types.Part.from_bytes(data=buf.getvalue(), mime_type="image/jpeg"), DETECT_PROMPT],
                 config=types.GenerateContentConfig(response_mime_type="application/json", response_json_schema=DETECT_SCHEMA, temperature=0),
             )
+            LAST_MODEL = model
             break
         except Exception as e:
             import httpx
             from google.genai import errors as gerr
-            # httpx.TimeoutException（ReadTimeout 等）與 ConnectError 都是 TransportError：暫時性，重試一次後以逾時回報
-            # Gemini 端 5xx（errors.ServerError）同樣先重試一次，仍失敗才往上丟（API 回 502）
+            # httpx.TimeoutException（ReadTimeout 等）與 ConnectError 都是 TransportError；某些照片會讓 ER 2 固定回 500／逾時
+            # （2026-10-19 同一張 745 KB 照片連四次），同模型重試沒用，直接換 Flash
             transient = isinstance(e, httpx.TransportError)
-            if (transient or isinstance(e, gerr.ServerError)) and attempt == 0:
+            if (transient or isinstance(e, gerr.ServerError)) and i == 0:
                 continue
             raise DetectTimeout(f"{type(e).__name__}: {e}") if transient else e
     items = json.loads(r.text)
