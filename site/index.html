@@ -193,7 +193,7 @@ a.rep:hover{color:var(--seal);border-color:var(--seal)}
       <option value="net_asc">淨資產由少到多</option>
     </select></label>
     <label class="fld chk"><span>&nbsp;</span><span><input type="checkbox" id="fPrev"> 只看有 111 年資料</span></label>
-    <label class="fld chk"><span>&nbsp;</span><span><input type="checkbox" id="fRe" autocomplete="off"> 含不動產估值</span></label>
+    <label class="fld chk"><span>&nbsp;</span><span><input type="checkbox" id="fRe" autocomplete="off"> 不計入不動產估值</span></label>
     <span class="count" id="count"></span>
   </nav>
 
@@ -202,9 +202,9 @@ a.rep:hover{color:var(--seal);border-color:var(--seal)}
     <span><i class="sw" style="background:var(--s2)"></i>股票（市值）</span>
     <span><i class="sw" style="background:var(--s3)"></i>基金・債券・其他證券</span>
     <span><i class="sw" style="background:var(--s4)"></i>事業投資・債權・其他財產</span>
-    <span id="lgRe" style="display:none"><i class="sw" style="background:var(--s5)"></i>不動產估值（實價登錄）</span>
+    <span id="lgRe"><i class="sw" style="background:var(--s5)"></i>不動產估值（實價登錄）</span>
     <span><i class="sw debt"></i>債務</span>
-    <span class="muted" id="lgNote">不動產另以實價登錄估值，單獨列出，不計入長條與淨資產。</span>
+    <span class="muted" id="lgNote">長條與淨資產（市值）已加上不動產估值（實價登錄，只算計入的列）；「申報」數字維持候選人自己寫的。</span>
   </div>
 
   <section class="roll" id="roll" aria-live="polite"><div class="row"><span></span><span class="muted">載入申報資料中…</span></div></section>
@@ -248,7 +248,7 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 let DATA=[],view=[],shown=0,PAGE=60,cmp=[];const SHARD={};
 async function full_(c){if(!c.stocks){if(!SHARD[c.shard])SHARD[c.shard]=fetch(`detail/${c.shard}.json`).then(r=>r.json());const d=(await SHARD[c.shard])[c.id];Object.assign(c,d)}return c}
 const SEGS=[['dep','存款＋現金','--s1'],['stk','股票（市值）','--s2'],['fund','基金・債券・其他證券','--s3'],['oth','事業投資・債權・其他財產','--s4']];
-const SEG_RE=['re','不動產估值（實價登錄）','--s5'];let RE=false;
+const SEG_RE=['re','不動產估值（實價登錄）','--s5'];let RE=true;
 const RX=c=>RE?(c.sum.re_est||0):0;   // 不動產估值 added to the market net worth while the toggle is on; 申報 figures stay as written
 const segList=()=>RE?[...SEGS,SEG_RE]:SEGS,gross=c=>segList().reduce((a,[k])=>a+c.seg[k],0);
 function derive(c){const s=c.sum;c.seg={dep:(s.cash_std??s.cash)+(s.deposit_std??s.deposit),stk:Math.max(0,s.stock_mkt),fund:s.fund_mkt+s.bond+s.other_sec,oth:s.other_assets+s.claims+s.biz,re:s.re_est||0};
@@ -388,7 +388,7 @@ $('#clr').onclick=()=>{cmp=[];tray()};$('#go').onclick=compare;$('#more').onclic
 let qt;$('#q').addEventListener('input',()=>{clearTimeout(qt);qt=setTimeout(apply,150)});
 $('#fType').onchange=()=>{refreshOpts();apply()};$('#fCity').onchange=()=>{refreshOpts();apply()};
 ['#fDist','#fParty','#fSort','#fPrev'].forEach(s=>$(s).onchange=apply);
-$('#fRe').onchange=e=>{RE=e.target.checked;$('#lgRe').style.display=RE?'':'none';
+$('#fRe').onchange=e=>{RE=!e.target.checked;$('#lgRe').style.display=RE?'':'none';
   $('#lgNote').textContent=RE?'長條與淨資產（市值）已加上不動產估值（實價登錄，只算計入的列）；「申報」數字維持候選人自己寫的。':'不動產另以實價登錄估值，單獨列出，不計入長條與淨資產。';apply()};
 const tip=$('#tip');document.addEventListener('mousemove',e=>{const t=e.target.closest&&e.target.closest('[data-t]');if(!t){tip.hidden=true;return}
   tip.textContent=t.dataset.t;tip.hidden=false;tip.style.left=Math.min(innerWidth-250,e.clientX+12)+'px';tip.style.top=(e.clientY+14)+'px'});
