@@ -167,6 +167,14 @@ def county_of(loc):
     return loc[:3]
 
 
+def town_of(rest):
+    """縣市之後的鄉鎮市區名：2～4 字、以區鄉鎮市結尾（東區／文山區／三地門鄉）。新市區是唯一第二字就是「市」的例外。"""
+    if rest.startswith("新市區"):
+        return "新市區"
+    m = re.match(r"(.{1,3}?[區鄉鎮市])", rest)
+    return m.group(1) if m else ""
+
+
 def city_in_text(t):
     t = t.replace("台", "臺")
     return next((c for c in COUNTIES if c in t or c[:2] in t), None)
@@ -260,7 +268,9 @@ def facts_for(cand):
         for r in rows:
             loc = r["loc"].replace("台", "臺")  # 申報寫「台北市」會被當外縣市
             c = county_of(loc)
-            town = loc[len(c):len(c) + 3] if c in COUNTIES else ""
+            if c not in COUNTIES and town_of(loc):  # 沒寫縣市但一開頭就是鄉鎮市區（如「光復鄉」「東區竹溪街」）→ 視為所在縣市
+                c, loc = home, home + loc
+            town = town_of(loc[len(c):]) if c in COUNTIES else ""
             key = (c, town) if c == home else (c, "")  # 所在縣市分到區；外縣市只到縣市
             g = groups.setdefault(key, {"county": c, "town": town if c == home else "", "home": c == home, "units": 0,
                                         "land_rows": 0, "land_m2": 0.0, "est": 0, "lo": 0, "hi": 0, "towns": set(), "roles": set()})
