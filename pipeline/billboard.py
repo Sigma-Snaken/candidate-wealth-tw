@@ -285,8 +285,9 @@ def facts_for(cand):
     for g in groups.values():
         g["towns"] = sorted(g["towns"]); g["roles"] = sorted(g["roles"])
     s = rec["sum"]
+    empty = not any(det.get(k) for k in ("stocks", "funds", "land", "bldg", "deposits", "cash_items", "debts", "biz", "other", "cars", "bonds"))  # 明細全空（申報檔未解析，115 年約 40 人），卡片不能寫 0 萬
     return {
-        "cand": cand, "home": home, "elect_towns": COUNCIL_DISTRICTS.get((home, cand["district"])), "declare_date": rec.get("date"),
+        "cand": cand, "home": home, "empty": empty, "elect_towns": COUNCIL_DISTRICTS.get((home, cand["district"])), "declare_date": rec.get("date"),
         "realestate": sorted(groups.values(), key=lambda g: (not g["home"], -g["est"])),
         "re_est": s["re_est"], "re_lo": s["re_lo"], "re_hi": s["re_hi"],
         "mortgage": s["mortgage"], "debt": s["debt"],
@@ -331,6 +332,8 @@ def card_lines(f):
     sub = f"{c['elect_type']}候選人 · {c['district']}"
     if f["elect_towns"]:
         sub += f"（{'、'.join(f['elect_towns'])}）"
+    if f.get("empty"):
+        return [(c["name"], "title"), (sub, "sub"), ("財產申報資料待補，暫無法顯示", "note")]
     lines = [(c["name"], "title"), (sub, "sub"), (f"淨資產（含房產估值）{wan(f['net_with_re'])}", "big")]
 
     def desc(g):
@@ -433,7 +436,9 @@ def compose(im, results):
     if any((b[2] - b[0]) * (b[3] - b[1]) >= POSTER_AREA * W * H for _, b in matched):
         return _compose_poster(im, matched)
     gray = ImageOps.grayscale(im).convert("RGB")
-    for (x0, y0, x1, y1) in {tuple(b) for _, b in matched}:  # 只有對到候選人的廣告留彩色；多人同框只貼一次
+    # 只有對到候選人的廣告留彩色；多人同框只貼一次。同一人多面看板：其餘框以 color_only=True 傳入，留彩色但不另出卡片
+    colored = {tuple(b) for _, b in matched} | {tuple(b) for r, b in zip(results, px) if r.get("color_only")}
+    for (x0, y0, x1, y1) in colored:
         gray.paste(im.crop((x0, y0, x1, y1)), (x0, y0))
     canvas = gray.convert("RGBA")
     overlay = Image.new("RGBA", canvas.size, (0, 0, 0, 0))
